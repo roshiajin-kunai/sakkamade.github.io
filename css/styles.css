@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body { 
   background: #dddddd;
   font-family: times new roman;
