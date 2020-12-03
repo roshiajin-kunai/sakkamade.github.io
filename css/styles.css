@@ -48,7 +48,13 @@ img {
 @media screen and (max-width: 1100px) {
   #page-inner {
      width: 98% !important;
-    }
+   }
+   .main {
+  padding: 20px 40px 20px 40px !important;
+  }
+  .side {
+  padding: 20px 40px 20px 10px !important;
+  }
 }
 #page-inner p { 
   font-size: 18px;
@@ -93,11 +99,11 @@ img {
   z-index: 99;
 }
 #site-title { 
-  padding-left: 50px;
+  padding-left: 3%;
   padding-top: 90px;
 }
 #site-under-title { 
-  padding-left: 80px;
+  padding-left: 5%;
   padding-top: 155px;
 }
 #site-under-title { 
@@ -135,11 +141,11 @@ img {
 .main {   
   flex: 70%;
   background-color: white;
-  padding: 100px;
+  padding: 20px 100px;
 }
 .side {
   flex: 30%;
-  padding: 40px;
+  padding: 20px 40px;
   min-width: 270px;
 }
 .inner-bottom-menu {
