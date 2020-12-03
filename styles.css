@@ -4,30 +4,35 @@ body {
   padding: 0;
   margin: 0;
   color: #222222;
-  }
-  
+  font-size: 18px; 
+}
 a { 
   color: #393959;
   text-decoration: underline;
-  }
-  
+  transition: .1s;
+}
 a:hover {
-  color: #dddddd;
+  color: #999999;
   text-decoration: none !important;
-  }
-  
+}
 h1 {
     font-size: 32px;
-  }
-  
+}
 h2 {
     font-size: 28px;
-  }
-  
+}
 h3 {
     font-size: 26px;
-  }
-  
+}
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+}
 #page-inner { 
   width: 1150px; 
   padding: 0; 
@@ -35,49 +40,61 @@ h3 {
   margin-right: auto; 
   margin-left: auto;
   height:100%;
-  }
-  
+}
 @media screen and (max-width: 1200px) {
   #page-inner {
-	  width: 950px !important;
+     width: 950px !important;
     }
-  }
-  
-  #page-inner p { 
+}
+#page-inner p { 
   font-size: 18px;
   line-height: 1.6em;
   text-align: justify;
   text-indent: 30px;
   margin: 100px;
   padding: 0;
-  }
-
+}
 #page-inner h1, #page-inner h2, #page-inner h3 { 
   text-align: center; 
   font-style: italic; 
   margin: 30px; 
   color: #393959;
-  }
-  
+}
 #site-top-header-inner { 
   height: 200px;
   margin: 0;
-  }
-  
-.site-title a {
+  text-align: center;
+}
+#site-title a {
     text-decoration: none;
     text-align: center;
-  }
-
-.site-title a:hover {
+    font-style: normal;
+}
+#site-title a:hover {
     text-decoration: none;
-    color: #393959;
-  }
-
-#site-top-header-inner h3 {
-  margin: 0;
-  }
-
+    color: #393959; 
+}
+#site-title-back{  
+height:200px;
+width:auto;
+overflow:hidden;
+magin:0px;
+}
+#site-title a::selection, #site-under-title::selection {
+  text-shadow: 0px 0 0px black;
+}
+#site-title, #site-under-title {
+  text-align:center;
+  text-shadow: -1px 0 2px white, 0 -1px 2px white, 1px 0 2px white, 0 1px 2px white, 0 0 5px white, 0 0 5px white, 0 0 15px white, 0 0 15px white, 0 0 15px white;
+  position: absolute;
+  z-index: 1;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+#site-under-title { 
+  color: gray; 
+  font-style: italic; 
+}
 #inner-top-menu {
     background-color: #b0bbd0;
     font-weight: bold;
@@ -87,19 +104,19 @@ h3 {
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
-    font-size: 21px; 
     margin: auto;
-  }
-
+}
 #inner-top-menu a {
-    color: hsla(0,0%,0%,0.5);
+    display: inline-block;
+    color: hsla(0,0%,0%,0.6);
     padding: 0px 10px;
     margin: 0;
     transition: .1s;
     text-decoration: none !important;
-  }
-
+    text-transform: uppercase;
+    transform: scale(.9, 1);
+}
 #inner-top-menu a:hover {
     color: hsla(0,0%,0%,0.3) !important;
     text-decoration: none !important;
-  }
+}
