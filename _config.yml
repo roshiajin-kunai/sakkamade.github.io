@@ -34,7 +34,7 @@ kramdown:
   hard_wrap: true
   footnote_nr: 1
   footnote_backlink: back
-  parse_block_html: true
+  parse_block_html: false
   
 # Build settings
 theme: minima

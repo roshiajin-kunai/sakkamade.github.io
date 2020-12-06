@@ -21,9 +21,27 @@ layout: home
 		{% endfor %}
 		</div>
         <!-- title -->
-        <h3 class="post-link"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <p class="post-meta">{{ post.date | date: date_format }}</p>
+        <h3 class="post-link"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
+          <p class="post-meta">
+		  <time>
+		  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+		  {{ post.date | date: date_format }}
+		  </time>
+		   <!-- author -->
+		   {%- if post.author -%}
+		   ・ <span>{{ post.author }}</span> ・ 
+		   {%- endif -%}
+		     <!-- tags -->
+			 {% if post %}
+			 {% assign tags = post.tags | sort %}
+			 {% else %}
+			 {% assign tags = page.tags | sort %}
+			 {% endif %}
+			 {% for tag in tags %}
+			 <a href="{{site.baseurl}}/tags/{{tag | slugify}}/">{{tag}}</a>
+			 {% unless forloop.last %}&nbsp;{% endunless %}
+			 {% endfor %}
+		  </p>
 		</header>
           {% if post.content contains site.excerpt_separator %}
 		  <p>{{ post.excerpt }}</p>

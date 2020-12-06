@@ -173,13 +173,19 @@
 
 
 #archives {
+  margin: 30px 0;
+  cursor: default;
+  text-transform: capitalize;
 	
 }
-.category-head {
+.side-head {
 	text-align: center;
 	font-weight: normal;	
-	margin: 20px;
+	margin: 0 20px 10px 20px;
 	font-style: normal;
+}
+.side-in a { 
+    text-decoration: none;
 }
 .archive-item {
 	font-weight: normal;
@@ -226,11 +232,25 @@
 }
 
 .post-meta {
+  text-transform: capitalize;
   font-size: 17px !important;
   font-style: italic;
   color: #999999;
+  cursor: default;
 }
 
+.post-meta a {
+  font-size: 17px !important;
+  font-style: italic;
+  color: #999999;
+  text-decoration: none;
+}
+.post-meta a:not(:last-child)::after {
+  content: ', ';
+}
+.post-meta a:hover {
+  color: #444444;
+}
 .post-link a {
   color: #393959;
   text-decoration: none;

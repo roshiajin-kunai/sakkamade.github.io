@@ -1,3 +1,4 @@
+<h4>Something here</h4>
 <div id="archives">
 <!--{% for category in site.categories %}
   <div class="archive-group">
@@ -13,6 +14,20 @@
     </article>
     {% endfor %}
   </div>
-{% endfor %}--> nothing as yet
+{% endfor %}--> 
+  <!-- tags -->
+  <h5 class="side-head">Tag Cloud</h5>
+    {% assign tags = site.tags | sort %}
+	{% for tag in tags %}
+	<span class="side-in">&nbsp;<a href="/tags/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 10 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></span>
+	{% endfor %}
+  </div>
+  <div id="archives">
+  <!-- categories -->
+  <h5 class="side-head">Category Cloud</h5>
+  {% assign categories = site.categories | sort %}
+  {% for category in categories %}
+  <span class="side-in">&nbsp;<a href="/categories/{{ category | first | slugify }}/" style="font-size: {{ category | last | size  |  times: 10 | plus: 80  }}%">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</a></span>
+{% endfor %}
 </div>
  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
