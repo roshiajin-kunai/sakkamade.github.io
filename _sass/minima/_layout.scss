@@ -192,6 +192,9 @@
 	text-decoration: none !important;
 	margin: 0;
 }
+.no-margin {
+    margin: 0;
+}
 
 /**
  * Page content
@@ -223,7 +226,7 @@
 }
 
 .post-meta {
-  font-size: 16px !important;
+  font-size: 17px !important;
   font-style: italic;
   color: #999999;
 }

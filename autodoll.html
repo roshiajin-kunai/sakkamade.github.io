@@ -1,0 +1,10 @@
+---
+layout: page
+title: Autodoll Dreams In a Decaying World
+permalink: /categories/Autodoll-Dreams-In-a-Decaying-World/
+---
+
+{% for post in site.categories.Autodoll-Dreams-In-a-Decaying-World %}
+ <p class="no-margin"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+{% endfor %}
+

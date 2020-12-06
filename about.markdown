@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-WIP as yet
+<p>WIP as yet</p>

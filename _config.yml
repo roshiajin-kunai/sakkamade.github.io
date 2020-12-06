@@ -23,13 +23,19 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   through the life with yuri in heart
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sakkamade.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-excerpt_separator: <!--more-->
-paginate: 10
-paginate_path: "/page:num/"
-
+excerpt_separator: <!--e-->
+paginate: 9
+paginate_path: "/page/:num/"
+kramdown:
+  input: GFM
+  hard_wrap: true
+  footnote_nr: 1
+  footnote_backlink: back
+  parse_block_html: true
+  
 # Build settings
 theme: minima
 plugins:
