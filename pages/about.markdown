@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<h3"> Website </h3>
+<h3> Website </h3>
 
 I begin translating inspired by reading a translations of Japanese webnovels.
 Especially after reading the "[_Autodoll wa Kuchita Sekai de Yume wo Miru_](https://horobinomichi.wordpress.com/autodoll-wa-kuchita-sekai-de-yume-wo-miru/)". The novel seemed to be so good, I no matter what wished to write a comment with expression of my gratitude to translator.
