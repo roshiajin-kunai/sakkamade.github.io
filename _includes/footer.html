@@ -3,7 +3,7 @@
 <section class="inner-bottom-menu">
 <div class="inner-bottom-column">  
   {% for item in site.data.samplelist.docs %}
-  <a href="{{ item.url }}">{{ item.title }}</a></li>
+  <a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
   {% endfor %}
 </div>
 </section>

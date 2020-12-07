@@ -62,6 +62,9 @@
     color: hsla(0,0%,0%,0.3) !important;
     text-decoration: none !important;
 }
+.active-menu {
+	cursor: default !important;
+}
 .inner-bottom-menu {
     border-top: 1px solid $background-gray;
     background-color: $light-gray;
