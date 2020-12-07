@@ -38,7 +38,7 @@ layout: default
   </header>
 
   <div>
-    {{ content }}
+    {{ content | replace: "<br>", "</p><p>" }}
   </div>
 
   {%- if site.disqus.shortname -%}
