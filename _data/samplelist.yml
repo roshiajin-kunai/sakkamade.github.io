@@ -1,0 +1,11 @@
+docs_list_title: menu
+docs:
+
+- title: updates
+  url: /
+
+- title: projects
+  url: /projects/
+
+- title: about me
+  url: /about/

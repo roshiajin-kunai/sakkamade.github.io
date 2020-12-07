@@ -1,10 +1,10 @@
 <div id="page-inner">
 
 <section class="inner-bottom-menu">
-<div class="inner-bottom-column">
-<a href="/">Updates</a>
-<a href="/projects/">Projects</a>
-<a href="/about/">About Me</a>
+<div class="inner-bottom-column">  
+  {% for item in site.data.samplelist.docs %}
+  <a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
 </div>
 </section>
 

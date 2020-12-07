@@ -29,7 +29,7 @@ layout: home
 		  </time>
 		   <!-- author -->
 		   {%- if post.author -%}
-		   ・ <span>{{ post.author }}</span> ・ 
+		   ・ <span class="no-cap">{{ post.author }}</span> ・ 
 		   {%- endif -%}
 		     <!-- tags -->
 			 {% if post %}
@@ -39,7 +39,7 @@ layout: home
 			 {% endif %}
 			 {% for tag in tags %}
 			 <a href="{{site.baseurl}}/tags/{{tag | slugify}}/">{{tag}}</a>
-			 {% unless forloop.last %}&nbsp;{% endunless %}
+			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 		  </p>
 		</header>

@@ -6,12 +6,12 @@ p, blockquote, pre,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
-  color: #393959;
+  color: $dark-blue; 
   line-height: 1.6em;
 }
 
 p {
-  color: #222222;
+  color: $almost-black;
 }
 
 sup { padding: 0px 2px; margin-top: 60px !important; vertical-align: top; position: relative; top: -0.5em; }
@@ -19,8 +19,8 @@ sup { padding: 0px 2px; margin-top: 60px !important; vertical-align: top; positi
 h1, h2, h3, h4, h5, h6, {
 }
 ::selection {
-  background: #dce3ef;
-  color:#222222;
+  background: $lighter-blue;
+  color: $almost-black;
 }
 
 hr {
@@ -56,8 +56,8 @@ h6 {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  color: $almost-black;
+  background-color: $background-gray;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -185,7 +185,7 @@ pre {
 	font-size: 16px;
     display: block;
     padding: 0.5em;
-    color: #222222;
+    color: $almost-black;
     background-color: #f8f8f8;
 	border-radius: 5px;
     line-height: 1.6em;
@@ -203,12 +203,11 @@ pre {
  * Links
  */
 a {
-  color: #556a8c;
+  color: $link-blue;
   text-decoration: underline;
-  transition: .2s;
 
   &:hover {
-  color: #999999;
+  color: $base-gray;
   text-decoration: none;
   }
 }
@@ -236,10 +235,10 @@ a {
   height:100%;
 }
 @media screen and (max-width: 1000px) {
-  #page-inner {
-     width: 98% !important;
-   }
-   .side {
+    #page-inner {
+       width: 98% !important;
+    }
+    .side {
 	   padding: 20px 40px !important;
 	   flex: 100% !important;
 	}
@@ -248,8 +247,14 @@ a {
 	   flex: 100% !important;
 	}
 	.only-main {
-	   padding: 20px 40px !important;
+	   margin: 20px 40px !important;
 	   flex: 100% !important;
+	}
+   .post-list li {
+       padding-left: 40px !important;
+	}
+	.post-list-heading {
+       margin-left: 40px !important;
 	}
 }
 #page-inner p { 

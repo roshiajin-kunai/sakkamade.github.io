@@ -1,6 +1,6 @@
 <h4>Something here</h4>
 <div id="archives">
-<!--{% for category in site.categories %}
+<!-- {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
@@ -14,9 +14,9 @@
     </article>
     {% endfor %}
   </div>
-{% endfor %}--> 
+{% endfor %} --> 
   <!-- tags -->
-  <h5 class="side-head">Tag Cloud</h5>
+  <h5 class="side-head">Tags Cloud</h5>
     {% assign tags = site.tags | sort %}
 	{% for tag in tags %}
 	<span class="side-in">&nbsp;<a href="/tags/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 10 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></span>
@@ -24,10 +24,10 @@
   </div>
   <div id="archives">
   <!-- categories -->
-  <h5 class="side-head">Category Cloud</h5>
+  <h5 class="side-head">Categories Cloud</h5>
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
-  <span class="side-in">&nbsp;<a href="/categories/{{ category | first | slugify }}/" style="font-size: {{ category | last | size  |  times: 10 | plus: 80  }}%">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</a></span>
+  <span class="side-in no-cap">&nbsp;<a href="/categories/{{ category | first | slugify }}/" style="font-size: {{ category | last | size  |  times: 10 | plus: 80  }}%">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</a></span>
 {% endfor %}
 </div>
- <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
+ <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->

@@ -15,14 +15,14 @@ layout: default
   {% endfor %}
   </div>
   <header>
-    <h2>{{ page.title | escape }}</h2>
+    <h2 class="no-margin">{{ page.title | escape }}</h2>
     <p class="post-meta">
 	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-	  ・ <span>{{ page.author }}</span> ・ 
+	  ・ <span class="no-cap">{{ page.author }}</span> ・ 
       {%- endif -%}
 		     <!-- tags -->
 			 {% if post %}
@@ -32,7 +32,7 @@ layout: default
 			 {% endif %}
 			 {% for tag in tags %}
 			 <a href="{{site.baseurl}}/tags/{{tag | slugify}}/">{{tag}}</a>
-			 {% unless forloop.last %}&nbsp;{% endunless %}
+			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 	 </p>
   </header>
