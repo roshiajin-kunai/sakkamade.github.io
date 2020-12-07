@@ -30,9 +30,9 @@ Favourite novel  is "Adachi to Shimamura." No doubt.
 ---
 
 Now a little about the website. 
-The work on it almost completed, in sense - I already can post it here and you can read. However, I guess, there's a lot of work ahead.
+Work on it almost completed, in sense - I already can post here and you can read. However, I guess, there's still a lot of work ahead.
 I don't think here will be "likes" and comments, so, if you really want to talk, I can think up, and do something about it.
-This website will be implied an RSS feed. Although I have no idea how does it work, there shouldn't be any problems with notification of new posts.
+This website will be an RSS feed. Although I have no idea how does it work, there shouldn't be any problems with notification of new posts.
 
 
 That's it for now. Best regards.
