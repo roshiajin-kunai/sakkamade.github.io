@@ -198,11 +198,11 @@ pre {
 }
 
 
-
 /**
  * Links
  */
 a {
+  transition: .2s;
   color: $link-blue;
   text-decoration: underline;
 
@@ -211,7 +211,6 @@ a {
   text-decoration: none;
   }
 }
-
 
 
 * {
@@ -238,14 +237,15 @@ a {
     #page-inner {
        width: 98% !important;
     }
+	#page-inner p { font-size: 17px !important; }
     .side {
-	   padding: 20px 5% !important;	   
+	   padding: 0 5% 20px 5% !important;	   
 	}
 	.main {
-	   padding: 20px 5% 20px 0 !important; /* 40px = 5% everywhere */
+	   padding: 0 5% 20px 0 !important; /* 40px = 5% everywhere */
 	}
 	.only-main {
-	   margin: 20px 5% !important;
+	   margin: 0 5% 20px 5% !important;
 	}
    .post-list li {
        padding-left: 5% !important;

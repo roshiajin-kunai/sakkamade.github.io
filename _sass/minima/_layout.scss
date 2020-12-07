@@ -1,25 +1,24 @@
 /* header */
 
-
 #site-header-inner { 
   height: 200px;
   margin: 0;
   text-align: center;
 }
-
 #site-title-back {  
-  max-height:200px;
+  max-height: 200px;
   overflow: hidden !important;
-  width:auto;
-  margin:0;
+  width: auto;
+  margin: 0;
 }
+
+/* site title */
 
 #site-title h1::selection, #site-under-title::selection {
   text-shadow: 0px 0 0px black;
   background: $lighter-blue;
   color: $almost-black;
 }
-
 #site-title, #site-under-title {
   text-align: left;
   text-shadow: -1px 0 2px white, 0 -1px 2px white, 1px 0 2px white, 0 1px 2px white, 0 0 5px white, 0 0 5px white, 0 0 15px white, 0 0 15px white, 0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white;
@@ -27,19 +26,20 @@
   z-index: 99;
   white-space: nowrap;
 }
-
 #site-title { 
   text-decoration: none;
   margin-left: 5%;
   margin-top: 109px;
 }
-
 #site-under-title { 
   margin-left: 5%;
   margin-top: 155px;
   color: $base-gray;
   font-style: italic; 
 }
+
+/* top */
+
 .inner-top-menu {
     line-height: 50px;
     background-color: $light-blue; /* hsl(219, 25%, 75%); #b0bbd0; */
@@ -65,26 +65,28 @@
 .active-menu {
 	cursor: default !important;
 }
+
+/* bottom */
+
+
 .inner-bottom-menu {
-    border-top: 1px solid $background-gray;
-    background-color: $light-gray;
-    line-height: 50px;
-    overflow: hidden;
-    text-align: left;
-    padding: 20px;
-    margin:0;
+  border-top: 1px solid $background-gray;
+  background-color: $light-gray;
+  line-height: 50px;
+  overflow: hidden;
+  text-align: left;
+  padding: 20px;
+  margin:0;
 }
-.inner-bottom-menu a {    
-    text-transform: capitalize;
-    transition: .4s;
-    color: hsla(0,0%,0%,0.5);
-    padding: 0 20px;
-    margin: 0;
-    margin-right: 20px;
-    transition: .1s;
-    text-decoration: none !important;
-    display: block;
-    border-bottom: 1px solid $background-gray; 
+.inner-bottom-menu a {
+  text-transform: capitalize;
+  color: hsla(0,0%,0%,0.5);
+  padding: 0 20px;
+  margin: 0;
+  margin-right: 20px;
+  text-decoration: none !important;
+  display: block;
+  border-bottom: 1px solid $background-gray; 
 }
 .inner-bottom-column {
   width: 100%;
@@ -92,7 +94,7 @@
   margin: 10px 0;
 }
 .inner-bottom-column a {
-    display: block;
+  display: block;
 }
  .inner-bottom-column {
   width: 99.9999%;
@@ -112,7 +114,7 @@
 }
 
 
-/* page */
+/* main */
 
 
 .inner-wrap-column { 
@@ -128,9 +130,7 @@
   flex: 30%;
   padding: 20px 40px;
 }
-
-
-.only-main {   
+.only-main {
   flex: 100%;
   margin: 20px 100px;
   max-width: 850px;
@@ -157,8 +157,6 @@
 }
 .pagination .page-active {
   display: none;
-  color: $base-gray;
-  cursor: default;
 }
 .pagination .page-number-active {
   color: $base-gray;
@@ -177,33 +175,32 @@
   margin: 30px 0;
   cursor: default;
   text-transform: capitalize;
-	
 }
 .side-head {
-	text-align: center;
-	font-weight: normal;	
-	margin: 0 20px 10px 20px;
-	font-style: normal;
+  text-align: center;
+  font-weight: normal;
+  margin: 0 20px 10px 20px;
+  font-style: normal;
 }
-.side-in a { 
-    text-decoration: none;
+.side-in a {
+  text-decoration: none;
 }
-.no-cap {   
-    text-transform: none;
+.no-cap {
+  text-transform: none;
 }
 .archive-item {
-	font-weight: normal;
-	border-top: 1px solid hsl(0,0%,90%);	
-	display: block;
-	padding: 10px;
-	margin: 0;
+  font-weight: normal;
+  border-top: 1px solid hsl(0,0%,90%);
+  display: block;
+  padding: 10px;
+  margin: 0;
 }
 .archive-item a, .archive-item h5 {
-	text-decoration: none !important;
-	margin: 0;
+  text-decoration: none !important;
+  margin: 0;
 }
 .no-margin {
-    margin: 0;
+  margin: 0;
 }
 
 /**
@@ -235,7 +232,7 @@
 }
 
 .post-meta {
-  text-align: left;
+  text-align: left !important;
   text-transform: capitalize;
   font-size: 17px !important;
   font-style: italic;
@@ -244,7 +241,6 @@
 }
 
 .post-meta a {
-  transition: .2s;
   font-size: 17px !important;
   font-style: italic;
   color: $base-gray;
@@ -278,5 +274,4 @@
   border-top: 1px solid $background-gray;
   margin: 2em 0;
   padding: 2em 0;
-  
 }
