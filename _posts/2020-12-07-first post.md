@@ -21,9 +21,8 @@ That's remains as the one of my favourite *anime* and *manga* up until now.
 As not so long ago, at the very top came an *anime* "Liz to Aoi Tori." 
 And *manga*... Hmm, I wonder, there were plenty of nice pieces.
 
-The first novel I've read was "I Favor the Villainess." <span class="spoiler">Best part I consider the story about Rei's past.</span>
-
-Found it in March of 2020 via fan-artwork in the translator's credits of some *manga*. Read it up to August of the same year (mainly in August, in couple of days.) <del>Gosh, what's wrong with this August.</del> And ever since then I've started to read much more novels and less *manga*. 
+The first novel I've read was "I Favor the Villainess." Best part I consider <span class="spoiler">the story about Rei's past.</span>
+Discover it in March of 2020 via fan-artwork in the translator's credits of some *manga*. Read it up to August of the same year (mainly in August, in couple of days.) <del>Gosh, what's wrong with this August.</del> And ever since then I've started to read much more novels and less *manga*. 
 It's so hard to find an interesting one, gosh...
 Favourite novel  is "Adachi to Shimamura." No doubt.
 
