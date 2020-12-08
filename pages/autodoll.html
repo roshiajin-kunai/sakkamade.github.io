@@ -1,9 +1,0 @@
----
-layout: page
-title: Autodoll Dreams in a Decaying World
-permalink: /categories/autodoll-dreams-in-a-decaying-world/
----
-  {% assign sorted-posts = site.posts | where: "categories","Autodoll Dreams in a Decaying World" %}
-  {% for post in sorted-posts limit: 5 %}
-  <p class="no-margin"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-  {% endfor %}

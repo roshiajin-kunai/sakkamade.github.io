@@ -1,6 +1,10 @@
 /**
  * Reset some basic elements
  */
+ 
+html {
+  scroll-behavior: smooth;
+}
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul, figure {
@@ -26,10 +30,10 @@ h1, h2, h3, h4, h5, h6, {
 hr {
     display: block;
     text-align: left;
-    margin: 1em 0;
+    margin: 1.6em 0;
     border: none;
     height: 1px;
-    background: #EEEEEE;
+    background: $background-gray;
 }
 
 h1 {
@@ -244,6 +248,9 @@ a {
 	.main {
 	   padding: 0 5% 20px 0 !important; /* 40px = 5% everywhere */
 	}
+	.main-with-margin {
+	   padding: 0 5% 20px 5% !important; /* 40px = 5% everywhere */
+	}
 	.only-main {
 	   margin: 0 5% 20px 5% !important;
 	}
@@ -257,6 +264,9 @@ a {
 @media screen and (max-width: 840px) {
     .side, .main, .only-main {
 	   flex: 100% !important;
+	}
+	.side-head {
+	  text-align: left !important;
 	}
 }
 #page-inner p { 
@@ -305,7 +315,7 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: lighten($almost-black, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
   tr {

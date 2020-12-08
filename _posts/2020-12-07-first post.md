@@ -29,7 +29,7 @@ Favourite novel  is "Adachi to Shimamura". No doubt.
 Now a little about the website. 
 Work on it almost completed, in sense - I already can post here without any problems and you can read. However, I guess, there's still a lot of things needs to be done.
 I don't think here will be likes and comments, so, if you really wish to talk with me, I can think up and do something about it.
-This website will have an **Atom** feed (it's like RSS). Although I have no idea how does it work, there shouldn't be any problems with notification of new posts, if you know how to use it.
+This website will have an *Atom* feed (it's like RSS). Although I have no idea how does it work, there shouldn't be any problems with notifications of new posts, if you know how to use it.
 
 
 Well, that's it for now. Best regards.

@@ -24,7 +24,7 @@ layout: home
         <h3 class="post-link"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
           <p class="post-meta">
 		  <time>
-		  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+		  {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
 		  {{ post.date | date: date_format }}
 		  </time>
 		   <!-- author -->
