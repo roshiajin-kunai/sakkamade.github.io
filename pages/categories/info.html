@@ -1,9 +1,11 @@
 ---
-layout: columns
+layout: columns-cat
 title: Information
 permalink: /categories/information/
 ---
-  {% assign sorted-posts = site.posts | where: "categories","Information" %}
-  {% for post in site.posts %}
-  <div class="no-margin "><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 10 }}</a>&nbsp;<span class="no-word-break">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></div>
+   {% assign sorted-posts = site.posts | where: "categories", "Information" %}
+  
+  {% for post in sorted-posts limit: infinite %}
+  {% assign sorted-posts = site.posts | where: "categories","Autodoll Dreams in a Decaying World" %}
+  <div class="no-margin"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 10 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
   {% endfor %}
