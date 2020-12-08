@@ -26,9 +26,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-group :jekyll_plugins do
-  gem "jekyll-last-modified-at"
-end
 
 
 # Performance-booster for watching directories on Windows
