@@ -36,7 +36,6 @@ kramdown:
   footnote_backlink: back
   parse_block_html: false
 feed:
-  path: feed.xml
   tags: true
   categories:
     - Autodoll Dreams in a Decaying World
