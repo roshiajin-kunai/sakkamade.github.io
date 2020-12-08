@@ -11,6 +11,9 @@
   width: auto;
   margin: 0;
 }
+#site-title-back img {  
+  pointer-events: none;
+}
 
 /* site title */
 
@@ -21,7 +24,7 @@
 }
 #site-title, #site-under-title {
   text-align: left;
-  text-shadow: -1px 0 2px white, 0 -1px 2px white, 1px 0 2px white, 0 1px 2px white, 0 0 5px white, 0 0 5px white, 0 0 15px white, 0 0 15px white, 0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white,0 0 15px white;
+  text-shadow: -1px 0 2px $white, 0 -1px 2px $white, 1px 0 2px $white, 0 1px 2px $white, 0 0 5px $white, 0 0 5px $white, 0 0 15px $white, 0 0 15px $white, 0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white,0 0 15px $white;
   position: absolute;
   z-index: 99;
   white-space: nowrap;
@@ -63,7 +66,7 @@
     text-decoration: none !important;
 }
 .active-menu {
-	cursor: default !important;
+    pointer-events: none !important;
 }
 
 /* bottom */
@@ -148,7 +151,6 @@
   font-style: normal;
   margin: 0;
 }
-
 .pagination a, .pagination span {
   text-decoration: none;
   padding: 5px;
@@ -165,8 +167,6 @@
 .pagination a:hover {
   color: $base-gray;
 }
-
-
 
 /* side content */
 
@@ -231,6 +231,8 @@
   }
 }
 
+
+
 .post-meta {
   text-align: left !important;
   text-transform: capitalize;
@@ -246,23 +248,39 @@
   color: $base-gray;
   text-decoration: none;
 }
-.post-meta a:not(:last-child)::after {
+/*.post-meta a:not(:last-child)::after {
   content: ', ';
-}
+}*/
 .post-meta a:hover {
-  color: #444444;
+  color: $not-black;
 }
+
+.tag {
+  color: $white !important;
+  background-color: $base-gray;
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin: 0 2px;
+  display: inline;
+}
+
+.tag:hover {
+  background: $not-black;
+}
+
+
 .post-link a {
   transition: .1s;
   color: $dark-blue; 
   text-decoration: none;
+  display: inline-block;
 }
 
 .post-link {  
   margin: 0;
 }
 .post-link a:hover {
-  color: #5b6f94;
+  color: $post-l-hover;
 }
 
 .post-categories a {

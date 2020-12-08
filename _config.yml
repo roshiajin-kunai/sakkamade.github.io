@@ -35,7 +35,14 @@ kramdown:
   footnote_nr: 1
   footnote_backlink: back
   parse_block_html: false
-  
+feed:
+  path: feed.xml
+  tags: true
+  categories:
+    - Autodoll Dreams in a Decaying World
+    - Information
+  posts_limit: 10 # default: 10
+
 # Build settings
 theme: minima
 plugins:

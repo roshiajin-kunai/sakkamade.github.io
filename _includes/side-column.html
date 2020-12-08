@@ -1,5 +1,5 @@
-<h4>Something here</h4>
 <div id="archives">
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 <!-- {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -30,4 +30,3 @@
   <span class="side-in no-cap">&nbsp;<a href="/categories/{{ category | first | slugify }}/" style="font-size: {{ category | last | size  |  times: 10 | plus: 80  }}%">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</a></span>
 {% endfor %}
 </div>
- <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
