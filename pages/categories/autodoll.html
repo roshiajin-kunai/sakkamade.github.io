@@ -6,18 +6,18 @@ permalink: /categories/autodoll-dreams-in-a-decaying-world/
 <h3 class="with-indent">Description</h3>
 
 <p>This is a story about the world after its perishment.<br>
-The girl have lost her memory after awakening from suspended animation, and lady, a  female type of Autodoll, helped her. Autodoll told a girl that she was "exploring the world" while using an underground library as her base camp. <span class="dash">--</span>"Would you like to become friends with me?"<br>
+The girl have lost her memory after awakening from suspended animation, and lady, a  female type of Autodoll, helped her. Autodoll told a girl that she was "exploring the world" while using an underground library as her base camp. ―"Would you like to become friends with me?"<br>
 Two young ladies who have nowhere to go, what truth about this world will be discovered by them..?</p>
 
 
 <hr>
 
-<p>Original: <a href="https://kakuyomu.jp/works/4852201425154961396">オートドールは朽ちた世界で夢を見る</a> <br><span style="font-size:14px;opacity:.5;"> (Ōtodōru wa Kuchita Sekai de Yume wo Miru)</span><br>
-Author: 葉月双 <br><span style="font-size:14px;opacity:.5;"> (Hazuki Sou) </span></p>
+<p>Original: <a href="https://kakuyomu.jp/works/4852201425154961396">オートドールは朽ちた世界で夢を見る</a> <span class="small"> (Ōtodōru wa Kuchita Sekai de Yume wo Miru)</span><br>
+Author: 葉月双 <span class="small"> (Hazuki Sou) </span></p>
 
 <hr>
 <p>
-Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <br><span style="font-size:14px;opacity:.5;"> (With sexual depiction)</span>
+Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <span class="small"> (With sexual depiction)</span>
 </p>
 
 <hr>
@@ -27,7 +27,7 @@ Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <br><span s
 
   {% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" %}
   
-  {% for post in sorted-posts limit: infinite %}
+  {% for post in sorted-posts reversed limit: infinite %}
   {% assign sorted-posts = site.posts | where: "categories","Autodoll Dreams in a Decaying World" %}
-  <div class="no-margin"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 10 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+  <div class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 10 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
   {% endfor %}

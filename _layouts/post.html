@@ -1,8 +1,21 @@
 ---
 layout: default
 ---
+
+<!-- prev -->
+<div class="only-main-top">
+  <section class="switch-post previous-post">
+    {% if page.previous %}
+        {% assign previous = page.previous %}
+    {% else %}
+        {% assign previous = site.posts[0] %}
+    {% endif %}
+        <a href="{{site.baseurl}}{{previous.url}}" title="Previous: {{previous.title}}">Previous: {{previous.title | strip_html | truncatewords: 20}}</a>
+  </section>
+</div>
+
 <div class="only-main">
-<article>
+<article>  
   <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
@@ -37,24 +50,19 @@ layout: default
 	 </p>
   </header>
 
+
   <div>
     {{ content }}
   </div>
-  <!--   <section id="more-work">
-    {% if page.previous %}
-        {% assign previous = page.previous %}
-    {% else %}
-        {% assign previous = site.posts[0] %}
-    {% endif %}
-    <div class="left">
-        <a class="equalize" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
-            <div>
-                <h6> ← Previous Project </h6>
-                <h4> {{previous.title}} </h4>
-            </div>
-        </a>
-    </div>
+  
+  
+</article>
+</div>
 
+
+<!-- next -->
+  <div class="only-main-top">
+    <section class="switch-post next-post">
     {% if page.next %}
         {% assign next = page.next %}
     {% else %}
@@ -65,20 +73,6 @@ layout: default
         {% assign last lastPostIndex = site.posts | size | minus: 1 %}
         {% assign next = site.posts[lastPostIndex] %}
     {% endif %}
-    <div class="right">
-        <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
-            <div>
-                <h6> Next Project →</h6>
-                <h4> {{next.title}}</h4>
-            </div>
-        </a>
-    </div>
-</section> -->
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
-</div>
+        <a href="{{site.baseurl}}{{next.url}}" title="Next: {{next.title}}">Next: {{next.title | strip_html | truncatewords: 20}}</a>
+    </section>
+  </div>
