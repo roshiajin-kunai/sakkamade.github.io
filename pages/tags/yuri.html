@@ -1,12 +1,12 @@
 ---
 layout: columns-tag
-title: Blog
-permalink: /tags/blog/
+title: Yuri
+permalink: /tags/yuri/
 ---
-  {% assign sorted-posts = site.posts | where: "tags", "blog" %}
+  {% assign sorted-posts = site.posts | where: "tags", "yuri" %}
   
   {% for post in sorted-posts limit: infinite %}
-  {% assign sorted-posts = site.posts | where: "tags","blog" %}
+  {% assign sorted-posts = site.posts | where: "tags","yuri" %}
   <div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;
   {% if post %}
     {% assign categories = post.categories %}

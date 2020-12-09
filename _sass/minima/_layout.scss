@@ -282,8 +282,10 @@
 .toc {
   margin: 0;
   display: inline;
+  text-align: justify;
 }
 .toc a {
+  padding: 0 4px;
   float:right;
   width: 100% !important;  
   text-decoration: none;
@@ -297,18 +299,26 @@
   white-space: nowrap;
   color: $tag-gray;
 }
-.small { font-size:14px !important; opacity:.5 !important; }
+span.small { font-size:14px !important; opacity:.5 !important; }
 
-
+.tag-category-title { 
+  color: $tag-gray;
+}
 
 .switch-post {
   text-align: center;
   background-color: hsla(0,0%,98%, 0.5);
   line-height: 50px; 
   position:relative; 
-  padding: 0 5%;
 }
-.switch-post a { display: block;color: $base-gray; text-decoration:none; }
+.switch-post a { 
+  white-space: nowrap; 
+  overflow: hidden;
+  padding: 0 5%;
+  display: block;
+  color: $base-gray; 
+  text-decoration:none; 
+}
 .switch-post a:hover, .switch-post a:focus { color: $almost-black; background-color: $light-gray;}
 .previous-post {
   border-bottom: 1px solid $light-gray;
@@ -320,7 +330,7 @@
   bottom: -40px; 
   margin-top: -30px;
 }
-
+a.bigger { font-size: 20px !important; }
 
 
 /* ―― */
@@ -438,6 +448,11 @@ border-top-color: black !important;
   padding: 1.6em 0;
 }
 
+/* tag page */
+
+.tag-title {
+  margin-top: 40px;
+}
 
 
 .spoiler {

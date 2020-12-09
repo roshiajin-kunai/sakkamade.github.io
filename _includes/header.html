@@ -13,7 +13,7 @@
 </div>
 <!-- top navigation -->
 <nav class="inner-top-menu">
-  {% for item in site.data.samplelist.docs %}
+  {% for item in site.data.top-menu.docs %}
   <a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
   {% endfor %}
 </nav>

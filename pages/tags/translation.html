@@ -1,12 +1,12 @@
 ---
 layout: columns-tag
-title: Blog
-permalink: /tags/blog/
+title: Webnovel Translation
+permalink: /tags/webnovel-translation/
 ---
-  {% assign sorted-posts = site.posts | where: "tags", "blog" %}
+  {% assign sorted-posts = site.posts | where: "tags", "webnovel translation" %}
   
   {% for post in sorted-posts limit: infinite %}
-  {% assign sorted-posts = site.posts | where: "tags","blog" %}
+  {% assign sorted-posts = site.posts | where: "tags","webnovel translation" %}
   <div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;
   {% if post %}
     {% assign categories = post.categories %}

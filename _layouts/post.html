@@ -10,7 +10,7 @@ layout: default
     {% else %}
         {% assign previous = site.posts[0] %}
     {% endif %}
-        <a href="{{site.baseurl}}{{previous.url}}" title="Previous: {{previous.title}}">Previous: {{previous.title | strip_html | truncatewords: 20}}</a>
+        <a href="{{site.baseurl}}{{previous.url}}" title="{{previous.title}}">Previous: "{{previous.title | strip_html | truncatewords: 10}}"</a>
   </section>
 </div>
 
@@ -22,9 +22,9 @@ layout: default
   {% else %}
     {% assign categories = page.categories %}
   {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/{{category|slugify}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
+    {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/{{category|slugify}}/">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </div>
   <header>
@@ -39,13 +39,13 @@ layout: default
       {%- endif -%}
 		     <!-- tags -->
 			 {% if post %}
-			 {% assign tags = post.tags | sort %}
+		   	   {% assign tags = post.tags | sort %}
 			 {% else %}
-			 {% assign tags = page.tags | sort %}
-			 {% endif %}
-			 {% for tag in tags %}
-			 <a class="tag" href="{{site.baseurl}}/tags/{{tag | slugify}}/">{{tag}}</a>
-			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+			   {% assign tags = page.tags | sort %}
+		   	 {% endif %}
+			   {% for tag in tags %}
+			 <a class="tag" href="{{site.baseurl}}/tags/{{ tag | slugify }}/">{{tag}}</a>
+			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 	 </p>
   </header>
@@ -73,6 +73,6 @@ layout: default
         {% assign last lastPostIndex = site.posts | size | minus: 1 %}
         {% assign next = site.posts[lastPostIndex] %}
     {% endif %}
-        <a href="{{site.baseurl}}{{next.url}}" title="Next: {{next.title}}">Next: {{next.title | strip_html | truncatewords: 20}}</a>
+        <a href="{{site.baseurl}}{{next.url}}" title="{{next.title}}">Next: "{{next.title | strip_html | truncatewords: 10}}"</a>
     </section>
   </div>

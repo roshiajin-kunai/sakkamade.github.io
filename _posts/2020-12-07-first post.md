@@ -1,5 +1,6 @@
 ---
 layout: post
+date:   2020-12-04 10:45:49 +0300
 title:  "First Acquaintance With Manga, Ranobe... In Short - With Japan. And Briefly About the New Website."
 categories:
  - Information
@@ -7,6 +8,7 @@ permalink: /:year/:month/:day/:slug/
 author: sakkani
 tags:
  - blog
+ - yuri
 ---
 
 Hello. This is the first actual post on my  website powered by *GitHub*. I'm Sakkani, the one who established group *sakkamade*.
