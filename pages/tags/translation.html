@@ -3,11 +3,13 @@ layout: columns-tag
 title: Webnovel Translation
 permalink: /tags/webnovel-translation/
 ---
+<input type="text" id="tag-search" onkeyup="myFunction()" placeholder="Search for word.." title="Type in a word">
+<ul id="tags-list">
   {% assign sorted-posts = site.posts | where: "tags", "webnovel translation" %}
   
   {% for post in sorted-posts limit: infinite %}
   {% assign sorted-posts = site.posts | where: "tags","webnovel translation" %}
-  <div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;
+  <li><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -16,6 +18,7 @@ permalink: /tags/webnovel-translation/
     {% for category in categories %}
   <span class="tag-category-title">"{{category | strip_html | truncatewords: 2}}"</span>
     {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+  {% endfor %}<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
   {% endfor %}
   
+</ul>

@@ -2,11 +2,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-  <section class="entry">
+  <section>
     <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
       {%- for post in paginator.posts -%}
-      <li>
+      <li onclick="document.location.href='{{ post.url | relative_url }}'">
 	    <header>
 	    <!-- category --> 
  	    <div class="post-categories">
@@ -47,7 +47,7 @@ layout: home
 		  <p>{{ post.excerpt }}</p>
 		  <!-- <p><a href="{{ post.url | relative_url }}">Read more</a></p> -->
 		  {% else %}
-		  <p>{{  post.content | strip_html | truncatewords: 50  }}</p>
+		  <p>{{  post.content | strip_html | truncatewords: 50 }}</p>
 		  {% endif %}
       </li>
       {%- endfor -%}
