@@ -8,7 +8,7 @@ permalink: /tags/blog/
   {% for post in sorted-posts limit: infinite %}
   {% assign sorted-posts = site.posts | where: "tags","blog" %}
 
-  {%- include tags.html -%}
+  {%- include tag.html -%}
 
   {% endfor %}
   

@@ -1,0 +1,14 @@
+<div class="toc">
+<a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }} <br>
+  <!-- tags -->
+			 {% if post %}
+			 {% assign tags = post.tags | sort %}
+			 {% else %}
+			 {% assign tags = page.tags | sort %}
+			 {% endif %}
+			 {% for tag in tags %}
+			 <span class="tag">{{tag}}</span>
+			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+			 {% endfor %}<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span>
+</a>
+</div>

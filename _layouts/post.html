@@ -4,14 +4,15 @@ layout: default
 
 <!-- prev -->
 <div class="only-main-top">
-  <section class="switch-post previous-post">
-    {% if page.previous %}
-        {% assign previous = page.previous %}
+    {% if page.previous.url %}
+    <section class="switch-post previous-post">  
+        <a href="{{page.previous.url}}" title="{{page.previous.title}}">Previous: "{{page.previous.title | strip_html | truncatewords: 10}}"</a>
+    </section>
     {% else %}
-        {% assign previous = site.posts[0] %}
-    {% endif %}
-        <a href="{{site.baseurl}}{{previous.url}}" title="{{previous.title}}">Previous: "{{previous.title | strip_html | truncatewords: 10}}"</a>
+    <section class="switch-post previous-post switch-off">        
+	<a>&nbsp;</a>
   </section>
+    {% endif %}
 </div>
 
 <div class="only-main">
@@ -57,8 +58,10 @@ layout: default
   
     {{ content }}
 	
-    <hr>
   </div>  
+
+  <hr>
+  
   <p class="post-meta meta-categories no-cap"><span>Category: </span>
   {% if post %}
     {% assign categories = post.categories %}
@@ -88,17 +91,13 @@ layout: default
 
 <!-- next -->
   <div class="only-main-top">
+    {% if page.next.url %}
     <section class="switch-post next-post">
-    {% if page.next %}
-        {% assign next = page.next %}
-    {% else %}
-        {%comment%}
-           As the array index start at zero we substract 1 to the total count,
-           we then get the last post index in the site.posts array
-        {%endcomment%}
-        {% assign last lastPostIndex = site.posts | size | minus: 1 %}
-        {% assign next = site.posts[lastPostIndex] %}
-    {% endif %}
-        <a href="{{site.baseurl}}{{next.url}}" title="{{next.title}}">Next: "{{next.title | strip_html | truncatewords: 10}}"</a>
+        <a href="{{page.next.url}}" title="{{page.next.title}}">Next: "{{page.next.title | strip_html | truncatewords: 10}}"</a>
     </section>
+    {% else %}
+    <section class="switch-post next-post switch-off">        
+	<a>&nbsp;</a>
+  </section>
+    {% endif %}
   </div>

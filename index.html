@@ -2,7 +2,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-  <section>
     <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
       {%- for post in paginator.posts -%}
@@ -43,16 +42,17 @@ layout: home
 			 {% endfor %}
 		  </p>
 		</header>
+		  <div class="post-content">
           {% if post.content contains site.excerpt_separator %}
-		  <p>{{ post.excerpt }}</p>
+		  {{ post.excerpt }}
 		  <!-- <p><a href="{{ post.url | relative_url }}">Read more</a></p> -->
 		  {% else %}
-		  <p>{{  post.content | strip_html | truncatewords: 50 }}</p>
+		  {{  post.content | strip_html | truncatewords: 50 }}
 		  {% endif %}
+		  </div>
       </li>
       {%- endfor -%}
     </ul>
-  </section>
 
   <!-- pagination -->
   {% if paginator.total_pages > 1 %}

@@ -8,7 +8,7 @@ permalink: /tags/yuri/
   {% for post in sorted-posts limit: infinite %}
   {% assign sorted-posts = site.posts | where: "tags","yuri" %}
 
-  {%- include tags.html -%}
+  {%- include tag.html -%}
 
   {% endfor %}
   

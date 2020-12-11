@@ -8,7 +8,7 @@ permalink: /tags/webnovel-translation/
   {% for post in sorted-posts limit: infinite %}
   {% assign sorted-posts = site.posts | where: "tags","webnovel translation" %}
 
-  {%- include tags.html -%}
+  {%- include tag.html -%}
 
   {% endfor %}
   
