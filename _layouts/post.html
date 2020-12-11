@@ -23,11 +23,11 @@ layout: default
   {% endif %}
     {% for category in categories %}
   <a href="{{site.baseurl}}/categories/{{category|slugify}}/">{{category}}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
   {% endfor %}
   </div>
   <header>
-    <h3 class="no-margin">{{ page.title | escape }}</h3>
+    <h3 class="post-title">{{ page.title | escape }}</h3>
     <p class="post-meta">
 	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
@@ -47,14 +47,41 @@ layout: default
 			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 	 </p>
-	 <p style="margin-top: -11px;" class="post-meta">Last Modified: {{ page.modified-date | date: date_format }}</p>
+      {%- if page.updated -%}
+	 <p style="margin-top: -14px;" class="post-meta">Last Updated: {{ page.updated | date: date_format }}</p>
+	 {%- endif -%}
   </header>
 
 
-  <div>
-    {{ content }}
-  </div>
+  <div class="post-content">
   
+    {{ content }}
+	
+    <hr>
+  </div>  
+  <p class="post-meta meta-categories no-cap"><span>Category: </span>
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+    {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/{{category|slugify}}/">{{category}}</a>
+    {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+  {% endfor %}  
+  </p>
+		     <!-- tags -->
+			 <p class="post-meta"><span>Tags: </span>
+			 {% if post %}
+		   	   {% assign tags = post.tags | sort %}
+			 {% else %}
+			   {% assign tags = page.tags | sort %}
+		   	 {% endif %}
+			   {% for tag in tags %}
+			 <a class="tag" href="{{site.baseurl}}/tags/{{ tag | slugify }}/">{{tag}}</a>
+			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+			 {% endfor %}
+			 </p>
   
 </div>
 

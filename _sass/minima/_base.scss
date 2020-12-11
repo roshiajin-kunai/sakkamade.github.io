@@ -5,6 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul, figure {
@@ -165,7 +166,6 @@ blockquote {
  */
 pre,
 code {
-/*  @include relative-font-size(0.9375);*/
   border: 1px solid #cccccc;
   border-radius: 3px;
   background-color: #f8f8f8;
