@@ -131,7 +131,7 @@
     transform: scale(.9, 1);
 }
 .inner-top-menu a:hover, .inner-bottom-menu a:hover, .active-menu {
-    color: #7b8391 !important;  /*hsla(0,0%,0%,0.3)*/
+    color: hsla(0,0%,0%,0.3) !important;  /* for top - #7b8391 */
     text-decoration: none !important;
 	/*text-shadow: 0 -1px lightgray, 0 2px 2px gray;*/
 }
