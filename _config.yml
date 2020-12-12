@@ -26,15 +26,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sakkamade.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-excerpt_separator: <!--more-->
+
 paginate: 9
-paginate_path: "/page/:num/"
+paginate_path: "/page/:num"
+
 kramdown:
   input: GFM
   hard_wrap: true
   footnote_nr: 1
   footnote_backlink: back
   parse_block_html: false
+  
+excerpt_separator: <!--more-->
+timezone: UTC
+
 feed:
   tags: true
   categories:
@@ -42,8 +47,11 @@ feed:
     - Information
   posts_limit: 10 # default: 10
 
-# set timezone
-timezone: UTC
+
+collections:
+  posts:
+    output: true
+    permalink: /:slug
 
 # Build settings
 theme: minima
@@ -59,12 +67,12 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
 #   - .sass-cache/
-#   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/

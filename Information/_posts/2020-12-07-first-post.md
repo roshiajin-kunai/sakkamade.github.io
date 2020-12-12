@@ -3,7 +3,6 @@ layout: post
 date: 2020-12-07 10:45:49 +0300
 updated: 2020-12-10 09:23:34
 title:  "First Acquaintance With Manga, Ranobe... In Short - With Japan. And Briefly About the New Website."
-permalink: /:year/:month/:day/:slug/
 author: sakkani
 categories:
 tags:

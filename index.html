@@ -15,7 +15,7 @@ layout: home
 		{% assign categories = page.categories | sort %}
 		{% endif %}
 		{% for category in categories %}
-		<a href="{{site.baseurl}}/categories/{{category | slugify}}/">{{category}}</a>
+		<a href="{{site.baseurl}}/categories/{{category | slugify}}">{{category}}</a>
 		{% unless forloop.last %}&nbsp;{% endunless %}
 		{% endfor %}
 		</div>
@@ -37,7 +37,7 @@ layout: home
 			 {% assign tags = page.tags | sort %}
 			 {% endif %}
 			 {% for tag in tags %}
-			 <a class="tag" href="{{site.baseurl}}/tags/{{tag | slugify}}/">{{tag}}</a>
+			 <a class="tag" href="{{site.baseurl}}/tags/{{tag | slugify}}">{{tag}}</a>
 			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 		  </p>

@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: page
-permalink: /projects/
+permalink: /projects
 ---
 
-<p>Something will be here.</p>
+Something will be here.
