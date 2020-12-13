@@ -1,14 +1,14 @@
 ---
-layout: columns-tag
+layout: columns-label
 title: Webnovel Translation
-permalink: /tags/webnovel-translation
+permalink: /labels/webnovel-translation
 ---
   {% assign sorted-posts = site.posts | where: "tags", "webnovel translation" %}
   
   {% for post in sorted-posts limit: infinite %}
   {% assign sorted-posts = site.posts | where: "tags","webnovel translation" %}
 
-  {%- include tag.html -%}
+  {%- include label.html -%}
 
   {% endfor %}
   

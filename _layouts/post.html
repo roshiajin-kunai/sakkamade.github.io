@@ -44,7 +44,7 @@ layout: default
 			   {% assign tags = page.tags | sort %}
 		   	 {% endif %}
 			   {% for tag in tags %}
-			 <a class="tag" href="{{site.baseurl}}/tags/{{ tag | slugify }}">{{tag}}</a>
+			 <a class="tag" href="{{site.baseurl}}/labels/{{ tag | slugify }}">{{tag}}</a>
 			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 	 </p>
@@ -74,14 +74,14 @@ layout: default
   {% endfor %}  
   </p>
 		     <!-- tags -->
-			 <p class="post-meta"><span>Tags: </span>
+			 <p class="post-meta"><span>Labels: </span>
 			 {% if post %}
 		   	   {% assign tags = post.tags | sort %}
 			 {% else %}
 			   {% assign tags = page.tags | sort %}
 		   	 {% endif %}
 			   {% for tag in tags %}
-			 <a class="tag" href="{{site.baseurl}}/tags/{{ tag | slugify }}">{{tag}}</a>
+			 <a class="tag" href="{{site.baseurl}}/labels/{{ tag | slugify }}">{{tag}}</a>
 			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 			 </p>
