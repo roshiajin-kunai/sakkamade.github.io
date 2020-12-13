@@ -14,7 +14,7 @@ Hello. This is the first actual post on my  website powered by *GitHub*. I'm Sak
 
 This time I'd like to narrate about my first acquaintanceship with Japanese fiction and movies.
 
-<!--more-->
+<!-- more -->
 
 With *manga* I became familiar not a long ago. That was, if I recall correctly, in August of 2019. And the name of it - "Citrus". Finding it after casual encounter with some fan-art, firstly I watched an *anime*. At that time, my novice self didn't possessed a knowledge that all *anime* are based on *manga*. I presume that was a second *anime* I've ever seen. Late bloomer, huh. Rather, I was never a favour of movies and TV-shows. 
 "Citrus" remains as the one of my favourite *anime* and *manga* up until now. "The one of" since not too long ago to the very top came an *anime* "Liz to Aoi Tori". And *manga*... Hmm, I wonder, there were plenty of nice pieces.
