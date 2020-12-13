@@ -16,11 +16,11 @@ layout: home
 		{% endif %}
 		{% for category in categories %}
 		<a href="{{site.baseurl}}/categories/{{category | slugify}}">{{category}}</a>
-		{% unless forloop.last %}&nbsp;{% endunless %}
+		{% unless forloop.last %}<!-- &nbsp; -->{% endunless %}
 		{% endfor %}
 		</div>
         <!-- title -->
-        <h3 class="post-link"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
+        <h3 class="post-link no-margin"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
           <p class="post-meta">
 		  <time>
 		  {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}

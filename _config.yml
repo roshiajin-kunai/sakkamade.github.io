@@ -37,7 +37,7 @@ kramdown:
   footnote_backlink: back
   parse_block_html: false
   
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 timezone: UTC
 
 feed:
