@@ -148,11 +148,12 @@ h1, h2, h3, h4, h5, h6 {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  /* @include relative-font-size(1.125); */
-  letter-spacing: -1px;
+  border-left: 3px solid $grey-color-light;
+  padding-left: 20px;
+  
+  > p {
+    color: $grey-color;
+  }
 
   > :last-child {
     margin-bottom: 0;

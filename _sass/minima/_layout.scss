@@ -6,9 +6,9 @@
 /* wrap */
 
 .page-inner-main {
-    min-height: 100vh;
-	padding-top: 100px;
-	padding-bottom: 100px;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 #page-inner { 
   max-width: 1200px;
@@ -120,11 +120,12 @@
     cursor: default;
 }
 .inner-top-menu a {
+    text-align: center;
     transition: .4s;
     display: inline-block;
     color: hsla(0,0%,0%,0.6);
     padding: 0 10px;
-    margin: 0;
+    margin: 0 !important;
     transition: .1s;
     text-decoration: none !important;
     text-transform: uppercase;
@@ -182,11 +183,11 @@
   width: 33.3333%;
 }
 .inner-footer { 
-    background-color: $tag-gray;
-	color: $light-gray;
-    line-height: 50px;
-    text-align: center;
-    cursor: default;
+  background-color: $tag-gray;
+  color: $light-gray;
+  line-height: 50px;
+  text-align: center;
+  cursor: default;
 }
 
 
@@ -367,7 +368,7 @@ span.small { font-size:14px !important; opacity:.5 !important; }
   margin-top: 40px;
 }
 
-#tags-list {
+#tags-list, #full-cat-list {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -385,10 +386,10 @@ span.small { font-size:14px !important; opacity:.5 !important; }
 
 #tag-search:hover, #tag-search:focus { border: 1px solid $base-gray; }
 
-#tags-list li:nth-child(odd) a {
+#tags-list li:nth-child(odd) a, #full-cat-list:nth-child(odd) a {
   background-color: $very-light-gray;
 }
-#tags-list li:last-child a {
+#tags-list li:last-child a, #full-cat-list:last-child a {
   margin-bottom: 22px;
 }
 
@@ -511,6 +512,7 @@ border-top-color: black !important;
   display: inline;
   color: $base-gray;
   white-space: nowrap;
+  font-style: italic;
 }
 
 .tag:hover {
@@ -528,7 +530,7 @@ border-top-color: black !important;
 }
 
 .post-link a:hover {
-  color: $post-l-hover;
+  color: $link-blue;
 }
 .post-categories {
   cursor: default;
@@ -558,18 +560,20 @@ border-top-color: black !important;
 
 .spoiler {
   background: $almost-black;
+  color: transparent;
   transition: .3s;
   transition-delay: .3s;
 }
 .spoiler:hover {
   transition-delay: 0s;
   background: $background-gray;
+  color: $almost-black;
 }
 
 
 
 /* scroll */
-/*
+
 i.button-arrow-up {
   border: solid $tag-gray;
   border-width: 0 3px 3px 0;
@@ -597,7 +601,7 @@ i.button-arrow-up {
   background-color: $white;
   cursor: pointer;
   padding: 10px 15px;
-  border-radius: 2px;
+  border-radius: 50%;
   border: 1px solid $tag-gray;
   opacity: .5 !important;
 }
@@ -605,4 +609,3 @@ i.button-arrow-up {
 #scroll-btn:hover {
   background: $light-gray;
 }
-*/

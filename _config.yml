@@ -51,7 +51,7 @@ feed:
 collections:
   posts:
     output: true
-    permalink: /:slug
+    permalink: /:year/:month/:day/:slug
 
 # Build settings
 theme: minima
