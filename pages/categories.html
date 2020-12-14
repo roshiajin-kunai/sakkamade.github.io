@@ -18,20 +18,14 @@ title: Categories
 {% assign cats_list = nil %}
 </ul>
 
-
-
 {% for tag in site.categories %} 
-
 <h3 class="post-link with-indent" id="{{ tag[0] }}">
 <a href="/categories/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
 </h3>
-
-<ul id="full-cat-list">
+  <ul id="full-cat-list">
     {% assign pages_list = tag[1] %}  
     {% for post in pages_list %}
-      <li>
-	  <div class="toc">
-	  <a href="{{ site.url }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}<br>
+      <li><div class="toc"><a href="{{ site.url }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}<br>
 	  <!-- tags -->
 			 {% if post %}
 			 {% assign tags = post.tags | sort %}
@@ -42,15 +36,11 @@ title: Categories
 			 <span class="tag">{{tag}}</span>
 			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}<span class="category-post-date">
-	      <time>
 		  {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
 		  {{ post.date | date: date_format }}
-		  </time>
-		  </a>
-		  </div>
-		  </li>
+		  </a></div></li>
     {% endfor %}
     {% assign pages_list = nil %}
     {% assign group = nil %}
-</ul>
+  </ul>
 {% endfor %}

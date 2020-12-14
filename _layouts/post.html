@@ -85,8 +85,39 @@ layout: default
 			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 			 </p>
-  
+			 
+			 
+{% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+    {% for category in categories %}
+<details><summary class="toc-details">{{category}}</summary>
+  {% endfor %}  
+<ul id="tags-list">	 
+{% for category in page.categories %}
+  {% for post in site.categories[category] %}
+      <li title="{{ post.title }}"><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
+	  <span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
+  {% endfor %}
+{% endfor %}
+</ul>
+</detals>
+
 </div>
+
+
+
+
+  {% assign sorted-posts = site.posts | where: "categories", "post.categories" %}
+  
+  {% for post in sorted-posts reversed limit: infinite %}
+  {% assign sorted-posts = site.posts | where: "categories", "post.categories" %}
+  <div class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+  {% endfor %}
+	
+	
 
 
 <!-- next -->

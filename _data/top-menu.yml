@@ -1,11 +1,8 @@
 docs_list_title: top-menu
 docs:
 
-- title: updates
-  url: /
-
 - title: categories
   url: /categories
 
-- title: RSS
-  url: /feed.xml
+- title: updates
+  url: /

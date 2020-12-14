@@ -29,5 +29,5 @@ Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <span class
   
   {% for post in sorted-posts reversed limit: infinite %}
   {% assign sorted-posts = site.posts | where: "categories","Autodoll Dreams in a Decaying World" %}
-  <div class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
   {% endfor %}
