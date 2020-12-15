@@ -2,14 +2,31 @@
 
 <section id="bottom-menu" class="inner-bottom-menu">
 
-<div class="inner-bottom-column count-2">  
-  {% for item in site.data.bottom-menu.docs %}
+<div class="inner-bottom-column count-3">  
+  {% for item in site.data.bottom-menu1.docs %}
   <a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
   {% endfor %}
-  <a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a>
 </div>
 
-<div class="inner-bottom-column count-2">
+<div class="inner-bottom-column count-3">  
+  {% for item in site.data.bottom-menu2.docs %}
+  <a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+  {% endfor %}
+  
+  <a href="{{ "/feed.xml" | relative_url }}">
+  <img class="svg-icon" scr="{{'src/icons/rss/rss.svg' | relative_url }}" />
+  <span>RSS</span></a>
+  
+  {%- if site.twitter_username -%}
+  <a style="text-transform: none;" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+  <img class="svg-icon" scr="{{ "src/icons/icon-twitter.svg" | relative_url }}" />
+  <span>{{ site.twitter_username| escape }}</span>
+  </a>
+  {% endif %}
+  
+</div>
+
+<div class="inner-bottom-column count-3">
 <a style="pointer-events: none; text-transform: none;">Last update on website: {{ "now" | date: "%Y-%m-%d %H:%M" }} UTC</a>
 </div>
 
