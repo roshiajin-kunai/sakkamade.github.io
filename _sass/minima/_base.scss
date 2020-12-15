@@ -153,6 +153,7 @@ blockquote {
   color: $base-gray;
   margin: 1.6em 0;
   text-align: justify;
+  word-break: break-word;
   
   > p, a {
     color: $base-gray;
