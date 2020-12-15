@@ -149,10 +149,13 @@ h1, h2, h3, h4, h5, h6 {
  */
 blockquote {
   border-left: 3px solid $grey-color-light;
-  padding-left: 20px;
+  padding: .6em 30px;
+  color: $base-gray;
+  margin: 1.6em 0;
+  text-align: justify;
   
-  > p {
-    color: $grey-color;
+  > p, a {
+    color: $base-gray;
   }
 
   > :last-child {

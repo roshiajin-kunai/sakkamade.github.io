@@ -18,6 +18,8 @@ title: Categories
 {% assign cats_list = nil %}
 </ul>
 
+<br><br><hr>
+
 {% for tag in site.categories %} 
 <h3 class="post-link with-indent" id="{{ tag[0] }}">
 <a href="/categories/{{ tag[0] | slugify }}">{{ tag[0] }}</a>

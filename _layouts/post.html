@@ -16,6 +16,9 @@ layout: default
 </div>
 
 <div class="only-main">
+  {%- if page.main-title -%}
+  <h1 class="post-title main-title">{{ page.main-title | escape }}</h1>
+  {% else %}
   <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories | sort %}
@@ -27,6 +30,7 @@ layout: default
     {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
   {% endfor %}
   </div>
+  {% endif %}
   <header>
     <h3 class="post-title">{{ page.title | escape }}</h3>
     <p class="post-meta">
@@ -55,6 +59,9 @@ layout: default
 
 
   <div class="post-content">
+  {% if page.note %}
+  <blockquote>{{ page.note }}</blockquote>
+  {% endif %}
   
     {{ content }}
 	
