@@ -154,8 +154,10 @@ blockquote {
   margin: 1.6em 0;
   text-align: justify;
   word-break: break-word;
+  font-size: 17px;
   
   > p, a {
+  font-size: 17px;
     color: $base-gray;
   }
 

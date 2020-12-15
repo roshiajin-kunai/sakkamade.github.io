@@ -63,6 +63,10 @@ layout: default
   <blockquote>{{ page.note }}</blockquote>
   {% endif %}
   
+  {% if page.chapter-link %}
+  <blockquote><a href="{{ page.chapter-link }}" target="_blank">{{ page.chapter-link }}</a></blockquote>
+  {% endif %}
+  
     {{ content }}
 	
   </div>  

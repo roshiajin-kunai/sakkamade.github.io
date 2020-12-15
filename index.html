@@ -48,6 +48,9 @@ layout: home
 		  <!-- <p><a href="{{ post.url | relative_url }}">Read more</a></p> -->
 		  {% else %}
 		  <blockquote>{{  post.note }}</blockquote>
+		  {% if post.chapter-link %}
+		  <blockquote><a href="{{ post.chapter-link }}" target="_blank">{{ post.chapter-link }}</a></blockquote>
+		  {% endif %}
 		  {% else %}
 		  {{  post.content | strip_html | truncatewords: 50 }}
 		  {% endif %}
