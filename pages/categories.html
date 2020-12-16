@@ -4,6 +4,7 @@ permalink: /categories
 title: Categories
 ---
 
+  
 <ul id="tags-list">
 {% assign cats_list = site.categories %}  
   {% if cats_list.first[0] == null %}
@@ -40,9 +41,11 @@ title: Categories
 			 {% endfor %}<span class="category-post-date">
 		  {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
 		  {{ post.date | date: date_format }}
-		  </a></div></li>
+		  </a>
+		  </div></li>
     {% endfor %}
     {% assign pages_list = nil %}
     {% assign group = nil %}
   </ul>
+  <br><br><hr>
 {% endfor %}
