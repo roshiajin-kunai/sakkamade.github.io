@@ -21,9 +21,9 @@ title: Categories
 <br><br><hr>
 
 {% for tag in site.categories %} 
-<h3 class="post-link with-indent" id="{{ tag[0] }}">
+<h4 class="post-link with-indent" id="{{ tag[0] }}">
 <a href="/categories/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-</h3>
+</h4>
   <ul id="full-cat-list">
     {% assign pages_list = tag[1] %}  
     {% for post in pages_list %}

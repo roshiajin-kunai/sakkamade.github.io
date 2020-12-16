@@ -14,13 +14,17 @@
   {% endfor %}
   
   <a href="{{ "/feed.xml" | relative_url }}">
-  <img class="svg-icon" scr="{{'src/icons/rss/rss.svg' | relative_url }}" />
+  <svg class="svg-icon"> 
+  <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+  </svg> 
   <span>RSS</span></a>
   
   {%- if site.twitter_username -%}
   <a style="text-transform: none;" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
-  <img class="svg-icon" scr="{{ "src/icons/icon-twitter.svg" | relative_url }}" />
-  <span>{{ site.twitter_username| escape }}</span>
+  <svg class="svg-icon"> 
+  <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+  </svg> 
+  <span>@{{ site.twitter_username| escape }}</span>
   </a>
   {% endif %}
   

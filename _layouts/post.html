@@ -18,18 +18,6 @@ layout: default
 <div class="only-main">
   {%- if page.main-title -%}
   <h1 class="post-title main-title">{{ page.main-title | escape }}</h1>
-  {% else %}
-  <div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories | sort %}
-  {% else %}
-    {% assign categories = page.categories | sort %}
-  {% endif %}
-    {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/{{category|slugify}}">{{category}}</a>
-    {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-  {% endfor %}
-  </div>
   {% endif %}
   <header>
     <h3 class="post-title">{{ page.title | escape }}</h3>
@@ -85,7 +73,7 @@ layout: default
   {% endfor %}  
   </p>
 		     <!-- tags -->
-			 <p class="post-meta"><span>Labels: </span>
+			 <p style="margin-top: -10px;" class="post-meta"><span>Labels: </span>
 			 {% if post %}
 		   	   {% assign tags = post.tags | sort %}
 			 {% else %}
@@ -108,7 +96,7 @@ layout: default
   {% endfor %}  
 <ul id="tags-list">	 
 {% for category in page.categories %}
-  {% for post in site.categories[category] %}
+  {% for post in site.categories[category] reversed %}
       <li title="{{ post.title }}"><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
 	  <span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
   {% endfor %}
