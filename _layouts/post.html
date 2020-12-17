@@ -54,7 +54,7 @@ layout: default
   {% endif %}
   
   {% if page.chapter-link %}
-  <blockquote><a href="{{ page.chapter-link }}" target="_blank">{{ page.chapter-link }}</a></blockquote>
+  <blockquote><a href="{{ page.chapter-link }}" target="_blank">{{ page.chapter-link | strip_html | truncate: 40 }}</a></blockquote>
   {% endif %}
   
     {{ content }}
