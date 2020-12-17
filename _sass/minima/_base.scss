@@ -22,6 +22,7 @@ p {
 sup { padding: 0px 2px; margin-top: 60px !important; vertical-align: top; position: relative; top: -0.5em; }
 
 h1, h2, h3, h4, h5, h6, {
+  font-family: "Playfair Display";
 }
 ::selection {
   background: hsla(218, 37%, 90%, 0.8); /* $lighter-blue; */
@@ -153,7 +154,7 @@ blockquote {
   color: $base-gray;
   margin: 1.6em 0;
   text-align: justify;
-  word-break: break-word;
+  word-break: break-all;
   font-size: 17px;
   
   > p, a {

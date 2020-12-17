@@ -606,7 +606,7 @@ i.button-arrow-up {
 
 @keyframes fade {
   from {opacity: 0;}
-  to {opacity: 0.5;}
+  to {opacity: 0.4;}
 }
 
 #scroll-btn {
@@ -615,16 +615,17 @@ i.button-arrow-up {
   animation: fade 1s 1;
   position: fixed;
   bottom: 20px;
-  right: 5%;
+  right: 3%;
   z-index: 9;
   font-size: 18px;
   outline: none;
   background-color: $white;
   cursor: pointer;
-  padding: 17px 22px;
-  border-radius: 40%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   border: 1px solid $tag-gray;
-  opacity: .5 !important;
+  opacity: .4 !important;
 }
 
 #scroll-btn:hover {
