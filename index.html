@@ -20,7 +20,7 @@ layout: home
 		{% endfor %}
 		</div>
         <!-- title -->
-        <h3 class="post-link no-margin"><a style="display: inline-block; margin-bottom: 3px;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
+        <h3 class="post-link no-margin" style="margin-top: -3px;"><a style="display: inline-block; margin-bottom: 5px;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
           <p class="post-meta">
 		  <time>
 		  {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}

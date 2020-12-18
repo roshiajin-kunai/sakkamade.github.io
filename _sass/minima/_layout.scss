@@ -106,7 +106,7 @@
 #site-title { 
   text-decoration: none;
   margin-left: 7%;
-  margin-top: 129px;
+  margin-top: 135px;
 }
 #site-under-title { 
   margin-left: 7%;
@@ -120,9 +120,10 @@
 .inner-top-menu {
     line-height: 50px;
     background-color: $light-blue; /* hsl(219, 25%, 75%); #b0bbd0; */
-    font-weight: bold;
     text-align: center;
     cursor: default;
+    font-family: 'Cormorant SC Bold';
+	font-size: 20px;
 }
 .inner-top-menu a {
     text-align: center;
@@ -410,6 +411,8 @@ span.small { font-size:14px !important; opacity:.5 !important; }
   text-align: center;
   background-color: $very-light-gray;
   position: relative; 
+  font-family: 'Cormorant Garamond Medium';
+  font-size: 1.2em;
   /*white-space: nowrap; 
   overflow: hidden;*/
 }
@@ -533,7 +536,6 @@ border-top-color: black !important;
 }
 
 
-h3.post-link { line-height: 1em; }
 .post-link a {
   transition: .1s;
   color: $dark-blue; 
@@ -678,5 +680,13 @@ details #tags-list {
 
 @font-face {
   font-family: 'Cormorant Garamond Medium';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Medium.ttf);
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Medium.woff);
+}
+@font-face {
+  font-family: 'Cormorant Infant Italic';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantInfant-MediumItalic.woff);
+}
+@font-face {
+  font-family: 'Cormorant SC Bold';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Bold.woff);
 }
