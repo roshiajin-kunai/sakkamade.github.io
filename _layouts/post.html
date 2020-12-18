@@ -110,17 +110,6 @@ layout: default
 
 
 
-
-  {% assign sorted-posts = site.posts | where: "categories", "post.categories" %}
-  
-  {% for post in sorted-posts reversed limit: infinite %}
-  {% assign sorted-posts = site.posts | where: "categories", "post.categories" %}
-  <div class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 9 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
-  {% endfor %}
-	
-	
-
-
 <!-- next -->
   <div class="only-main-top">
     {% if page.next.url %}
