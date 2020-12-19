@@ -7,7 +7,7 @@
 			 {% assign tags = page.tags | sort %}
 			 {% endif %}
 			 {% for tag in tags %}
-			 <span class="tag">{{tag}}</span>
+			 <span class="tag" style="opacity: .7;">{{tag}}</span>
 			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span>
 </a>
