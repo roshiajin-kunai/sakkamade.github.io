@@ -223,6 +223,7 @@
 }
 .only-main {
   flex: 100%;
+  padding: 20px 0;
   margin: 20px 100px;
   margin-top: 0;
   max-width: 800px;
@@ -329,7 +330,7 @@
   margin: 20px 0 20px 0;
   padding-bottom: 10px;
   border-bottom: 1px solid $background-gray;
-  font-family: 'Times New Roman', 'Source Han Code JP N';
+  font-family: 'Times New Roman', 'Source Han Serif JP Medium';
   line-height: 1.6em;
 }
 .side-in a {
@@ -427,15 +428,16 @@ span.small { font-size:14px !important; opacity:.5 !important; }
   font-family: 'Cormorant Garamond';
   font-weight: 400;
   font-size: 1.3em;
-  /*white-space: nowrap; 
-  overflow: hidden;*/
+  /* white-space: nowrap; 
+  overflow: hidden; */
 }
 .switch-post a { 
   line-height: 50px;
   padding: 0 7%;
   display: block;
   color: $base-gray; 
-  text-decoration: none; 
+  text-decoration: none;
+  transition: 0s;
 }
 .switch-post a:hover, .switch-post a:focus { 
   color: $almost-black; 
@@ -455,21 +457,21 @@ span.small { font-size:14px !important; opacity:.5 !important; }
 }
 
 .previous-post {
-  border-bottom: 1px solid $light-gray;
+  border-bottom: 1px solid $background-gray;
   top:-40px;
   margin-bottom: -30px;
 }
-.previous-post:hover, .previous-post:focus { border-bottom: 1px solid $background-gray; 
+.previous-post:hover, .previous-post:focus { /* border-bottom: 1px solid $background-gray;  */
 }
 .next-post { 
-  border-top: 1px solid $light-gray;
+  border-top: 1px solid $background-gray;
   bottom: -40px; 
   margin-top: -30px;
 }
 .next-post a {
   color: $not-black;
 }
-.next-post:hover, .next-post:focus { border-top: 1px solid $background-gray;
+.next-post:hover, .next-post:focus { /* border-top: 1px solid $background-gray; */
 }
 a.bigger { font-size: 20px !important; 
 }
@@ -580,10 +582,11 @@ border-top-color: black !important;
 }
 .post-title {
   line-height: $small-line-height;
+  margin-bottom: .2em;
 }
 .main-title {
   text-align: center;
-  margin: 1.3em 0;
+  margin: .65em 0 1.3em 0;
   line-height: 1.2em;
 }
 .post-content {
@@ -629,10 +632,9 @@ i.button-arrow-up {
   to {opacity: 0.4;}
 }
 
-#scroll-btn {
+.scroll-btn {
   visibility: hidden;
   display: none;
-  animation: fade 1s 1;
   position: fixed;
   bottom: 20px;
   right: 3%;
@@ -646,11 +648,17 @@ i.button-arrow-up {
   border-radius: 50%;
   border: 1px solid $tag-gray;
   opacity: .4 !important;
+  will-change: transform;
+  transition: transform 0.25s ease-in-out;
 }
-
-#scroll-btn:hover {
+.scroll-btn:hover {
   background: $light-gray;
 }
+.btn-unpin {transform: translateX(100px);
+}
+.btn-pin {transform: translateX(0px);
+}
+
 
 details > summary.toc-details {
   padding: 0 10px;
@@ -688,57 +696,52 @@ details #tags-list {
 
 
 @font-face {
-  font-family: 'Source Han Code JP N';
-  src: url(https://sakkamade.github.io/src/fnt/source-han-code-jp/SourceHanCodeJP-Normal.ttf);
-}
-@font-face {
-  font-family: 'Source Han Code JP N';
-  src: url(https://sakkamade.github.io/src/fnt/source-han-code-jp/SourceHanCodeJP-Normal-Italic.ttf);
-  font-style: italic;
+  font-family: 'Source Han Serif JP Medium';
+  src: url(/src/fnt/source-han-serif-jp/SourceHanSerifJP-Medium.woff);
 }
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Regular.woff);
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Regular.woff);
   font-weight: 300;
 }
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Italic.woff);
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Italic.woff);
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Medium.woff);
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Medium.woff);
   font-weight: 400;
 }
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-MediumItalic.woff);
+  src: url(/src/fnt/Cormorant/CormorantGaramond-MediumItalic.woff);
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-SemiBold.woff);
+  src: url(/src/fnt/Cormorant/CormorantGaramond-SemiBold.woff);
   font-weight: 500;
 }
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Bold.woff);
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Bold.woff);
   font-weight: bold;
 }
 
 
 @font-face {
   font-family: 'Cormorant Infant';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantInfant-Medium.woff);
+  src: url(/src/fnt/Cormorant/CormorantInfant-Medium.woff);
   font-weight: 400;
 }
 @font-face {
   font-family: 'Cormorant Infant';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantInfant-MediumItalic.woff);
+  src: url(/src/fnt/Cormorant/CormorantInfant-MediumItalic.woff);
   font-weight: 400;
   font-style: italic;
 }
@@ -747,33 +750,33 @@ details #tags-list {
 
 @font-face {
   font-family: 'Cormorant SC';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Regular.woff);
+  src: url(/src/fnt/Cormorant/CormorantSC-Regular.woff);
   font-weight: 300;
 }
 @font-face {
   font-family: 'Cormorant SC';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Medium.woff);
+  src: url(/src/fnt/Cormorant/CormorantSC-Medium.woff);
   font-weight: 400;
 }
 @font-face {
   font-family: 'Cormorant SC';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-SemiBold.woff);
+  src: url(/src/fnt/Cormorant/CormorantSC-SemiBold.woff);
   font-weight: 500;
 }
 @font-face {
   font-family: 'Cormorant SC';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Bold.woff);
+  src: url(/src/fnt/Cormorant/CormorantSC-Bold.woff);
   font-weight: bold;
 }
 
 
 @font-face {
   font-family: 'Cormorant Upright';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantUpright-Medium.woff);
+  src: url(/src/fnt/Cormorant/CormorantUpright-Medium.woff);
   font-weight: 400;
 }
 @font-face {
   font-family: 'Cormorant Upright';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantUpright-SemiBold.woff);
+  src: url(/src/fnt/Cormorant/CormorantUpright-SemiBold.woff);
   font-weight: 500;
 }
