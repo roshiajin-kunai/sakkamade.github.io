@@ -122,8 +122,9 @@
     background-color: $light-blue; /* hsl(219, 25%, 75%); #b0bbd0; */
     text-align: center;
     cursor: default;
-    font-family: 'Cormorant SC Bold';
-	font-size: 20px;
+    font-family: 'Cormorant SC';
+	font-weight: bold;
+	font-size: 22px;
 }
 .inner-top-menu a {
     text-align: center;
@@ -360,6 +361,10 @@
   text-decoration: none;
 }
 .toc a:hover { background-color: $light-gray !important; }
+.toc a {
+  border-top: 1px solid $light-gray; 
+  margin-top: -1px;
+}
 .toc:nth-child(even) a {
   background-color: $very-light-gray;
 }
@@ -411,8 +416,9 @@ span.small { font-size:14px !important; opacity:.5 !important; }
   text-align: center;
   background-color: $very-light-gray;
   position: relative; 
-  font-family: 'Cormorant Garamond Medium';
-  font-size: 1.2em;
+  font-family: 'Cormorant Garamond';
+  font-weight: 400;
+  font-size: 1.3em;
   /*white-space: nowrap; 
   overflow: hidden;*/
 }
@@ -424,7 +430,7 @@ span.small { font-size:14px !important; opacity:.5 !important; }
   text-decoration: none; 
 }
 .switch-post a:hover, .switch-post a:focus { 
-  color: hsla(0,0%,0%,0.6); 
+  color: $almost-black; 
   background-color: $light-gray;
 }
 .switch-off { 
@@ -649,7 +655,7 @@ details > summary.toc-details {
   white-space: nowrap;
   font-style: italic;
 }
-details > summary.toc-details:hover {
+details > summary.toc-details:hover, details:hover summary.toc-details {
   background: $light-gray;
   color: $not-black;
 }
@@ -669,7 +675,6 @@ details #tags-list {
 @font-face {
   font-family: 'Source Han Code JP N';
   src: url(https://sakkamade.github.io/src/fnt/source-han-code-jp/SourceHanCodeJP-Normal.ttf);
-  font-style: normal;
 }
 @font-face {
   font-family: 'Source Han Code JP N';
@@ -677,16 +682,72 @@ details #tags-list {
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Regular.woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Italic.woff);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Medium.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-MediumItalic.woff);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-SemiBold.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Bold.woff);
+  font-weight: bold;
+}
+
 
 @font-face {
-  font-family: 'Cormorant Garamond Medium';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantGaramond-Medium.woff);
+  font-family: 'Cormorant Infant';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantInfant-Medium.woff);
+  font-weight: 400;
 }
 @font-face {
-  font-family: 'Cormorant Infant Italic';
+  font-family: 'Cormorant Infant';
   src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantInfant-MediumItalic.woff);
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Bold.woff);
+  font-weight: bold;
 }
 @font-face {
-  font-family: 'Cormorant SC Bold';
-  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Bold.woff);
+  font-family: 'Cormorant SC';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Medium.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantSC-Regular.woff);
+  font-weight: 300;
+}
+
+
+@font-face {
+  font-family: 'Cormorant Upright Medium';
+  src: url(https://sakkamade.github.io/src/fnt/Cormorant/CormorantUpright-Medium.woff);
 }

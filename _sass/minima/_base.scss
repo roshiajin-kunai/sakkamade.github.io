@@ -36,7 +36,8 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6, {
-  font-family: 'Cormorant Garamond Medium';
+  font-family: 'Cormorant Garamond';
+  font-weight: 400;
   line-height: 1.2em;
 }
 h1 {
@@ -136,27 +137,18 @@ li {
   }
 }
 
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-}
-
-
 /**
  * Blockquotes
  */
 blockquote {
-  border-left: 3px solid $grey-color-light;
+  border-left: 4px solid $grey-color-light;
   padding: .6em 5%;
   color: $base-gray;
   margin: 1.6em 0;
   text-align: justify;
   word-break: break-word;
   font-size: 17px;
+  background-color: $very-light-gray;
   
   > p, a {
   font-size: 17px;

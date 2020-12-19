@@ -1,0 +1,14 @@
+---
+layout: columns-all-cats
+permalink: /search
+title: Search
+---
+
+
+  {% assign sorted-posts = site.posts %}
+  
+  {% for post in sorted-posts %}
+  {% assign sorted-posts = site.posts %}
+  <li title="{{ post.title }}"><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
+  {% endfor %}
+  
