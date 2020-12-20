@@ -6,12 +6,13 @@ $base-font-family: "Times New Roman", Times, serif, 'Noto Serif CJK JP Regular',
 $base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.6em !default;
 
-$normal-line-height:    1.65em !default;
+$normal-line-height:    1.6em !default;
 $small-line-height:     1.4em !default;
+$base-line-height:      1em   !default;
 
-$spacing-unit:     30px !default;
+$base-unit:        20px !default;
+$base-cents:       7%   !default;
 
 $lighter-blue:     #dce3ef !default;
 $light-blue:       #afbbcf !default;

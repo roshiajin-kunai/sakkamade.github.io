@@ -18,10 +18,20 @@ layout: default
 <div class="only-main">
   {%- if page.main-title -%}
   <h1 class="post-title main-title">{{ page.main-title }}</h1>
+  {% else %}
+  <div style="height: 20px;"> </div> <!-- $base-unit -->
   {% endif %}
-  <!-- title -->
-  <header>
-    <h3 class="post-title">{{ page.title | escape }}</h3>    
+  <header class="post-header">
+    <h3 class="post-title">{{ page.title | escape }}</h3>
+    <p class="post-meta">
+	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
+        {{ page.date | date: date_format }}
+      </time>
+	 </p>
+      {%- if page.updated -%}
+	 <p class="post-meta">Last Updated: {{ page.updated | date: date_format }}</p>
+	 {%- endif -%}
   </header>
 
 
@@ -51,58 +61,49 @@ layout: default
     {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
   {% endfor %}  
   </p>
-		     <!-- tags -->
-			 <p style="margin-top: -10px;" class="post-meta"><span>Labels: </span>
-			 {% if post %}
-		   	   {% assign tags = post.tags | sort %}
-			 {% else %}
-			   {% assign tags = page.tags | sort %}
-		   	 {% endif %}
-			   {% for tag in tags %}
-			 <a class="tag" href="{{site.baseurl}}/labels/{{ tag | slugify }}">{{tag}}</a>
-			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-			 {% endfor %}
-			 </p>
+  
+  <!-- tags -->
+  <p style="margin-top: -10px;" class="post-meta"><span>Labels: </span>
+  {% if post %}
+  {% assign tags = post.tags | sort %}
+  {% else %}
+  {% assign tags = page.tags | sort %}
+  {% endif %}
+  {% for tag in tags %}
+  <a class="tag" href="{{site.baseurl}}/labels/{{ tag | slugify }}">{{tag}}</a>
+  {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+  {% endfor %}
+  </p>     
+  
+  {%- if page.author -%}
+  <p style="margin-top: -10px;" class="post-meta"><span>Posted by: </span>
+  <span class="no-cap">{{ page.author }}</span> 
+  </p>
+  {%- endif -%}
 			 
 			 
-			 
-			 <p class="post-meta" style="margin-top: -10px;">
-	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-	  ・ <span class="no-cap">{{ page.author }}</span>
-      {%- endif -%}
-	 </p>
-      {%- if page.updated -%}
-	 <p style="margin-top: -10px;" class="post-meta">Last Updated: {{ page.updated | date: date_format }}</p>
-	 {%- endif -%}
-			 
-			 
-			 
-{% if post %}
+  {% if post %}
     {% assign categories = post.categories %}
   {% else %}
     {% assign categories = page.categories %}
   {% endif %}
     {% for category in categories %}
-<details><summary class="toc-details">{{category}}</summary>
-  {% endfor %}  
-<ul id="tags-list">	 
-{% for category in page.categories %}
-  {% for post in site.categories[category] reversed %}
+  <details><summary class="toc-details">{{category}}</summary>
+    {% endfor %}  
+  <ul id="tags-list">	 
+  {% for category in page.categories %}
+    {% for post in site.categories[category] reversed %}
       <li title="{{ post.title }}"><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
 	  <span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
+    {% endfor %}
   {% endfor %}
-{% endfor %}
-</ul>
-</details>
-</div>
+  </ul>
+  </details>
+  </div>
 
 
 
-<!-- next -->
+  <!-- next -->
   <div class="only-main-top">
     {% if page.next.url %}
     <section class="switch-post next-post">

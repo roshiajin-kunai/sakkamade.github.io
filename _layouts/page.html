@@ -2,9 +2,7 @@
 layout: default
 ---
 <div class="only-main">
-  <header>
-    <h2 class="post-title" style="margin-bottom: -20px;">{{ page.title | escape | default: "&nbsp;" }}</h2>
-  </header>
+    <h2 class="post-title">{{ page.title | escape | default: "&nbsp;" }}</h2>
   
   <div class="post-content">
     {{ content }}
