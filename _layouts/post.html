@@ -19,30 +19,9 @@ layout: default
   {%- if page.main-title -%}
   <h1 class="post-title main-title">{{ page.main-title }}</h1>
   {% endif %}
+  <!-- title -->
   <header>
-    <h3 class="post-title">{{ page.title | escape }}</h3>
-    <p class="post-meta">
-	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-	  ・ <span class="no-cap">{{ page.author }}</span> ・ 
-      {%- endif -%}
-		     <!-- tags -->
-			 {% if post %}
-		   	   {% assign tags = post.tags | sort %}
-			 {% else %}
-			   {% assign tags = page.tags | sort %}
-		   	 {% endif %}
-			   {% for tag in tags %}
-			 <a class="tag" href="{{site.baseurl}}/labels/{{ tag | slugify }}">{{tag}}</a>
-			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-			 {% endfor %}
-	 </p>
-      {%- if page.updated -%}
-	 <p style="margin-top: -10px;" class="post-meta">Last Updated: {{ page.updated | date: date_format }}</p>
-	 {%- endif -%}
+    <h3 class="post-title">{{ page.title | escape }}</h3>    
   </header>
 
 
@@ -84,6 +63,22 @@ layout: default
 			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 			 </p>
+			 
+			 
+			 
+			 <p class="post-meta" style="margin-top: -10px;">
+	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+	  ・ <span class="no-cap">{{ page.author }}</span>
+      {%- endif -%}
+	 </p>
+      {%- if page.updated -%}
+	 <p style="margin-top: -10px;" class="post-meta">Last Updated: {{ page.updated | date: date_format }}</p>
+	 {%- endif -%}
+			 
 			 
 			 
 {% if post %}
