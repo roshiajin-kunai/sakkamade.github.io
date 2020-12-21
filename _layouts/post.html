@@ -16,23 +16,32 @@ layout: default
 </div>
 
 <div class="only-main">
+
+
   {%- if page.main-title -%}
   <h1 class="post-title main-title">{{ page.main-title }}</h1>
   {% else %}
-  <div style="height: 20px;"> </div> <!-- $base-unit -->
+  <div style="height: 20px;"><!-- $base-unit --></div> 
   {% endif %}
+  
+  
+  
+  <!-- top information -->
   <header class="post-header">
     <h3 class="post-title">{{ page.title | escape }}</h3>
-    <p class="post-meta">
+    <p class="post-meta" style="text-align: right !important;">
 	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
         {{ page.date | date: date_format }}
-      </time>
-	 </p>
-      {%- if page.updated -%}
-	 <p class="post-meta">Last Updated: {{ page.updated | date: date_format }}</p>
+      </time>	  
+	 </p>	 
+	 
+     {%- if page.updated -%}
+	 <p class="post-meta" style="text-align: right !important;"><span>Last Update:</span>&nbsp;<time>{{ page.updated | date: date_format }}</time></p>
 	 {%- endif -%}
   </header>
+  <!-- end top information -->
+
 
 
   <div class="post-content">
@@ -50,37 +59,44 @@ layout: default
 
   <hr>
   
-  <p class="post-meta meta-categories no-cap"><span>Category: </span>
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-    {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/{{category|slugify}}">{{category}}</a>
-    {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-  {% endfor %}  
-  </p>
   
-  <!-- tags -->
-  <p style="margin-top: -10px;" class="post-meta"><span>Labels: </span>
-  {% if post %}
-  {% assign tags = post.tags | sort %}
-  {% else %}
-  {% assign tags = page.tags | sort %}
-  {% endif %}
-  {% for tag in tags %}
-  <a class="tag" href="{{site.baseurl}}/labels/{{ tag | slugify }}">{{tag}}</a>
-  {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-  {% endfor %}
-  </p>     
   
-  {%- if page.author -%}
-  <p style="margin-top: -10px;" class="post-meta"><span>Posted by: </span>
-  <span class="no-cap">{{ page.author }}</span> 
-  </p>
-  {%- endif -%}
-			 
+  <!-- bottom information -->
+  <header class="post-header">
+    <p class="post-meta meta-categories no-cap"><span>Category: </span>
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
+      {% for category in categories %}
+    <a href="{{site.baseurl}}/categories/{{category|slugify}}">{{category}}</a>
+      {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+    {% endfor %}  
+    </p>
+  
+    <!-- tags -->
+    <p class="post-meta"><span>Labels: </span>
+    {% if post %}
+      {% assign tags = post.tags | sort %}
+    {% else %}
+      {% assign tags = page.tags | sort %}
+    {% endif %}
+      {% for tag in tags %}
+    <a class="tag" href="{{site.baseurl}}/labels/{{ tag | slugify }}">{{tag}}</a>
+      {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+    {% endfor %}
+    </p>
+  
+    {%- if page.author -%}
+    <p class="post-meta"><span>Posted by: </span>
+    <span class="no-cap">{{ page.author }}</span> 
+    </p>
+    {%- endif -%}
+  </header>		 
+  <!-- end bottom information --> 
+  
+  
 			 
   {% if post %}
     {% assign categories = post.categories %}
