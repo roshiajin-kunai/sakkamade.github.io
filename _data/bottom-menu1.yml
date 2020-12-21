@@ -4,8 +4,8 @@ docs:
 - title: updates
   url: /
 
-- title: categories
-  url: /categories
+- title: labels
+  url: /labels
 
 - title: about me
   url: /about

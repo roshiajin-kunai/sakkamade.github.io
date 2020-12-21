@@ -37,7 +37,7 @@ layout: home
 			 {% assign tags = page.tags | sort %}
 			 {% endif %}
 			 {% for tag in tags %}
-			 <a class="tag" href="{{site.baseurl}}/labels/#{{ tag }}">{{tag}}</a>
+			 <a class="tag" href="{{site.baseurl}}/labels#{{ tag }}">{{tag}}</a>
 			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 		  </p>

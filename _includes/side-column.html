@@ -13,7 +13,7 @@
   <h5 class="side-head">Labels Cloud</h5>
     {% assign tags = site.tags | sort %}
 	{% for tag in tags %}
-	<span class="side-in"><a href="/labels/#{{ tag | first }}">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>&nbsp;</span>
+	<span class="side-in"><a href="/labels#{{ tag | first }}">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>&nbsp;</span>
 	{% endfor %}
   </div>
   
