@@ -8,7 +8,6 @@ categories:
  - Information
 tags:
  - blog
- - yuri
 ---
 
 Hello. This is the first actual post on my  website powered by *GitHub*. I'm Sakkani, the one who established group *sakkamade*.
