@@ -8,11 +8,11 @@ title: Labels
 {% assign cats_list = site.tags %}  
   {% if cats_list.first[0] == null %}
     {% for cat in cats_list reversed %} 
-      <a class="tag" href="#{{ cat }}">{{ cat }} <span>{{ site.cats[cat].size }}</span></a>
+      <a class="tag" href="#{{ cat }}">{{ cat }}</a>
     {% endfor %}
   {% else %}
     {% for cat in cats_list %} 
-      <a class="tag" href="#{{ cat[0] }}">{{ cat[0] }} (<span>{{ cat[1].size }}</span>)</a>
+      <a class="tag" href="#{{ cat[0] }}">{{ cat[0] }}</a>
     {% endfor %}
   {% endif %}
 {% assign cats_list = nil %}

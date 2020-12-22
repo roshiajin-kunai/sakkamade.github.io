@@ -45,12 +45,21 @@ layout: default
 
 
   <div class="post-content">
-  {% if page.note %}
-  <blockquote>{{ page.note }}</blockquote>
-  {% endif %}
   
-  {% if page.chapter-link %}
-  <blockquote><a href="{{ page.chapter-link }}" target="_blank">{{ page.chapter-link | strip_html | truncate: 40 }}</a></blockquote>
+  {% if page.note or page.chapter-link %}
+    <blockquote>  
+	
+      {% if page.note %}
+        {{ page.note }}<br><br>
+      {% endif %}
+  
+      {% if page.chapter-link %}
+        <a href="{{ page.chapter-link }}" target="_blank">
+        {{ page.chapter-link | strip_html | truncate: 40 }}
+        </a>
+      {% endif %}
+	  
+  </blockquote>  
   {% endif %}
   
     {{ content }}
