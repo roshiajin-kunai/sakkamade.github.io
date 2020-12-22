@@ -46,12 +46,7 @@ layout: home
 		  {% if post.note %}
 		  <blockquote>{{  post.note }}</blockquote>		  
 		  {% else %}
-          {% if post.content contains site.excerpt_separator %}
-		  {{ post.excerpt }}
-		  {% endif %}
-		  <!-- <p><a href="{{ post.url | relative_url }}">Read more</a></p> -->
-		  {% else %}
-		  <p>{{  post.content | strip_html | truncatewords: 50 }}</p>
+		  <p>{{  post.content | strip_html | truncatewords: 35 }}</p>
 		  {% endif %}
 		  </div>
       </li>

@@ -4,12 +4,12 @@ title: About
 permalink: /about
 ---
 
-I create this website for publishing my translations of Japanese *webnovels*. 
+I create this website for publishing my translations of Japanese webnovels. 
 After a month at *WordPress* I decided to move to *GitHub*.
 
 <h4 class="with-indent"> Knowledge </h4>
 
-A year ago (mostly autumn of 2019) I was learning Japanese. Completed a first course (~350 pages) in  three months. Even though I forgot almost everything, with that piece of knowledge I was able to begin, somewhat. Yeah, I have a problems with my English either. However, that's the best I can do now without spending my time on studying English. It's not like I was ever learning it properly. Most of my knowledge are from subtitles of British and American movies, translated from Japanese  *manga* and *novels*. With a constant looking up for unknown words in dictionaries. 
+A year ago (mostly autumn of 2019) I was learning Japanese. Completed a first course (~350 pages) in  three months. Even though I forgot almost everything, with that piece of knowledge I was able to begin, somewhat. Yeah, I have a problems with my English either. However, that's the best I can do now without spending my time on studying English. It's not like I was ever learning it properly. Most of my knowledge are from subtitles of British and American movies, translated from Japanese  *manga* and novels. With a constant looking up for unknown words in dictionaries. 
 Even though I understand that's not sufficient, I don't have much of motivation to learn Japanese nor English, at present.
 
 

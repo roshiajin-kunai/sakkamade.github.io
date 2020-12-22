@@ -26,15 +26,17 @@ sup { padding: 0 0 0 2px; margin-top: 60px !important; vertical-align: top; posi
 .footnotes {
   border-top: 1px solid $grey-color-light;
   margin-top: $base-unit;
-  padding-top: $base-unit * 1.5;
+  padding-top: $base-unit;
   border-right: 4px solid $grey-color-light;
-  padding-bottom: $base-unit / 2;
-  margin-bottom: -$base-unit - 1px;
+  padding-bottom: $base-unit / 4;
+  background-color: $very-light-gray;
+  margin-bottom: 1.6em;
 }
 .footnotes ol {
   margin-right: $base-unit;
   margin-left: $base-unit * 2;
 }
+/* .reversefootnote { text-decoration: none; } */
 
 
 ::selection {
@@ -48,7 +50,7 @@ hr {
     margin: $base-unit 0;
     border: none;
     height: 1px;
-    background: $grey-color-light;
+    background: $background-gray;
 }
 
 h1, h2, h3, h4, h5, h6, {
