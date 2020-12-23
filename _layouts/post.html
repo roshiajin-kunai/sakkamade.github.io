@@ -74,9 +74,9 @@ layout: default
   <header class="post-header">
     <p class="post-meta meta-categories no-cap"><span>Category: </span>
     {% if post %}
-      {% assign categories = post.categories %}
+      {% assign categories = post.categories | sort %}
     {% else %}
-      {% assign categories = page.categories %}
+      {% assign categories = page.categories | sort %}
     {% endif %}
       {% for category in categories %}
     <a href="{{site.baseurl}}/categories/{{category|slugify}}">{{category}}</a>
@@ -108,18 +108,20 @@ layout: default
   
 			 
   {% if post %}
-    {% assign categories = post.categories %}
+    {% assign categories = post.categories | sort %}
   {% else %}
-    {% assign categories = page.categories %}
+    {% assign categories = page.categories | sort %}
   {% endif %}
     {% for category in categories %}
   <details><summary class="toc-details">{{category}}</summary>
     {% endfor %}  
   <ul id="tags-list">	 
   {% for category in page.categories %}
-    {% for post in site.categories[category] reversed %}
+  {% assign sotred_posts = site.categories[category] | sort %}
+    {% for post in sotred_posts %}
       <li title="{{ post.title }}"><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
-	  <span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
+	  <span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+	  </li>
     {% endfor %}
   {% endfor %}
   </ul>

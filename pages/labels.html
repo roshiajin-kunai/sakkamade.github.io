@@ -3,11 +3,10 @@ layout: columns-all-cats
 permalink: /labels
 title: Labels
 ---
-
 <p class="post-meta">
-{% assign cats_list = site.tags %}  
+{% assign cats_list = site.tags | sort %}  
   {% if cats_list.first[0] == null %}
-    {% for cat in cats_list reversed %} 
+    {% for cat in cats_list %} 
       <a class="tag" href="#{{ cat }}">{{ cat }}</a>
     {% endfor %}
   {% else %}
@@ -18,28 +17,36 @@ title: Labels
 {% assign cats_list = nil %}
 </p>
 
-<hr>
+<hr />
 
-{% for cat in site.tags %} 
-<h4 class="with-indent" id="{{ cat[0] }}">{{ cat[0] | capitalize }}</h4>
+{% assign sorted_tags = site.tags | sort %}
+{% for cat in sorted_tags %}
+<h4 class="with-indent" id="{{ cat[0] }}" style="text-transform: capitalize;">{{ cat[0] }}</h4>
   <ul id="full-cat-list">
     {% assign pages_list = cat[1] %}  
     {% for post in pages_list %}
-      <li><div class="toc"><a href="{{ site.url }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}<br>
+    <li>
+	  <div class="toc">
+	  <a href="{{ site.url }}{{ post.url }}">
+	  {{ post.title | strip_html | truncatewords: 12 }}<br>
+	  
 	  <!-- cats -->
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-    {% for category in categories %}
-  <span class="tag-category-title">"{{category | strip_html | truncatewords: 6}}"</span>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}<span class="category-post-date">
+      {% if post %}
+        {% assign categories = post.categories | sort %}
+      {% else %}
+        {% assign categories = page.categories | sort %}
+      {% endif %}
+        {% for category in categories %}
+      <span class="tag-category-title">"{{category | strip_html | truncatewords: 6}}"</span>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+  
+      <span class="category-post-date">
 		  {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
 		  {{ post.date | date: date_format }}
-		  </a>
-		  </div></li>
+	  </a>
+	  </div>
+	</li>
     {% endfor %}
     {% assign pages_list = nil %}
     {% assign group = nil %}
