@@ -45,9 +45,9 @@
 	.post-list-heading {
        margin-left: 7% !important;
 	}
-	#scroll-btn {
+	/* #scroll-btn {
 	   visibility: visible !important;
-	}
+	} */
 }
 @media screen and (max-width: 800px) {
     .side, .main, .only-main, .main-with-margin {
@@ -115,12 +115,9 @@
   list-style: none;
 
   > li {
-    /* padding-top: $base-unit; */
     margin-bottom: $base-unit * 2;
 	padding-bottom: $base-unit;
 	padding-left: ($base-unit * 5);
-	/*padding-right: 2%;
-	margin-right: -2%;*/
 	border-bottom: 1px solid $background-gray; 
   }
   
@@ -169,7 +166,7 @@
 }
 #site-title, #site-under-title {
   text-align: left;
-  text-shadow: -1px 0 2px $white, 0 -1px 2px $white, 1px 0 2px $white, 0 1px 2px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 10px $white, 0 0 10px $white, 0 0 15px $white, 0 0 15px $white, 0 0 15px $white, 0 0 15px $white, 0 0 15px $white, 0 0 15px $white, 0 0 15px $white;
+  text-shadow: 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 5px $white, 0 0 10px $white, 0 0 10px $white, 0 0 10px $white, 0 0 10px $white, 0 0 10px $white, 0 0 10px $white, 0 0 10px $white, 0 0 10px $white, 0 0 10px $white;
   position: absolute;
   z-index: 99;
   white-space: nowrap;
@@ -281,29 +278,34 @@
   font-style: normal;
   line-height: 33px;
   text-align: center;
+  font-size: 0; /* remove spacing */
 }
 .pagination a, .pagination span {
   /* box-shadow: 1px 1px $background-gray, -1px -1px $background-gray, 0 -1px $background-gray, -1px 0 $background-gray, 0 1px $background-gray, 1px 0 $background-gray, 1px -1px $background-gray, -1px 1px $background-gray; */
   text-decoration: none;
   padding: 2px 10px;
   min-width: ($base-unit * 2);
-  margin: 0 -3px;
   margin-top: -1px;
   color: $link-blue;
-  border: 1px solid $background-gray;
-  background-color: $white;
+  border: 1px solid $grey-color-light;
+  border-right: 1px solid $grey-color-light;
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
+  font-size: $base-font-size; /* return font only to links */
 }
 .pagination .page-active {
-  display: none;
+  color: $tag-gray;
+  cursor: default;
+  background-color: $light-gray;
 }
 .pagination a:last-child, .pagination span:last-child { 
-  border-radius: 0 2px 2px 0; 
+  border-radius: 0 2px 0 0;
+  border-right: 4px solid $grey-color-light;
 }
-.pagination a:first-child, .pagination span:first-child { 
+/* .pagination a:first-child, .pagination span:first-child { 
   border-radius: 2px 0 0 2px; 
-}
+} */
 .pagination .page-number-active {
   color: $tag-gray;
   cursor: default;
@@ -311,6 +313,7 @@
 }
 .pagination a:hover {
   color: $base-gray;
+  background-color: $very-light-gray;  
 }
 
 
@@ -367,10 +370,12 @@
   float:right;
   width: 100% !important;  
   text-decoration: none;
+  border-radius: 0 2px 0 0;
   border-right: 4px solid $grey-color-light;
 }
 .toc a:hover { background-color: $light-gray !important; }
 .toc a {
+  border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light; 
   margin-top: -1px;
 }
@@ -445,14 +450,14 @@ span.small { font-size:14px !important; opacity:.5 !important; }
 }
 .switch-off { 
   background: transparent !important; 
-  border-color:transparent !important; 
+  border-color: transparent !important; 
   pointer-events: none !important; 
-  -moz-user-select: none;
+          user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-drag: none;
   -webkit-user-drag: none;
-  user-drag: none;
   -webkit-touch-callout: none;
 }
 
@@ -539,19 +544,20 @@ border-top-color: black !important;
 }
 
 .tag {
+  border-radius: 0 2px 0 0;
+  border: 1px solid $grey-color-light;
+  border-right: 4px solid $grey-color-light;
   text-transform: capitalize;
-  border: 1px solid $tag-gray;
-  padding: 1px 4px;
-  border-radius: 2px;
+  padding: 1px 6px 1px 4px;
   margin: 0 2px;
   display: inline;
   color: $base-gray;
   white-space: nowrap;
   font-style: italic;
+  background: $very-light-gray;
 }
 
 .tag:hover {
-  background: $light-gray;
 }
 
 
@@ -621,8 +627,11 @@ i.button-arrow-up {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
-  transform: rotate(-135deg);
+          transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+     -moz-transform: rotate(-135deg);
+      -ms-transform: rotate(-135deg);
+       -o-transform: rotate(-135deg);
 }
 
 
@@ -632,7 +641,7 @@ i.button-arrow-up {
 }
 
 .scroll-btn {
-  visibility: hidden;
+  /* visibility: hidden; */
   display: none;
   position: fixed;
   bottom: $base-unit;
@@ -653,7 +662,7 @@ i.button-arrow-up {
 .scroll-btn:hover {
   background: $light-gray;
 }
-.btn-unpin {transform: translateX(100px);
+.btn-unpin {transform: translateX(120px);
 }
 .btn-pin {transform: translateX(0px);
 }
@@ -664,13 +673,14 @@ details > summary.toc-details {
   padding: 0 10px;
   cursor: pointer;
   transition: .3s;
-  -moz-user-select: none;
+          user-select: none;
+     -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+      -ms-user-select: none;
+          user-drag: none;
   -webkit-user-drag: none;
-  user-drag: none;
   -webkit-touch-callout: none;
+  border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light;
   border-right: 4px solid $grey-color-light;
   margin: ($normal-line-height) 0 0 0;
@@ -682,20 +692,35 @@ details > summary.toc-details:hover, details:hover summary.toc-details {
   background: $light-gray;
   color: $not-black;
 }
+details {
+  max-height: 200px + 36px;
+  overflow-y: hidden;
+}
 
-details #tags-list { 
+details #tags-list {
+  border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light;
-  box-sizing: border-box;
-  position: relative;
   max-height: 200px;
   overflow-y: scroll;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  /* -ms-overflow-style: none;  /* IE and Edge */
+  /* scrollbar-width: none;  /* Firefox */
+          transform: scaleX(-1); /* Reflects the parent horizontally */
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+}
+details #tags-list li {
+          transform: scaleX(-1); /* Flips the child back to normal */
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
-details #tags-list::-webkit-scrollbar {
+/* details #tags-list::-webkit-scrollbar {
     display: none;
-}
+} */
 
 
 @font-face {

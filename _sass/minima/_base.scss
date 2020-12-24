@@ -24,10 +24,11 @@ sup { padding: 0 0 0 2px; margin-top: 60px !important; vertical-align: top; posi
 .footnote::after { content: ']'; }
 .footnote { text-decoration: none; }
 .footnotes {
+  border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light;
+  border-right: 4px solid $grey-color-light;
   margin-top: $base-unit;
   padding-top: $base-unit;
-  border-right: 4px solid $grey-color-light;
   padding-bottom: $base-unit / 4;
   background-color: $very-light-gray;
   margin-bottom: $normal-line-height;
@@ -159,9 +160,10 @@ li {
  * Blockquotes
  */
 blockquote {
+  border-radius: 0 2px 0 0;
   border-right: 4px solid $grey-color-light;
   border-top: 1px solid $grey-color-light;
-  padding: ($base-unit / 2) 4%;
+  padding: ($base-unit / 2) 6% ($base-unit / 2) 4%;
   color: $base-gray;
   text-align: justify;
   word-break: break-word;

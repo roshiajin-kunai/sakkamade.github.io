@@ -27,7 +27,7 @@ url: "https://sakkamade.github.io" # the base hostname & protocol for your site,
 twitter_username: sakka_made
 github_username:  jekyll
 
-paginate: 9
+paginate: 9 # maximum ~14 pages 9 * 14 = 126 :( 3 pages for mobile ):
 paginate_path: "/page/:num"
 
 kramdown:
