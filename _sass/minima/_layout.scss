@@ -27,7 +27,7 @@
     }
 	#page-inner p { font-size: 17px !important; }
     .side {
-	   padding: 0 7% ($base-unit) 7% !important; /* 40px = 5% everywhere, now 7% */
+	   padding: 0 7% ($base-unit) 0% !important; /* 40px = 5% everywhere, now 7% */
 	}
 	.main {
 	   padding: 0 7% ($base-unit * 3) 0 !important;
@@ -40,7 +40,7 @@
 	   max-width: 830px !important;
 	}
    .post-list > li {
-       padding-left: 7.525% !important;
+       padding-left: 7.527% !important;
 	}
 	.post-list-heading {
        margin-left: 7% !important;
@@ -50,6 +50,9 @@
 	}
 }
 @media screen and (max-width: 800px) {
+    .side {
+	   padding: 0 7% ($base-unit) 7% !important;
+	}
     .side, .main, .only-main, .main-with-margin {
 	   flex: 100% !important;
 	}
@@ -336,6 +339,7 @@
 .side-in a {
   text-decoration: none;
 }
+.block { display: block; }
 .no-cap {
   text-transform: none !important;
 }
@@ -380,6 +384,9 @@
 .toc:nth-child(even) a {
   background-color: $very-light-gray;
 }
+
+.date a { text-align: center; pointer-events: none; color: $not-black !important; }
+
 .category-post-date {  
   float: right;
   white-space: nowrap;
@@ -585,8 +592,8 @@ border-top-color: black !important;
 }
 .main-title {
   text-align: center;
-  margin: ($base-unit) 0 ($base-unit * 2) 0;
-  line-height: $small-line-height / 1.1;
+  margin: ($base-unit) 0 ($base-unit * 3) 0;
+  line-height: $small-line-height;
 }
 .post-content {
   margin: $base-unit 0;
