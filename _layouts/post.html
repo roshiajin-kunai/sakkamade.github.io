@@ -5,11 +5,11 @@ layout: default
 <!-- prev -->
 <div class="only-main-top">
     {% if page.previous.url %}
-    <section class="switch-post previous-post">  
-        <a href="{{page.previous.url}}" title="{{page.previous.title}}">Previous: "{{page.previous.title | strip_html | truncatewords: 10}}"</a>
-    </section>
+  <section class="switch-post previous-post">  
+    <a href="{{page.previous.url}}" title="{{page.previous.title}}">Previous: "{{page.previous.title | strip_html | truncatewords: 10}}"</a>
+  </section>
     {% else %}
-    <section class="switch-post previous-post switch-off">        
+  <section class="switch-post previous-post switch-off">        
 	<a>&nbsp;</a>
   </section>
     {% endif %}
@@ -47,7 +47,7 @@ layout: default
   <div class="post-content">
   
   {% if page.note or page.chapter-link %}
-    <blockquote>  
+  <blockquote>  
 	
       {% if page.note %}
         {{ page.note }}<br><br>
@@ -66,13 +66,28 @@ layout: default
 	
   </div>  
 
+
+  <!-- under note -->
+  {% if page.under-note %}
+  <blockquote>  
+	
+      {% if page.under-note %}
+        {{ page.under-note }}<br><br>
+      {% endif %}
+
+	  
+  </blockquote>  
+  {% endif %}
+
+
   <hr>
   
   
   
-  <!-- bottom information -->
-  <header class="post-header">
-    <p class="post-meta meta-categories no-cap"><span>Category: </span>
+<!-- bottom information -->
+<header class="post-header">
+  <p class="post-meta meta-categories no-cap">
+    <span>Category: </span>
     {% if post %}
       {% assign categories = post.categories | sort %}
     {% else %}
@@ -82,10 +97,11 @@ layout: default
     <a href="{{site.baseurl}}/categories/{{category|slugify}}">{{category}}</a>
       {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
     {% endfor %}  
-    </p>
+  </p>
   
     <!-- tags -->
-    <p class="post-meta"><span>Labels: </span>
+  <p class="post-meta">
+    <span>Labels: </span>
     {% if post %}
       {% assign tags = post.tags | sort %}
     {% else %}
@@ -95,15 +111,15 @@ layout: default
     <a class="tag" href="{{site.baseurl}}/labels#{{ tag }}">{{tag}}</a>
       {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
     {% endfor %}
-    </p>
+  </p>
   
     {%- if page.author -%}
-    <p class="post-meta"><span>Posted by: </span>
+  <p class="post-meta"><span>Posted by: </span>
     <span class="no-cap">{{ page.author }}</span> 
-    </p>
+  </p>
     {%- endif -%}
-  </header>		 
-  <!-- end bottom information --> 
+</header>		 
+<!-- end bottom information --> 
   
   
 			 

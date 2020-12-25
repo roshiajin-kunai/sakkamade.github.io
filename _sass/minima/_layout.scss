@@ -39,15 +39,15 @@
 	   padding: ($base-unit) 7% !important;
 	   max-width: 830px !important;
 	}
-   .post-list li {
-       padding-left: 7% !important;
+   .post-list > li {
+       padding-left: 7.525% !important;
 	}
 	.post-list-heading {
        margin-left: 7% !important;
 	}
-	/* #scroll-btn {
+	#scroll-btn {
 	   visibility: visible !important;
-	} */
+	}
 }
 @media screen and (max-width: 800px) {
     .side, .main, .only-main, .main-with-margin {
@@ -288,7 +288,7 @@
   margin-top: -1px;
   color: $link-blue;
   border: 1px solid $grey-color-light;
-  border-right: 1px solid $grey-color-light;
+  border-right: none;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
@@ -299,6 +299,7 @@
   cursor: default;
   background-color: $light-gray;
 }
+.pagination .none { display: none; }
 .pagination a:last-child, .pagination span:last-child { 
   border-radius: 0 2px 0 0;
   border-right: 4px solid $grey-color-light;
@@ -329,11 +330,8 @@
 }
 .side-head {
   text-align: center;
-  margin-bottom: ($base-unit);
   padding-bottom: $base-unit;
   border-bottom: 1px solid $background-gray;
-  font-family: 'Cormorant Garamond', 'Noto Serif CJK JP Regular';
-  line-height: $base-line-height;
 }
 .side-in a {
   text-decoration: none;
@@ -442,7 +440,6 @@ span.small { font-size:14px !important; opacity:.5 !important; }
   display: block;
   color: $base-gray; 
   text-decoration: none;
-  transition: 0s;
 }
 .switch-post a:hover, .switch-post a:focus { 
   color: $almost-black; 
@@ -641,7 +638,7 @@ i.button-arrow-up {
 }
 
 .scroll-btn {
-  /* visibility: hidden; */
+  visibility: hidden;
   display: none;
   position: fixed;
   bottom: $base-unit;
@@ -692,11 +689,6 @@ details > summary.toc-details:hover, details:hover summary.toc-details {
   background: $light-gray;
   color: $not-black;
 }
-details {
-  max-height: 200px + 36px;
-  overflow-y: hidden;
-}
-
 details #tags-list {
   border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light;
