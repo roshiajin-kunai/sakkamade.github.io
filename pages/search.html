@@ -1,14 +1,18 @@
 ---
 layout: columns-all-cats
-permalink: /search
-title: Search
+permalink: /archives
+title: Archives
 ---
 
+<ul id="tags-list">
 
-  {% assign sorted-posts = site.posts %}
-  
-  {% for post in sorted-posts %}
-  {% assign sorted-posts = site.posts %}
-  <li title="{{ post.title }}"><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
-  {% endfor %}
-  
+{% for post in site.posts %}
+  {% assign current_date = post.date | date: "%Y %B" %}
+  {% if current_date != date %}
+    <div class="toc date"><a id="{{current_date}}">{{ current_date }}</a></div>
+    {% assign date = current_date %} 
+  {% endif %}
+    <li><div class="toc"><a title="{{post.title}}" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 11 }}<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
+{% endfor %}
+
+</ul>

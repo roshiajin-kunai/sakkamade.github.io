@@ -374,6 +374,7 @@
   text-decoration: none;
   border-radius: 0 2px 0 0;
   border-right: 4px solid $grey-color-light;
+  line-height: $normal-line-height;
 }
 .toc a:hover { background-color: $light-gray !important; }
 .toc a {
@@ -385,7 +386,7 @@
   background-color: $very-light-gray;
 }
 
-.date a { text-align: center; pointer-events: none; color: $not-black !important; }
+.date a { text-align: center; pointer-events: none; color: $not-black !important; background-color: $light-gray !important; text-transform: capitalize; }
 
 .category-post-date {  
   float: right;
@@ -561,13 +562,14 @@ border-top-color: black !important;
   background: $very-light-gray;
 }
 
-.tag:hover {
+.post-meta .tag:hover {
+  box-shadow: 0 2px 5px $light-gray;
 }
 
 
 .post-link a {
   transition: .1s;
-  color: $dark-blue; 
+  color: $almost-black; 
   text-decoration: none;
   display: block;
 }
@@ -692,11 +694,11 @@ details > summary.toc-details {
   white-space: nowrap;
   font-style: italic;
 }
-details > summary.toc-details:hover, details:hover summary.toc-details {
+details > summary.toc-details:hover, details:hover > summary.toc-details {
   background: $light-gray;
   color: $not-black;
 }
-details #tags-list {
+details > #tags-list {
   border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light;
   max-height: 200px;
@@ -709,7 +711,7 @@ details #tags-list {
       -ms-transform: scaleX(-1);
        -o-transform: scaleX(-1);
 }
-details #tags-list li {
+details > #tags-list a {
           transform: scaleX(-1); /* Flips the child back to normal */
   -webkit-transform: scaleX(-1);
      -moz-transform: scaleX(-1);

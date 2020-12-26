@@ -59,7 +59,7 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "from_minima/base",
+  "from_minima/layout",
+  "from_minima/syntax-highlighting"
 ;

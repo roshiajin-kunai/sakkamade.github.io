@@ -31,7 +31,7 @@ layout: default
     <h3 class="post-title">{{ page.title | escape }}</h3>
     <p class="post-meta" style="text-align: right !important;">
 	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
+        {%- assign date_format = "%Y %B %d" -%}
         {{ page.date | date: date_format }}
       </time>	  
 	 </p>	 
@@ -130,17 +130,16 @@ layout: default
   {% endif %}
     {% for category in categories %}
   <details><summary class="toc-details">{{category}}</summary>
-    {% endfor %}  
-  <ul id="tags-list">	 
+    {% endfor %}   
+	<section id="tags-list">
   {% for category in page.categories %}
   {% assign sotred_posts = site.categories[category] | sort %}
     {% for post in sotred_posts %}
-      <li title="{{ post.title }}"><div class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
-	  <span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
-	  </li>
+      <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
+	  <span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>	  
     {% endfor %}
   {% endfor %}
-  </ul>
+  </section>
   </details>
   </div>
 

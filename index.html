@@ -23,26 +23,26 @@ layout: home
         <h3 class="post-link"><a style="display: inline-block;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
           <p class="post-meta">
 		  <time>
-		  {%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}
+		  {%- assign date_format = "%Y %B %d" -%}
 		  {{ post.date | date: date_format }}
 		  </time>
 		   <!-- author -->
 		   {%- if post.author -%}
-		   ・ <span class="no-cap">{{ post.author }}</span> ・ 
+		   ・ <span class="no-cap">{{ post.author }}</span>&nbsp;&nbsp;
 		   {%- endif -%}
 		     <!-- tags -->
 			 {% if post %}
-			 {% assign tags = post.tags | sort %}
+		  	   {% assign tags = post.tags | sort %}
 			 {% else %}
-			 {% assign tags = page.tags | sort %}
+			   {% assign tags = page.tags | sort %}
 			 {% endif %}
 			 {% for tag in tags %}
 			 <a class="tag" href="{{site.baseurl}}/labels#{{ tag }}">{{tag}}</a>
-			 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+			   {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			 {% endfor %}
 		  </p>
 		</header>
-		  <div class="post-content">
+		  <div class="post-content" style="cursor: pointer;" onclick="document.location.href='{{ post.url | relative_url }}'">
 		  {% if post.note %}
 		  <blockquote>{{  post.note }}</blockquote>		  
 		  {% else %}

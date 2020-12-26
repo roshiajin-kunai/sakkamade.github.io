@@ -23,6 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   through the life with yuri in heart
 baseurl: "" # the subpath of your site, e.g. /blog
+# tagline: through the life with yuri in heart
 url: "https://sakkamade.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sakka_made
 github_username:  jekyll
@@ -55,11 +56,13 @@ collections:
     output: true
     permalink: /:year/:month/:day/:slug
 
+locale: en_GB
+
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

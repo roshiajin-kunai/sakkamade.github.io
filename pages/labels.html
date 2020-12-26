@@ -18,17 +18,17 @@ title: Labels
 </p>
 
 
+<ul id="tags-list">
+
 {% assign sorted_tags = site.tags | sort %}
 {% for cat in sorted_tags %}
-<hr />
-<h4 class="with-indent" id="{{ cat[0] }}" style="text-transform: capitalize;">{{ cat[0] }}</h4>
-  <ul id="full-cat-list">
+<div class="toc date"><a id="{{ cat[0] }}">{{ cat[0] }}</a></div>
     {% assign pages_list = cat[1] %}  
     {% for post in pages_list %}
     <li>
 	  <div class="toc">
 	  <a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
-	  {{ post.title | strip_html | truncatewords: 12 }}<br>
+	  {{ post.title | strip_html | truncatewords: 11 }}<br>
 	  
 	  <!-- cats -->
       {% if post %}
@@ -37,7 +37,7 @@ title: Labels
         {% assign categories = page.categories | sort %}
       {% endif %}
         {% for category in categories %}
-      <span class="tag-category-title">"{{category | strip_html | truncatewords: 6}}"</span>
+      <span class="tag-category-title">{{category | strip_html | truncatewords: 7}}</span>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
   
@@ -50,5 +50,6 @@ title: Labels
     {% endfor %}
     {% assign pages_list = nil %}
     {% assign group = nil %}
-  </ul>
 {% endfor %}
+
+</ul>

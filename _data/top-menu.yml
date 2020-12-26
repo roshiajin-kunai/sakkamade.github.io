@@ -1,8 +1,8 @@
 docs_list_title: top-menu
 docs:
 
-- title: search
-  url: /search
+- title: archives
+  url: /archives
 
 - title: updates
   url: /

@@ -1,21 +1,37 @@
 
 
 <div id="archives">
-  <!-- categories -->
-  <h5 class="side-head">Categories Cloud</h5>
+  <h5 class="side-head">Categories</h5>
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
-  <span class="side-in no-cap"><a href="/categories/{{ category | first | slugify }}">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</a>&nbsp;</span>
+  <span class="side-in no-cap"><a href="{{site.baseurl}}/categories/{{ category | first | slugify }}">{{ category[0] }} </a> ({{ category | last | size }})&nbsp;</span>
 {% endfor %}
 </div>
+
+
 <div id="archives">
-  <!-- tags -->
-  <h5 class="side-head">Labels Cloud</h5>
+  <h5 class="side-head">Labels</h5>
     {% assign tags = site.tags | sort %}
 	{% for tag in tags %}
-	<span class="side-in"><a href="/labels#{{ tag | first }}">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>&nbsp;</span>
+	<span class="side-in"><a href="{{site.baseurl}}/labels#{{ tag | first }}">{{ tag[0] }}</a> ({{ tag | last | size }})&nbsp;</span>
 	{% endfor %}
   </div>
+    
+<div id="archives">
+  <h5 class="side-head">Archives</h5>
+    {% assign counter = 0 %}
+  {% for post in site.posts %}
+    {% assign thisyear = post.date | date: "%Y %B" %}
+    {% assign prevyear = post.previous.date | date: "%Y %B" %}
+    {% assign counter = counter | plus: 1 %}
+  {% if thisyear != prevyear %}
+  <span class="side-in block">
+    <a href="{{site.baseurl}}/archives#{{ post.date | date:"%Y %B" }}">{{ thisyear }}</a> ({{ counter }})
+  </span>
+    {% assign counter = 0 %}
+  {% endif %}
+  {% endfor %}
+</div>
   
   
   <blockquote>
