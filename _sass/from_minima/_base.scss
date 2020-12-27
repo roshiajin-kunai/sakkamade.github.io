@@ -25,8 +25,8 @@ sup { padding: 0 0 0 1px; margin-top: 60px !important; vertical-align: top; posi
 .footnote { text-decoration: none; }
 .footnotes {
   border-radius: 0 4px 0 0;
-  border-top: 1px solid $grey-color-light;
-  border-right: 4px solid $grey-color-light;
+  border-top: 1px solid $background-gray;
+  border-right: 4px solid $background-gray;
   margin-top: $base-unit;
   padding-top: $base-unit;
   padding-bottom: $base-unit / 4;
@@ -42,7 +42,7 @@ sup { padding: 0 0 0 1px; margin-top: 60px !important; vertical-align: top; posi
 
 ::selection {
   background: hsla(218, 37%, 90%, 0.8); /* $lighter-blue; */
-  color: $almost-black;
+  color: #222222;
 }
 
 hr {
@@ -72,10 +72,10 @@ h4 {
     font-size: 30px;
 }
 h5 {
-    font-size: 24px;
+    font-size: 26px;
 }
 h6 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /**
@@ -161,9 +161,9 @@ li {
  */
 blockquote {
   border-radius: 0 4px 0 0;
-  border-right: 4px solid $grey-color-light;
-  border-top: 1px solid $grey-color-light;
-  padding: ($base-unit / 2) 6% ($base-unit / 2) 4%;
+  border-right: 4px solid $background-gray;
+  border-top: 1px solid $background-gray;
+  padding: ($base-unit / 2) 3% ($base-unit / 2) 6%;
   color: $base-gray;
   text-align: justify;
   word-break: break-word;
@@ -261,7 +261,7 @@ a {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: #{$base-gray};
     padding-right: 0;
     vertical-align: text-top;
 }
@@ -280,21 +280,21 @@ a {
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $background-gray;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: $light-gray;
     }
   }
   th, td {
     padding: ($base-unit / 3) ($base-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: $light-gray;
+    border: 1px solid $background-gray;
+    border-bottom-color: $background-gray;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $background-gray;
   }
 }
