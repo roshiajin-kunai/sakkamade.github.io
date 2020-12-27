@@ -6,7 +6,7 @@ permalink: /categories/autodoll-dreams-in-a-decaying-world
 <h4 class="with-indent">Description</h4>
 
 <p>This is a story about the world after its perishing.<br>
-The girl have lost her memory after awakening from suspended animation, and lady, a  female type of Autodoll, helped her. Autodoll told a girl that she was "exploring the world" while using an underground library as her base camp. ―"Would you like to become friends with me?"<br>
+The girl have lost her memory upon awakening from suspended animation, and lady, a  female type of Autodoll, helped her. Autodoll told a girl that she was "exploring the world" whilst using an underground library as her base camp. ―"Would you like to become friends with me?"<br>
 Two young ladies who have nowhere to go, what truth about this world will be discovered by them..?</p>
 
 
@@ -26,10 +26,22 @@ Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <span class
 
 <h4 class="with-indent">Table of Contents</h4>
 
-
   {% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | sort %}
-  
-  {% for post in sorted-posts limit: infinite %}
-  {% assign sorted-posts = site.posts | where: "categories","Autodoll Dreams in a Decaying World" %}
-  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = site.minima.date_format | default: "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+<section id="toc"> 
+  {% for post in sorted-posts %}
+    {% unless post.tags contains 'extra' %}
+      <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+    {% endunless %}
   {% endfor %}
+</section>
+
+  {% assign sorted-posts-extra = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | where_exp: "item", "item.tags contains 'extra'" | sort %}
+  
+
+<!-- <h4 class="with-indent">Extra Episodes</h4> -->
+	
+<section id="toc"> 
+{% for post in sorted-posts-extra %}  
+  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>
+{% endfor %}
+</section>

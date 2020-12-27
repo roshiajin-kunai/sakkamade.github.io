@@ -28,7 +28,7 @@ layout: home
 		  </time>
 		   <!-- author -->
 		   {%- if post.author -%}
-		   ・ <span class="no-cap">{{ post.author }}</span>&nbsp;&nbsp;
+		   ・ <span class="no-cap">{{ post.author }}</span> ・ 
 		   {%- endif -%}
 		     <!-- tags -->
 			 {% if post %}
@@ -61,7 +61,7 @@ layout: home
   {% else %}
     <span class="page-active none">Next</span>
   {% endif %}
-  <span class="page_number ">
+  <span class="page-number">
     {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}

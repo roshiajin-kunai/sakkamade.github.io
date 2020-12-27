@@ -294,6 +294,7 @@
   color: $link-blue;
   border: 1px solid $grey-color-light;
   border-right: none;
+  background: $very-light-gray;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
@@ -306,7 +307,7 @@
 }
 .pagination .none { display: none; }
 .pagination a:last-child, .pagination span:last-child { 
-  border-radius: 0 2px 0 0;
+  border-radius: 0 4px 0 0;
   border-right: 4px solid $grey-color-light;
 }
 /* .pagination a:first-child, .pagination span:first-child { 
@@ -317,9 +318,11 @@
   cursor: default;
   background-color: $light-gray;
 }
+.pagination .page-number {
+  color: $base-gray;
+}
 .pagination a:hover {
   color: $base-gray;
-  background-color: $very-light-gray;  
 }
 
 
@@ -374,16 +377,18 @@
   float:right;
   width: 100% !important;  
   text-decoration: none;
-  border-radius: 0 2px 0 0;
   border-right: 4px solid $grey-color-light;
   line-height: $normal-line-height;
 }
 .toc a:hover { background-color: $light-gray !important; }
 .toc a {
-  border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light; 
   margin-top: -1px;
 }
+#toc div:first-child a, #tags-list div:first-child a { 
+  border-radius: 0 4px 0 0;
+}
+#tags-list li a { border-radius: 0 !important; }
 .toc:nth-child(even) a {
   background-color: $very-light-gray;
 }
@@ -420,7 +425,7 @@ span.small { font-size:14px !important; opacity:.5 !important; }
   border: 1px solid $background-gray;
   margin-bottom: 22px;  
   transition: .2s;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 #tag-search:hover, #tag-search:focus { border: 1px solid $base-gray; }
@@ -551,7 +556,7 @@ border-top-color: black !important;
 }
 
 .tag {
-  border-radius: 0 2px 0 0;
+  border-radius: 0 4px 0 0;
   border: 1px solid $grey-color-light;
   border-right: 4px solid $grey-color-light;
   text-transform: capitalize;
@@ -695,7 +700,7 @@ details > summary.toc-details {
           user-drag: none;
   -webkit-user-drag: none;
   -webkit-touch-callout: none;
-  border-radius: 0 2px 0 0;
+  border-radius: 0 4px 0 0;
   border-top: 1px solid $grey-color-light;
   border-right: 4px solid $grey-color-light;
   margin: ($normal-line-height) 0 0 0;
@@ -707,8 +712,8 @@ details > summary.toc-details:hover, details:hover > summary.toc-details {
   background: $light-gray;
   color: $not-black;
 }
+details > #tags-list div a { border-radius: 0 !important; }
 details > #tags-list {
-  border-radius: 0 2px 0 0;
   border-top: 1px solid $grey-color-light;
   max-height: 200px;
   overflow-y: scroll;
