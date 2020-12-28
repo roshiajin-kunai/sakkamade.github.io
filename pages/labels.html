@@ -37,7 +37,7 @@ title: Labels
         {% assign categories = page.categories | sort %}
       {% endif %}
         {% for category in categories %}
-      <span class="tag-category-title">{{category | strip_html | truncatewords: 7}}</span>
+      <span class="tag-category-title half-opacity">{{category | strip_html | truncatewords: 7}}</span>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
   

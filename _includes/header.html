@@ -8,9 +8,9 @@
   <div id="site-under-title">{{ site.description }}</div>
     <div id="site-title-back">
 	{%- if page.featured-image -%}
-    <img onmousedown="return false;" draggable="false" ondragstart="return false;" style="position:relative; height:230px; top:-15px; right: -20px;" alt="header2" src="{{site.baseurl}}{{ page.featured-image }}">
+    <img onmousedown="return false;" draggable="false" ondragstart="return false;" class="header-img" alt="header2" src="{{site.baseurl}}{{ page.featured-image }}">
 	{% else %}
-    <img onmousedown="return false;" draggable="false" ondragstart="return false;" style="position:relative; height:250px; top:-5px; right: -20px;" alt="header1" src="{{site.baseurl}}/src/img/head1.png">
+    <img onmousedown="return false;" draggable="false" ondragstart="return false;" class="header-img" alt="header1" src="{{site.baseurl}}/src/img/head1.png">
     {% endif %}
     </div>
 </a>

@@ -2,36 +2,22 @@
 
 <section id="bottom-menu" class="inner-bottom-menu">
 
-<div class="inner-bottom-column count-3">  
+<div class="inner-bottom-column count-3 col-1">  
   {% for item in site.data.bottom-menu1.docs %}
-  <a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
   {% endfor %}
 </div>
 
-<div class="inner-bottom-column count-3">  
+<div class="inner-bottom-column count-3 col-2">  
   {% for item in site.data.bottom-menu2.docs %}
-  <a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
   {% endfor %}
-  
-  <a href="{{ "/feed.xml" | relative_url }}">
-  <svg class="svg-icon"> 
-  <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-  </svg> 
-  <span>RSS</span></a>
-  
-  {%- if site.twitter_username -%}
-  <a style="text-transform: none;" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
-  <svg class="svg-icon"> 
-  <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
-  </svg> 
-  <span>@{{ site.twitter_username| escape }}</span>
-  </a>
-  {% endif %}
-  
 </div>
 
 <div class="inner-bottom-column count-3">
-<a style="pointer-events: none; text-transform: none;">Last update on website: <span style="white-space: nowrap;">{{ "now" | date: "%Y-%m-%d %H:%M" }} UTC</span></a>
+  {% for item in site.data.bottom-menu3.docs %}
+  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
+  {% endfor %}
 </div>
 
 </section>

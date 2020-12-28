@@ -20,7 +20,7 @@ layout: home
 		{% endfor %}
 		</div>
         <!-- title -->
-        <h3 class="post-link"><a style="display: inline-block;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
+        <h3 class="post-link"><a class="in-block" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
           <p class="post-meta">
 		  <time>
 		  {%- assign date_format = "%Y %B %d" -%}

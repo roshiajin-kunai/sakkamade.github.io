@@ -34,7 +34,36 @@
 </div>
   
   
-  <blockquote>
+<div id="archives">
+  <blockquote style="margin-left: -8px;">
   作家のために。<br>
   許可なく翻訳していただき、誠に申し訳ございません。<br> 削除したい場合はご連絡ください。
   </blockquote>
+</div>
+
+   
+<div id="archives">
+  <span class="side-in block">
+    <a href="{{ "/feed.xml" | relative_url }}">
+      <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+      </svg> 
+      <span>RSS</span>
+	</a>
+  </span>
+
+  {%- if site.twitter_username -%}
+  <span class="side-in block">
+    <a style="text-transform: none;" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+	  <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>  </svg> 
+      <span>@{{ site.twitter_username| escape }}</span>
+    </a>
+  </span>
+  {% endif %}
+</div>
+
+
+<div id="archives">
+  <span class="side-in block no-cap">Last update on website: 
+    <span style="white-space: nowrap;">{{ "now" | date: "%Y-%m-%d %H:%M" }} UTC</span>
+  </span>
+</div>
