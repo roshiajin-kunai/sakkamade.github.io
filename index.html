@@ -26,10 +26,8 @@ layout: home
 		  {%- assign date_format = "%Y %B %d" -%}
 		  {{ post.date | date: date_format }}
 		  </time>
-		   <!-- author -->
-		   {%- if post.author -%}
-		   ・ <span class="no-cap">{{ post.author }}</span> ・ 
-		   {%- endif -%}
+		   <!-- read time -->
+		   ・ <span title="Estimated reading time.">circa {{ post.content | reading_time_as_s }}</span> ・
 		     <!-- tags -->
 			 {% if post %}
 		  	   {% assign tags = post.tags | sort %}
@@ -57,9 +55,9 @@ layout: home
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}"> Next</a>
+    <a href="{{ paginator.previous_page_path }}">Next</a>
   {% else %}
-    <span class="page-active none">Next</span>
+    <span class="page-active">Next</span>
   {% endif %}
   <span class="page-number">
     {{ paginator.page }} of {{ paginator.total_pages }}
