@@ -15,7 +15,7 @@ layout: default
     {% endif %}
 </div>
 
-<div class="only-main">
+<article class="only-main" itemscope itemtype="http://schema.org/BlogPosting">
 
 
   {%- if page.main-title -%}
@@ -28,7 +28,7 @@ layout: default
   
   <!-- top information -->
   <header class="post-header">
-    <h3 class="post-title">{{ page.title | escape }}</h3>
+    <h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
 	<p>&nbsp;</p>
     <p class="post-meta" style="text-align: right !important;">
 	<span title="Estimated reading time.">{% capture count_words %}{{ page.content | number_of_words }}{% endcapture %}{% capture time_words %}{{ count_words | divided_by: 5 }}{% endcapture %}circa {{ time_words | divided_by: 36 }} minutes</span> ・ <time class="{%- if page.last_modified_at -%}time{%- endif -%}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
@@ -36,6 +36,7 @@ layout: default
 	 </p>
   </header>
   <!-- end top information -->
+
 
   {% if page.note or page.chapter-link %}
   <blockquote>  
@@ -53,8 +54,9 @@ layout: default
   </blockquote>  
   {% endif %}
 
+<div itemprop="articleBody">
     {{ content }}
-	
+</div>
 
   <!-- under note -->
   {% if page.under-note %}
@@ -131,8 +133,9 @@ layout: default
   {% endfor %}
   </section>
   </details>
-  <p>&nbsp;</p>
-  </div>
+  
+  <div style="height: 20px;"><!-- $base-unit --></div> 
+</article>
 
 
 

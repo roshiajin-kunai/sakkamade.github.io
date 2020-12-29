@@ -241,7 +241,7 @@
   text-align: left;
   padding: ($base-unit / 2) 7%;
   margin: 0;
-  margin-bottom: $base-unit;
+  padding-bottom: $base-unit;
 }
 .inner-bottom-menu {
   a {
@@ -591,14 +591,9 @@ border-top-color: black !important;
   text-decoration: line-through;
   opacity: .5;
 }
-.time .time-up {
+.time-up {
   color: $base-gray;
-}
-.time .time-up::after {
-}
-.time:hover .time-up {
-}
-.time:hover { 
+  white-space: nowrap;
 }
 
 .post-link a {
