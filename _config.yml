@@ -58,11 +58,6 @@ collections:
 
 locale: en_GB
 
-jekyll_timeago:
-  depth: 1
-  default_locale: 'en'
-  fallbacks: true
-
 # Build settings
 plugins:
   - jekyll-feed

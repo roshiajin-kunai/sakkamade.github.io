@@ -30,8 +30,7 @@ layout: default
   <header class="post-header">
     <h3 class="post-title">{{ page.title | escape }}</h3>
 	<p>&nbsp;</p>
-    <p class="post-meta" style="text-align: right !important;">
-	  <span title="Estimated reading time.">circa {{ content | reading_time_as_s }}</span> ・ <time class="{%- if page.last_modified_at -%}time{%- endif -%}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
+    <p class="post-meta" style="text-align: right !important;"><time class="{%- if page.last_modified_at -%}time{%- endif -%}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
 	  {%- if page.last_modified_at -%} ・ <span class="time-up"><time>Last amend:&nbsp;{{ page.last_modified_at | date: date_format }}</time></span>{%- endif -%}
 	 </p>
   </header>
