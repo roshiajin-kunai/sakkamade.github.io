@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Noto Serif CJK JP Regular';
+  src: url(/src/fnt/noto-cjk-jp/NotoSerifCJKjp-Regular.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Regular.woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Italic.woff);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Medium.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(/src/fnt/Cormorant/CormorantGaramond-MediumItalic.woff);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(/src/fnt/Cormorant/CormorantGaramond-SemiBold.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(/src/fnt/Cormorant/CormorantGaramond-Bold.woff);
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: 'Cormorant Infant';
+  src: url(/src/fnt/Cormorant/CormorantInfant-Medium.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant Infant';
+  src: url(/src/fnt/Cormorant/CormorantInfant-MediumItalic.woff);
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url(/src/fnt/Cormorant/CormorantSC-Regular.woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url(/src/fnt/Cormorant/CormorantSC-Medium.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url(/src/fnt/Cormorant/CormorantSC-SemiBold.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url(/src/fnt/Cormorant/CormorantSC-Bold.woff);
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: 'Cormorant Upright';
+  src: url(/src/fnt/Cormorant/CormorantUpright-Medium.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant Upright';
+  src: url(/src/fnt/Cormorant/CormorantUpright-SemiBold.woff);
+  font-weight: 500;
+}

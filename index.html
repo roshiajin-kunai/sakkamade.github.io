@@ -27,7 +27,7 @@ layout: home
 		  {{ post.date | date: date_format }}
 		  </time>
 		   <!-- read time -->
-		   ・ 
+		   ・ <span title="Estimated reading time.">{% capture count_words %}{{ post.content | number_of_words }}{% endcapture %}{% capture time_words %}{{ count_words | divided_by: 5 }}{% endcapture %}circa {{ time_words | divided_by: 36 }} minutes</span> ・
 		     <!-- tags -->
 			 {% if post %}
 		  	   {% assign tags = post.tags | sort %}

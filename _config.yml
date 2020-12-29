@@ -63,7 +63,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-time-to-read
 
 # Exclude from processing.
 # The following items will not be processed, by default.
