@@ -5,8 +5,7 @@ permalink: /categories/information
 ---
    {% assign sorted-posts = site.posts | where: "categories", "Information" %}
   
-  {% for post in sorted-posts reversed limit: infinite %}
-  {% assign sorted-posts = site.posts | where: "categories","information" %}
+  {% for post in sorted-posts %}
 
 
   {%- include cat.html -%}

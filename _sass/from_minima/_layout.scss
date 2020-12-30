@@ -407,12 +407,10 @@
   text-decoration: none;
   border-right: 4px solid $background-gray;
   line-height: $normal-line-height;
-}
-.toc a:hover { background-color: $light-gray !important; }
-.toc a {
   border-top: 1px solid $background-gray; 
   margin-top: -1px;
 }
+.toc a:hover { background-color: $light-gray !important; color: $base-gray !important; }
 #toc div:first-child a, #tags-list div:first-child a { 
   border-radius: 0 4px 0 0;
 }
@@ -766,7 +764,7 @@ details > summary.toc-details:hover, details:hover > summary.toc-details {
   background: $light-gray;
   color: $not-black;
 }
-details > #tags-list .toc a, details > #tags-list .toc a:hover, .toc a:hover { color: $base-gray !important; }
+details > #tags-list .toc a, details > #tags-list .toc a:hover { color: $base-gray; }
 details > #tags-list a:visited, .toc a:visited { color: $link-blue; }
 details > #tags-list div a { border-radius: 0 !important; padding: 0 4px 0 8px; }
 details > #tags-list {
