@@ -6,7 +6,7 @@ layout: default
 <div class="only-main-top">
     {% if page.previous.url %}
   <section class="switch-post previous-post">  
-    <a href="{{page.previous.url}}" title="{{page.previous.title}}">Previous: "{{page.previous.title | strip_html | truncatewords: 10}}"</a>
+    <a href="{{page.previous.url}}" title="{{page.previous.categories}} ・ {{page.previous.title}}">Previous: "{{page.previous.title | strip_html | truncatewords: 10}}"</a>
   </section>
     {% else %}
   <section class="switch-post previous-post switch-off">        
@@ -28,21 +28,31 @@ layout: default
   
   <!-- top information -->
   <header class="post-header">
+    <p class="post-meta meta-categories no-cap no-margin">
+        {% if post %}
+          {% assign categories = post.categories | sort %}
+        {% else %}
+         {% assign categories = page.categories | sort %}
+        {% endif %}
+         {% for category in categories %}
+           <a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a>
+             {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+         {% endfor %}  
+    </p>
     <h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
-	<p>&nbsp;</p>
-    <p class="post-meta" style="text-align: right !important;">
+    <p class="post-meta low-line" style="text-align: right !important;">
 	<span title="Estimated reading time.">{% capture count_words %}{{ page.content | number_of_words }}{% endcapture %}{% capture time_words %}{{ count_words | divided_by: 5 }}{% endcapture %}circa {{ time_words | divided_by: 36 }} minutes</span> ・ <time class="{%- if page.last_modified_at -%}time{%- endif -%}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
-	  {%- if page.last_modified_at -%} ・ <span class="time-up"><time>Last amend:&nbsp;{{ page.last_modified_at | date: date_format }}</time></span>{%- endif -%}
+	  {%- if page.last_modified_at -%} ・ <time class="time-up">Last amend:&nbsp;{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
 	 </p>
   </header>
   <!-- end top information -->
-
+<hr>
 
   {% if page.note or page.chapter-link %}
   <blockquote>  
 	
       {% if page.note %}
-        {{ page.note }}<br><br>
+        <b>Note:</b> {{ page.note }}<br><br>
       {% endif %}
   
       {% if page.chapter-link %}
@@ -70,58 +80,12 @@ layout: default
   </blockquote>  
   {% endif %}
 
+  
+<hr>
 
-  <hr>
 
-  
-  
-  
-<!-- bottom information -->
-<header class="post-header">
-  <p class="post-meta meta-categories no-cap">
-    <span>Category: </span>
-    {% if post %}
-      {% assign categories = post.categories | sort %}
-    {% else %}
-      {% assign categories = page.categories | sort %}
-    {% endif %}
-      {% for category in categories %}
-    <a href="{{site.baseurl}}/categories/{{category|slugify}}">{{category}}</a>
-      {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-    {% endfor %}  
-  </p>
-  
-    <!-- tags -->
-  <p class="post-meta">
-    <span>Labels: </span>
-    {% if post %}
-      {% assign tags = post.tags | sort %}
-    {% else %}
-      {% assign tags = page.tags | sort %}
-    {% endif %}
-      {% for tag in tags %}
-    <a class="tag" href="{{site.baseurl}}/labels#{{ tag }}">{{tag}}</a>
-      {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-    {% endfor %}
-  </p>
-  
-<!--     {%- if page.author -%}
-  <p class="post-meta"><span>Posted by: </span>
-    <span class="no-cap">{{ page.author }}</span> 
-  </p>
-    {%- endif -%} -->
-</header>		 
-<!-- end bottom information --> 
-  
-  
-			 
-  {% if post %}
-    {% assign categories = post.categories | sort %}
-  {% else %}
-    {% assign categories = page.categories | sort %}
-  {% endif %}
     {% for category in categories %}
-  <details><summary class="toc-details">{{category}}</summary>
+  <details><summary class="toc-details">{{ category }}</summary>
     {% endfor %}   
 	<section id="tags-list">
   {% for category in page.categories %}
@@ -143,7 +107,7 @@ layout: default
   <div class="only-main-top">
     {% if page.next.url %}
     <section class="switch-post next-post">
-        <a href="{{page.next.url}}" title="{{page.next.title}}">Next: "{{page.next.title | strip_html | truncatewords: 10}}"<br>
+        <a href="{{page.next.url}}" title="{{page.next.categories}} ・ {{page.next.title}}">Next: "{{page.next.title | strip_html | truncatewords: 10}}"<br>
 		<i class="button-arrow-down"></i></a>
     </section>
     {% else %}

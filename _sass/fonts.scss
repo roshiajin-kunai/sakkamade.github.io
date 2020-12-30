@@ -1,12 +1,6 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: 'Noto Serif CJK JP Regular';
-  src: url(/src/fnt/noto-cjk-jp/NotoSerifCJKjp-Regular.woff);
-  font-weight: 400;
-}
-
-@font-face {
   font-family: 'Cormorant Garamond';
   src: url(/src/fnt/Cormorant/CormorantGaramond-Regular.woff);
   font-weight: 300;
@@ -85,4 +79,10 @@
   font-family: 'Cormorant Upright';
   src: url(/src/fnt/Cormorant/CormorantUpright-SemiBold.woff);
   font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Noto Serif CJK JP Regular';
+  src: url(/src/fnt/noto-cjk-jp/NotoSerifCJKjp-Regular.woff);
+  font-weight: 400;
 }

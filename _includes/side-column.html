@@ -10,14 +10,6 @@
 
 
 <div id="archives">
-  <h5 class="side-head">Labels</h5>
-    {% assign tags = site.tags | sort %}
-	{% for tag in tags %}
-	<span class="side-in"><a href="{{site.baseurl}}/labels#{{ tag | first }}">{{ tag[0] }}</a> ({{ tag | last | size }})&nbsp;</span>
-	{% endfor %}
-  </div>
-    
-<div id="archives">
   <h5 class="side-head">Archives</h5>
     {% assign counter = 0 %}
   {% for post in site.posts %}
