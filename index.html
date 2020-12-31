@@ -47,7 +47,7 @@ layout: home
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">Next</a>
   {% else %}
-    <span class="page-active">Next</span>
+    <span class="page-active none">Next</span>
   {% endif %}
   <span class="page-number">
     {{ paginator.page }} of {{ paginator.total_pages }}

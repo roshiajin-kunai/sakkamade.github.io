@@ -41,12 +41,16 @@ layout: default
     </p>
     <h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
     <p class="post-meta low-line" style="text-align: right !important;">
-	<span title="Estimated reading time.">{% capture count_words %}{{ page.content | number_of_words }}{% endcapture %}{% capture time_words %}{{ count_words | divided_by: 5 }}{% endcapture %}circa {{ time_words | divided_by: 36 }} minutes</span> ・ <time class="{%- if page.last_modified_at -%}time{%- endif -%}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
-	  {%- if page.last_modified_at -%} ・ <time class="time-up">Last amend:&nbsp;{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
-	 </p>
+	<span title="Estimated reading time.">
+{% capture words %}
+  {{ page.content | number_of_words | minus: 250 }}
+{% endcapture %}
+{% unless words contains "-" %}
+  Circa {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
+{% endunless %}</span>
+	</p>
   </header>
   <!-- end top information -->
-<hr>
 
   {% if page.note or page.chapter-link %}
   <blockquote>  
@@ -59,9 +63,10 @@ layout: default
         <a href="{{ page.chapter-link }}" target="_blank">
         {{ page.chapter-link | strip_html | truncate: 40 }}
         </a>
-      {% endif %}
-	  
+      {% endif %}	  
   </blockquote>  
+	  {% else %}
+		<hr>
   {% endif %}
 
 <div itemprop="articleBody">
@@ -83,6 +88,10 @@ layout: default
   
 <hr>
 
+<p class="post-meta" style="text-align: right !important;">
+  <span>Date Published:</span><time class="{%- if page.last_modified_at -%}time{%- endif -%}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
+  {%- if page.last_modified_at -%}<br><time class="time-up">Last amend:&nbsp;{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
+</p>
 
     {% for category in categories %}
   <details><summary class="toc-details">{{ category }}</summary>

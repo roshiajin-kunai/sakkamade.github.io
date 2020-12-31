@@ -170,8 +170,11 @@ blockquote {
   word-break: break-word;
   font-size: 17px !important;
   background-color: $very-light-gray;
+  overflow: hidden;
   
-  > p, a { color: $not-black; }
+  > p { color: $not-black; }
+  
+  > a { color: $base-gray; }
   
   > :last-child {
     margin-bottom: 0;
