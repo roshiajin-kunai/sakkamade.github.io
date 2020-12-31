@@ -38,6 +38,11 @@ kramdown:
   footnote_backlink: back
   parse_block_html: false
   
+# markdown: CommonMark
+# commonmark:
+#  options: ["SMART", "FOOTNOTES", "HARDBREAKS", "UNSAFE", "LIBERAL_HTML_TAG", "VALIDATE_UTF8"]
+#  extensions: ["strikethrough", "autolink", "table", "tagfilter"]  
+
 # excerpt_separator: <!-- more -->
 timezone: UTC
 
@@ -76,6 +81,7 @@ exclude:
   - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
+  - drafts/
 #   - .sass-cache/
 #   - gemfiles/
 #   - node_modules/
