@@ -22,7 +22,7 @@ layout: home
         <!-- title -->
         <h3 class="post-link"><a class="in-block" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>          
           <p class="post-meta">
-		  <time>
+		  <time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}">
 		  {%- assign date_format = "%Y %B %d" -%}
 		  {{ post.date | date: date_format }}
 		  </time>
@@ -43,18 +43,109 @@ layout: home
 
   
 <!-- Pagination links -->
+{% if paginator.total_pages != 1 %} 
+{% if paginator.total_pages < 7 %}
+        <div class="pagination">
+            {% if paginator.total_pages >= 10 %} 
+            {% if paginator.previous_page %}
+                  <a href="{{ site.url }}/">&laquo;&laquo;</a>
+            {% else %}
+                <span class="page-active none">&laquo;&laquo;</span>
+            {% endif %}
+            {% endif %}
+            {% if paginator.previous_page %}
+              {% if paginator.previous_page == 1 %}
+                  <a href="{{ site.url }}/">&laquo;</a>
+              {% else %}
+                  <a href="{{ site.url }}/page{{paginator.previous_page}}">&laquo;</a>
+              {% endif %}
+            {% else %}
+                <span class="page-active none">&laquo;</span>
+            {% endif %}
+            {% if paginator.page == 1 %}
+                <span class="page-active">1</span>
+            {% else %}
+                <a href="{{ site.url }}/">1</a>
+            {% endif %}
+            {% for count in (2..paginator.total_pages) %}
+              {% if count == paginator.page %}
+                  <span class="page-active">{{count}}</span>
+              {% else %}
+                  <a href="{{ site.url }}/page{{count}}">{{count}}</a>
+              {% endif %}
+            {% endfor %}
+            {% if paginator.next_page %}
+                <a href="{{ site.url }}/page{{paginator.next_page}}">&raquo;</a>
+            {% else %}
+                <span class="page-active">&raquo;</span>
+            {% endif %}
+            {% if paginator.total_pages >= 10 %} 
+            {% if paginator.next_page %}
+                <a href="{{ site.url }}/page{{paginator.total_pages}}">&raquo;&raquo;</a>
+            {% else %}
+                <span class="page-active">&raquo;&raquo;</span>
+            {% endif %}
+            {% endif %}
+        </div>
+{% else %}
+
+{% assign page_start = paginator.page | minus: 2 %}
+{% assign page_end = paginator.page | plus: 2 %}
+{% if page_end > paginator.total_pages %}
+{% assign page_end = paginator.total_pages %}
+{% assign page_start = paginator.page | minus: 4 %}
+{% endif %}
+{% if page_start < 2 %}
+{% assign page_end = paginator.page | plus: 3 %}
+{% assign page_start = paginator.page | minus: 1 %}
+{% endif %}
+{% if page_start == 0 %}
+{% assign page_end = paginator.page | plus: 4 %}
+{% assign page_start = paginator.page %}
+{% endif %}
+
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">Next</a>
-  {% else %}
-    <span class="page-active none">Next</span>
-  {% endif %}
-  <span class="page-number">
-    {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">Previous</a>
-  {% else %}
-    <span class="page-active">Previous</span>
-  {% endif %}
+    {% if paginator.total_pages > 5 %} 
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+          <span class="page-active none">&laquo;&laquo;</span>
+      {% else %}
+          <a href="{{ site.url }}/">&laquo;&laquo;</a>
+      {% endif %}
+    {% else %}
+        <span class="page-active none">&laquo;&laquo;</span>
+    {% endif %}
+    {% endif %}
+    {% if page_start == 1 %}
+    {% assign page_end = paginator.page | plus: 4 %}
+    {% assign page_start = 2 %}
+    {% if paginator.page == 1 %}
+        <span class="page-active">1</span>
+    {% else %}
+        <a href="/">1</a>
+    {% endif %}
+    {% endif %}
+    {% for count in (page_start..page_end) %}
+      {% if count == paginator.page %}
+        {% if paginator.page == paginator.total_pages %}
+            <span class="page-active none">{{count}}</span>
+        {% else %}
+          <span class="page-active">{{count}}</span>
+        {% endif %}
+      {% else %}
+          <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.total_pages > 5 %} 
+    {% if paginator.next_page %}
+            {% assign near_end = paginator.total_pages | minus: 1 %}
+          {% unless paginator.page == near_end %}
+        <a href="{{ site.url }}/page{{paginator.total_pages}}">&raquo;&raquo;</a>
+		  {% endunless %}
+    {% else %}
+        <span class="page-active">{{paginator.total_pages}}</span>
+    {% endif %}
+    {% endif %}
 </div>
+{% endif %}
+{% endif %}

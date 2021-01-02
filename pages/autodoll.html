@@ -30,7 +30,7 @@ Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <span class
 <section id="toc"> 
   {% for post in sorted-posts %}
     {% unless post.tags contains 'extra' %}
-      <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+      <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
     {% endunless %}
   {% endfor %}
 </section>
@@ -42,6 +42,6 @@ Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <span class
 	
 <section id="toc"> 
 {% for post in sorted-posts-extra %}  
-  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>
+  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>
 {% endfor %}
 </section>

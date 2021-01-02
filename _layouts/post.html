@@ -14,6 +14,7 @@ layout: default
   </section>
     {% endif %}
 </div>
+<!-- end prev -->
 
 <article class="only-main" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -73,25 +74,28 @@ layout: default
     {{ content }}
 </div>
 
-  <!-- under note -->
   {% if page.under-note %}
+  <!-- under note -->
   <blockquote>  
 	
       {% if page.under-note %}
         {{ page.under-note }}<br><br>
       {% endif %}
-
 	  
   </blockquote>  
+  <!-- end under note -->
   {% endif %}
 
-  
+
 <hr>
 
+
+<!-- bottom information -->
 <p class="post-meta" style="text-align: right !important;">
-  <span>Date Published: </span><time class="{%- if page.last_modified_at -%}time{%- endif -%}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
-  {%- if page.last_modified_at -%}<br><time class="time-up">Last amend:&nbsp;{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
+  <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Date Published:&nbsp;</span>{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
+  {%- if page.last_modified_at -%}<br><time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up"><span>Last amend:&nbsp;</span>{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
 </p>
+<!-- end bottom information -->
 
     {% for category in categories %}
   <details><summary class="toc-details">{{ category }}</summary>
@@ -113,15 +117,16 @@ layout: default
 
 
   <!-- next -->
-  <div class="only-main-top">
-    {% if page.next.url %}
+<div class="only-main-top">
+  {% if page.next.url %}
     <section class="switch-post next-post">
-        <a href="{{page.next.url}}" title="{{page.next.categories}} ・ {{page.next.title}}">Next: "{{page.next.title | strip_html | truncatewords: 10}}"<br>
-		<i class="button-arrow-down"></i></a>
+	<a href="{{page.next.url}}" title="{{page.next.categories}} ・ {{page.next.title}}">Next: "{{page.next.title | strip_html | truncatewords: 10}}"<br>
+	<i class="button-arrow-down"></i>
+	</a>
     </section>
-    {% else %}
+  {% else %}
     <section class="switch-post next-post switch-off">        
 	<a>&nbsp;</a>
-  </section>
-    {% endif %}
-  </div>
+    </section>
+  {% endif %}
+</div>
