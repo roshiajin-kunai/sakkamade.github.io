@@ -24,8 +24,8 @@
   
   {% for item in site.data.top-menu-home.docs %}
   <a class="{% if item.url == page.url %}active-menu-top{% else %}
-    {% unless page.url contains 'archive' %}updates
-    {% endunless %}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+    {% if page.url contains 'page=' %}active-menu-top
+    {% endif %}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
   {% endfor %}
 </nav>
 <!-- end top navigation -->

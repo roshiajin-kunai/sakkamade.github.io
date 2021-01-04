@@ -12,7 +12,7 @@ title: Archives
     <div class="toc date"><a id="{{current_date}}">{{ current_date }}</a></div>
     {% assign date = current_date %} 
   {% endif %}
-    <li><div class="toc"><a title="{{post.categories}} ・ {{post.title}}" href="{{ site.baseurl }}{{ post.url }}"><span class="tag-gray">{{post.categories | truncatewords: 1 | replace: '["','' | replace: '"]','' }}</span>{{ post.title | strip_html | truncate: 49 }}<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
+    <li><div class="toc"><a title="{{post.categories}} ・ {{post.title}}" href="{{ site.baseurl }}{{ post.url }}"><span class="tag-gray">{{post.categories | truncate: 13 | replace: '["','' | replace: '"]','' }}</span>{{ post.title | strip_html | truncate: 49 }}<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
 {% endfor %}
 
 </ul>

@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Times New Roman", Times, serif, 'Noto Serif CJK JP Regular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: "Times New Roman", Times, serif, 'Noto Serif CJK JP Regular', 'Cormorant Garamond', 'Cormorant SC', 'Cormorant Upright', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -27,33 +27,11 @@ $base-gray:        #999999 !default;
 $not-black:        #555555 !default;
 $almost-black:     #222222 !default;
 $brand-color:      #808faa !default;
-$white:            #ffffff !default;
+$white:            #ffffff !default; // #fcf3e0
 
 
 $table-text-align: left !default;
 
-// Width of the content area
-$content-width:    800px !default;
-
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-//@mixin media-query($device) {
-//  @media screen and (max-width: $device) {
-//    @content;
-//  }
-//}
-
-//@mixin relative-font-size($ratio) {
-//  font-size: $base-font-size * $ratio;
-//}
 
 // Import partials.
 @import

@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: default-post
 ---
 
 <!-- prev -->
 <div class="only-main-top">
     {% if page.previous.url %}
   <section class="switch-post previous-post">  
-    <a href="{{page.previous.url}}" title="{{page.previous.categories}} ・ {{page.previous.title}}">Previous: "{{page.previous.title | strip_html | truncatewords: 10}}"</a>
+    <a href="{{page.previous.url}}" title="{{page.previous.categories}} ・ {{page.previous.title}}">Previous: "{{ page.previous.title | strip_html | truncatewords: 10 }}"</a>
   </section>
     {% else %}
   <section class="switch-post previous-post switch-off">        
@@ -24,9 +24,8 @@ layout: default
   {% else %}
   <div style="height: 20px;"><!-- $base-unit --></div> 
   {% endif %}
-  
-  
-  
+
+
   <!-- top information -->
   <header class="post-header">
     <p class="post-meta meta-categories no-cap no-margin">
@@ -54,8 +53,8 @@ layout: default
   <!-- end top information -->
 
   {% if page.note or page.chapter-link %}
-  <blockquote>  
-	
+  <blockquote onclick="classSwitch()" class="cropped" id="note">
+  
       {% if page.note %}
         <b>Note:</b> {{ page.note }}<br><br>
       {% endif %}
@@ -64,8 +63,8 @@ layout: default
         <a href="{{ page.chapter-link }}" target="_blank">
         {{ page.chapter-link | strip_html | truncate: 40 }}
         </a>
-      {% endif %}	  
-  </blockquote>  
+      {% endif %}
+  </blockquote>
 	  {% else %}
 		<hr>
   {% endif %}
@@ -96,6 +95,7 @@ layout: default
   {%- if page.last_modified_at -%}<br><time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up"><span>Last amend:&nbsp;</span>{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
 </p>
 <!-- end bottom information -->
+
 
     {% for category in categories %}
   <details><summary class="toc-details">{{ category }}</summary>

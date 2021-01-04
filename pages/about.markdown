@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 I create this website for publishing my translations of Japanese webnovels. 
-After a month at [*WordPress*](https://sakkamade.wordpress.com/) I decided to move to *GitHub*.
+After a month at [*WordPress*](https://sakkamade.wordpress.com/) I decided to move to *GitHub* and [*jekyll*](https://jekyllrb.com/).
 
 <h4 class="with-indent"> Knowledge </h4>
 
