@@ -118,7 +118,7 @@ layout: home
   {% if paginator.total_pages > 5 %} 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <span class="page-active none">&laquo;&laquo;</span>
+    <a href="/">&laquo;&laquo;</a>
     {% else %}
     <a href="{{ site.url }}/">&laquo;&laquo;</a>
     {% endif %}
@@ -151,10 +151,7 @@ layout: home
 	
   {% if paginator.total_pages > 5 %} 
   {% if paginator.next_page %}
-      {% assign near_end = paginator.total_pages | minus: 1 %}
-    {% unless paginator.page == near_end %}
-    <a href="{{ site.url }}/page={{paginator.total_pages}}">&raquo;&raquo;</a>
-    {% endunless %}
+    <a title="Last page: {{paginator.total_pages}}" href="{{ site.url }}/page={{paginator.total_pages}}">&raquo;&raquo;</a>
   {% else %}
     <span class="page-active">{{paginator.total_pages}}</span>
   {% endif %}

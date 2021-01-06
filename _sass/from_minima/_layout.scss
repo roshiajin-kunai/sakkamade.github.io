@@ -202,7 +202,7 @@
 	font-size: 0;
 }
 .inner-top-menu a {
-	height: 48px !important;
+	height: 49px !important;
     text-align: center;
     transition: ease-out .2s;
     display: inline-block;
@@ -655,7 +655,7 @@ border-top-color: black !important;
     margin-bottom: $base-unit / 2;
   }
 }
-
+.low-line { margin-bottom: -$base-unit / 2 !important; }
 
 
 .spoiler {
@@ -675,7 +675,7 @@ border-top-color: black !important;
 /* scroll */
 
 i.button-arrow-up {
-  border: solid $tag-gray;
+  border: solid $base-gray;
   border-radius: 3px;
   border-width: 0 3px 3px 0;
   display: inline-block;

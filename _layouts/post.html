@@ -4,57 +4,59 @@ layout: default-post
 
 <!-- prev -->
 <div class="only-main-top">
-    {% if page.previous.url %}
-  <section class="switch-post previous-post">  
-    <a href="{{page.previous.url}}" title="{{page.previous.categories}} ・ {{page.previous.title}}">Previous: "{{ page.previous.title | strip_html | truncatewords: 10 }}"</a>
-  </section>
-    {% else %}
-  <section class="switch-post previous-post switch-off">        
-	<a>&nbsp;</a>
-  </section>
-    {% endif %}
+	{% if page.previous.url %}
+	<section class="switch-post previous-post">  
+		<a href="{{page.previous.url}}" title="{{page.previous.categories}} ・ {{page.previous.title}}">Previous: "{{ page.previous.title | strip_html | truncatewords: 10 }}"</a>
+	</section>
+	{% else %}
+	<section class="switch-post previous-post switch-off">
+		<a>&nbsp;</a>
+	</section>
+	{% endif %}
 </div>
 <!-- end prev -->
 
 <article class="only-main" itemscope itemtype="http://schema.org/BlogPosting">
 
 
-  {%- if page.main-title -%}
-  <h1 class="post-title main-title">{{ page.main-title }}</h1>
-  {% else %}
-  <div style="height: 20px;"><!-- $base-unit --></div> 
-  {% endif %}
+{%- if page.main-title -%}
+<h1 class="post-title main-title">{{ page.main-title }}</h1>
+{% else %}
+<div style="height: 20px;"><!-- $base-unit --></div> 
+{% endif %}
 
 
-  <!-- top information -->
-  <header class="post-header">
-    <p class="post-meta meta-categories no-cap no-margin">
-        {% if post %}
-          {% assign categories = post.categories | sort %}
-        {% else %}
-         {% assign categories = page.categories | sort %}
-        {% endif %}
-         {% for category in categories %}
-           <a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a>
-             {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-         {% endfor %}  
-    </p>
-    <h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
-    <p class="post-meta low-line" style="text-align: right !important;">
-	<span title="Estimated reading time.">
-{% capture words %}
-  {{ page.content | number_of_words | minus: 250 }}
-{% endcapture %}
-{% unless words contains "-" %}
-  Circa {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
-{% endunless %}</span>
+<!-- top information -->
+<header class="post-header">
+	<p class="post-meta meta-categories no-cap no-margin">
+		{% if post %}
+			{% assign categories = post.categories | sort %}
+		{% else %}
+			{% assign categories = page.categories | sort %}
+		{% endif %}
+		{% for category in categories %}
+		<a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a>
+			{% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+		{% endfor %}  
 	</p>
-  </header>
-  <!-- end top information -->
+	<h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
+	<p class="post-meta low-line" style="text-align: right !important;">
+	<span title="Estimated reading time.">
+		{% capture words %}
+	{{ page.content | number_of_words | minus: 250 }}
+		{% endcapture %}
+	{% unless words contains "-" %}
+	Circa {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
+	{% endunless %}
+	</span>
+	</p>
+</header>
+<!-- end top information -->
 
-  {% if page.note or page.chapter-link %}
-  <blockquote onclick="classSwitch()" class="cropped" id="note">
-  
+{% if page.note or page.chapter-link %}
+<noscript>To see entire note, turn on JavaScript, and click on note.</noscript>
+<blockquote onclick="classSwitch()" class="cropped" id="note">
+
       {% if page.note %}
         <b>Note:</b> {{ page.note }}<br><br>
       {% endif %}
@@ -64,10 +66,10 @@ layout: default-post
         {{ page.chapter-link | strip_html | truncate: 40 }}
         </a>
       {% endif %}
-  </blockquote>
-	  {% else %}
+</blockquote>
+	{% else %}
 		<hr>
-  {% endif %}
+{% endif %}
 
 <div itemprop="articleBody">
     {{ content }}
@@ -90,7 +92,7 @@ layout: default-post
 
 
 <!-- bottom information -->
-<p class="post-meta" style="text-align: right !important;">
+<p class="post-meta low-line" style="text-align: right !important;">
   <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Date Published:&nbsp;</span>{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
   {%- if page.last_modified_at -%}<br><time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up"><span>Last amend:&nbsp;</span>{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
 </p>
