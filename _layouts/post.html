@@ -41,7 +41,7 @@ layout: default-post
 	</p>
 	<h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
 	<p class="post-meta low-line" style="text-align: right !important;">
-	<span title="Estimated reading time.">
+	<span title="Estimated reading time">
 		{% capture words %}
 	{{ page.content | number_of_words | minus: 250 }}
 		{% endcapture %}

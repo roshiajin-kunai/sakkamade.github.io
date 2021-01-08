@@ -3,20 +3,20 @@
 
   {%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <div class="page-inner-main" id="page-inner" aria-label="Content">
-	  <section class="inner-wrap-column">	  
-        {{ content }}		
-      </section>
-    </div>
+<div class="page-inner-main" id="page-inner" aria-label="Content">
+	<section class="inner-wrap-column">
+	{{ content }}		
+	</section>
+</div>
 	
-	<button onclick="topFunction()" id="scroll-btn" class="scroll-btn" title="Go to the top."><i class="button-arrow-up"></i></button>
+	{%- include topBtn.html -%}
 
-    {%- include footer.html -%}
+	{%- include footer.html -%}
 	
-  <script src="/src/js/scroll-button.js"></script>
-  </body>
+<script src="/src/js/scroll-button.js"></script>
+</body>
 </html>
