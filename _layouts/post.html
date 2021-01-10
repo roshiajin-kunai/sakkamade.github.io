@@ -10,7 +10,7 @@ layout: default-post
 	</section>
 	{% else %}
 	<section class="switch-post previous-post switch-off">
-		<a>&nbsp;</a>
+q		<a>&nbsp;</a>
 	</section>
 	{% endif %}
 </div>
@@ -20,7 +20,7 @@ layout: default-post
 
 
 {%- if page.main-title -%}
-<h1 class="post-title main-title">{{ page.main-title }}</h1>
+<h1 class="post-title main-title" itemprop="name headline">{{ page.main-title }}</h1>
 {% else %}
 <div style="height: 20px;"><!-- $base-unit --></div> 
 {% endif %}
@@ -39,7 +39,7 @@ layout: default-post
 			{% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 		{% endfor %}  
 	</p>
-	<h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
+	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title | escape }}</h3>
 	<p class="post-meta low-line" style="text-align: right !important;">
 	<span title="Estimated reading time">
 		{% capture words %}
@@ -54,7 +54,7 @@ layout: default-post
 <!-- end top information -->
 
 {% if page.note or page.chapter-link %}
-<noscript>To see entire note, turn on JavaScript, and click on note.</noscript>
+<noscript>To see entire note, your browser must support JavaScript.</noscript>
 <blockquote onclick="classSwitch()" class="cropped" id="note">
 
       {% if page.note %}

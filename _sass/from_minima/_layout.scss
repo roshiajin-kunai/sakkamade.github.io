@@ -392,7 +392,7 @@
 .toc {
   margin: 0;
   display: inline;
-  text-align: justify;
+  text-align: left;
 }
 .toc a {
   transition: 0s;
@@ -413,7 +413,6 @@
 .toc:nth-child(odd) a {
   background-color: $very-light-gray;
 }
-
 .date a { text-align: center; pointer-events: none; color: $not-black !important; background-color: $light-gray !important; text-transform: capitalize; }
 
 .category-post-date {
@@ -801,5 +800,6 @@ details > #tags-list a {
   -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
   mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
   opacity: .9;
+  cursor: zoom-in !important
 }
-#note { cursor: zoom-in; }
+#note { cursor: zoom-out; }

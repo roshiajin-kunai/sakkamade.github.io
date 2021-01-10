@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="main-with-margin">
-  <header class="post-header">
-    <h2 class="post-title">{{ page.title | escape | default: "&nbsp;" }}</h2>
+  <header>
+    <h2 class="post-title" itemprop="name headline">{{ page.title | escape | default: "&nbsp;" }}</h2>
   </header>
   {{ content }}
 </div>

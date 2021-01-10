@@ -24,6 +24,8 @@ kramdown:
   footnote_nr: 1
   footnote_backlink: back
   parse_block_html: false
+  html_to_native: true
+  auto_ids: true
 
 # no 'footnote backlink' customization, 
 # no proper "SMART" render within html

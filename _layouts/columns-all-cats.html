@@ -2,16 +2,14 @@
 layout: default
 ---
 <div class="main-with-margin">
-  <header>
-    <h2 class="post-title">{{ page.title | escape | default: "&nbsp;" }}</h2>
-  </header>
-  <noscript>For using a search your browser must support JavaScript.</noscript>
-<input type="text" id="tag-search" onkeyup="myFunction()" placeholder="Search for any post.." title="Type a word...">
+	<header>
+		<h2 class="post-title" itemprop="name headline">{{ page.title | escape | default: "&nbsp;" }}</h2>
+	</header>
+	<noscript>For using a search your browser must support JavaScript.</noscript>
+	<input type="text" id="tag-search" onkeyup="myFunction()" placeholder="Search for any post.." title="Type a word...">
 
+	{{ content }}
 
-  {{ content }}
-  
-  
 </div>
 
 <div class="side">

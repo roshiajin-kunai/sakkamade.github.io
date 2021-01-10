@@ -1,14 +1,13 @@
 ---
-layout: columns-trans
+layout: columns-cat
 title: Autodoll Dreams in a Decaying World
+cat-description: 
+  - This is a story about the world after its perishing.<br>The girl have lost her memory upon awakening from suspended animation, and lady, a  female type of Autodoll, helped her. Autodoll told a girl that she was "exploring the world" whilst using an underground library as her base camp. ―"Would you like to become friends with me?"<br>Two young ladies who have nowhere to go, what truth of this world will be discovered by them..?
 permalink: /categories/autodoll-dreams-in-a-decaying-world
 ---
 <h4 class="with-indent">Description</h4>
 
-<p>This is a story about the world after its perishing.<br>
-The girl have lost her memory upon awakening from suspended animation, and lady, a  female type of Autodoll, helped her. Autodoll told a girl that she was "exploring the world" whilst using an underground library as her base camp. ―"Would you like to become friends with me?"<br>
-Two young ladies who have nowhere to go, what truth of this world will be discovered by them..?</p>
-
+<p>{{ page.cat-description }}</p>
 
 <hr>
 
@@ -18,6 +17,7 @@ Two young ladies who have nowhere to go, what truth of this world will be discov
 Author: 葉月双 <span class="small"> (Hazuki Sou) </span></p>
 
 <hr>
+
 <p>
 Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <span class="small"> (With sexual depiction)</span>
 </p>
@@ -36,10 +36,9 @@ Genre: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri; <span class
 </section>
 
   {% assign sorted-posts-extra = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | where_exp: "item", "item.tags contains 'extra'" | sort %}
-  
 
 <!-- <div class="toc date"><a>Extra Episodes</a></div> -->
-	
+
 <section id="toc"> 
 {% for post in sorted-posts-extra %}  
   <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>

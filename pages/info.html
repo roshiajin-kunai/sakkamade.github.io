@@ -1,8 +1,15 @@
 ---
 layout: columns-cat
 title: Information
+cat-description: Posts that is not translation.
 permalink: /categories/information
 ---
+
+<p>{{ page.cat-description }}</p>
+<hr>
+
+<h4 class="with-indent">Posts</h4>
+
    {% assign sorted-posts = site.posts | where: "categories", "Information" %}
   
   {% for post in sorted-posts %}
