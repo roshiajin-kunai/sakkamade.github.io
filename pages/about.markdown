@@ -9,13 +9,15 @@ At expiration of slightly over the month at [*WordPress*](https://sakkamade.word
 
 <h4 class="with-indent">Language Knowledge</h4>
 
-During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (one textbook ~350 pages out of four), in  three months, abandon a second volume nearly at first page. 
-Despite I forgot mostly everything (on the time of starting my translations), with that piece of knowledge I was able to begin. 'To begin somewhat' - from your point of view, most likely; 'Uwah, I'm doing great' - from mine.
+During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (one textbook ~350 pages out of four) in  three months, abandon a second volume nearly at first page. 
+Despite I forgot mostly everything (on the time of starting my translations), with that piece of knowledge I was able to begin. 
+'To begin somewhat' - from your point of view, most likely; 
+'Uwah, I'm doing great' - from mine.
 
 No one call off my problems with English, indeed. However, I am doing best I am capable of upon the time publishing the chapter.
 Majority of my English knowledge being for British and American movies' subtitles; for translated from Japanese, *manga* and novels; for songs' lyrics. Which were accompanied by constant look up dictionaries for unfamiliar words. Should confess I have never learned English with intention to write, but just to be able to read, and understand verbal language.
 
-Must admit that is not sufficient, however, I do not have much of motivation to learn Japanese nor English, at present. 
+Must admit that is not sufficient. I do not have much of motivation, however, to learn Japanese nor English, at present. 
 Well, albeit I have said that, I am learning both. Whereas working over my translations and reading books, the knowledge of mine, thus,  growing constantly, bit by bit. I expect.
 
 
