@@ -58,11 +58,11 @@ q		<a>&nbsp;</a>
 <blockquote onclick="classSwitch()" class="cropped" id="note">
 
       {% if page.note %}
-        <b>Note:</b> {{ page.note }}<br><br>
+        <p class="translator-note"><b>Note:</b> {{ page.note }}</p>
       {% endif %}
   
       {% if page.chapter-link %}
-        <a href="{{ page.chapter-link }}" target="_blank">
+        <a class="original-chapter-link" href="{{ page.chapter-link }}" target="_blank">
         {{ page.chapter-link | strip_html | truncate: 40 }}
         </a>
       {% endif %}

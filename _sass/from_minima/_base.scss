@@ -60,24 +60,12 @@ h1, h2, h3, h4, h5, h6, {
   font-family: 'Cormorant Garamond';
   line-height: $base-line-height;
 }
-h1 {
-    font-size: 38px;
-}
-h2 {
-    font-size: 36px;
-}
-h3 {
-    font-size: 32px;
-}
-h4 {
-    font-size: 30px;
-}
-h5 {
-    font-size: 26px;
-}
-h6 {
-    font-size: 24px;
-}
+h1 { font-size: 38px; }
+h2 { font-size: 36px; }
+h3 { font-size: 32px; }
+h4 { font-size: 30px; }
+h5 { font-size: 26px; }
+h6 { font-size: 24px; }
 
 /**
  * Basic styling
@@ -173,9 +161,9 @@ blockquote {
   background-color: $very-light-gray;
   overflow: hidden;
   
-  > p { color: $not-black; }
+  > p { color: $not-black; font-size: 17px !important; }
   
-  > a { color: $base-gray; }
+  > a, p > a { color: $base-gray; font-size: 17px !important; }
   
   > :last-child {
     margin-bottom: 0;

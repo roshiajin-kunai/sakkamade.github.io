@@ -13,7 +13,7 @@ During the autumn of 2019 I was learning Japanese, simply because grew curious a
 Despite I forgot mostly everything (on the time of starting my translations), with that piece of knowledge I was able to begin. 'To begin somewhat' - from your point of view, most likely; 'Uwah, I'm doing great' - from mine.
 
 No one call off my problems with English, indeed. However, I am doing best I am capable of upon the time publishing the chapter.
-Majority of my English knowledge  from subtitles of British and American movies; translated from Japanese, *manga* and novels; accompanied by constant look up dictionaries for unfamiliar words. I have never learned English with intention to write, but just to be able to read, and understand verbal language.
+Majority of my English knowledge being for British and American movies' subtitles; for translated from Japanese, *manga* and novels; for songs' lyrics. Which were accompanied by constant look up dictionaries for unfamiliar words. Should confess I have never learned English with intention to write, but just to be able to read, and understand verbal language.
 
 Must admit that is not sufficient, however, I do not have much of motivation to learn Japanese nor English, at present. 
 Well, albeit I have said that, I am learning both. Whereas working over my translations and reading books, the knowledge of mine, thus,  growing constantly, bit by bit. I expect.
@@ -21,10 +21,10 @@ Well, albeit I have said that, I am learning both. Whereas working over my trans
 
 <h4 class="with-indent">Services for Translation</h4>
 
-[wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese; mostly with English, but with Japanese either;
+[wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese, mostly with English, but with Japanese either;
 [jisho.org](https://jisho.org/) - Japanese translation tool;
 [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - great dictionary of (totally unfamiliar to me) Japanese *sfx*;
-[translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese;
+[translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English;
 [deepl.com](https://www.deepl.com/home) - good for translation of (truly alien to me) Japanese dialects;
 
 and plenty of other.
