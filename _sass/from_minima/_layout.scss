@@ -634,6 +634,11 @@ border-top-color: black !important;
   text-align: center;
   margin: ($base-unit) 0 ($base-unit * 3) 0;
   line-height: $small-line-height;
+  
+  > a { color: $almost-black; text-decoration: none !important; }
+  
+  > a:hover { color: $link-blue !important; }
+  
 }
 .post-content {
   margin: $base-unit 0;
