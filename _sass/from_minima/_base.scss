@@ -160,6 +160,7 @@ blockquote {
   font-size: 17px !important;
   background-color: $very-light-gray;
   overflow: hidden;
+  text-overflow: ellipsis; 
   
   > p { color: $not-black; font-size: 17px !important; }
   

@@ -33,7 +33,7 @@ and plenty of other.
 
 <div style="height:100px;"> </div>
 
-<blockquote><strong style="font-size:25px;">継続は力なり。</strong><em style="font-size:13px;">Keizoku wa Chikara nari.</em><br>
-<a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size:16px;">wikiquote.org</em></a>
+<blockquote style='padding-top: 1.3em;'><strong style="font-size:1.8em;">継続は力なり。</strong><em style="font-size:.9em;">Keizoku wa Chikara nari.</em><br>
+<a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size:.9em;">wikiquote.org</em></a>
 </blockquote>
 <b style="font-size:15px;font-weight:normal;">What translates as: <strong><em>"Continuation is the powe</em></strong></b>
