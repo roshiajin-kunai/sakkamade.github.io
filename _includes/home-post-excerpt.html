@@ -1,0 +1,7 @@
+	<div class="post-content excerpt" onclick="document.location.href='{{ post.url | relative_url }}'">
+		  {% if post.note %}
+		<blockquote><b>Note:</b> {{  post.note }}</blockquote>		  
+		  {% else %}
+		<p>{{  post.content | strip_html | truncatewords: 35 }}</p>
+		  {% endif %}
+	</div>

@@ -1,0 +1,16 @@
+{% if page.note or page.chapter-link %}
+<blockquote onclick="classSwitch()" class="cropped" id="note">
+
+      {% if page.note %}
+        <p class="translator-note"><b>Note:</b> {{ page.note }}</p>
+      {% endif %}
+  
+      {% if page.chapter-link %}
+        <a class="original-chapter-link" href="{{ page.chapter-link }}" target="_blank">
+        {{ page.chapter-link }}
+        </a>
+      {% endif %}
+</blockquote>
+	{% else %}
+		<hr>
+{% endif %}

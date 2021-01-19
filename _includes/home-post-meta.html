@@ -1,0 +1,12 @@
+<!-- title -->
+<h3 class="post-link">
+	<a class="in-block" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+</h3>
+<p class="post-meta low-line">
+	<time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}">
+		{%- assign date_format = "%Y %B %d" -%}
+		{{ post.date | date: date_format }}
+		</time>
+		<!-- read time -->
+		・ <span title="Estimated reading time">{% capture count_words %}{{ post.content | number_of_words }}{% endcapture %}{% capture time_words %}{{ count_words | divided_by: 5 }}{% endcapture %}circa {{ time_words | divided_by: 36 }} minutes</span>
+</p>

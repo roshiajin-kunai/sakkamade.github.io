@@ -1,0 +1,23 @@
+<!-- top information -->
+<header class="post-header">
+	<p class="post-meta meta-categories no-cap no-margin">
+		{%- if page.main-title -%}<!--no top category-->{%- else -%}
+			{% for category in categories %}
+			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a>
+				{% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+			{% endfor %}  
+		{%- endif -%}
+	</p>
+	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title | escape }}</h3>
+	<p class="post-meta low-line" style="text-align: right !important;">
+	<span title="Estimated reading time">
+			{% capture words %}
+		{{ page.content | number_of_words | minus: 250 }}
+			{% endcapture %}
+		{% unless words contains "-" %}
+		Circa {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
+		{% endunless %}
+	</span>
+	</p>
+</header>
+<!-- end top information -->
