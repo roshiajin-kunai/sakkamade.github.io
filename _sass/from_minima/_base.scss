@@ -2,9 +2,7 @@
  * Reset some basic elements
  */
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 body { min-width: 450px; cursor: default; }
 
 body, h1, h2, h3, h4, h5, h6,
@@ -20,10 +18,19 @@ p {
   color: $almost-black;
 }
 
-sup { padding: 0 0 0 1px; margin-top: 60px !important; vertical-align: top; position: relative; top: -0.4em; font-size: 13px; }
+sup { 
+  padding: 0 0 0 1px; 
+  margin-top: 60px !important; 
+  vertical-align: top; 
+  position: relative; 
+  top: -0.4em; 
+  font-size: 13px;
+}
+
 .footnote::before { content: '['; }
 .footnote::after { content: ']'; }
 .footnote { text-decoration: none; }
+
 .footnotes {
   color: $not-black;
   border-radius: 0 4px 0 0;
@@ -60,6 +67,7 @@ h1, h2, h3, h4, h5, h6, {
   font-family: 'Cormorant Garamond';
   line-height: $base-line-height;
 }
+
 h1 { font-size: 38px; }
 h2 { font-size: 36px; }
 h3 { font-size: 32px; }
@@ -162,12 +170,19 @@ blockquote {
   overflow: hidden;
   text-overflow: ellipsis; 
   
-  > p { color: $not-black; font-size: 17px !important; }
+  > p { 
+	color: $not-black; 
+	font-size: 17px !important;
+  }
   
-  > a, p > a { color: $base-gray; font-size: 17px !important; }
+  > a, 
+  p > a { 
+	color: $base-gray; 
+	font-size: 17px !important; 
+  }
   
   > :last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
   }  
 }
 
@@ -184,14 +199,14 @@ code {
 }
 
 code {
-    font-family: Consolas, Monaco, Monospace, Courier;
-    color: #c7254e;
-	background-color: #f9f2f4;
-	padding: 0.1em 0.3em;
-	border-radius: 5px;
-    word-break: break-word;
-	font-size: 16px;
-	border: none;
+  font-family: Consolas, Monaco, Monospace, Courier;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  padding: 0.1em 0.3em;
+  border-radius: 5px;
+  word-break: break-word;
+  font-size: 16px;
+  border: none;
 }
 
 pre {
@@ -210,8 +225,8 @@ pre {
     font-family: Consolas, Monaco, Monospace, Courier;
     white-space: pre;
     -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
+	  -o-tab-size: 4;
+		 tab-size: 4;
   }
 }
 
@@ -247,17 +262,17 @@ a {
  */
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$base-gray};
-    padding-right: 0;
-    vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #{$base-gray};
+  padding-right: 0;
+  vertical-align: text-top;
 }
 
 .social-media-list {
   li + li {
-    padding-top: 5px;
+	padding-top: 5px;
   }
 }
 
@@ -270,20 +285,24 @@ table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid $background-gray;
+
   tr {
-    &:nth-child(even) {
-      background-color: $light-gray;
-    }
+	&:nth-child(even) {
+	  background-color: $light-gray;
+	}
   }
+
   th, td {
-    padding: ($base-unit / 3) ($base-unit / 2);
+	padding: ($base-unit / 3) ($base-unit / 2);
   }
+
   th {
-    background-color: $light-gray;
-    border: 1px solid $background-gray;
-    border-bottom-color: $background-gray;
+	background-color: $light-gray;
+	border: 1px solid $background-gray;
+	border-bottom-color: $background-gray;
   }
+
   td {
-    border: 1px solid $background-gray;
+	border: 1px solid $background-gray;
   }
 }
