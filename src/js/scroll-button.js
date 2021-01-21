@@ -1,4 +1,3 @@
-  // Code goes here
 // https://github.com/krvikash35/js-auto-hide-header-onscroll
 var lastKnownScrollY = 0;
 var currentScrollY = 0;
@@ -63,7 +62,7 @@ window.onload = function(){
 var mybutton = document.getElementById("scroll-btn");
 
 // When the user scrolls down 200px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction(); scrolldownFunction()}
 
 function scrollFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
@@ -77,4 +76,22 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+// Get to-bottom button
+var mydownbutton = document.getElementById("scroll-down-btn");
+
+// When the user scrolls down 200px from the top of the document, hide the button
+function scrolldownFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mydownbutton.style.display = "none";
+  } else {
+    mydownbutton.style.display = "block";
+  }
+}
+
+// https://stackoverflow.com/questions/11715646/scroll-automatically-to-the-bottom-of-the-page
+scrollingElement = (document.scrollingElement || document.body)
+function scrollToBottom () {
+   scrollingElement.scrollTop = scrollingElement.scrollHeight;
 }

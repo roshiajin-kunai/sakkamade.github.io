@@ -60,7 +60,8 @@
 	.post-list-heading {
 		margin-left: 7% !important;
 	}
-	#scroll-btn {
+	#scroll-btn,
+	#scroll-down-btn {
 		visibility: visible !important;
 	}
 }
@@ -756,12 +757,25 @@ i.button-arrow-up {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 6px;
-  margin-bottom: -3.5px;
+  margin-bottom: -3px;
           transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
      -moz-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
        -o-transform: rotate(-135deg);
+}
+i.button-arrow-down-2 {
+  border: solid $base-gray;
+  border-radius: 3px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  margin-bottom: 2px;
+          transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
 }
 i.button-arrow-down {
   border-style: double !important;
@@ -782,6 +796,23 @@ i.button-arrow-down {
 @keyframes fade {
   from {opacity: 0;}
   to {opacity: 0.4;}
+}
+
+.scroll-down-btn {
+  visibility: hidden;
+  position: fixed;
+  bottom: $base-unit;
+  right: 3%;
+  z-index: 9;
+  font-size: 18px;
+  outline: none;
+  background-color: $light-gray;
+  cursor: pointer;
+  width: ($base-unit * 3);
+  height: ($base-unit * 3);
+  border-radius: 50%;
+  border: none;
+  opacity: .4 !important;
 }
 
 .scroll-btn {
