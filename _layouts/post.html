@@ -64,11 +64,14 @@ layout: default-post
 
 <hr>
 
-
 <!-- bottom information -->
+{%- assign date_format = "%Y %B %d" -%}
+{%- assign date_mend_to_day = "%H:%M:%S" -%}
+{%- assign last_mend = page.last_modified_at | date: date_format -%}
+{%- assign published_date = page.date | date: date_format -%}
 <p class="post-meta low-line" style="text-align: right !important;">
-  <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Date Written:&nbsp;</span>{%- assign date_format = "%Y %B %d" -%}{{ page.date | date: date_format }}</time>
-  {%- if page.last_modified_at -%}<br><time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up"><span>Last amend:&nbsp;</span>{{ page.last_modified_at | date: date_format }}</time>{%- endif -%}
+  <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Date Written:&nbsp;</span>{{ published_date }}</time>
+  {%- if page.last_modified_at -%}<br><time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up"><span>Last amend:&nbsp;</span>{%- if last_mend == published_date -%}{{ page.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ last_mend }}{%- endif -%}</time>{%- endif -%}
 </p>
 <!-- end bottom information -->
 
@@ -77,7 +80,7 @@ layout: default-post
     {% endfor %}   
 	<section id="tags-list">
   {% for category in page.categories %}
-  {% assign sotred_posts = site.categories[category] | sort %}
+  {% assign sotred_posts = site.categories[category] | reverse %}
     {% for post in sotred_posts %}
       <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
 	  <span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>	  

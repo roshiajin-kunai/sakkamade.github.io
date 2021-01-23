@@ -474,6 +474,7 @@
 #tags-list div:first-child a { 
   border-radius: 0 4px 0 0;
 }
+#tags-list a:last-child { margin-bottom:0 !important; }
 #tags-list li a { 
   border-radius: 0 !important; 
 }

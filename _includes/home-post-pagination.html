@@ -53,19 +53,19 @@
 </div>
 		
 {% else %}
-
+<!-- code is quite confusing and I have no will to explain, 0.8.5, (body min-width >480px, better >500px) good luck; although I fear I'll never utilise it -->
 {% assign page_start = paginator.page | minus: 2 %}
 {% assign page_end = paginator.page | plus: 2 %}
 {% if page_end > paginator.total_pages %}
 {% assign page_end = paginator.total_pages %}
-{% assign page_start = paginator.page | minus: 4 %}
+{% assign page_start = paginator.page | minus: 3 %}
 {% endif %}
 {% if page_start < 2 %}
 {% assign page_end = paginator.page | plus: 3 %}
 {% assign page_start = paginator.page | minus: 1 %}
 {% endif %}
 {% if page_start == 0 %}
-{% assign page_end = paginator.page | plus: 4 %}
+{% assign page_end = paginator.page | plus: 3 %}
 {% assign page_start = paginator.page %}
 {% endif %}
 
@@ -73,9 +73,17 @@
   {% if paginator.total_pages > 5 %} 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a href="/">&laquo;&laquo;</a>
+		<a href="{{ site.url }}">&laquo;</a>
     {% else %}
-    <a href="{{ site.url }}/">&laquo;&laquo;</a>
+		<a href="{{ site.url }}/page={{paginator.previous_page}}">&laquo;</a>
+		<a href="{{ site.url }}/">1</a>
+	{% unless paginator.page == 3 or paginator.page == 4 %}
+		{% if paginator.page == 5 %}
+			<a href="{{ site.url }}/page=2">2</a>
+		{% else %}
+    <span class="page-active">...</span>
+		{% endif %}
+	{% endunless %}
     {% endif %}
   {% else %}
      <span class="page-active none">&laquo;&laquo;</span>
@@ -104,9 +112,24 @@
   {% endif %}
   {% endfor %}
 	
+<!-- especially this part -->
+	{% assign very_near_end = paginator.total_pages | minus: 1 %}
+	{% assign near_end = paginator.total_pages | minus: 2 %}
+	{% assign quite_near_end = paginator.total_pages | minus: 3 %}
+	{% assign somewhat_near_end = paginator.total_pages | minus: 4 %}
   {% if paginator.total_pages > 5 %} 
   {% if paginator.next_page %}
-    <a title="Last page: {{paginator.total_pages}}" href="{{ site.url }}/page={{paginator.total_pages}}">&raquo;&raquo;</a>
+	{% unless paginator.page == near_end or paginator.page == very_near_end %}
+	{% unless paginator.page == quite_near_end %}
+		{% if paginator.page == somewhat_near_end %}
+			<a href="{{ site.url }}/page={{ very_near_end }}">{{ very_near_end }}</a>
+		{% else %}
+    <span class="page-active">...</span>
+		{% endif %}
+	{% endunless %}
+    <a href="{{ site.url }}/page={{paginator.total_pages}}">{{paginator.total_pages}}</a>
+	{% endunless %}
+    <a href="{{ site.url }}/page={{paginator.next_page}}">&raquo;</a>
   {% else %}
     <span class="page-active">{{paginator.total_pages}}</span>
   {% endif %}
