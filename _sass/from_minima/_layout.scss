@@ -34,7 +34,8 @@
 	#page-inner { 
 	
 	p, 
-	> li { 
+	> li,
+	#markdown-toc { 
 		font-size: 17px !important; 
 		}
 	code { 
@@ -191,6 +192,10 @@
   height: 210px;
   margin: 0;
   text-align: center;
+  
+  > a {
+	text-decoration: none;
+  }
 }
 .header-img { 
   position: relative;
@@ -925,3 +930,17 @@ details > #tags-list a {
 
 #note { cursor: zoom-out; }
 .pinned { font-size: 20px; color: $base-gray; font-family: 'Cormorant Upright' }
+
+#markdown-toc ul {
+    list-style: bullets;
+    depth: 1;
+}
+#markdown-toc {
+    border-top: 1px solid $background-gray;
+    border-right: 4px solid $background-gray;
+	border-radius: 0 4px 0 0;
+	background-color: $very-light-gray;
+    padding: 1em 2em;
+    list-style: decimal;
+    display: inline-block;
+}
