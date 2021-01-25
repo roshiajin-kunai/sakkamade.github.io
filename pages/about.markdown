@@ -27,7 +27,7 @@ Well, albeit I have said that, I am learning both. Whereas working over my trans
 [jisho.org](https://jisho.org/) - Japanese translation tool;
 [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - great dictionary of (totally unfamiliar to me) Japanese *sfx*;
 [translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English;
-[deepl.com](https://www.deepl.com/home) - good for translation of (truly alien to me) Japanese dialects;
+[deepl.com](https://www.deepl.com/home) - good for translation of (truly alien to me) Japanese dialects and colloquial language;
 
 and plenty of other.
 
