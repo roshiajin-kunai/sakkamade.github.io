@@ -1,11 +1,35 @@
 ---
 layout: default-post
 ---
+  {% if page.categories %}
+  {% assign category = page.categories[0] %}
+  {% assign posts = site.categories[category] %}
+  {% for post in posts %}
+    {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+    {% endif %}
+  {% endfor %}
+  {% for post in posts %}
+    {% if post_index0 == forloop.index %}
+      {% assign next_post = post %}
+      {% assign next_post_url = post.url %}
+      {% assign next_post_title = post.title %}
+      {% assign next_post_cat = post.categories %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+      {% assign prev_post = post %}
+      {% assign prev_post_url = post.url %}
+      {% assign prev_post_title = post.title %}
+      {% assign prev_post_cat = post.categories %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 <!-- prev -->
 <div class="only-main-top">
-	{% if page.previous.url %}
+	{% if prev_post %}
 	<section class="switch-post previous-post">  
-		<a href="{{page.previous.url}}" title="{{page.previous.categories}} ・ {{page.previous.title}}">Previous: "{{ page.previous.title | strip_html | truncatewords: 10 }}"</a>
+		<a href="{{ prev_post_url }}" title="{{ prev_post_cat }} ・ {{ prev_post_title }}">Previous: "{{ prev_post_title | strip_html | truncatewords: 10 }}"</a>
 	</section>
 	{% else %}
 	<section class="switch-post previous-post switch-off">
@@ -41,8 +65,6 @@ layout: default-post
 
 {%- include post-header.html -%}
 
-
-{%- include post-note.html -%}
 
 
 <div itemprop="articleBody">
@@ -89,16 +111,16 @@ layout: default-post
   </section>
   </details>
   
-  <div style="height: 20px;"><!-- $base-unit --></div> 
+  <div style="min-height: 20px;"><!-- $base-unit --></div> 
 </article>
 
 
 
   <!-- next -->
 <div class="only-main-top">
-  {% if page.next.url %}
+    {% if next_post %}
     <section class="switch-post next-post">
-	<a href="{{page.next.url}}" title="{{page.next.categories}} ・ {{page.next.title}}">Next: "{{page.next.title | strip_html | truncatewords: 10}}"<br>
+	<a href="{{ next_post_url }}" title="{{ next_post_cat }} ・ {{ next_post_title }}">Next: "{{ next_post_title | strip_html | truncatewords: 10 }}"<br>
 	<i class="button-arrow-down"></i>
 	</a>
     </section>

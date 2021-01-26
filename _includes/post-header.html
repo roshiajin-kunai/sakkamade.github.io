@@ -9,15 +9,32 @@
 		{%- endif -%}
 	</p>
 	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title | escape }}</h3>
-	<p class="post-meta low-line" style="text-align: right !important;">
-	<span title="Estimated reading time">
+	<p class="post-meta" style="text-align: right !important;">
+	<span class="no-cap" title="Estimated reading time">
 			{% capture words %}
 		{{ page.content | number_of_words | minus: 250 }}
 			{% endcapture %}
-		{% unless words contains "-" %}
+		{% if words contains "-" %}
+		Less than a minute
+		{% else %}
 		Circa {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
-		{% endunless %}
+		{% endif %}
 	</span>
 	</p>
 </header>
 <!-- end top information -->
+
+{% if page.note or page.chapter-link %}
+<blockquote onclick="classSwitch()" class="cropped" id="note">
+
+      {% if page.note %}
+        <p class="translator-note"><b>Note:</b> {{ page.note }}</p>
+      {% endif %}
+  
+      {% if page.chapter-link %}
+        <p class="original-chapter-link"><strong style="padding-right: 6px">Source:</strong><a href="{{ page.chapter-link }}" target="_blank">{{ page.chapter-link }}</a></p>
+      {% endif %}
+</blockquote>
+	{% else %}
+		<hr>
+{% endif %}
