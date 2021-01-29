@@ -1,6 +1,3 @@
-<section id="toc"> 
-<div class="toc">
-<a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }} <span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span>
-</a>
-</div>
-</section>
+
+<div title="{{ post.title }}" class="toc">
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>

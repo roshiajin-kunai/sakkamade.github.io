@@ -1,7 +1,7 @@
 <div id="page-inner">
 
 <div id="site-header-inner">
-<a href="/">
+<a href="{{ site.url }}/">
   <div id="site-title">
   <h1>{{ site.title }}</h1>
   </div>
@@ -26,7 +26,7 @@
   {% for item in site.data.top-menu-home.docs %}
   <a class="{% if item.url == page.url %}active-menu-top{% else %}
     {% if page.url contains 'page=' %}active-menu-top
-    {% endif %}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+    {% endif %}{% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
   {% endfor %}
 </nav>
 <!-- end top navigation -->

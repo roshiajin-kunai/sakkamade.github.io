@@ -4,19 +4,19 @@
 
 <div class="inner-bottom-column count-3 col-1">  
   {% for item in site.data.bottom-menu1.docs %}
-  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
+  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></section>
   {% endfor %}
 </div>
 
 <div class="inner-bottom-column count-3 col-2">  
   {% for item in site.data.bottom-menu2.docs %}
-  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
+  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></section>
   {% endfor %}
 </div>
 
 <div class="inner-bottom-column count-3">
   {% for item in site.data.bottom-menu3.docs %}
-  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
+  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></section>
   {% endfor %}
 </div>
 

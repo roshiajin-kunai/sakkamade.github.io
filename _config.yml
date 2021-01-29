@@ -22,7 +22,7 @@ kramdown:
   input: GFM
   hard_wrap: true
   footnote_nr: 1
-  footnote_backlink: back
+  footnote_backlink: "back"
   parse_block_html: false
   html_to_native: true
   auto_ids: true

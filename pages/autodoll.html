@@ -21,26 +21,30 @@ Author: 葉月双 <span class="small"> (Hazuki Sou) </span></p>
 <hr>
 
 <p>Genre: Sci-Fi<br>
-Tags: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai, Yuri <span class="small"> (With sexual depiction)</span>
+Tags: Adventure, Android, Future, Post-Apocalypse, Shoujo Ai (Love Between <em>Young</em> Girls), Yuri <span class="small"> (With sexual depiction)</span>
 </p>
 
 <hr>
 
 <h4 class="with-indent">Table of Contents</h4>
 
-  {% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | reverse %}
+{% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | reverse %}
 <section id="toc"> 
-  {% for post in sorted-posts %}
-    {% unless post.tags contains 'extra' %}
-      <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
-    {% endunless %}
-  {% endfor %}
+{% for post in sorted-posts %}
+	{% unless post.tags contains 'extra' %}
+	
+	{%- include cat.html -%}
+	
+	{% endunless %}
+{% endfor %}
 
-  {% assign sorted-posts-extra = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | where_exp: "item", "item.tags contains 'extra'" | reverse %}
+{% assign sorted-posts-extra = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | where_exp: "item", "item.tags contains 'extra'" | reverse %}
 
 <div class="toc date"><a>Extra Episodes</a></div>
 
 {% for post in sorted-posts-extra %}  
-  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>
+	
+	{%- include cat.html -%}
+	
 {% endfor %}
 </section>
