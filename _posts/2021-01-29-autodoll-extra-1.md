@@ -10,7 +10,7 @@ categories:
 tags:
  - webnovel translation
  - extra
-note: "And hello again, here we are at last. The first extra chapter.<br>In short: I advice you to not miss a 7th foot-link.<br>And long: .... Some another time."
+note: "And hello again, here we are. The first extra chapter.<br>In short: I advice you to not miss a 7th foot-link.<br>And long: .... Some another time."
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054883464875
 ---
 
@@ -389,7 +389,7 @@ Lydia assumed a stance reflecting on her right.
 
 
 "Ohan holds a weapon," says Shii. "It is rather disadvantageous of Mama-Lydi, isn't it?"
-"It is vice versa," Kizuna assured: "This restrain Ohan's attack technique​."
+"It is vice versa," Kizuna assured: "this restrains Ohan's attack technique​."
 "Yea," Mari nods. "In a natural flow of conversation, Lydia suggested her own advantageous rule. Natural little devil."
 
 
@@ -455,10 +455,10 @@ With her arm at guard, Ohan's body arched in a dogleg shape, and just like that 
 
 
 Upon shriek ish cry, Rapha  rushed towards Ohan.
-However in prior of Rapha's arrival, Ohan arose up, and proceed to stroll as if nothing had happened, and, lifting Rapha who was closing up towards up, stepped in to the _dojo_.
+However in prior of Rapha's arrival, Ohan arose up, and proceed to stroll as if nothing had happened, and, lifting Rapha who was closing up, stepped in to the _dojo_.
 
 
-"I have rather calculated the damage. Lydi-Mama wins."
+"I have rather calculated the damage. Mama-Lydi wins."
 
 
 Indifferently said Shii.
@@ -479,8 +479,8 @@ Ohan halted before Lydia, and said plainly.
 Shii remarked, in whisper.
 
 
-"My body is magnificent. And not at all inferior to Shii-chan." ---Ohan perfectly heard Shii-chan's words--- "Quantum brain is  elaborate, too, and it will not take long before I become conscious."
-"Hum. However I was the first to obtain consciousness. Indeed, I am a consciousness _senpai_. You may address me Yuuyami-senpai?"
+"My body is magnificent. And not at all inferior to Shii-chan," ---Ohan perfectly heard Shii-chan's words--- "my quantum brain is elaborate, too, and it will not take long before I become conscious."
+"Hum. However I was the first to obtain consciousness. Indeed, I am a consciousness _senpai_. You may address me Yuuyami-senpai, I presume?"
 
 
 Proudly stated Yuuyami.
@@ -511,7 +511,7 @@ Ohan smiles softly.
 "Ah.., it's but started..."
 
 
-Now, I have to swiftly​ reproduce nutrition drinks at once, thought Lydia.
+And now, I have to swiftly​ reproduce nutrition drinks at once, thought Lydia.
 
 
 ◇
@@ -519,12 +519,12 @@ Now, I have to swiftly​ reproduce nutrition drinks at once, thought Lydia.
 
 Lydia is always sleep upon the futon which laid over the library floor.
 And upon that futon Lydia and Yuuyami were sitting now, facing each other.
-Upon the floor beside a futon, there a pile of nutrition drinks. These nutrition drink were not  articles reproduced by Lydia, but Yuuyami had reproduced these. According to her, a deluxe​ twenty-four hour's combat drink.
+Upon the floor beside a futon, there a pile of nutrition drinks. These nutrition drinks were not  articles reproduced by Lydia, but articles reproduced by Yuuyami. According to her, a deluxe​ twenty-four hour's combat drink.
 Lydia had already taken one.
 In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly sweet and easy to drink.
 
 
-"Somehow," says Lydia: "because usually  we get to _etchi_ under the flow of mood--, it's a little stressing when we about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such _seiza_."[^100]
+"Somehow," says Lydia: "because usually  we get to _etchi_ under the flow of mood--, it's a little stressing when we about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such a _seiza_."[^100]
 "In, indeed."
 
 
