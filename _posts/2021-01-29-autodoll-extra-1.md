@@ -10,7 +10,7 @@ categories:
 tags:
  - webnovel translation
  - extra
-note: "And hello again, here we are. The first extra chapter.<br>In short: I advice you to not miss a 7th foot-link.<br>And long: .... Some another time."
+note: "And hello again, here we are. The first extra chapter.<br>In short: I advice you to not to skip a 7th foot-link.<br>And at length: .... Some another time."
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054883464875
 ---
 
