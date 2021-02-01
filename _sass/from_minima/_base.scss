@@ -38,7 +38,6 @@ sup {
   padding-top: $base-unit;
 }
 .footnotes ol {
-  margin-right: 4%;
 }
 .reversefootnote { margin-left: 4px; }
 /* .reversefootnote { text-decoration: none; } */
@@ -138,6 +137,7 @@ figcaption {
  * Lists
  */
 ul, ol {
+  margin-right: 4%;
   margin-left: 6%;
 }
 

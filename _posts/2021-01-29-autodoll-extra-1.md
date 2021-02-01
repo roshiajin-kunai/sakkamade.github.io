@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-29 23:31:20 +0000
-last_modified_at: 2021-01-30 23:12:50 +0000
+last_modified_at: 2021-01-31 22:33:02 +0000
 title: "EX01. Lydia's Introduction to Martial Arts."
 main-title: "Autodoll Dreams in a Decaying World.<br> Extra Episodes.<br> By Hazuki Sou."
 author: sakkani
@@ -98,7 +98,7 @@ Furthermore, for their bodies and brains are conscientiously re-emerged against 
 [^12321]: she says _parallel realities_ somewhat English-esque, seem too long for Japanese:<br> [Parareruriariti] and [Heikō sekai];
 
 Whereas I investigated strongest a martial art, _Kuga Ha Shinryu_, there was such an account​. Of course, no one believed it at that period, thence it was treated  an idle gossip.
-Lydia wanted to question it one day, however she could not afford a room to think of anything else during the trainings, and afterwards she  been so exhausted that kept forgetting.
+Lydia wanted to question it one day, however she could not afford a room to think of anything else during the trainings, and afterwards she has been so exhausted that kept forgetting.
 
 
 "If you talking of the Otherworld, then yes. We defeated the demon king in the Otherworld at the age of thirteen, and were summoned again at the age of seventeen, this time for teaching a perishing demons of combat."
@@ -134,13 +134,13 @@ Stated Kizuna, appearing deeply emotional.
 In the _Kuga Ha Shinryu_, the fourth _dan_ positioned as a _teacher_.
 Incidentally, at fifth _dan_ or higher one would reach a _master_.
 Both Kizuna and Mari are of the highest tenth _dan_. Within its history there are but the founder, Kizuna, Mari, and a few others having it.
-Amidst them, Kizuna and Mari hold a titles of strongest under a bonnet of this the world. According to one theory, it was said that the two of them comparable to small country's military forces.
+Amidst them, Kizuna and Mari hold a titles of strongest under a bonnet of this world. According to one theory, it was said that the two of them comparable to small country's military forces.
 
 
-"Fourth _dan_ in such a short time, reminds me Lyulyu."
+"Fourth _dan_ in such a short period, reminds me Lyulyu."
 
 
-Said Mari, gazing into a distant.
+Said Mari, gazing into a distance.
 Lyulyu is the first apprentice of Kizuna and Mari, the demon princess. Lydia passim listened to their Otherworld's heroic saga, she knows, thus, of Lyulyu along with their other friends.
 One day, when I accomplish the world exploration, I should depart upon adventure in to the parallel reality, planned Lydia.
 
@@ -172,7 +172,7 @@ Suggested Kizuna. Mari bent her neck.
 Said Yuuyami.
 
 
-"But, what if we expand the scope of exploration to universe and parallel realities, in the future?"
+"But, what if we expand the scope of exploration to universe and parallel realities in the future?"
 "Such is, well, I suppose."
 
 
@@ -222,7 +222,7 @@ In hardly an hour Rapha and Ohan arrived to _dojo_.
 Rapha has invariant​ hair, peach of colour, and Gothic Lolita outfit as before. She appeared to be a little girl of around eleven years of age, chest the precipitous cliff. Her eyes are round and cute.
 And, withal that.
 Ohan pass into an adult onee-san in the middle of her twenties.  Rapha created this fresh body  by the occasion of Rapha and Ohan start dating.
-Ohan has a satsuma orange hair hue, of equal to Yuuyami's length. She had, however, her hair braided in one point upon the right side.
+Ohan has a satsuma orange hair tint, of equal to Yuuyami's length. She had, however, her hair braided in one point upon the right side.
 Her skin of regular colour. Not so white as Lydia's. She dressed in azure military uniform, however her skirt was short.
 Bosom is bigger than of Yuuyami, but is not too big and appeared just right. Her figure, too, was neat. Lydia instantly grasped, this was the only place Rapha were exceptionally fixated upon.
 Her features gave an impression​ of a superior official setting, a little severe. Pretty, but  somewhat eerie.
@@ -235,7 +235,7 @@ And, withal that,
 Ohan hold a horse-riding whip in her right hand. Lydia asked whereas viewing it.
 
 
-"This is Rapha's hobby"
+"This is Rapha's hobby."
 
 
 Ohan lightly revised a manner of speech upon occasion of dating Rapha. Was what she said, however she merely stopped using honorifics.
@@ -269,7 +269,7 @@ Threw a question Lydia, whilst peering up at Ohan. Ohan is taller than Yuuyami. 
 Whereas grinning​, Lydia passed a look at Yuuyami: Yuuyami raised her index finger, pondering over​--- having suspicion.
 
 
-"Wah, no! No! Wah, it's different!" _whoosh, whoosh,_  waved her hands Rapha. "I just reproduced it for I thought it would look good on Ohan!"
+"Wah, no! No! Wah, it's different!" _whosh, whosh,_  waved her hands Rapha. "I just reproduced it for I thought it would look good on Ohan!"
 "Mm---?" Lydia linked her hands behind her spine, and leaned forth, peering at Rapha. "Say-, why are you so flustered-?"
 "Th, th, this is too much, waaa!!"
 
@@ -575,8 +575,8 @@ Yuuyami gently smoothed down Lydia's head.
 
 
 "Lydia, on the other side, has become stronger, right," says Yuuyami, quietly. "Albeit you, Lydia, a new human breed, originally were highly capable, you was able to win Ohan at present."
-"Uh-huh. Well, rules were in my favour today. In addition, if Ohan didn't have an ethics subroutine, if it was armed Ohan, I would probably lose then."
-"But there is no longer armed Ohan."
+"Uh-huh. Well, rules were in my favour today. In addition, if Ohan didn't have an ethics subroutine, if it was weapon-Ohan, I would probably lose then."
+"But there is no longer a weapon-Ohan."
 "Right. That glittering silver body was cool, too, however I like a current Ohan better--"
 "The appearance?"
 "Mm--mm. I think, current Ohan won't slay a snake any more."
