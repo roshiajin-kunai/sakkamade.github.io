@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-02 03:39:04 +0000
-last_modified_at: 2021-02-02 16:55:39 +0000
+last_modified_at: 2021-02-03 20:24:35 +0000
 title: "EX02. Yggdrasil of Genesis."
 author: sakkani
 categories:
@@ -13,14 +13,14 @@ note:
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054883491638
 ---
 
-- [Yggdrasil - Wikipedia](https://en.wikipedia.org/wiki/Yggdrasils);
+- [Yggdrasil - Wikipedia](https://en.wikipedia.org/wiki/Yggdrasil);
 
 ---
 "At present, Lydia does not indicate a respond to whatsoever external stimuli."
 
 
 Said Yuuyami to Rapha and Hinagiku, both of whom were projected upon the computer screen.
-Taking the current circumstances perilous, Yuuyami contacted by video transmission the two of them.
+Taking the current circumstances perilous, Yuuyami contacted the two of them by video transmission.
 
 
 "To what sort of stimulus?"
@@ -52,11 +52,11 @@ Stated Hinagiku with a grave countenance​.
 
 "Huh?" threw Rapha.
 "I must sustain  punishment. Therefore, I requested Apricot every day to severely chastise me..."
-"That's enough!" says Rapha with her face flushed up. "Don't show up in front of your daughter in such a state in the first place! I don't want to know Mama-Hina play's content!"
+"That's enough!" says Rapha with her face flushed up. "Don't show up in front of your daughter in such a state in the first place! I don't want to know Mama-Hina's play content!"
 "I'm  having a keen interest," says Yuuyami; "however for being occupied by a more important matter now, let us proceed the topic, all right?"
 "Yes, okay. So? How did you stimulate Lydia?"
 "Let's see. Licking, a great variety of naughty... No, that is not..."
-"Wah, I don't want to know your and onee-sama play's content too, Yuuyami!!"
+"Wah, I don't want to know your and onee-sama's play content too, Yuuyami!!"
 
 
 Said Rapha with her regularly coloured cheeks.
@@ -95,7 +95,7 @@ So boyish and charming, I wish I could but push you down right now--, thought Yu
 
 
 Said Lydia, extremely happily.
-About three years ago Lydia and Yuuyami planned to create something that will symbolise this a new world.
+About three years ago, Lydia and Yuuyami planned to create something that will symbolise this a new world.
 At that time, "Say, let's make it an evolving plant which I told you earlier," suggested Lydia, and Yuuyami instantly agreed.
 
 
@@ -103,8 +103,8 @@ At that time, "Say, let's make it an evolving plant which I told you earlier," s
 [^1]: it is actually Yggdrasil two times, however first time in kanji and second time in _katakana_ more European-like, and previously Lydia also said it in _katakana_. By the way, in episode's title the Yggdrasil is in kanji;
 
 There is no record of such a gigantic tree had ever once inhabit under this world.
-At the beginning, when we planted it, we named it The World Tree---Yggdrasil,[^1] but now that it has grown up to this point, it is no longer losing to its name.
-Yggdrasil held out its limbs as a gigantic parasol​ which were covered in green leaves. Thence, it's resulted a shady underneath, and reasonably refreshing​.
+At the beginning, when we planted it, we named it The World Tree---Yggdrasil,<!-- [^1] --> but now that it has grown up to this point, it is no longer losing to its name.
+Yggdrasil held out its limbs as a gigantic parasol​ which were covered in green leaves. Thence, it's resulted a shady and reasonably refreshing​ underneath.
 
 
 "Yosh--, should we do some tree climbing?"
@@ -119,14 +119,14 @@ With that said, Yuuyami takes out Lydia's _bento_ and a water from the backpack.
 
 _Ehehe_, giggled Lydia.
 This is too adorable, now I just brim with desire to push her down, strip her off a clothes, and lick her up, thought Yuuyami.
-However, it is yet bearable. If I were to suddenly push her down, Lydia might get angry.
+However, it is yet bearable. Lydia might get angry if I were to all of sudden, presumptuously push her down.
 Ah--, I cannot wait  to burst out this Lydi-ai[^2] which overflows the depths of myself.
 Whereas such a train of thought ran inside, Yuuyami handed Lydia a small, cute _bento_.
 Upon receiving, Lydia bring her hips down at the roots of Yggdrasil.
 Yuuyami seated herself next to Lydia.
-And was customarily observing Lydia's diet.
+Whereupon, was customarily observing Lydia's diet.
 Yuuyami is Autodoll, thus she need not a meal.
-Albeit being the same Autodoll, her daughter, Shii, provided with feature to eat, and  from the beginning, too. She can eat, with following decomposing a meal in her body, and convert it into energy. Well, principle is identical to Recycling Box.
+Albeit being the same Autodoll, her daughter, Shii, provided with a feature to eat, and  from the beginning, too. She can eat with following decomposing a meal in her body, and convert it into energy. Well, principle is identical to Recycling Box.
 
 
 "It could be fun to have Noah and Shi-chan too, right?"
@@ -134,9 +134,9 @@ Albeit being the same Autodoll, her daughter, Shii, provided with feature to eat
 
 
 Only two of us, however, is also not undesirable, reckoned Yuuyami.
-Apropos, Noah and Shii have departed to world's investigation​. According to schedule, they should not return  for two days yet.
+Apropos, Noah and Shii have departed to world's investigation​. According to schedule, they should not return  for two more days.
 Lydia and Yuuyami arrived here by another motorcycle, not Noah. The motorcycle which had no quantum brain---a regular motorcycle; which had installed an Angie anti-gravity device for floating in the air, and utilised a Thruster propulsion for advancing forth---a regular motorcycle.
-The comfort and speed for many surpassed Noah, but Lydia liked Noah better. Shii and Noah are very intimate friend. Hence, Shii and Noah travelling in pair generally.
+The comfort and speed for many surpassed Noah, but Lydia liked Noah better. Shii and Noah, however, are very intimate friends. As a result, generally, Shii and Noah travelling in pair.
 
 
 "Water, please."
@@ -151,7 +151,7 @@ Yuuyami filled her mouth a water, whereafter pressed her lips against Lydia's, p
 "Ugh..."
 
 
-Lydia smiled, in a slightly troubled air. She didn't look angry however, so Yuuyami done the same thing again.
+Lydia smiled, in a slightly troubled air. She didn't look angry, however, so Yuuyami done the same thing again.
 Then, slowly reached for Lydia's chest.
 I caress it  gently at first, over her clothes. The bulge is small, a bud as though, but is also nice.
 
@@ -173,7 +173,7 @@ Sure enough, sexual activity have befall us once since she woke up in the mornin
 
 "Can you omit this scene?"
 "But I need to learn in details..."
-"Ignore Mama-Hina, and narrate​​  only important parts."
+"Ignore Mama-Hina, narrate​​  only important parts."
 
 
 ◇
@@ -189,14 +189,14 @@ At that time,
 
 
 With a serious bearing, Lydia cast a look over surroundings.
-However, a  mere noise leaves being rubbed by the wind, and a voice of the wind enter the auditory sensor of Yuuyami.
+However,  mere noise of a leaves being rubbed by the wind, and of a wind enter the auditory sensor of Yuuyami.
 
 
 "A voice..." says Lydia. "What is it? Not ears, but in consciousness..."
 
 
 At the halfway of the phrase, Lydia, _woosh_, suddenly lost consciousness and collapsed.
-However, Yuuyami caught Lydia, afore she could  kiss the ground.
+However, Yuuyami caught Lydia afore she could  kiss the ground.
 
 
 "Lydia? What's wrong? Lydia?"
@@ -286,7 +286,7 @@ Last time Yuuyami visited this chamber was when she together with Lydia met the 
 
 Hinagiku and Prico had their hands entwined, whereas kissing.
 Prico's fluffy blue hair was tied in a ponytail. Her garments was a cute, costume-like maid outfit.
-The maid uniform of Yuuyami has a long skirt, and has no such a thing as sexiness. However, Prico's maid outfit has a brief skirt enough for her underwear to be visible, it is decorated with great deal of frills, and her breasts were extensively open.
+The maid uniform of Yuuyami has a long skirt, and has no such a thing as sexiness. However, Prico's maid outfit has a brief skirt, enough for her underwear to be visible, decorated with great deal of frills, and her breasts were extensively open.
 
 
 "Wah, no matter how you look at it, you are  flirting! You also think so, right, Yuuyami!?"
@@ -310,7 +310,7 @@ Hinagiku peered at Prico with great happiness. Prico likewise, she looked very h
 Rapha pressed her head, shaking it.
 
 
-"I am curious of what kind of relationship Hinagiku-san and Prico usually have. For now, however, I am going to sleep, all right?"
+"I am curious of what kind of relationship Hinagiku-san and Prico usually have. For now, however, I am heading to dream, all right?"
 
 
 Yuuyami lay down upon a cot to proceed the conversation.
@@ -324,7 +324,7 @@ The display in front of Rapha shows a screen full of noise. Normally, she could 
 
 
 "As a conceivable availability​," says Hinagiku; "Lydia is not seeing her dream, but a distinct someone hosting it, and  Lydia participating there as a guest."
-"Wah, whatever it is, I can't detect abnormality by the video. If Mama-Hina would detect a physical deviation in onee-sama or Yuuyami, according to the plan, you will be forcibly returned, is it correct?"
+"Wah, whatever it is, I can't detect abnormality by the video. If Mama-Hina would detect a physical deviation in onee-sama or Yuuyami, according to the plan, you will forcibly be  returned, is it correct?"
 "Yes. Thank you."
 
 
@@ -334,7 +334,7 @@ Yuuyami closed her eyes.
 ◇
 
 
-The next moment Yuuyami opened her eyes, it was a lea covered in flowers.
+The next moment Yuuyami opened her eyes, she found herself upon a lea covered in flowers.
 The sky was tall, the air was clear, and a gentle breeze was shaking the iris flowers.
 
 
@@ -356,13 +356,13 @@ The flowers that bloom all over the place, and Lydia amidst of them. The picture
 
 
 Said the girl, sitting across from Lydia.
-She has long, dishevelled apple-green hair and brown skin. She appears of around seven years of age, undressed.
+She has long, dishevelled apple-green hair and brown skin. She appears of about seven years of age, undressed.
 
 
 "Lydia... and, who are you?"
 
 
-Yuuyami walked without a haste, and bring her hips down next to Lydia. For the time being, _Whew_, I'm relieved for here is seem to be no peril.
+Walking up without a haste, Yuuyami brought her hips down next to Lydia. For the time being, _Whew_, I'm relieved for here is seem to be no peril.
 
 
 "This girl, is our child."
@@ -372,7 +372,7 @@ Yuuyami walked without a haste, and bring her hips down next to Lydia. For the t
 Reviewing the action log, I couldn't find a record of creating a child other than Shii.
 
 
-"Three years ago. Or I should say, it could have been faster if you introduced yourself, Yugg-chan."
+"Three years ago. Or I should say, it would be faster if you introduce yourself, Yugg-chan."
 "Um-huh. I'm Yggdrasil. Well, this form is for communication, my real body is that huge, strong, and wise tree that you know."
 
 
@@ -382,11 +382,11 @@ Said the girl--- Yggdrasil with her chest puffed.
 "What? You are... Yggdrasil?"
 
 
-Yuuyami tilted her head. Plants expected to have but a primitive consciousness.
-
+<p markdown="1">Yuuyami tilted her head. Plants expected to have but a primitive consciousness.</p>
+[^10]: this Japanese word for _planet_ applying for a separate planet, not the Earth;
 
 "Yes," says Lydia; "she holds a great consciousness."
-"Quite so. Therefore, the huge, strong, and wise myself should be a sovereign of this planet."
+"Quite so. Therefore, the huge, strong, and wise myself should be a sovereign of this planet."[^10]
 "I am not quite understand what you are talking of."
 
 
@@ -457,7 +457,7 @@ Yggdrasil exclaimed, regretfully.
 
 
 "Yes. Excepting for extensiveness, Yugg-chan loses. Shouldn't you give up on becoming sovereign?"
-"Ugggh... but I wished to lead those infants..."
+"Ugggh... but I wished to lead these infants..."
 
 
 Said Yggdrasil with  lips pursed.
@@ -465,7 +465,7 @@ Said Yggdrasil with  lips pursed.
 
 "With that said," says Yuuyami; "Yugg-chan, there is a sole quality that you are lacking."
 "Um? What is that?"
-"Yes; the cuteness," said Yuuyami with composed expression. "Pray peer this charmingness of Lydia. An angel as though, no, a deity I guess?"
+"Yes; the cuteness," said Yuuyami with composed expression. "Pray peer this charmingness of Lydia. An angel as though, no, the deity I presume?"
 "No, Yuuyami--, it's embarrassing--"
 
 
@@ -488,7 +488,7 @@ Yggdrasil, thus, served a fashion doll for Lydia and Yuuyami for quite a while.
 [^4]: [Culottes - Wikipedia](https://en.wikipedia.org/wiki/Culottes), unfortunately this link won't provide you with right image, <br> here some links for _pixiv_:  <a href="https://www.pixiv.net/en/artworks/73144460" target="_blank">1</a> / <a href="https://www.pixiv.net/en/artworks/76899125" target="_blank">2</a>;
 
 Said Lydia, satisfied with her newly designed Yggdrasil.
-Yggdrasil had her apple-green hair tint unchanged, but her hairstyle was revised to somewhat heavier natural bob. Forelock was swept slightly back, which---despite her being a little girl---gave her a mature accent.
+Yggdrasil had her apple-green hair tint unchanged, but her hairstyle was revised to somewhat heavier natural bob. Forelock was swept slightly backwards, which---despite her being a little girl---gave her a mature accent.
 Her garments were a white sleeveless tunic, with ample of lace. Underneath is light blue culottes.[^4] Upon her feet sandals with a ribbons.
 
 
@@ -518,7 +518,7 @@ Well, at present point, Lydia's life-span is shorter,  however inasmuch as Rapha
 
 
 The current Yggdrasil is like an innocent child.
-_Baton_ named the World is yet too heavy for Yggdrasil.
+Baton named the World is yet too heavy for Yggdrasil.
 
 
 "We couldn't make it if we weren't a pair."
@@ -553,7 +553,7 @@ Yuuyami nods.
 
 
 "I can't admit Lucca・Bernard's way, but the world she headed for will be implemented by me and Yuuyami."
-"Yes. A serene world where everyone can live happily. And someday, pray enter upon, Yugg-chan."
+"Yes. A serene world where everyone may live happily. And someday, pray enter upon, Yugg-chan."
 
 
 ◇
@@ -572,11 +572,11 @@ When Lydia awoke, she exposed a course of events to Rapha and Hinagiku.
 Whereas Rapha said calmly​, Hinagiku was agitated.
 
 
-"I guess you will have an opportunity​ to see her someday. For Yugg-chan appears to be able to invite everyone into her dreams... into her very consciousness."
+"I guess you will have an opportunity​ to see her someday. For Yugg-chan appears be able to invite everyone into her dreams... into her very consciousness."
 "Uh-huh. Anyway, I'm sorry to worrying you."
 
 
-Lydia smiled apologetically but happily.
+Lydia smiled apologetically, but happily.
 
 
 "Wah, it's only natural to help you, onee-sama!"
@@ -627,7 +627,7 @@ However, it is essential to maintain its beauty.
 
 
 Yggdrasil whispered, during observing down from a great height upon the vast world.
-Well-maintained and lovely streets. All the variety of facilities. There is no discontent upon this planet. Everyone is content, doing what they want, when they want to, and but enjoying a life.
+Well-maintained and lovely streets. All the variety of facilities. There is no discontent upon this planet. Everyone is satisfied, doing what they want, when they want to, and but enjoying a life.
 Orbital elevator that higher than Yggdrasil. At the top of which a spaceport, whereat anchored ships from numerous planets.
 Serene world built by a pair of mothers. Utopia supported by dream-like technologies, dream-like knowledges, and overflowed with dream-like omnipresent love.
 By forming an alliance with similar planets, was being made a significant contributions to the perpetual happiness and harmony​ of this quadrant.
@@ -636,7 +636,7 @@ By forming an alliance with similar planets, was being made a significant contri
 "Uh--, Yugg-chan also wants to go to space physically..."
 
 
-However, such is not going to happen. For Yggdrasil is rooted as a part of this planet. Well, if it's just consciousness, I can fly about ten thousand light years.
+However, such is not destined to betide. For Yggdrasil is rooted as a part of this planet. Well, if it's just consciousness, I can fly about ten thousand light years.
 
 
 (It's nice to travel consciously.)

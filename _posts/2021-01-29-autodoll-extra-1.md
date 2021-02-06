@@ -38,7 +38,7 @@ Whereafter she undertook striping a scarlet _hokama_[^2] off Lydia.
 
 Lydia suppressed the head of Yuuyami.
 Both Lydia and Yuuyami wore scarlet _hokama_ over a white _dogi_.[^3]
-Apropos, Yuuyami had recently embed a taste sensor. And ever since she grew enthusiast  licking a various objects. She loving to taste Lydia's body in particular, and she will lick it upon every opportunity.
+Apropos, Yuuyami had recently embedded a taste sensor. And ever since she grew enthusiast  licking a various objects. She loving to taste Lydia's body in particular, and she will lick it upon every opportunity.
 Yuuyami has an appearance of a Japanese lady of around eighteen of age, her hair is black and long. Forelock cut straight. Her bosom is larger than Lydia's, however generally modest.
 Her visage is harmonious at a level what without a hindrance​ might be described as a God represent all the beauty upon. Surely there is no life-form under this universe that is more lovely than you, Yuuyami. Lydia was convinced.
 
