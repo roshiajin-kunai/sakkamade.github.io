@@ -4,10 +4,11 @@
   {%- include head.html -%}
 
 <body>
+<div id="page-inner">
 
   {%- include header.html -%}
 
-<div class="page-inner-main" id="page-inner" aria-label="Content">
+<div class="page-inner-main" aria-label="Content" role="main">
 	<section class="inner-wrap-column">
 	{{ content }}		
 	</section>
@@ -18,5 +19,7 @@
 	{%- include footer.html -%}
 	
 <script src="/src/js/scroll-button.js"></script>
+
+</div>
 </body>
 </html>

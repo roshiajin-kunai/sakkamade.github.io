@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-02 03:39:04 +0000
-last_modified_at: 2021-02-03 20:24:35 +0000
+last_modified_at: 2021-02-06 20:48:00 +0000
 title: "EX02. Yggdrasil of Genesis."
 author: sakkani
 categories:
@@ -640,7 +640,7 @@ However, such is not destined to betide. For Yggdrasil is rooted as a part of th
 
 
 (It's nice to travel consciously.)
-(Indeed. We would want travelling by mere consciousness likewise.)
+(Indeed. We would want to travel by mere consciousness likewise.)
 
 
 The voices of Lydia and Yuuyami can be heard by Yggdrasil. Yggdrasil is, of course, connected to both of them.

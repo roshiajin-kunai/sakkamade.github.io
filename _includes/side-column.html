@@ -56,6 +56,6 @@
 
 <div id="archives">
   <span class="side-in block no-cap">Last update in website: 
-    <span style="white-space: nowrap;">{{ "now" | date: "%d/%m/%Y %H:%M" }} UTC</span>
+    <time style="white-space: nowrap;" datetime="{{ "now" | date_to_xmlschema }}">{{ "now" | date: "%d/%m/%Y %H:%M" }} UTC</time>
   </span>
 </div>

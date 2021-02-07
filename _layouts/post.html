@@ -59,7 +59,7 @@ layout: default-post
 {% endfor %}
 
 {% else %}
-<div style="height: 20px;"><!-- $base-unit --></div> 
+<div class="spacer" style="height: 20px;"><!-- $base-unit --></div> 
 {% endif %}
 
 
@@ -67,7 +67,7 @@ layout: default-post
 
 
 
-<div itemprop="articleBody">
+<div class="content" itemprop="articleBody">
     {{ content }}
 </div>
 
@@ -93,10 +93,11 @@ layout: default-post
 {%- assign published_date = page.date | date: date_format -%}
 <p class="post-meta low-line" style="text-align: right !important;">
   <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Date Written:&nbsp;</span>{{ published_date }}</time>
-  {%- if page.last_modified_at -%}<br><time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up"><span>Last amend:&nbsp;</span>{%- if last_mend == published_date -%}{{ page.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ last_mend }}{%- endif -%}</time>{%- endif -%}
+  {%- if page.last_modified_at -%}<br><time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up" datetime="{{ page.last_modified_at | date_to_xmlschema }}"><span>Last amend:&nbsp;</span>{%- if last_mend == published_date -%}{{ page.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ last_mend }}{%- endif -%}</time>{%- endif -%}
 </p>
 <!-- end bottom information -->
 
+<aside class="post-cat-toc">
     {% for category in categories %}
   <details><summary class="toc-details">{{ category }}</summary>
     {% endfor %}   
@@ -105,13 +106,15 @@ layout: default-post
   {% assign sotred_posts = site.categories[category] | reverse %}
     {% for post in sotred_posts %}
       <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
-	  <span class="category-post-date">{{ post.date | date: date_format }}</span></a></div>	  
+	  <time class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></div>	  
     {% endfor %}
   {% endfor %}
   </section>
   </details>
-  
-  <div style="min-height: 20px;"><!-- $base-unit --></div> 
+</aside>
+
+<div class="spacer" style="min-height: 20px;"><!-- $base-unit --></div> 
+
 </article>
 
 

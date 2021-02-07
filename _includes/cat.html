@@ -1,3 +1,6 @@
 
 <div title="{{ post.title }}" class="toc">
-<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}&nbsp;<span class="category-post-date">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</span></a></div>
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html }}
+&nbsp;
+<time class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</time></a>
+</div>

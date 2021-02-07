@@ -1,5 +1,5 @@
 <!-- top information -->
-<header class="post-header">
+<div class="post-header">
 	<p class="post-meta meta-categories no-cap no-margin">
 		{%- if page.main-title -%}<!--no top category-->{%- else -%}
 			{% for category in categories %}
@@ -21,7 +21,7 @@
 		{% endif %}
 	</span>
 	</p>
-</header>
+</div>
 <!-- end top information -->
 
 {% if page.note or page.chapter-link %}
