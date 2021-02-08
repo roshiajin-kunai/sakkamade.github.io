@@ -1,18 +1,45 @@
 ---
-layout: columns-all-cats
+layout: columns-cat
 permalink: /archives
 title: Archives
 ---
 
-<ul id="tags-list">
 
+ <!-- control -->
+<section id="archive-date-container">
+  <div class="tag archive-date active" onclick="filterSelection('all')">Display all ({{ site.posts | size }})</div>
+    {% assign counter = 0 %}
+  {% for post in site.posts %}
+    {% assign thisyear = post.date | date: "%Y %B" %}
+    {% assign prevyear = post.previous.date | date: "%Y %B" %}
+    {% assign counter = counter | plus: 1 %}
+  {% if thisyear != prevyear %}
+  <div class="tag archive-date" onclick="filterSelection('{{ thisyear }}')">{{ thisyear }} ({{ counter }})</div>
+    {% assign counter = 0 %}
+  {% endif %}
+  {% endfor %}
+</section>
+
+<!-- list -->
+<ul id="tags-list">
 {% for post in site.posts %}
   {% assign current_date = post.date | date: "%Y %B" %}
   {% if current_date != date %}
-	<div class="toc date"><a id="{{current_date}}">{{ current_date }}</a></div>
+	<li><div class="date filter-date {{current_date}}"><a id="{{current_date}}">{{ current_date }}</a></div></li>
 	{% assign date = current_date %} 
   {% endif %}
-	<li><div class="toc"><a title="{{post.categories}} ・ {{post.title}}" href="{{ site.baseurl }}{{ post.url }}"><span class="tag-gray">{{ post.categories | append: '...' | truncate: 16 | replace: '["','' | replace: '"]','' }}</span>{{ post.title | strip_html | replace: 'Episode', 'Ep.' | truncate: 49 }}<span class="category-post-date">{%- assign date_format = "%B %d" -%}{{ post.date | date: date_format }}</span></a></div></li>
+	<li><div class="toc filter-date {{current_date}}">
+	<a title="{{post.categories}} ・ {{post.title}}" href="{{ site.baseurl }}{{ post.url }}">
+	<span class="tag-gray">{{ post.categories | replace: '["','' | replace: '"]','' }}
+	</span><br>
+	{{ post.title | strip_html }}
+	<time class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%B %d %a." -%}{{ post.date | date: date_format }}
+	</time>
+	</a>
+	</div></li>
 {% endfor %}
+</ul> 
 
-</ul>
+
+<script src="/src/js/filter-date.js"></script>
+

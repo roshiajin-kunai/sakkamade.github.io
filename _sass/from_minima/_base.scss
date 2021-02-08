@@ -2,12 +2,22 @@
  * Reset some basic elements
  */
 
-/* html { scroll-behavior: smooth; } */
-body { min-width: 450px; cursor: default; }
 
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-dl, dd, ol, ul, figure {
+
+/* html { 
+  scroll-behavior: smooth;
+} */
+
+body { 
+  min-width: 450px; cursor: default; 
+}
+
+body, 
+h1, h2, h3, h4, h5, h6,
+p, 
+blockquote, pre,
+dl, dd, ol, ul, 
+figure {
   margin: 0;
   padding: 0;
   color: $almost-black; 
@@ -40,12 +50,11 @@ sup {
 .footnotes ol {
 }
 .reversefootnote { margin-left: 4px; }
-/* .reversefootnote { text-decoration: none; } */
-
 
 ::selection {
   background: hsla(218, 37%, 90%, 0.8); /* $lighter-blue; */
   color: #222222;
+  text-shadow: none;
 }
 
 hr {
@@ -58,7 +67,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6, {
   font-weight: 400;
-  font-family: 'Cormorant Garamond';
+  font-family: 'Cormorant Garamond', 'Yu Mincho Demibold', 'Noto Serif CJK JP Regular';
   line-height: $base-line-height;
 }
 
@@ -69,13 +78,18 @@ h4 { font-size: 30px; }
 h5 { font-size: 26px; }
 h6 { font-size: 24px; }
 
+
+
 /**
  * Basic styling
  */
+
+
+
 body {
   font: $base-font-weight #{$base-font-size}/#{$normal-line-height} $base-font-family;
   color: $almost-black;
-  background-color: $background-gray;
+  background-image: linear-gradient($light-gray, $background-gray);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -92,6 +106,9 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
+
+
+
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -104,6 +121,9 @@ ul, ol, dl, figure,
 /**
  * `main` element
  */
+
+
+
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
@@ -113,6 +133,9 @@ main {
 /**
  * Images
  */
+
+
+
 img {
   max-width: 100%;
   vertical-align: middle;  
@@ -123,6 +146,9 @@ img {
 /**
  * Figures
  */
+
+
+
 figure > img {
   display: block;
 }
@@ -136,7 +162,11 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+
+
+
+ul, 
+ol {
   margin-right: 4%;
   margin-left: 6%;
 }
@@ -148,13 +178,18 @@ li {
   }
 }
 
+
+
 /**
  * Blockquotes
  */
+
+
+
 blockquote {
   margin-top: $base-unit;
+  border: 1px solid $background-gray;
   border-left: 5px solid $background-gray;
-  border-top: 1px solid $background-gray;
   padding: ($base-unit / 2) 3% ($base-unit / 2) 6%;
   color: $not-black;
   text-align: justify;
@@ -162,7 +197,8 @@ blockquote {
   font-size: 17px !important;
   background-color: $very-light-gray;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
+  text-shadow: 0 -1px $white;
   
   > p { 
 	color: $not-black; 
@@ -171,7 +207,7 @@ blockquote {
   
   > a, 
   p > a { 
-	color: $base-gray; 
+	color: $base-gray;
 	font-size: 17px !important; 
   }
   
@@ -185,6 +221,9 @@ blockquote {
 /**
  * Code formatting
  */
+
+
+
 pre,
 code {
   border: 1px solid #cccccc;
@@ -228,6 +267,9 @@ pre {
 /**
  * Links
  */
+
+
+
 a {
   transition: .2s;
   color: $link-blue;
@@ -240,9 +282,13 @@ a {
 }
 
 
+
 /**
  * Clearfix
  */
+
+
+
 %clearfix:after {
   content: "";
   display: table;
@@ -254,6 +300,8 @@ a {
 /**
  * Icons
  */
+
+
 
 .svg-icon {
   width: 16px;
@@ -275,6 +323,9 @@ a {
 /**
  * Tables
  */
+
+
+
 table {
   width: 100%;
   border-collapse: collapse;

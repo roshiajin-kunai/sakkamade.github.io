@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="main-with-margin">
+<main class="main-with-margin" aria-label="Content" role="main">
   <header>
     <h2 class="post-title" itemprop="name headline">{{ page.title | escape | default: "&nbsp;" }}</h2>
   </header>
   {{ content }}
-</div>
+</main>
 
-<div class="side">
+<aside class="side">
   {%- include side-column.html -%}
-</div>
+</aside>

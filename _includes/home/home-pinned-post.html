@@ -5,7 +5,7 @@
 	<header class="post-header">
 		<!-- category -->     
 	<div class="post-categories">
-		<span class="pinned">Pinned Article, </span>
+		<span class="pinned">Pinned Article ・ </span>
 		{% if post %}
 		{% assign categories = post.categories | sort %}
 		{% else %}
@@ -17,11 +17,11 @@
 		{% endfor %}
 	</div>
 	
-	{%- include home-post-meta.html -%}
+	{%- include /home/home-post-meta.html -%}
 	
 	</header>
 	
-	{%- include home-post-excerpt.html -%}
+	{%- include /home/home-post-excerpt.html -%}
 	
 	</li>
 	{% endfor %}

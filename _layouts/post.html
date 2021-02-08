@@ -1,5 +1,5 @@
 ---
-layout: default-post
+layout: default-page
 ---
   {% if page.categories %}
   {% assign category = page.categories[0] %}
@@ -97,16 +97,16 @@ layout: default-post
 </p>
 <!-- end bottom information -->
 
-<aside class="post-cat-toc">
+<aside>
     {% for category in categories %}
-  <details><summary class="toc-details">{{ category }}</summary>
+  <details class="post-cat-toc"><summary class="toc-details">{{ category }}</summary>
     {% endfor %}   
 	<section id="tags-list">
   {% for category in page.categories %}
   {% assign sotred_posts = site.categories[category] | reverse %}
     {% for post in sotred_posts %}
       <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
-	  <time class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></div>	  
+	  <time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></div>	  
     {% endfor %}
   {% endfor %}
   </section>
@@ -133,3 +133,6 @@ layout: default-post
     </section>
   {% endif %}
 </div>
+
+
+<script src="/src/js/note-toggle.js"></script>

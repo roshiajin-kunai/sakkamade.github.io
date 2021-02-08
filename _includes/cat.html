@@ -2,5 +2,5 @@
 <div title="{{ post.title }}" class="toc">
 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html }}
 &nbsp;
-<time class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</time></a>
+<time class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}</time></a>
 </div>

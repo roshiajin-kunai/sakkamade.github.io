@@ -1,0 +1,23 @@
+<!-- title -->
+<h3 class="post-link">
+	<a class="in-block" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+</h3>
+
+<!-- meta -->
+<p class="post-meta low-line">
+	<time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">
+	{%- assign date_format = "%Y %B" -%}{{ post.date | date: date_format }}
+	<span class="no-cap">{% assign d = post.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+	</span>
+	</time>
+	
+	<!-- read time -->
+	・<span class="no-cap" title="Estimated reading time">
+	{% capture words %}{{ post.content | number_of_words | minus: 250 }}{% endcapture %}
+	{% if words contains "-" %}
+	Less than a minute
+	{% else %}		
+	Circa {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}		
+	{% endif %}
+	</span>
+</p>

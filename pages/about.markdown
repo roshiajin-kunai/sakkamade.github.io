@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-This website for publishing my translations of Japanese webnovels. 
+On this website I publish my translations of Japanese webnovels. Occasionally gaining author's consent (if I can contact them and certain of translating until the end). 
 At expiration of slightly over the month at [*WordPress*](https://sakkamade.wordpress.com/), I decided to move to [*GitHub*](https://github.com/) and [*Jekyll*](https://jekyllrb.com/), hopefully to remain here.
 
 <h4 class="with-indent">Language Knowledge</h4>

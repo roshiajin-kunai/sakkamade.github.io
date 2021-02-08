@@ -18,7 +18,7 @@
 <!-- top navigation -->
 <nav class="inner-top-menu">
   {% for item in site.data.top-menu.docs %}
-  <a class="{% if item.url == page.url %}active-menu-top{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+  <a class="{% if item.url == page.url %}active-menu-top{% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
   {% endfor %}
   
   {% for item in site.data.top-menu-home.docs %}
