@@ -47,8 +47,6 @@ sup {
   margin-top: $base-unit;
   padding-top: $base-unit;
 }
-.footnotes ol {
-}
 .reversefootnote { margin-left: 4px; }
 
 ::selection {
@@ -67,7 +65,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6, {
   font-weight: 400;
-  font-family: 'Cormorant Garamond', 'Yu Mincho Demibold', 'Noto Serif CJK JP Regular';
+  font-family: 'CormorantGaramondW', 'Yu Mincho Demibold', 'NotoSerifCJKJPRegularW';
   line-height: $base-line-height;
 }
 
@@ -140,6 +138,13 @@ img {
   max-width: 100%;
   vertical-align: middle;  
 }
+/* ie */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+  .content img {
+    max-width: 800px;
+  }
+}
 
 
 
@@ -190,7 +195,7 @@ blockquote {
   margin-top: $base-unit;
   border: 1px solid $background-gray;
   border-left: 5px solid $background-gray;
-  padding: ($base-unit / 2) 3% ($base-unit / 2) 6%;
+  padding: ($base-unit / 2) 3% ($base-unit / 2) 5.3%;
   color: $not-black;
   text-align: justify;
   word-break: break-word;

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-29 23:31:20 +0000
-last_modified_at: 2021-01-31 22:33:02 +0000
+last_modified_at: 2021-02-08 19:38:23 +0000
 title: "EX01. Lydia's Introduction to Martial Arts."
 main-title: "Autodoll Dreams in a Decaying World.<br> Extra Episodes.<br> By Hazuki Sou."
 author: sakkani
@@ -15,10 +15,10 @@ chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/11773540548
 ---
 
 
-<p markdown="1">"Youch--!"</p>
+<p class="first-paragraph" markdown="1">"Youch--!"</p>
 [^1]: [Tatami] - Japanese straw floor coverings,​ [Tatami - Wikipedia](https://en.wikipedia.org/wiki/Tatami);
 
-Lydia pressed upon her groin, curling herself up on the spot.
+Lydia pressed upon her groin, curling herself up on a place.
 Lydia is a petite girl who appeared to be around thirteen of age, has a small breasts. Her hair is bright, shiny blonde. It is a little curly, of length nigh a chest. Her skin is fair and smooth. It reminiscent me a beauteous snowscape.
 We are inside a self-defence _dojo_[^1111] which built by the side of underground library.
 Three months had passed since Lydia and Yuuyami became Creators. This self-defence _dojo_ was constructed by ​​Lydia's suggestion, as the Creator leastwise she should be able to protect herself.

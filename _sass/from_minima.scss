@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Times New Roman", Times, serif, 'Yu Mincho Demibold', 'Noto Serif CJK JP Regular', -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: "Times New Roman", Times, serif, 'Yu Mincho Demibold', 'NotoSerifCJKJPRegularW', -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -13,7 +13,6 @@ $base-line-height:      1.1em    !default;
 
 $base-unit:        20px    !default;
 $base-cents:       7%      !default;
-
 
 $lighter-blue:     #dce3ef !default;
 $light-blue:       #afbbcf !default;
@@ -29,9 +28,7 @@ $almost-black:     #222222 !default;
 $brand-color:      #808faa !default;
 $white:            #ffffff !default; // #fcf3e0
 
-
 $table-text-align: left !default;
-
 
 // Import partials.
 @import

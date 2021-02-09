@@ -36,7 +36,7 @@ The main weapon used in World War IV was a generic humanoid robot referred as Ma
 "In other words, robots weren't smart?"
 "Indeed; putting it simply. Thence, at the time, they were named a Masquerade​ rather than Autodoll."
 "Autodoll are expensive robots such as yourself which have quantum brains, are smart, and can do anything on their own, right?"
-"Yes. That is correct. Incidentally, Masquerade​ by far larger than myself. Such is reasonable, for human may board it."
+"Yes. That is correct. Incidentally, Masquerade​ is by far larger than myself. Such is reasonable, for human may board it."
 "I want to drive one."
 
 
@@ -664,7 +664,7 @@ Shii's heart grew full of excitement and anticipation.
 
 
 Yuuyami informed​ her the meaning.
-Shii repeatedly ruminates the name of a flower of the sun in quantum brain.
+Shii repeatedly ruminates the name of flower of the sun in quantum brain.
 Sun flower. Ha-ru-ka. Haruka.
 Ah--, this name, it is 
 a gentle poetry as though.
