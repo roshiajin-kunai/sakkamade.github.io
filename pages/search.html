@@ -1,5 +1,5 @@
 ---
-layout: columns-cat
+layout: columns-page
 permalink: /archives
 title: Archives
 ---
@@ -24,7 +24,7 @@ title: Archives
 {% for post in site.posts %}
   {% assign current_date = post.date | date: "%Y %B" %}
   {% if current_date != date %}
-	<li><div class="date filter-date {{current_date}}"><a id="{{current_date}}">{{ current_date }}</a></div></li>
+	<div class="toc date filter-date {{current_date}}"><a id="{{current_date}}">{{ current_date }}</a></div>
 	{% assign date = current_date %} 
   {% endif %}
 	<li><div class="toc filter-date {{current_date}}">

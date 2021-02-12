@@ -1,15 +1,15 @@
 <header>
 <div id="site-header-inner">
-<a href="{{ site.url }}/">
+<a href="/">
   <div id="site-title">
   <h1>{{ site.title }}</h1>
   </div>
   <div id="site-under-title">{{ site.description }}</div>
     <div id="site-title-back">
 	{%- if page.featured-image -%}
-    <img onmousedown="return false;" draggable="false" ondragstart="return false;" class="header-img" alt="header2" src="{{site.baseurl}}{{ page.featured-image }}">
+    <img onmousedown="return false;" draggable="false" ondragstart="return false;" class="header-img" src="{{site.baseurl}}{{ page.featured-image }}" alt="header2">
 	{% else %}
-    <img onmousedown="return false;" draggable="false" ondragstart="return false;" class="header-img" alt="header1" src="{{site.baseurl}}/src/img/head1.jpg">
+    <img onmousedown="return false;" draggable="false" ondragstart="return false;" class="header-img" src="{{site.baseurl}}/src/img/head1.jpg" alt="header1">
     {% endif %}
     </div>
 </a>
@@ -18,13 +18,13 @@
 <!-- top navigation -->
 <nav class="inner-top-menu">
   {% for item in site.data.top-menu.docs %}
-  <a class="{% if item.url == page.url %}active-menu-top{% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+  <a class="{% if item.url == page.url %}active-menu-top{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
   {% endfor %}
   
   {% for item in site.data.top-menu-home.docs %}
   <a class="{% if item.url == page.url %}active-menu-top{% else %}
     {% if page.url contains 'page=' %}active-menu-top
-    {% endif %}{% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+    {% endif %}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
   {% endfor %}
 </nav>
 <!-- end top navigation -->

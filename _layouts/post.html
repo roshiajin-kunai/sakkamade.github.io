@@ -1,44 +1,6 @@
 ---
 layout: default-page
 ---
-  {% if page.categories %}
-  {% assign category = page.categories[0] %}
-  {% assign posts = site.categories[category] %}
-  {% for post in posts %}
-    {% if post.url == page.url %}
-      {% assign post_index0 = forloop.index0 %}
-      {% assign post_index1 = forloop.index %}
-    {% endif %}
-  {% endfor %}
-  {% for post in posts %}
-    {% if post_index0 == forloop.index %}
-      {% assign next_post = post %}
-      {% assign next_post_url = post.url %}
-      {% assign next_post_title = post.title %}
-      {% assign next_post_cat = post.categories %}
-    {% endif %}
-    {% if post_index1 == forloop.index0 %}
-      {% assign prev_post = post %}
-      {% assign prev_post_url = post.url %}
-      {% assign prev_post_title = post.title %}
-      {% assign prev_post_cat = post.categories %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-<!-- prev -->
-<div class="only-main-top">
-	{% if prev_post %}
-	<section class="switch-post previous-post">  
-		<a href="{{ prev_post_url }}" title="{{ prev_post_cat }} ・ {{ prev_post_title }}">Previous: "{{ prev_post_title | strip_html | truncatewords: 10 }}"</a>
-	</section>
-	{% else %}
-	<section class="switch-post previous-post switch-off">
-		<a>&nbsp;</a>
-	</section>
-	{% endif %}
-</div>
-<!-- end prev -->
-
 <article class="only-main" itemscope itemtype="http://schema.org/BlogPosting">
 
 <!-- cat assign -->
@@ -58,8 +20,6 @@ layout: default-page
 	</h1>
 {% endfor %}
 
-{% else %}
-<div class="spacer" style="height: 20px;"><!-- $base-unit --></div> 
 {% endif %}
 
 
@@ -111,7 +71,7 @@ layout: default-page
 
 <div class="dropdown">
   {% for category in categories %}
-  <button onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>{{ category }}</em></button>
+  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>{{ category }}</em></button>
   {% endfor %} 
   <div id="myDropdown" class="dropdown-content">
 	<section id="tags-list">
@@ -125,27 +85,4 @@ layout: default-page
 	</section>
   </div>
 </div>
-
-<div class="spacer" style="min-height: 20px;"><!-- $base-unit --></div> 
-
 </article>
-
-
-
-  <!-- next -->
-<div class="only-main-top">
-    {% if next_post %}
-    <section class="switch-post next-post">
-	<a href="{{ next_post_url }}" title="{{ next_post_cat }} ・ {{ next_post_title }}">Next: "{{ next_post_title | strip_html | truncatewords: 10 }}"<br>
-	<i class="button-arrow-down"></i>
-	</a>
-    </section>
-  {% else %}
-    <section class="switch-post next-post switch-off">        
-	<a>&nbsp;</a>
-    </section>
-  {% endif %}
-</div>
-
-
-<script src="/src/js/post-toggles.js" type="text/javascript"></script>

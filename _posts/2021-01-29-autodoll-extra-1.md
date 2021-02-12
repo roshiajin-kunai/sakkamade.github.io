@@ -19,7 +19,7 @@ chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/11773540548
 [^1]: [Tatami] - Japanese straw floor coverings,​ [Tatami - Wikipedia](https://en.wikipedia.org/wiki/Tatami);
 
 Lydia pressed upon her groin, curling herself up on a place.
-Lydia is a petite girl who appeared to be around thirteen of age, has a small breasts. Her hair is bright, shiny blonde. It is a little curly, of length nigh a chest. Her skin is fair and smooth. It reminiscent me a beauteous snowscape.
+Lydia is a petite girl who appeared to be around thirteen of age, has a small breasts. Her hair is bright, shiny blond. It is a little curly, of length nigh a chest. Her skin is fair and smooth. It reminiscent me a beauteous snowscape.
 We are inside a self-defence _dojo_[^1111] which built by the side of underground library.
 Three months had passed since Lydia and Yuuyami became Creators. This self-defence _dojo_ was constructed by ​​Lydia's suggestion, as the Creator leastwise she should be able to protect herself.
 Within the _dojo_ there are four-and-twenty _tatami_ mats[^1] and a board-covered area of an equal extent. Having a tall ceiling, the room resulted spacious. Wooden swords and canes in various sizes were installed upon a corners of board-covered area.

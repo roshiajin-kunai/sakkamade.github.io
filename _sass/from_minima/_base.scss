@@ -87,7 +87,7 @@ h6 { font-size: 24px; }
 body {
   font: $base-font-weight #{$base-font-size}/#{$normal-line-height} $base-font-family;
   color: $almost-black;
-  background-image: linear-gradient($light-gray, $background-gray);
+  background-image: linear-gradient(to bottom, $light-gray, $background-gray 80%);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -137,13 +137,6 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;  
-}
-/* ie */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-
-  .content img {
-    max-width: 800px;
-  }
 }
 
 
@@ -204,6 +197,7 @@ blockquote {
   overflow: hidden;
   text-overflow: ellipsis;
   text-shadow: 0 -1px $white;
+  box-shadow: 1px 1px 4px $light-gray;
   
   > p { 
 	color: $not-black; 

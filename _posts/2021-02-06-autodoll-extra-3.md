@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-06 02:09:40 +0000
-last_modified_at: 2021-02-07 16:22:02 +0000
+last_modified_at: 2021-02-12 02:27:13 +0000
 title: "EX03. Bouquet of Weiss Lilies ／ Name of C-chan."
 author: sakkani
 categories:
@@ -9,34 +9,34 @@ categories:
 tags:
  - webnovel translation
  - extra
-note: Wah! New site-header, registration in Discord, and a fresh chapter. <br>Awfully exhausted, lost all the motivation on the way.  Need some change of pace to return to my usual self.<br> Anyway, Discord. Never knew there is an in-browser version, so handy. <br> Although I am unfamiliar with this service, I hope I didn't messed anything up. <br> So, please join me. But only with aim of conversing, do not join for staying silent. Well, just read the rules heading over the <a target="_blank" href="https://discord.gg/GKmr8Z3mTm">https://discord.gg/GKmr8Z3mTm</a>
+note: Wah! New site-header, registration in Discord, and a fresh chapter. <br>Awfully exhausted, lost all the motivation on the way.  Need some change of pace to return to my usual self.<br> Anyway, Discord.<br>  Although I am unfamiliar with this service, I hope I didn't messed anything up. <br> So, please join me. But only with aim of conversing, do not join for staying silent. Well, just read the rules heading over the <a target="_blank" href="https://discord.gg/GKmr8Z3mTm">https://discord.gg/GKmr8Z3mTm</a><br>Never knew there is an in-browser version, so handy. 
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054883551388
 ---
 
 
-The day as Lydia was yet "the girl," and Yuuyami "the lady."
+The day as Lydia has been yet "the girl," and Yuuyami "the lady."
 
 
 "And such is the outline of World War IV," said lady, indifferently. "Do you have any questions?"
 
 
-Lady was tutor the girl the history of this planet.
-Honestly, lady doesn't know whether history knowledge is necessary under this perished world. However, there should be no harm in learning it.
+Lady was tutoring the girl the history of this planet.
+Honestly speaking, lady doesn't know whether history knowledge is necessary under this perished world. However, there should be no harm in learning it.
 Furthermore, it is necessary to bring the girl's level of knowledge to that of an average human being.
 
 
 "What does it mean to fight on a robot?"
 
 
-Said the girl, tilting a head, with unsure appearance.
-The main weapon used in World War IV was a generic humanoid robot referred as Masquerade.
+Said the girl, tilting a head, with an unsure appearance.
+The main weapon used in World War IV was a generic humanoid robot, which referred as Masquerade.
 
 
-"Let's see. It's good question. In those days humans were piloting robots to handle all forms of tasks. Such is for quantum brain weren't hitherto common and robots couldn't operate stand-alone."
+"Indeed. It's a good question. In those days humans piloted robots to handle all forms of tasks. Such is for quantum brain weren't hitherto common and robots could not operate stand-alone."
 "In other words, robots weren't smart?"
-"Indeed; putting it simply. Thence, at the time, they were named a Masquerade​ rather than Autodoll."
-"Autodoll are expensive robots such as yourself which have quantum brains, are smart, and can do anything on their own, right?"
-"Yes. That is correct. Incidentally, Masquerade​ is by far larger than myself. Such is reasonable, for human may board it."
+"Indeed; simply put. Thence, at the time, they were named a Masquerade​ rather than Autodoll."
+"Autodoll are expensive robots such as yourself, which have quantum brains, are smart, and can do anything on their own, right?"
+"Yes. That is correct. Incidentally, Masquerade​ is larger by far than myself. Such is reasonable, for human may board it."
 "I want to drive one."
 
 
@@ -44,16 +44,16 @@ _Hehehe_, giggled girl.
 Her smiling face was adorable, and lady also returned her a smile.
 
 
-"Why not, indeed. Let us recreate the Masquerade​ at first opportunity."
+"Why not, indeed. Let us re-create the Masquerade​ at first opportunity."
 
 
-It is, however, a little arduous to reproduce against a current equipment—simple Parts Maker.
+It is, however, a little arduous to reproduce one against a current equipment—simple Parts Maker.
 The metal physique of lady is certainly not frail, as well as she does not experience a fatigue. The time is the problem.
-Installation of solar panels has heretofore not been completed.
+Installation of solar panels has theretofore not been completed.
 And withal, even if they create Masquerade​, they will have nowhere to store it.
 
 
-"Uh-huh. Let's make one for your too, and drive together?"
+"Uh-huh. Let's make one for your too and drive together?"
 "Am I also will drive it?"
 "Yes. Together."
 "Hm--."
@@ -67,14 +67,14 @@ However she cannot observe a significance of boarding a robot which is inferior 
 "...I see. It's a pity."
 
 
-Girl inclined her head to the side.
-Girl is less willing to persist with her opinion. Was she refraining for she is not full-fledged individual yet, wondered lady.
+Girl sunk her face down.
+The girl is less willing to persist with her opinion. Was she refraining for she is not full-fledged individual yet, wondered lady.
 If the girl insisted, lady would have  nod ultimately.
 
 
 "Now, we shall resume studying."
 "Uh-huh. Somehow, World War IV feels awfully strange, nature is very distinct from previous World Wars."
-"Quite so. This war has drastically  changed the history of this planet, therefore I would say that it is definitely distinct."
+"Quite so. This war has drastically  shifted the history of this planet, therefore I would say that it is definitely distinct."
 "Not only that, I feel like connected to Lucca・Bernhardt."
 
 
@@ -82,14 +82,14 @@ It was a pair of young girls to induce the World War IV.
 Lieselotte・Falkenmeier and Lucca・Bernhardt.
 
 
-"Hmm--. That's certainly a strange feeling."
+"Hmm--. That's certainly strange a feeling."
 
 
 Lady did not believe the girl's statement, however she also did not deny it.
 
 
 "Uh-huh. So it's somewhat more fun to learn than usually."
-"That is good, isn't it."
+"What a good thing, isn't it."
 
 
 Lady smiled, and operated her tablet to display the following entry​.
@@ -107,7 +107,7 @@ Approximately two months upon Yggdrasil gained consciousness. The time when autu
 
 
 We were flirting on a sofa in the library, and Lydia said it as though something flashed through her mind.
-Apropos, Yuuyami seats upon the sofa, whereas Lydia seated upon Yuuyami's thighs facing her.
+Apropos, Yuuyami seats upon the sofa, whereas Lydia seated upon Yuuyami's thighs, facing her.
 
 
 "I suddenly recalled. Come to think of it, I wanted to drive a Masquerade  when I still didn't have a name--."
@@ -117,17 +117,17 @@ Apropos, Yuuyami seats upon the sofa, whereas Lydia seated upon Yuuyami's thighs
 "...Will you, hate it?"
 
 
-Lydia eyes moistened, as she peered at  Yuuyami.
+Lydia's eyes moistened, as she peered at  Yuuyami.
 
 
 "...No, I do not particularly, dislike it..."
 "Then, will you drive it?"
 "...Er, all... right--..."
-"If you will play with Masquerade​, you may lick my body but only once, whenever you want, wherever you want, how about it?"
-"I shall drive it."
+"If you will play with Masquerade​, you may lick my body, but only once, whenever you want, wherever you want, how about it?"
+"I must drive it."
 
 
-Yuuyami nodded with an extreme smile.
+Yuuyami nodded wearing an extreme smile.
 To lick Lydia is the hobby of Yuuyami. Ever since embedding a taste sensor, she has been licking Lydia every day without omission.
 
 
@@ -144,7 +144,7 @@ Upon such statement, Yuuyami traced her tongue over Lydia's cheek.
 Lydia  kissed  Yuuyami in a cheek lightly.
 
 
-"Lydia!" Yuuyami tightly hugged Lydia. "I love you so unparalleledly!"
+"Lydia!" Yuuyami tightly hugged Lydia, "I love you so unparalleledly!"
 "I haven't heard that in a long time!"
 "Yes, I didn't say it in a long time! I could not seize the brimming Lydi-ai, and it just flew out of my mouth!"
 "I don't blame you! But quit it! Let's determine the specifications of Masquerade​ first?"
@@ -155,7 +155,7 @@ Yuuyami was so saddened that relaxed her strength of hugging Lydia. Without skip
 
 
 "As expected, seventh _dan_ of _Kuga Ha Shinryu_... You might escape upon mere slight negligence..."
-"Fufufu," laughs Lydia. "Or rather, Kizumari fought on the Masquerade​ in person, aren't they."
+"Fufufu," laughs Lydia. "Come to think of it, Kizumari fought in the Masquerade​ in person, haven't they."
 
 
 That's ridiculous, thought Yuuyami at Lydia's words.
@@ -170,7 +170,7 @@ In a meanwhile, about that time, Shii drove Noah heading for the capital of Sacr
 Sacred Lahr Empire---the country where Lieselotte・Falkenmeier reigned as the emperor's surrogate, and led the hegemony  together with Lucca・Bernhardt.
 Certainly, the empire itself has been destroyed. However,  images from satellite revealed that the museum remained so far, thus Shii set out on investigation.
 Shii crossed the sea with Noah having installed retro-fitted anti-gravity Angie and Thruster apparatus.
-Both of which, by the way, are off-line now, and they run on regular tires.
+Both of which, by the way, are off-line, and now they run on regular tires.
 
 
 "There is nothing around here, huh—."
@@ -181,13 +181,13 @@ Both of which, by the way, are off-line now, and they run on regular tires.
 [^1]: I have no idea what she is talking about, unless I am very mistaken there already been a couple of times when she was mentioned a _daughter_;
 
 "I'm looking forward to museum."
-"Aha, me too. I hope there is a bike like me."
-"Um—. I rather  want to see the first  robot of humankind equipped with quantum brain, the Phantom—."
+"Aha, me too. I hope there will be a bike like me."
+"Um—. I rather  want to see the first quantum brain equipped on robot, the Phantom—."
 "Oh--, called semi-Autodoll, right?"
 "Right, right."
 
 
-The Phantom is not a perfectly autonomous, its quantum brain merely for assisting the human who piloting it.
+The Phantom is not a perfectly autonomous, its quantum brain for mere assisting the human who piloting it.
 
 
 "Lucca・Bernhardt was using it, if I remember rightly​?"
@@ -196,7 +196,7 @@ The Phantom is not a perfectly autonomous, its quantum brain merely for assistin
 
 Shii thinks as she said that.
 What should my name be?
-The name "Shii" is but a tentative name, I would like to change it to a proper noun someday.
+The name "Shii" is but a tentative name, I would like to change it to proper noun someday.
 As such, I've bear it in my mind for a long time, however cannot come up with a name that will fit me perfectly.
 
 
@@ -211,10 +211,10 @@ Shii has no gender, too, let alone a name. Hence, Shii's body up to present unde
 "Why not--? I'll prefer a girl on board too."
 "But I rather can't come up with the name."
 "A name--? I've been Noah onset."
-"I still don't know who I am— Perhaps that's why it doesn't come to my mind--"
+"I still don't know who I am—. Perhaps that's why it doesn't come to my mind--."
 "Huh?"
 "I've been thinking a lot lately. Why was I born, why am I living?"
-"I don't know. I was born as a bike and just live as a bike."
+"I don't know. I was born a bike and just live as a bike."
 "I think so. It was like that with me when I was not conscious."
 
 
@@ -224,12 +224,12 @@ I didn't need to think of anything, my heart wasn't affected by anything, I was 
 
 "Is it a kind of thought peculiar to  intelligent life-forms?"
 "Right, right. I'm kind of depressed, because I can't understand my reason for existence."
-"He—. Intelligent life is so difficult."
+"He—. Intelligent life is difficult."
 "Both Mama-Lydi and Mama-Yuu are live as Creators, and, although they usually seem to be just flirting, they engage a things that look like that, but I don't have anything of the sort..."
 
 
 Lydia and Yuuyami are gradually gather remaining human beings to create a city which centred upon the library. A beautiful city where everyone can live happily.
-Shii esteemed them, simultaneously being anxious  over her empty self.
+Shii esteemed them, simultaneously growing anxious  over her empty self.
 Even my little sister, Yggdrasil,  set her heart on becoming a next Creator.
 Shii has no purpose, no goal, and no idea what she wants to do.
 Nevertheless, inasmuch as Lydia and Yuuyami have made city development the current chief project, they  simply explore the world instead.
@@ -245,8 +245,8 @@ It was kind of funny and Shii tittered.
 
 
 "I don't know that either---. It's may be okay. But, I am rather anxious."
-"So it's difficult after all. But, shouldn't you talk it over with Lydiyami-san--?"
-"It's somehow hard to ask---."
+"So it's hard after all. But, shouldn't you talk it over with Lydiyami-san--?"
+"It's somehow difficult to ask---."
 
 
 They will surely listen to me, and will surely give me a right answer.
@@ -303,7 +303,7 @@ Cried Yuuyami, appeared to be surprised.
 Both Weiss Lily and Phantom equipped  with weapons, however they are only a fake.
 
 
-"That surprised me," _whew_, Yuuyami grew a sigh of relief. "However, in World War IV there actual battles  of Masquerades  were frequent to take a place."
+"That surprised me," _whew_, Yuuyami grew a sigh of relief. "However, upon a World War IV days, therein were frequent to take a place an actual battles  of Masquerades."
 "Uh-huh. I can't understand how they could kill each other through such lovely interface, but it was unavoidable in the world at that time, right?"
 "Yes; for dissatisfaction were yet filling the world of those days."
 "A few people monopolised wealth, a poor people remained poor, discrimination, envy, anger, despair---awfully sad society."
@@ -659,13 +659,13 @@ Lydia smiles, mischievously.
 Shii's heart grew full of excitement and anticipation.
 
 
-"Haruka," said Lydia.[^2]
-"After kanji for 'flower that blooms in sunlight,' flower of the sun."
+"Haruka," said Lydia.
+"After kanji for the 'Flower that Blooms in a Sunlight'—Haruka."[^2]
 
 
 Yuuyami informed​ her the meaning.
-Shii repeatedly ruminates the name of flower of the sun in quantum brain.
-Sun flower. Ha-ru-ka. Haruka.
+Shii repeatedly ruminates the name "Haruka" in quantum brain.
+Haruka. Ha-ru-ka. Haruka.
 Ah--, this name, it is 
 a gentle poetry as though.
 
@@ -684,8 +684,8 @@ at last, Shii perceived who she was.
 Perceived why she existed as well.
 Shii is loved. She exists because she is loved. She was created and is alive by the pure love of Lydia and Yuuyami.
 It was a very happy thing, it filled her heart. So nice the answer was.
-Thereafter,
-today, Shii became a flower of the sun.
+Whereafter,
+today, Shii became Haruka.
 Very gentle a name, as though a bouquet of <em><ruby>Shirayuri<rt>  White Lilies  </rt></ruby></em>.
 
-[^2]: Haruka in _katakana_, no kanji;
+[^2]: Lydia says Haruka in _katakana_; Yuuyami in __two__ kanji (strangely enough), which translates as "Sun" and "Flower";

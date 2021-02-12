@@ -22,7 +22,6 @@ end
 gem "jekyll-seo-tag"
 
 gem 'jekyll-sitemap'
-gem 'jemoji'
 
 # group :jekyll_plugins do
 #   gem 'jekyll-commonmark'

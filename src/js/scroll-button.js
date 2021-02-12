@@ -61,11 +61,11 @@ window.onload = function(){
 //Get the button
 var mybutton = document.getElementById("scroll-btn");
 
-// When the user scrolls down 200px from the top of the document, show the button
+// When the user scrolls down 260px from the top of the document, show the button
 window.onscroll = function() {scrollFunction(); scrolldownFunction()}
 
 function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 260 || document.documentElement.scrollTop > 260) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -81,9 +81,9 @@ function topFunction() {
 // Get to-bottom button
 var mydownbutton = document.getElementById("scroll-down-btn");
 
-// When the user scrolls down 200px from the top of the document, hide the button
+// When the user scrolls down 260px from the top of the document, hide the button
 function scrolldownFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 260 || document.documentElement.scrollTop > 260) {
     mydownbutton.style.display = "none";
   } else {
     mydownbutton.style.display = "block";

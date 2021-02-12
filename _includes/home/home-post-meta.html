@@ -17,7 +17,7 @@
 	{% if words contains "-" %}
 	Less than a minute
 	{% else %}		
-	Circa {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}		
+	Circa {% assign number_words = words | plus: 250 | divided_by: 180 | lstrip %}{% case number_words %}{% when '1' %}{{ number_words }} minute{% else %}{{ number_words }} minutes{% endcase %}
 	{% endif %}
 	</span>
 </p>
