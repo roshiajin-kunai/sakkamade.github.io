@@ -242,7 +242,7 @@ Ohan lightly revised a manner of speech upon occasion of dating Rapha. Was what 
 
 
 "Wait, Ohan!?" cried Rapha, visibly impatient. "Can you stop making such a misleading remarks!?"
-"He—. Rapha likes this kind of play--. She's daughter of Hinagiku after all-"
+"He—. Rapha likes this kind of play--. She's daughter of Hinagiku after all–."
 
 
 Said Lydia with a giggle.
@@ -321,7 +321,7 @@ Standing  a similar manner upon the left of Kizuna, Mari let out a breath.
 
 "You know, I'm pretty out of place with all these women around, right?"
 "Well, this is a lily garden, it can't be helped, I think."
-"I guess. But I feel so alienated, huh-"
+"I guess. But I feel so alienated, huh–."
 "...I'm here, you know?"
 "...Yeah."
 "Don't worry, I'll always be together with you, Kizuna."
@@ -346,7 +346,7 @@ Shii wears a white _dogi_ and a scarlet _hokama_, inasmuch as she also tentative
 Incidentally, Shii as yet unconscious at this period.
 
 
-"Neither-"
+"Neither–."
 "If I must answer, antagonism."
 
 
