@@ -2,38 +2,50 @@
 layout: page
 title: About
 permalink: /about
+last_modified_at: 2021-02-12 21:35:56 +0000
 ---
 
-On this website I publish my translations of Japanese webnovels. Occasionally gaining author's consent (if I can contact them and certain of translating it <i>well</i> and until the end). 
-At expiration of slightly over the month at [*WordPress*](https://sakkamade.wordpress.com/), I decided to move to [*GitHub*](https://github.com/) and [*Jekyll*](https://jekyllrb.com/), hopefully to remain here.
+On this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it <i>well</i> and until the end). 
+At expiration of slightly over the month at [*WordPress*](https://sakkamade.wordpress.com/), I decided to move to [*GitHub*](https://github.com/) and [*Jekyll*](https://jekyllrb.com/), hopefully to remain here, as this is the best amalgam for me.
 
-<h4 class="with-indent">Language Knowledge</h4>
+#### Language Knowledge
+{: class="with-indent"}
 
-During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (one textbook ~350 pages out of four) in  three months, abandon a second volume nearly at first page. 
+During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (one textbook ~350 pages out of four) in  three months. Whereupon had abandoned a second volume nearly at first—eleventh, actually—page for lack a motivation. 
 Despite I forgot mostly everything (on the time of starting my translations), with that piece of knowledge I was able to begin. 
-'To begin somewhat' - from your point of view, most likely; 
-'Uwah, I'm doing great' - from mine.
+"To begin somewhat"—from your point of view, most likely; 
+"Uwah, I'm doing great"—from mine.
 
-No one call off my problems with English, indeed. However, I am doing best I am capable of upon the time publishing the chapter.
-Majority of my English knowledge being for British and American movies' subtitles; for translated from Japanese, *manga* and novels; for songs' lyrics. Which were accompanied by constant look up dictionaries for unfamiliar words. Should confess I have never learned English with intention to write, but just to be able to read, and understand verbal language.
+No one call off my problems of English, indeed. I am doing a best, however, that I am capable of upon the time of publishing the chapter.
+My English knowledge is being utterly for British and American movies' subtitles; for translated from Japanese *manga* and novels; and for songs' lyrics, which had been accompanied by a constant look up dictionaries for unfamiliar words. Should confess I have never had learned English with intention to write, but just to be able to read and understand verbal language.
 
-Must admit that is not sufficient. I do not have much of motivation, however, to learn Japanese nor English, at present. 
-Well, albeit I have said that, I am learning both. Whereas working over my translations and reading books, the knowledge of mine, thus,  growing constantly, bit by bit. I expect.
+Must admit it is not sufficient. I do not have much of motivation, however, to learn Japanese nor English, presently. 
+Well, with  that said, I _am_ learning both. Whereas working over my translations and reading books, the knowledge of mine, thus,  growing constantly, bit by bit. I expect.
+
+#### Design
+{: class="with-indent"}
+
+The design for this website made in `HTML` by me entirely, and from a scratch, too, with following adjustment of it to _Jekyll_. 
+Based upon a theme I used to have in my previous blog at _WodrPress_.
 
 
-<h4 class="with-indent">Services for Translation</h4>
+#### Services for Translation 
+{: class="with-indent"}
 
-[wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese, mostly with English, but with Japanese either;
-[jisho.org](https://jisho.org/) - Japanese translation tool;
-[thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - great dictionary of (totally unfamiliar to me) Japanese *sfx*;
-[translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English;
-[deepl.com](https://www.deepl.com/home) - good for translation of (truly alien to me) Japanese dialects and colloquial language;
+- [wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese, mostly with English, but with Japanese either;
+- [jisho.org](https://jisho.org/) - Japanese translation tool (you—and perhaps I—would not have seen so frequent an updates if not for this amazing tool);
+- [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - great dictionary of---totally unfamiliar to me—Japanese *sfx*;
+- [translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English;
+- [deepl.com](https://www.deepl.com/home) - good for translation of---truly alien to me—Japanese dialects and colloquial language;
 
 and plenty of other.
 
-<div style="height:100px;"> </div>
+<span class="small">Last updated on: {{ page.last_modified_at | date: "%Y %B %d, %H:%M:%S UTC" }}</span>
+{: style="text-align: right"}
 
-<blockquote style='padding-top: 1.3em;'><strong style="font-size:1.8em;">継続は力なり。</strong><em style="font-size:.9em;">Keizoku wa Chikara nari.</em><br>
-<a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size:.9em;">wikiquote.org</em></a>
+<div class="spacer" style="height:80px;"><!-- base unit x3 --></div>
+
+<blockquote style='padding-top: 1.3em;'><strong style="font-size: 1.8em;">継続は力なり。</strong><em style="font-size: .9em;">Keizoku wa Chikara nari.</em><br>
+<a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size: .9em;">wikiquote.org</em></a>
 </blockquote>
-<b style="font-size:15px;font-weight:normal;">What translates as: <strong><em>"Continuation is the powe</em></strong></b>
+<span style="font-size:15px; font-weight:normal;">What translates as: <strong><em>"To continue is the powe</em></strong></span>

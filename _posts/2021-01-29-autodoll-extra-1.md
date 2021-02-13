@@ -20,7 +20,7 @@ chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/11773540548
 
 Lydia pressed upon her groin, curling herself up on a place.
 Lydia is a petite girl who appeared to be around thirteen of age, has a small breasts. Her hair is bright, shiny blond. It is a little curly, of length nigh a chest. Her skin is fair and smooth. It reminiscent me a beauteous snowscape.
-We are inside a self-defence _dojo_[^1111] which built by the side of underground library.
+We are inside a self-defence _dojo_[^11] which built by the side of underground library.
 Three months had passed since Lydia and Yuuyami became Creators. This self-defence _dojo_ was constructed by ​​Lydia's suggestion, as the Creator leastwise she should be able to protect herself.
 Within the _dojo_ there are four-and-twenty _tatami_ mats[^1] and a board-covered area of an equal extent. Having a tall ceiling, the room resulted spacious. Wooden swords and canes in various sizes were installed upon a corners of board-covered area.
 
@@ -52,7 +52,7 @@ He has a cool villainous features, the hair is black and doesn't cover his eyes.
 
 
 <p markdown="1">"Oh-, dragging me with one hand, a man, in sooth."</p>
-[^1111]: [Doojoo] - hall for martial arts training​, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo);
+[^11]: [Doojoo] - hall for martial arts training​, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo);
 
 Said Yuuyami, admiringly.
 
@@ -94,8 +94,8 @@ This _dojo_ uses a holo-system, thus Kizuna and Mari are but projected stereosco
 Furthermore, for their bodies and brains are conscientiously re-emerged against old medical data, their personalities and memories are perfect. Hence, neither Kizuna nor Mari are many different from the authentic articles. They merely lacking a life and consciousness.
 
 
-<p markdown="1">"By the way, Mari-sensei," says Lydia; "is it truth that you two travelled back and forth between parallel realities... briefly, parallel worlds?"[^12321]</p>
-[^12321]: she says _parallel realities_ somewhat English-esque, seem too long for Japanese:<br> [Parareruriariti] and [Heikō sekai];
+<p markdown="1">"By the way, Mari-sensei," says Lydia; "is it truth that you two travelled back and forth between parallel realities... briefly, parallel worlds?"[^12]</p>
+[^12]: she says _parallel realities_ somewhat English-esque, seem too long for Japanese:<br> [Parareruriariti] and [Heikō sekai];
 
 Whereas I investigated strongest a martial art, _Kuga Ha Shinryu_, there was such an account​. Of course, no one believed it at that period, thence it was treated  an idle gossip.
 Lydia wanted to question it one day, however she could not afford a room to think of anything else during the trainings, and afterwards she has been so exhausted that kept forgetting.
@@ -242,7 +242,7 @@ Ohan lightly revised a manner of speech upon occasion of dating Rapha. Was what 
 
 
 "Wait, Ohan!?" cried Rapha, visibly impatient. "Can you stop making such a misleading remarks!?"
-"He-- Rapha likes this kind of play- She's daughter of Hinagiku after all-"
+"He—. Rapha likes this kind of play--. She's daughter of Hinagiku after all-"
 
 
 Said Lydia with a giggle.
@@ -334,9 +334,9 @@ Mari lifts her right fist up to the shoulder.
 
 
 <p markdown="1">Kizuna clenched his left fist, and lightly tapped Mari's.</p>
-[^99]: Shii using the polite manner of speech quite wrong at times, from the last (44th) chapter I decided her  use a word _rather_, sometimes wrongly, although I understand it is not much of politeness; I should also mention that that doesn't signify it's a sole grammar error;
+[^19]: Shii using the polite manner of speech quite wrong at times, from the last (44th) chapter I decided her  use a word _rather_, sometimes wrongly, although I understand it is not much of politeness; I should also mention that that doesn't signify it's a sole grammar error;
 
-"Is it a friendship? Or rather affection? Rather, are you married?"[^99]
+"Is it a friendship? Or rather affection? Rather, are you married?"[^19]
 
 
 Questioned Shii, upon tottering up to the pair.
@@ -524,12 +524,12 @@ Lydia have already taken one.
 In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly sweet and easy to drink.
 
 
-"Somehow," says Lydia: "because usually  we get to _etchi_ under the flow of mood--, it's a little stressing when we about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such a _seiza_."[^100]
+"Somehow," says Lydia: "because usually  we get to _etchi_ under the flow of mood--, it's a little stressing when we about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such a _seiza_."[^13]
 "In, indeed."
 
 
 <p markdown="1">Yuuyami darted her spine straight; her _seiza_ is very beautiful. If there were a _seiza_ championship, she definitely would have been a champion.</p>
-[^100]: [Seiza] - formal traditional sitting manner, [Seiza - Wikipedia](https://en.wikipedia.org/wiki/Seiza);
+[^13]: [Seiza] - formal traditional sitting manner, [Seiza - Wikipedia](https://en.wikipedia.org/wiki/Seiza);
 
 "Then, let's chat for awhile, until a suitable mood."
 "Yes. All right. It's a nice weather today, is it not?"
@@ -540,8 +540,8 @@ In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly 
 Yuuyami distorted into extremely sad countenance​.
 
 
-"It was a joke,"
-"...Lydia, you a bit mean lately, aren't you?"
+"That was a jest."
+"...Lydia, you are a bit mean lately, aren't you?"
 "Is that so?"
 "So that is, certainly."
 "Do you hate it?"
@@ -552,7 +552,7 @@ Said composed Yuuyami.
 
 
 "Then, see you again, Masoyami-san."
-"...Kablooey! Masoyami-san passed away- I am Yuuyami. I would not want to wait."
+"...Kablooey! Masoyami-san passed away–. I am Yuuyami. I would not want to wait."
 
 
 Yuuyami has an extraordinary greedy personality. She wasn't like this in the past, but since she started dealing with a lots of emotions, she grew more and more humane.

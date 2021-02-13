@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-02 03:39:04 +0000
-last_modified_at: 2021-02-06 20:48:00 +0000
+last_modified_at: 2021-02-12 21:53:02 +0000
 title: "EX02. Yggdrasil of Genesis."
 author: sakkani
 categories:
@@ -69,7 +69,7 @@ Said Rapha with her regularly coloured cheeks.
 "State almost as when one is dreaming."
 "I see," Hinagiku nods. "I have no idea."
 "For now, I want you to tell us the circumstances before and after it happened."
-"All right. That was nigh a two hours ago. At the roots of Yggdrasil, Lydia and I were flirting... excuse me. Were discussing an upcoming tasks."
+"All right. That was nigh a two hours ago. At the roots of Yggdrasil, Lydia and I were flirting... Excuse me. Were discussing an upcoming tasks."
 
 
 ◇
@@ -134,7 +134,7 @@ Albeit being the same Autodoll, her daughter, Shii, provided with a feature to e
 
 
 Only two of us, however, is also not undesirable, reckoned Yuuyami.
-Apropos, Noah and Shii have departed to world's investigation​. According to schedule, they should not return  for two more days.
+Apropos, Noah and Shii had departed to world's investigation​. According to schedule, they should not return  for two more days.
 Lydia and Yuuyami arrived here by another motorcycle, not Noah. The motorcycle which had no quantum brain---a regular motorcycle; which had installed an Angie anti-gravity device for floating in the air, and utilised a Thruster propulsion for advancing forth---a regular motorcycle.
 The comfort and speed for many surpassed Noah, but Lydia liked Noah better. Shii and Noah, however, are very intimate friends. As a result, generally, Shii and Noah travelling in pair.
 
@@ -151,12 +151,12 @@ Yuuyami filled her mouth a water, whereafter pressed her lips against Lydia's, p
 "Ugh..."
 
 
-Lydia smiled, in a slightly troubled air. She didn't look angry, however, so Yuuyami done the same thing again.
+Lydia smiled, in a slightly troubled air. She didn't look angry, however, so Yuuyami did the same thing again.
 Then, slowly reached for Lydia's chest.
 I caress it  gently at first, over her clothes. The bulge is small, a bud as though, but is also nice.
 
 
-"Hey, wait! It's no good! Didn't we done this once in the morning!?"
+"Hey, wait! It's no good! We have done this in the morning once, haven't we!?"
 
 
 Lydia pushes Yuuyami away.
@@ -189,7 +189,7 @@ At that time,
 
 
 With a serious bearing, Lydia cast a look over surroundings.
-However,  mere noise of a leaves being rubbed by the wind, and of a wind enter the auditory sensor of Yuuyami.
+However,  mere noise of a leaves being rubbed by the wind, and of a wind alone enter the auditory sensor of Yuuyami.
 
 
 "A voice..." says Lydia. "What is it? Not ears, but in consciousness..."

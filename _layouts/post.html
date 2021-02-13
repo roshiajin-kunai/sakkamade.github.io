@@ -55,7 +55,7 @@ layout: default-page
 {%- assign last_mend_type_2 = page.last_modified_at | date: date_format_type_2 -%}
 {%- assign published_date = page.date | date: date_format -%}
 {%- assign published_date_type_2 = page.date | date: date_format_type_2 -%}
-<p class="post-meta low-line" style="text-align: right !important;">
+<p class="post-meta" style="text-align: right !important;">
   <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
   <span>Date Written on:&nbsp;</span>{{ published_date_type_2 }}
   <span class="no-cap">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</span>

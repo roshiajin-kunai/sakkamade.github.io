@@ -28,6 +28,10 @@ p {
   color: $almost-black;
 }
 
+
+/* footnotes */
+
+
 sup { 
   padding: 0 0 0 1px; 
   margin-top: 60px !important; 
@@ -39,15 +43,57 @@ sup {
 
 .footnote::before { content: '['; }
 .footnote::after { content: ']'; }
-.footnote { text-decoration: none; }
-
+.footnote { 
+  text-decoration: none;
+}
 .footnotes {
   color: $not-black;
   border-top: 1px solid $background-gray;
   margin-top: $base-unit;
   padding-top: $base-unit;
 }
-.reversefootnote { margin-left: 4px; }
+.reversefootnote { 
+  margin-left: 4px;
+}
+#fn,
+#fnref {
+
+	&\:1,
+	&\:2,
+	&\:3,
+	&\:4,
+	&\:5,
+	&\:6,
+	&\:7,
+	&\:8,
+	&\:9,
+	&\:10,
+	&\:11,
+	&\:12,
+	&\:13,
+	&\:14,
+	&\:15,
+	&\:16,
+	&\:17,
+	&\:18,
+	&\:19,
+	&\:20 {
+
+		&:target {
+			background: #fff2f7;
+			box-shadow: 1px 1px 2px #fff2f7, -1px -1px 2px #fff2f7, 1px -1px 2px #fff2f7, -1px 1px 2px #fff2f7, 1px 0 2px #fff2f7, 0 1px 2px #fff2f7;
+		}
+		
+		&:target a {
+			color: #bb495c;
+	
+			&:hover {
+				color: $not-black;
+			}
+		}
+	}
+}
+
 
 ::selection {
   background: hsla(218, 37%, 90%, 0.8); /* $lighter-blue; */
@@ -192,22 +238,22 @@ blockquote {
   color: $not-black;
   text-align: justify;
   word-break: break-word;
-  font-size: 17px !important;
+  font-size: $base-font-size !important;
   background-color: $very-light-gray;
   overflow: hidden;
   text-overflow: ellipsis;
   text-shadow: 0 -1px $white;
   box-shadow: 1px 1px 4px $light-gray;
   
-  > p { 
+  p {
 	color: $not-black; 
-	font-size: 17px !important;
+	font-size: $base-font-size !important;
   }
   
-  > a, 
-  p > a { 
+  a,
+  p a {
 	color: $base-gray;
-	font-size: 17px !important; 
+	font-size: $base-font-size !important;
   }
   
   > :last-child {

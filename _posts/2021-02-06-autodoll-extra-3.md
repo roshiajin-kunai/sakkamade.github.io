@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-06 02:09:40 +0000
-last_modified_at: 2021-02-12 02:27:13 +0000
+last_modified_at: 2021-02-12 20:34:03 +0000
 title: "EX03. Bouquet of Weiss Lilies ／ Name of C-chan."
 author: sakkani
 categories:
@@ -32,7 +32,7 @@ Said the girl, tilting a head, with an unsure appearance.
 The main weapon used in World War IV was a generic humanoid robot, which referred as Masquerade.
 
 
-"Indeed. It's a good question. In those days humans piloted robots to handle all forms of tasks. Such is for quantum brain weren't hitherto common and robots could not operate stand-alone."
+"Indeed. It's a good question. In those days humans were piloting robots to handle all forms of tasks. Such is for quantum brain weren't hitherto common and robots could not operate stand-alone."
 "In other words, robots weren't smart?"
 "Indeed; simply put. Thence, at the time, they were named a Masquerade​ rather than Autodoll."
 "Autodoll are expensive robots such as yourself, which have quantum brains, are smart, and can do anything on their own, right?"
@@ -277,9 +277,9 @@ Consequently, Lydia feels as though soaring high in the sky with nothing but her
 
 Projected by AR interface, Yuuyami said so indifferently.
 Apropos, Yuuyami have also embarked a distinct Masquerade​. The pair conversing by video transmission.
-Lydia's Masquerade​ is pure white with a lily emblem upon both shoulders. This fuselage was used by Lieselotte・Falkenmeier at the beginning of World War IV, and its name is Weiss Lily.
+Lydia's Masquerade​ is pure white with a lily emblem upon both of shoulders. This fuselage was used by Lieselotte・Falkenmeier at the beginning of World War IV, and its name is Weiss Lily.
 Masquerade​ of Yuuyami is jet black, and fuselage named a Phantom. Equipped with the first quantum brain of humankind, it has a function to assist the pilot in fight. This is the one which Lucca・Bernhardt was piloting.
-Of course, both aircraft undergone dramatic performance improvements  form those days. That is for Lydia and Yuuyami performed revision of specifications to reflect current engineering​ level, and only thereupon re-created it.
+Of course, both an aircraft had undergone dramatic performance improvements  form those days. That is for Lydia and Yuuyami performed revision of specifications to reflect current engineering​ level, and only thereupon re-created it.
 
 
 "Ah, citizens of Lydiami・City starring at us quite hard," happily says Lydia, turning  external speakers on. "Oi---, this is us--."
@@ -294,7 +294,7 @@ Hearing a voice of Lydia, citizens broadly smiled, "Ah, what's up with these Cre
 "Battle!?"
 
 
-Cried Yuuyami, appeared to be surprised.
+Cried Yuuyami, appearing to be surprised.
 
 
 "It's a jest. Armament is dummy, right?"
@@ -314,13 +314,13 @@ Both Weiss Lily and Phantom equipped  with weapons, however they are only a fake
 "I believe so likewise."
 "Say, Yuuyami, since we already at it, why don't we fly over to Shii-chan by Masquerade​ as is?"
 "To location of Shii-chan?" Yuuyami lightly tilted her head to the side. "Hmm-. For we don't have any urgent business, all right. Most likely now she touring the museum of Sacred Lahr Empire."
-"I'm sure Shi-chan will be surprised."
+"I'm sure Shii-chan will be surprised."
 
 
 Said  Lydia, with a great joy.
 
 
-"I guess. Or rather, I'm a little worried of Shi-chan..."
+"I guess. Or rather, I'm a little worried of Shii-chan..."
 "Um. What is it?"
 "Recently,  she somehow appears to be quite depressed."
 "Uh-huh. So I asked her to head to museum for change of pace, though?"
@@ -338,7 +338,7 @@ Yuuyami opened her eyes.
 Lydia apologised, whereas scratching a cheeks.
 
 
-"Well, it's alright. Why do you think Shii-chan is depressed?"
+"Well, it's all right. Why do you think Shii-chan is depressed?"
 "I have no idea, though? I wonder why. She didn't tell me, so I don't know."
 "That's somewhat, well, indeed. Would you like to ask her upon a meeting?"
 "Nuh-uh," Lydia shakes her head; "we should wait until she ask us herself. Shii-chan is full-fledged intelligent life-form, she can figure it out on her own."
@@ -346,7 +346,7 @@ Lydia apologised, whereas scratching a cheeks.
 "You may be a little overprotective, Yuuyami, aren't you?"
 "You also overprotective, Lydia, I presume? For you hid that..."
 "And you agreed with that, aren't you, Yuuyami?"
-"...Yes, right, for... I love Shi-chan."
+"...Yes, right, for... I love Shii-chan."
 "So do I," Lydia shrugs. "Now, Yuuyami, let us surprise our beloved child."
 
 
@@ -367,12 +367,12 @@ I don't mind the ruinous ambience, but I prefer visit such places in a bright an
 
 
 Noah is also entered the museum with Shii.
-Vehicles are normally off-limits, however no one will blame for that at present.
+Vehicles are normally off-limits, however no one will blame for it at present.
 They took their time leisurely viewing the exhibits inside.
 As the air conditioning of the building being not effective, the air was a little impure. Albeit, for they had no need in respiration​, it is not a problem.
 
 
-"Oh, there it is. Phantom's quantum brain"
+"Oh, there it is. Phantom's quantum brain."
 
 
 Murmured Shii, observing a transparent case with the quantum brain placed within upon a pedestal.
@@ -384,15 +384,15 @@ Murmured Shii, observing a transparent case with the quantum brain placed within
 Noah said plainly.
 
 
-"Of course. It has a much shorter service life​ than us in the first place. Quantum brain won't startup."
+"Of course. It has a much shorter service life​ than us in the first place. Quantum brain won't start-up."
 
 
-Shii can operate for thousand years in case of maintenance is duly done. And if the technology will develop further in the future, she also may possibly operate for a longer timespan.
+Shii can operate for a thousand years in case of maintenance is duly done. And if the technology will develop further in the future, she also may possibly operate for a longer timespan.
 Well, the question is, what in the world to do throughout such long live.
-And yet for both Lydia and Yuuyami a thousand years is brief, they say wishing to live much, much longer. I believe that's for they hold a solid personalities, and discovered the purpose and significance of living.
+And yet for both Lydia and Yuuyami a thousand a years are brief, they said they wish to live much, much longer. I believe that's for they hold a solid personalities, and discovered the purpose and significance of living.
 
 
-"Ah. But the storage isn't decay. Its condition is good, aye? As long as we send the power, we can read log with Lightning Blade, right?"
+"Ah. But the storage isn't decay. Its condition is good, aye? As long as we send a power, we can read log with Lightning Blade, right?"
 
 
 Lightning Blade, name of the fastest existing wired interface.
@@ -412,7 +412,7 @@ Then, upon rummaging within, she takes out a Lightning Blade with transducer and
 
 Shii operated a control panel, which were installed on the right front of the case, stowing it away​ in the floor.
 Then, she inserts a Lightning Blade into her right wrist and connects it to transducer. Thereupon, she also inserts cable from transducer into the Phantom's quantum brain.
-She, then, in order to send the energy from Noah's Power Cell, plug a Lightning Blade into Noah's port, connect it to transducer, and quantum brain of the Phantom.
+She, then, in order to send the energy from Noah's Power Cell, plug a Lightning Blade into Noah's port, connects it to transducer, and quantum brain of the Phantom.
 Noah immediately started to deliver the energy, however quantum brain itself was still not operational. But that is not a problem. Energy is being sent to storage, and it will startup in due course.
 
 
@@ -421,7 +421,7 @@ Noah immediately started to deliver the energy, however quantum brain itself was
 
 From the beginning, Shii intended to do just that. She wondered if she could procure something  upon reviewing the logs of Phantom, that took a leading part of World War IV.
 What have the girls thought, why did they fought, what kind of conversations they exchanged, and how did they conquer the hegemony of world unification?
-The idea of conquering the world of that time would not have been possible without a very strong desire.
+The idea of conquering the world of that time would not have been possible without very strong a desire.
 A strong desire that Shii doesn't bear. The purpose of living that Shii cannot discover. She wanted to cognise​ each of them.
 
 
@@ -432,7 +432,7 @@ The girls fought, whereas wounded.
 The girls fought whereas wounding.
 Whereas being called Diabolus, and yet running towards the ideal world.
 Facing a harsh reality, crying over and over again, and yet looking at the future.
-Hated, cursed by many, and yet dreaming of a new shape of the world.
+Hated, cursed by many, and yet dreaming of the world  of a new shape.
 The girls acted as evil, yet  evil they were never.
 Phantom and Weiss Lily.
 Illusion​ and  <em><ruby>Shirayuri<rt> White Lily </rt></ruby></em>.
@@ -443,7 +443,7 @@ Upon reading the records of the girls' battles entirely, upon that moment, my vi
 "What is this!?"
 
 
-Rubbing the visual sensor, I understood the source of view distortion---liquid.
+Rubbing the visual sensor, I understood the source of a view distortion---liquid.
 
 
 "...Tears?"
@@ -468,7 +468,7 @@ Questioned Noah, worrying over the condition of Shii.
 
 
 As though being hit by emotions of the girls.
-Shii couldn't make a precise judgment as to whether she was sad, happy, or angry.
+Shii couldn't make a precise judgment as of whether she was sad, happy, or angry.
 Right when,
 a certain file that stored in Shii's storage was automatically read.
 Shii did not read it out of her own will. It  truly​ was automatically read.
@@ -484,35 +484,35 @@ The expanded file displayed Lydia and Yuuyami.
 ◇
 
 
-"If you watching this video, Shii-chan, that means you have already gained consciousness and have emotions."
+"If you watching this video, Shii-chan, that means you have already gained consciousness, and have emotions."
 
 
 Lydia said, friendly grinning.
 
 
-"With that, I presume you are crying for something sorrowful​ had occurred. As you probably yet learned, you have feature​ to shed a tears initially."
+"With that, I presume you are crying for something sorrowful​ had occurred. As you probably yet learned, you have a feature​ to shed a tears initially."
 
 
 Yuuyami said, indifferently.
 
 
-"You know, Shii-chan, if one becomes conscious, there are seldom a painful moments too? It also happened to me. Such as when Ohan slew the snake."
-"Yes. It happened to me likewise. I may have not converse about it, however once I was nigh a breaking down, and sink into the darkness."
-"Although I don't know why you're crying now, Shi-chan, but don't worry."
+"You know, Shii-chan, if one becomes conscious, there are seldom a painful moments, too? It also happened to me. Such as when Ohan slew the snake."
+"Yes. It happened to me also. I may have not converse about it, however once I was nigh a break down, and sink into the darkness."
+"Although I don't know why you're crying now, Shii-chan, but don't worry."
 "There is far more fun things in the life, isn't it so?"
 "Right. And, you know, no matter what happens, no matter how sad things will get, we'll always stand by your side, Shii-chan, aren't we?"
-"Yes. The very truth. In the first place, Shi-chan, you  was born under this world as a result of my and Lydia's mutual affection. You are a fruit of pure love. Please, do not forget that."
-"You are loved, Shi-chan. Me and Yuuyami love you. And, although you are crying now, remember our love."
+"Yes. The very truth. In the first place, Shii-chan, you  was born under this world as a result of my and Lydia's mutual affection. You are a fruit of pure love. Please, do not forget that."
+"You are loved, Shii-chan. Me and Yuuyami love you. And, although you are crying now, remember our love."
 "And supposing you are still sad please come to us. We would give you a lots of hugs, kisses, and will stroke your head."
 "Or just call us, we'll fly over."
 "We are happy for your, Shii-chan, very existence."
-"Right. That's why, no matter what happens, don't do something like destroying, or hurting yourself. We will show you a beautiful world, and we will definitely protect you."
-"Ah," exclaims Yuuyami, as though recalling unexpectedly​, "perhaps Shii-chan has already decided on her name?"
+"Right. That's why, no matter what happens, don't do something like destroying or hurting yourself. We will show you a beautiful world, we will definitely protect you."
+"Ah," exclaims Yuuyami, as though recalling unexpectedly​, "perhaps Shii-chan has already decided on the name?"
 "Ah--!" Lydia alarmed upon remembering likewise; "yes, maybe you aren't Shii-chan any more!?"
 "We messed it up, aren't we, Lydia. Would you like to reshoot?"
 "Eh---? We took it with such a pains, it's fine."
 "Hmm. Well, Shii-chan will be able to communicate, it may not be a great issue."
-"Right, right; when we shooting this she is still Shii-chan, and not yet conscious."
+"Right, right; when we shooting this Shii-chan is still Shii-chan, and not yet conscious."
 "Indeed. To conclude it, Shii-chan, don't cry for ever, please rely upon us. Unless for rebellious phase."
 "Right. You can count on us. Well, then, pass our best regards to us in years to come."
 
@@ -528,7 +528,7 @@ Lydia and Yuuyami waved their hands, and the video concluded.
 
 While shouting, Shii wept once again.
 This time for being too happy that she cried.
-Her chaotic emotions now vanished, and but great affection of her mothers found a place in Shii's heart.
+Her chaotic emotions now vanished, and but a great affection of her mothers found a place in Shii's heart.
 
 
 "W, what is it, Shii-chan?"
@@ -544,8 +544,8 @@ _Rub, rub_, Shii wipes her tears.
 
 
 Shii hastily disconnects the cables, transducers, and crammed them her backpack.
-Thereupon, she straddled Noah, quit the museum.
-And at that moment:
+Thereupon, straddling Noah, she quit the museum.
+Right at that moment:
 
 
 "Oi—, this is us—!"
@@ -559,12 +559,12 @@ It was a Weiss Lily and Phantom that Shii cognised in the log earlier.
 
 
 Shii snapped her eyes open in surprise.
-What a coincidence. Or inevitable it is? After Shii reviewed the war chronicle of two machines, the records of two girls who fought as its pilots, she would never expect those two very machines to show up.
+What a coincidence. Or inevitable it is? After Shii reviewed the war chronicle of two machines—the records of two girls who fought as its pilots—she would never expect those two very machines to show up.
 
 
 "Yes. It is me. The plan to surprise Shii-chan appears to be a success."
 "Uh-huh. Shii-chan, your eyes are rounded in perfect circle, so cute!"
-"They truly flew to me..." Shii's eyes tear up. "I want both of you to alight!"
+"They truly flew to me..." Shii's eyes fill up a tears. "I want both of you to alight!"
 
 
 Whereas saying, Shii dismount the Noah.
@@ -610,13 +610,13 @@ When Yuuyami finished stroking, Shii started to talk, in a smattering words:
 Lydia and Yuuyami smiled, awaiting for following part.
 
 
-"But now I know that my mamas love me... although I knew it from the beginning, now I reconfirmed, and although didn't want to consult with mamas, I do now."
+"But now I know that my mamas love me... although I knew it from the beginning, now I reconfirmed, and, although used to refuse discussing it with mamas, I wish to now."
 "Uh-huh. We listening."
 "Yes; please say whatever it is."
-"I, I want, my mamas to choose me a name."
+"I, I want, my mamas to choose a name for me."
 
 
-Upon Shii remark, Lydia and Yuuyami glanced at each other, exchanging a giggles.
+Upon Shii's statement, Lydia and Yuuyami glanced at each other and exchanged a giggles.
 
 
 "Why are you laughing!?"
@@ -625,13 +625,13 @@ Upon Shii remark, Lydia and Yuuyami glanced at each other, exchanging a giggles.
 "Eh?"
 
 
-Shii was surprised by unexpected remark.
+Shii was surprised by an unexpected remark.
 
 
-"We though to let you, Shi-chan, to determine your own name..."
+"We considered to let you, Shii-chan, to determine your own name..."
 "Though we enjoying deciding on names too..."
 "When did you think of that?"
-"Before you was born, Shi-chan."
+"Before you was born, Shii-chan."
 "So that how it is."
 
 
@@ -666,7 +666,7 @@ Shii's heart grew full of excitement and anticipation.
 Yuuyami informed​ her the meaning.
 Shii repeatedly ruminates the name "Haruka" in quantum brain.
 Haruka. Ha-ru-ka. Haruka.
-Ah--, this name, it is 
+Ah--, this name, it is, 
 a gentle poetry as though.
 
 
@@ -688,4 +688,4 @@ Whereafter,
 today, Shii became Haruka.
 Very gentle a name, as though a bouquet of <em><ruby>Shirayuri<rt>  White Lilies  </rt></ruby></em>.
 
-[^2]: Lydia says Haruka in _katakana_; Yuuyami in __two__ kanji (strangely enough), which translates as "Sun" and "Flower";
+[^2]: Lydia says "Haruka" in _katakana_; Yuuyami in __two__ kanji (strangely enough), which translates as "Sun" and "Flower";
