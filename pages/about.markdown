@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about
-last_modified_at: 2021-02-12 21:35:56 +0000
+last_modified_at: 2021-02-13 00:43:55 +0000
 ---
 
 On this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it <i>well</i> and until the end). 
@@ -17,7 +17,7 @@ Despite I forgot mostly everything (on the time of starting my translations), wi
 "Uwah, I'm doing great"—from mine.
 
 No one call off my problems of English, indeed. I am doing a best, however, that I am capable of upon the time of publishing the chapter.
-My English knowledge is being utterly for British and American movies' subtitles; for translated from Japanese *manga* and novels; and for songs' lyrics, which had been accompanied by a constant look up dictionaries for unfamiliar words. Should confess I have never had learned English with intention to write, but just to be able to read and understand verbal language.
+My English knowledge (as of the end of 2020) is being utterly for British and American movies' subtitles; for translated from Japanese *manga* and novels; and for songs' lyrics, which had been accompanied by a constant look up dictionaries for unfamiliar words. Should confess I have never had learned English with intention to write, but just to be able to read and understand verbal language.
 
 Must admit it is not sufficient. I do not have much of motivation, however, to learn Japanese nor English, presently. 
 Well, with  that said, I _am_ learning both. Whereas working over my translations and reading books, the knowledge of mine, thus,  growing constantly, bit by bit. I expect.
@@ -26,7 +26,7 @@ Well, with  that said, I _am_ learning both. Whereas working over my translation
 {: class="with-indent"}
 
 The design for this website made in `HTML` by me entirely, and from a scratch, too, with following adjustment of it to _Jekyll_. 
-Based upon a theme I used to have in my previous blog at _WodrPress_.
+Based upon a theme I used to have in my previous blog at _WordPress_.
 
 
 #### Services for Translation 

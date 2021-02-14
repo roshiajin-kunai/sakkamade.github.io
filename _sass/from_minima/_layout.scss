@@ -22,7 +22,7 @@
 
   p { 
 	font-size: 19px;
-	Line-height: $normal-line-height;
+	line-height: $normal-line-height;
 	text-align: justify;
 	padding: 0;
   }
@@ -534,7 +534,7 @@
 
 
 
-#archives {
+#side-wrapper {
   margin: 0;
   cursor: default;
   text-transform: capitalize;
@@ -1260,7 +1260,7 @@ ul#markdown-toc {
   	font-size: 550%;
   	display: inline-block;
   	padding: 0;
-  	padding-top: .09em !important;
+  	padding-top: .075em !important;
   	float: left;
   }
 }

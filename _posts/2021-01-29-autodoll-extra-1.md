@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-29 23:31:20 +0000
-last_modified_at: 2021-02-08 19:38:23 +0000
+last_modified_at: 2021-02-14 01:32:50 +0000
 title: "EX01. Lydia's Introduction to Martial Arts."
 main-title: "Autodoll Dreams in a Decaying World.<br> Extra Episodes.<br> By Hazuki Sou."
 author: sakkani
@@ -26,7 +26,7 @@ Within the _dojo_ there are four-and-twenty _tatami_ mats[^1] and a board-covere
 
 
 <p markdown="1">"Ah-! Lydia, your precious​ room!"</p>
-[^2]: [Hokama] - skirt or loose trousers over _kimono_; you might have seen it wear by shrine maiden, [Hokama - Wikipedia](https://en.wikipedia.org/wiki/hokama?oldid=491378378);
+[^2]: [Hokama] - skirt or loose trousers over _kimono_, [Hokama - Wikipedia](https://en.wikipedia.org/wiki/hokama?oldid=491378378);
 
 Yuuyami rushed across to Lydia.
 Whereafter she undertook striping a scarlet _hokama_[^2] off Lydia.
@@ -44,7 +44,7 @@ Her visage is harmonious at a level what without a hindrance​ might be describ
 
 
 <p markdown="1">"Oi, you, over there, Yuuyami."</p>
-[^3]: [Doogi] - a uniform worn in martial arts; 
+[^3]: [Dōgi] - a uniform worn in martial arts; 
 
 A youth in a white _dogi_ and black _hokama_ seized Yuuyami's nape and hauled her away.
 This youth named a Konohana Kizuna. One and twenty years of age. He is a master of _Kuga Ha Shinryu_, which considered  strongest a martial art prior the world's collapse.
@@ -52,7 +52,7 @@ He has a cool villainous features, the hair is black and doesn't cover his eyes.
 
 
 <p markdown="1">"Oh-, dragging me with one hand, a man, in sooth."</p>
-[^11]: [Doojoo] - hall for martial arts training​, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo);
+[^11]: [Dōjō] - hall for martial arts training​, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo);
 
 Said Yuuyami, admiringly.
 
@@ -353,7 +353,7 @@ Incidentally, Shii as yet unconscious at this period.
 Shrugged his shoulders Kizuna. Mari replied.
 
 
-"I am not, rather, understand."
+"I do not, rather, understand."
 "It's okay, I don't understand it too."
 "Yeah. We aren't understand it well."
 
@@ -399,16 +399,16 @@ Thereupon, Lydia offered the method to determine a winner which allow her ethics
 
 
 "In other words, Mama-Lydi rather followed the teachings of _Kuga Ha Shinryu_ and lured her opponent at a disadvantage?"
-"That's how it is. But, as Mari-chan said, there's no calculations, it's probably natural. Well, I guess this fellow Lydia thought, 'I'm cute and loved by everyone, I can obtain a consent for anything I say.'"
+"That's how it is. But, as Mari-chan said, there's no calculations, it's probably natural. Well, I guess this fellow Lydia thought, 'I am cute and loved by everyone, I can obtain a consent for anything I say.'"
 "Ah--- Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia had suggested: 'Upon Ohan hit Lydia's butt with a whip, Ohan wins.' And now to our play-by-play man, Kizuna-san?"
 "Ah-- Er, this is Kizuna-san from the scene. Err, Ohan is not just limited  to attack technique, but also to the spot of attack. Furthermore, having a high defence power,  the butt is not prone to easily bear a critical damage. She, too, prepared to be hit upon that place, Mary?"
 "Yes," Mari nodded. "A great natural little devil, aren't she-- But this is not a point, Ohan in a really disadvantageous situation."
 "And yet, only Mari-chan and myself realise​d that Ohan at disadvantage, huh--"
 "Because," says Shii, "usually it is better to have a weapon. Rather, Ohan-onee-san pretty good combatant."
-"Well, and back to Kizuna-san form the scene. As for Lydia, she can achieve a victory by inflicting  a damage upon Ohan which  would be enough to take  down an ordinary human," says Kizuna. "At first glance, such appears fairly difficult, but, taking into account present Lydia, her single blow will be sufficient."
+"Well, and back to Kizuna-san form the scene. As for Lydia, she can achieve a victory by inflicting  a damage upon Ohan which  would be enough to take  down an ordinary human," says Kizuna. "At first sight, such appears fairly difficult, but, taking into account present Lydia, her single blow will be sufficient."
 
 
-Furthermore, it will not break Ohan. The damage which takes a human down is trivial from Ohan's point.
+Furthermore, Ohan will not break from this. The damage which takes a human down is trivial from Ohan's point.
 Albeit her body  weaker than before,  the current Ohan, as Shii said, also hold an  extremely high fighting and defence abilities.
 
 
@@ -467,7 +467,7 @@ Indifferently said Shii.
 "The current kick was powerful enough to bring an ordinary human down."
 
 
-Ohan halted before Lydia, and said plainly.
+Ohan halted before Lydia, and said so, plainly.
 
 
 "Ohan, are you okay!? Nothing is broke!?"
@@ -524,7 +524,7 @@ Lydia have already taken one.
 In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly sweet and easy to drink.
 
 
-"Somehow," says Lydia: "because usually  we get to _etchi_ under the flow of mood--, it's a little stressing when we about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such a _seiza_."[^13]
+"Somehow," says Lydia: "because usually  we get to _etchi_ under the flow of the mood--, it's a little stressing when we are about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such a _seiza_."[^13]
 "In, indeed."
 
 
@@ -567,7 +567,7 @@ Lydia loved the cool Yuuyami of the past, however she also loves a soft and fluf
 Mn---, tilted her head Yuuyami.
 
 
-"A little more chatter, then."
+"A little more chatter then."
 
 
 Upon saying, Lydia threw herself down, placing her  head upon Yuuyami's  thighs. A so-called lap pillow position.

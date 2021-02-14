@@ -244,21 +244,21 @@ blockquote {
   text-overflow: ellipsis;
   text-shadow: 0 -1px $white;
   box-shadow: 1px 1px 4px $light-gray;
-  
+
   p {
-	color: $not-black; 
+	color: $not-black;
 	font-size: $base-font-size !important;
   }
-  
+
   a,
   p a {
 	color: $base-gray;
 	font-size: $base-font-size !important;
   }
-  
+
   > :last-child {
 	margin-bottom: 0;
-  }  
+  }
 }
 
 

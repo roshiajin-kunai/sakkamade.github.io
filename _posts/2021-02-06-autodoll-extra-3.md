@@ -178,7 +178,7 @@ Both of which, by the way, are off-line, and now they run on regular tires.
 
 
 <p markdown="1">Shii said in a vague tones, Noah responded as usual.</p>
-[^1]: I have no idea what she is talking about, unless I am very mistaken there already been a couple of times when she was mentioned a _daughter_;
+[^1]: I have no idea what she is talking about, unless I am very mistaken there had already been a couple of times when she was mentioned a _daughter_;
 
 "I'm looking forward to museum."
 "Aha, me too. I hope there will be a bike like me."
@@ -194,7 +194,7 @@ The Phantom is not a perfectly autonomous, its quantum brain for mere assisting 
 "Right, right. It took a leading part of World War IV. Well, in the case of Lucca, only after she took her real name—Lucereine."
 
 
-Shii thinks as she said that.
+Shii though as she said that:
 What should my name be?
 The name "Shii" is but a tentative name, I would like to change it to proper noun someday.
 As such, I've bear it in my mind for a long time, however cannot come up with a name that will fit me perfectly.
@@ -686,6 +686,6 @@ Shii is loved. She exists because she is loved. She was created and is alive by 
 It was a very happy thing, it filled her heart. So nice the answer was.
 Whereafter,
 today, Shii became Haruka.
-Very gentle a name, as though a bouquet of <em><ruby>Shirayuri<rt>  White Lilies  </rt></ruby></em>.
+Very gentle a name, as though a bouquet of <em><ruby>White Lilies<rt>  Shirayuri  </rt></ruby></em>.
 
 [^2]: Lydia says "Haruka" in _katakana_; Yuuyami in __two__ kanji (strangely enough), which translates as "Sun" and "Flower";
