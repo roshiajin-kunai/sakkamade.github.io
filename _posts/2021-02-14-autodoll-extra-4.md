@@ -932,7 +932,7 @@ Said Prico, in a bright voice.
 None the less,
 
 
-"The Apricot is what I like the  most."
+"The Apricot is who I like the  most."
 "Well, Apricot likes Apricot too—."
 
 
