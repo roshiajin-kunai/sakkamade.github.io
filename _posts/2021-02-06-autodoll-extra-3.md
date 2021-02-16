@@ -50,7 +50,7 @@ Her smiling face was adorable, and lady also returned her a smile.
 It is, however, a little arduous to reproduce one against a current equipment—simple Parts Maker.
 The metal physique of lady is certainly not frail, as well as she does not experience a fatigue. The time is the problem.
 Installation of solar panels has theretofore not been completed.
-And withal, even if they create Masquerade​, they will have nowhere to store it.
+And withal, even if they create Masquerade, they will have nowhere to store it.
 
 
 "Uh-huh. Let's make one for your too and drive together?"
@@ -92,7 +92,7 @@ Lady did not believe the girl's statement, however she also did not deny it.
 "What a good thing, isn't it."
 
 
-Lady smiled, and operated her tablet to display the following entry​.
+Lady smiled, and operated her tablet to display the following entry.
 
 
 ◇
@@ -102,7 +102,7 @@ The present.
 Approximately two months upon Yggdrasil gained consciousness. The time when autumn appear to finally arrive.
 
 
-"Hey, Yuuyami, let's create Masquerade​."
+"Hey, Yuuyami, let's create Masquerade."
 "Rather abrupt."
 
 
@@ -123,7 +123,7 @@ Lydia's eyes moistened, as she peered at  Yuuyami.
 "...No, I do not particularly, dislike it..."
 "Then, will you drive it?"
 "...Er, all... right--..."
-"If you will play with Masquerade​, you may lick my body, but only once, whenever you want, wherever you want, how about it?"
+"If you will play with Masquerade, you may lick my body, but only once, whenever you want, wherever you want, how about it?"
 "I must drive it."
 
 
@@ -212,7 +212,7 @@ Shii has no gender, too, let alone a name. Hence, Shii's body up to present unde
 "But I rather can't come up with the name."
 "A name--? I've been Noah onset."
 "I still don't know who I am—. Perhaps that's why it doesn't come to my mind--."
-"Huh?"
+"Ha?"
 "I've been thinking a lot lately. Why was I born, why am I living?"
 "I don't know. I was born a bike and just live as a bike."
 "I think so. It was like that with me when I was not conscious."
@@ -267,7 +267,7 @@ Shii gently patted Noah's tank.
 
 
 Lydia said at a low altitude of two hundred meters.
-Lydia is currently seated in the cockpit of re-created Masquerade​.
+Lydia is currently seated in the cockpit of re-created Masquerade.
 The cockpit furnished with augmented reality in each and every direction. In other words, various information indicators are floating in the view outside.
 Consequently, Lydia feels as though soaring high in the sky with nothing but her seat alone.
 
@@ -276,7 +276,7 @@ Consequently, Lydia feels as though soaring high in the sky with nothing but her
 
 
 Projected by AR interface, Yuuyami said so indifferently.
-Apropos, Yuuyami have also embarked a distinct Masquerade​. The pair conversing by video transmission.
+Apropos, Yuuyami have also embarked a distinct Masquerade. The pair conversing by video transmission.
 Lydia's Masquerade​ is pure white with a lily emblem upon both of shoulders. This fuselage was used by Lieselotte・Falkenmeier at the beginning of World War IV, and its name is Weiss Lily.
 Masquerade​ of Yuuyami is jet black, and fuselage named a Phantom. Equipped with the first quantum brain of humankind, it has a function to assist the pilot in fight. This is the one which Lucca・Bernhardt was piloting.
 Of course, both an aircraft had undergone dramatic performance improvements  form those days. That is for Lydia and Yuuyami performed revision of specifications to reflect current engineering​ level, and only thereupon re-created it.
@@ -330,7 +330,7 @@ Said  Lydia, with a great joy.
 Yuuyami opened her eyes.
 
 
-"Huh? Didn't I tell you?"
+"Ha? Didn't I tell you?"
 "You did not. Lydia, you pretty often feel like explained afore, aren't you?"
 "Ahaha--, sorry."
 
@@ -369,7 +369,7 @@ I don't mind the ruinous ambience, but I prefer visit such places in a bright an
 Noah is also entered the museum with Shii.
 Vehicles are normally off-limits, however no one will blame for it at present.
 They took their time leisurely viewing the exhibits inside.
-As the air conditioning of the building being not effective, the air was a little impure. Albeit, for they had no need in respiration​, it is not a problem.
+As the air conditioning of the building being not effective, the air was a little impure. Albeit, for they had no need in respiration, it is not a problem.
 
 
 "Oh, there it is. Phantom's quantum brain."
@@ -507,7 +507,7 @@ Yuuyami said, indifferently.
 "Or just call us, we'll fly over."
 "We are happy for your, Shii-chan, very existence."
 "Right. That's why, no matter what happens, don't do something like destroying or hurting yourself. We will show you a beautiful world, we will definitely protect you."
-"Ah," exclaims Yuuyami, as though recalling unexpectedly​, "perhaps Shii-chan has already decided on the name?"
+"Ah," exclaims Yuuyami, as though recalling unexpectedly, "perhaps Shii-chan has already decided on the name?"
 "Ah--!" Lydia alarmed upon remembering likewise; "yes, maybe you aren't Shii-chan any more!?"
 "We messed it up, aren't we, Lydia. Would you like to reshoot?"
 "Eh---? We took it with such a pains, it's fine."

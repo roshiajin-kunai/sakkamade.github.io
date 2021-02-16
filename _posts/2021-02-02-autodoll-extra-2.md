@@ -47,10 +47,10 @@ Hinagiku exhibited her hands to Yuuyami.
 "I was hung up?"
 
 
-Stated Hinagiku with a grave countenance​.
+Stated Hinagiku with a grave countenance.
 
 
-"Huh?" threw Rapha.
+"Ha?" threw Rapha.
 "I must sustain  punishment. Therefore, I requested Apricot every day to severely chastise me..."
 "That's enough!" says Rapha with her face flushed up. "Don't show up in front of your daughter in such a state in the first place! I don't want to know Mama-Hina's play content!"
 "I'm  having a keen interest," says Yuuyami; "however for being occupied by a more important matter now, let us proceed the topic, all right?"
@@ -134,7 +134,7 @@ Albeit being the same Autodoll, her daughter, Shii, provided with a feature to e
 
 
 Only two of us, however, is also not undesirable, reckoned Yuuyami.
-Apropos, Noah and Shii had departed to world's investigation​. According to schedule, they should not return  for two more days.
+Apropos, Noah and Shii had departed to world's investigation. According to schedule, they should not return  for two more days.
 Lydia and Yuuyami arrived here by another motorcycle, not Noah. The motorcycle which had no quantum brain---a regular motorcycle; which had installed an Angie anti-gravity device for floating in the air, and utilised a Thruster propulsion for advancing forth---a regular motorcycle.
 The comfort and speed for many surpassed Noah, but Lydia liked Noah better. Shii and Noah, however, are very intimate friends. As a result, generally, Shii and Noah travelling in pair.
 
@@ -164,7 +164,7 @@ Sure enough, sexual activity have befall us once since she woke up in the mornin
 
 
 "I eager to do it time and time again!"
-"Ugh, why did you end up such an _Etchi_-Yuuyami?"
+"Ugh, why did you end up such an _ecchi_-Yuuyami?"
 "I cannot suppress the overflowing Lydi-ai! Withal, if I forcibly suppress it, it is feasible a shut down ​to occur once again! Hence, it cannot be helped!"
 
 
@@ -173,7 +173,7 @@ Sure enough, sexual activity have befall us once since she woke up in the mornin
 
 "Can you omit this scene?"
 "But I need to learn in details..."
-"Ignore Mama-Hina, narrate​​  only important parts."
+"Ignore Mama-Hina, narrate  only important parts."
 
 
 ◇
@@ -220,7 +220,7 @@ Yuuyami hastily carried Lydia to the motorcycle, and raced the bike homewards to
 "Here I performed  another detailed examination of Lydia, and here we are now."
 
 
-I did a plenty of tests, and ultimately knew nothing but that she at a state that is con-similar a dreaming.
+I did a plenty of tests, and ultimately knew nothing but that she at a state that is consimilar a dreaming.
 
 
 "I, see. It's possible that onee-sama may have been assaulted by someone."
@@ -323,7 +323,7 @@ Lydia already lay in the cot next to Yuuyami. Several electrodes were attached t
 The display in front of Rapha shows a screen full of noise. Normally, she could monitor the affairs of the dream.
 
 
-"As a conceivable availability​," says Hinagiku; "Lydia is not seeing her dream, but a distinct someone hosting it, and  Lydia participating there as a guest."
+"As a conceivable availability," says Hinagiku; "Lydia is not seeing her dream, but a distinct someone hosting it, and  Lydia participating there as a guest."
 "Wah, whatever it is, I can't detect abnormality by the video. If Mama-Hina would detect a physical deviation in onee-sama or Yuuyami, according to the plan, you will forcibly be  returned, is it correct?"
 "Yes. Thank you."
 
@@ -412,7 +412,7 @@ Said Lydia with a  friendly grin.
 "Ah... So that was Yugg-chan, the person at fault of interfering."
 
 
-Said Yuuyami, in a tones that included compassion​.
+Said Yuuyami, in a tones that included compassion.
 Lydia is the world's strongest of martial art, seventh _dan_ of _Kuga Ha Shinryu_ technique. Yggdrasil cannot win against her. Incidentally, Yuuyami is also seventh _dan_ holder.
 And this seventh _dan_ of _Kuga Ha Shinryu_ is equal the ability of Kizumari, the two masters, upon the time when they taught martial arts the demons of parallel reality.
 
@@ -536,13 +536,13 @@ There was no malice, no pain nor distress, everything was reborn in an instant.
 
 "Yugg-chan aware of situation of hereabouts​ by touching remembrance​ of the stars."
 "Stars', remembrance?"
-"Um-huh. Yugg-chan has access to remembrance​ of impactful​, symbolic happenings that reserves on this planet!"
+"Um-huh. Yugg-chan has access to remembrance​ of impactful, symbolic happenings that reserves on this planet!"
 "Amazing!" claps her hands Lydia. "You have such a special ability!"
 "Thus, you know what World War IV was?"
 
 
 Unlike Lydia, Yuuyami only believes upon obtaining a confirmation.
-If impactful​, symbolic events are remembered, World War IV is definitely there.
+If impactful, symbolic events are remembered, World War IV is definitely there.
 
 
 "Also known as the World Unification War. The last war in human history to build an ideal world waged by Lucereine... or either Lucca・Bernhardt."
@@ -569,7 +569,7 @@ When Lydia awoke, she exposed a course of events to Rapha and Hinagiku.
 "Second descendant! I want to see her too, Lydia!"
 
 
-Whereas Rapha said calmly​, Hinagiku was agitated.
+Whereas Rapha said calmly, Hinagiku was agitated.
 
 
 "I guess you will have an opportunity​ to see her someday. For Yugg-chan appears be able to invite everyone into her dreams... into her very consciousness."
@@ -607,7 +607,7 @@ Apricot passed her arms round Hinagiku and sent her a kiss.
 Rapha launched a wry smile in astonished tones.
 
 
-"Huh? I  wanted to kiss Yuuyami either, but now I don't think I should since we're in public."
+"Ha? I  wanted to kiss Yuuyami either, but now I don't think I should since we're in public."
 "I shall withdraw my previous statement. Let us toss the moderation into Recycling Box!"
 
 

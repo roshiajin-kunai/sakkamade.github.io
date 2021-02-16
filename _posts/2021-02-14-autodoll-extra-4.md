@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-14 20:00:57 +0000
-last_modified_at: 2021-02-14 22:20:18 +0000
+last_modified_at: 2021-02-15 18:26:29 +0000
 title: "EX04. Love, Forgiveness, and Apricot."
 author: sakkani
 categories:
@@ -9,18 +9,18 @@ categories:
 tags:
  - webnovel translation
  - extra
-note: Quite a time it took, isn't it. But bear no fright. The time was spent on improvement of web-site (please inform me via Twitter or Discord if you find some flaw) and editing a previous chapters ٩(๑`^´๑)۶ <br>(Only two of the days were consumed by searching for a typeface—to no avail!)
+note: Quite a time it took, isn't it. But bear no fright. The time was spent on improvement of web-site (please inform me via Twitter or Discord if you find some flaw) and editing a previous chapters ٩(๑`^´๑)۶ <br>(Only two of the days were consumed by searching for a typeface—to no avail! almost.)
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054884553982
 ---
 
 
-"Why--, Apricot, today play was also nice."
+"Why--, Apricot, today play was nice as always."
 
 
 Hinagiku remained utterly naked, as she sat upon a bed.
 
 
-"It was fun! Here you go, an after _etchi_ smoke!"
+"It was fun! Here you go, an after _ecchi_ smoke!"
 
 
 Half-naked Prico presented Hinagiku a box of cigarettes and a lighter.
@@ -37,14 +37,14 @@ And diverse adult toys used for plays.
 
 
 Prico smiles.
-The current life of Hinagiku consist of arising in the morning and flirting with Prico, and before she note it, the noon should arrive. She has a light lunch then, watches a movies or plays a games with Prico, and flirts. It is flirting in the evening likewise, and it is also flirting upon a dinner.
+The current life of Hinagiku consist of arising in the morning and flirting with Prico, and before she note it the noon should arrive. She has a light lunch then, watches a movies, or plays a games with Prico, and flirts. It is flirting in the evening likewise, and it is also flirting upon a dinner.
 They are alive to flirt with each other, is no exaggeration to say as much.
 
 
 "Well, isn't it okay?"
 
 
-Hinagiku coiling  the cigarette between her lips.
+Hinagiku twirls  the cigarette between her lips.
 Thereupon, as Prico handed her an ashtray, Hinagiku took her cigarette out.
 
 
@@ -78,7 +78,7 @@ Whereas stroking Hinagiku's hair, Prico revealed a soft voice.
 "No problem. Just a usual dream."
 "Old dream; the dream of the one you used to love?"
 "Aha. Right."
-"Passed away after a quarrel, haven't they?"
+"Passed away after a quarrel, haven't she?"
 
 
 Prico asked; Hinagiku nodded.
@@ -105,7 +105,7 @@ Perhaps, just a little but, consciousness had begun to sprout, thought Hinagiku.
 ◇
 
 
-For some reason, Hinagiku was amidst the garden of iris flowers.
+For some reason, Hinagiku found herself amidst the garden of iris flowers.
 Hinagiku grew agitated for a moment, however before long she  regained her composure.
 
 
@@ -126,8 +126,8 @@ In as much as Hinagiku was aware of it, she had  not been many surprised.
 "Long time, Yugi-yugi."
 
 
-Hinagiku raised a right hand, greeted her. Her left hand was shoved into a  pocket of lab coat.
-Oh, I clad in a white coat, thought Hinagiku. I should have slept naked.
+Hinagiku raised a right hand, greeted her. Her left hand shoved into a  pocket of lab coat.
+Oh, I clad in a coat? thought Hinagiku. I should have slept naked.
 
 
 "Um-huh. It's been a long time."
@@ -186,10 +186,10 @@ Albeit she loved her so much, due to dissimilar views, Hinagiku drove Nagisa awa
 "...Talking big?"
 "_Nnya_," slightly shook her head Yggdrasil. "Yugg-chan is farther and farther enhancing connections to the consciousness of all the intelligent life-forms upon this planet. With Hinagiku too, of course."
 "I see. As expected of next Creator. Or rather, you was born to be a symbol of this planet, I guess."
-"Hoh-hoh​," Yggdrasil puffed her insignificant chest, "Yugg-chan has yet had the highest specs ever since Yugg-chan was born. Well, Yugg-chan still cannot control all the specs freely."
+"Hoh-hoh," Yggdrasil puffed her insignificant chest, "Yugg-chan has yet had the highest specs ever since Yugg-chan was born. Well, Yugg-chan still cannot control all the specs freely."
 "Amazing," Hinagiku thought so from the depths of her heart; "both Lydia and Yuuyami deserves admiration for producing an intelligent life of this level."
 "Mamas having a high specs also!" once again Yggdrasil puffed a chest. "...That's not the point now. Why impossible? You don't have an idea of how to apologise?"
-"This is not. When the world changed a shape, Nagisa... the one I wanted apologise to had passed away​. Physically, I mean."
+"This is not. When the world changed a shape, Nagisa... the one I wanted apologise to had passed away. Physically, I mean."
 
 
 Well, even if  consciousness is immortal it doesn't make much sense. For, "The gathered consciousness of humanity in a midst of creating a galaxy under remote universe," was what Lydia proclaimed. Hence, either way, I would never be able to meet Nagisa.
@@ -246,7 +246,7 @@ Waking up in the morning, Hinagiku contacted Lydia at once by a computer in the 
 "Thank you."
 
 
-Lydia's pyjamas was in disarray, and her hair, too, was bouncing up for her sleeping habits. A very defenceless state. If _this_ wasn't a representation of cuteness, then what on earth could be titled a cute? Hinagiku were earnestly thinking over that.
+Lydia's pyjamas was in disarray, and her hair, too, was bouncing up for her sleeping habits. A very defenceless state. If _this_ wasn't a representation of cuteness, then what on earth could be titled a cute? Hinagiku were earnestly thinking that over.
 
 
 "Hinagiku?"
@@ -272,7 +272,7 @@ Lydia giggled lightly.
 Upon Hinagiku stated that, Yuuyami suddenly emerged, pushing herself in on another side of the screen.
 
 
-"Hinagiku-san. I fancy we had discussed it afore? Whether it shall be Lydia, Haru-chan, or Yugg-chan I should chop off the ethics subroutine of mine, and, I promise, I will make you cry​."
+"Hinagiku-san. I fancy we had discussed it afore? Whether it shall be Lydia, Haru-chan, or Yugg-chan I should chop off the ethics subroutine of mine, and, I promise, I will make you cry."
 "Haha, it's a joke, Yuuyami. I changed my mindset. I'm no longer my former self."
 
 
@@ -284,7 +284,7 @@ Basically, Hinagiku loved beautiful girls.
 
 
 Whenever Lydia wakes up in the morning, she always plead Yuuyami to comb  her a hair.
-How charming​, thought Hinagiku, as she imagined a scene.
+How charming, thought Hinagiku, as she imagined a scene.
 
 
 "You were conversing of seeking  Nagisa-san, were you not?"
@@ -375,10 +375,10 @@ Hinagiku smiled, being somewhat ashamed.
 "You can try."
 "I wanted to know if there is any whisky left. It's in the desk drawer in director's office."
 "Whisky?"
-"Aha. I was drinking it when research progressed or something good was to happen."
+"Aha. I was drinking it when research progressed or something good were to happen."
 
 
-I swallowed the words 'together with Nagisa.' For it should be a bother to explain about Nagisa to Ohan, there was no deep meaning.
+I swallowed the words 'together with Nagisa.' For it should be a bother to explain about Nagisa to Ohan,  no deep meaning  lay therein.
 
 
 "Okay. You have to wait a little."
@@ -398,7 +398,7 @@ Screen exhibit the old Hinagiku's desk.
 
 
 I feel like we had this talk when we went to Underground.
-Unless I am mistaken, it was when Lydia went senseless​. For Hinagiku did not dream of Nagisa at that time, she had forgotten about whisky.
+Unless I am mistaken, it was when Lydia went senseless. For Hinagiku did not dream of Nagisa at that time, she had forgotten about whisky.
 
 
 "Here? I am asking."
@@ -410,7 +410,7 @@ Ohan opens the drawer.
 There, the whisky of bygone time remained as it was at bygone time.
 Rapha haven't opened the drawer, or else she have showed no interest in the content upon opening it, analysed Hinagiku.
 Ohan lifts a bottle of whisky up.
-Remaining amount of content is a little more than a half.
+Remaining amount of content is a little beyond a half.
 Just like it was back then, thought Hinagiku.
 
 
@@ -443,7 +443,7 @@ She decided to flirt with Apricot for the time being, until Rapha will contact.
 
 
 That house was at the margin of Lydiyami City.
-The City is well planned, and has an exceedingly​ beautiful streetscape. The roads are extensive, and the trees in the medians contributes improvement a scenery​.
+The City is well planned, and has an exceedingly​ beautiful streetscape. The roads are extensive, and the trees in the medians contributes improvement a scenery.
 Between a footpath and a roadway, there resides a flower bed, wherein were  blooming a colourful flowers.
 Hinagiku parked a large motorcycle——a type which floats in the air by Angie, of course——on the edge of the road.
 
@@ -465,8 +465,8 @@ Prico, who arrived together with me in a tandem seat, was glancing all around.
 "Back in the days, humans of prior the world's collapse used to be even more packed."
 
 
-The residential area was  lined  with houses narrowly, the distance between neighbouring houses was so brief that the house  with a garden was rare to sight in itself.
-Well, population was much higher than it is presently, of course this is appropriate.
+The residential areas were lined up with houses narrowly, the distance between neighbouring houses was so brief that the house  with a garden was rare to sight in itself.
+Well, population was much higher than it is presently, of course it is appropriate.
 
 
 "That's stressing! Stress is bad for your skin, Hina-tan!"
@@ -531,7 +531,7 @@ Ah, that's a mother and daughter--,  Lydia thought thus.
 "Hina-tan, Hina-tan..."
 
 
-_Ah, Ah_, Prico heaved with sobs​. Of course, this motion is also a part of counterfeit.
+_Ah, Ah_, Prico heaved with sobs. Of course, this motion is also a part of counterfeit.
 
 
 "What happened to Hinagiku? Seized by aliens?"
@@ -543,7 +543,7 @@ Each: Lydia, Yuuyami, and Haruka had spoke up their speculations in turn.
 However Prico shook her head sidewards to all.
 
 
-"In spite that Hina-tan, was always with Apricot.., in spite Apricot has never been apart from Hina-tan..."
+"In spite of Hina-tan, was always with Apricot.., in spite of Apricot has never been apart from Hina-tan..."
 
 
 Prico keeps her speech whilst holding on to an authentical imitation of weeping all the same.
@@ -575,7 +575,7 @@ Prico imitated crying in a particularly loud voice.
 
 
 "_Intime_?" inquires Lydia.
-"Indicate a wholeheartedness," Yuuyami raises her finger, offering an explanation, with a composed  countenance. "In this particular a situation, signifies bearing a deep relationship, that is to say _etchi_."
+"Indicate a wholeheartedness," Yuuyami raises her finger, offering an explanation, with a composed  countenance. "In this particular a situation, signifies bearing a deep relationship, that is to say _ecchi_."
 "I see. Um, Prico, it's alright," Lydia smiles, "since Nagisa is obaa-chan."
 "...Obaa-chan?" _blink, blink_, Prico blinked. "...Hina-tan's co-worker, aren't she? That is what Apricot heard from Hina-tan?"
 "Commonplace humans are grow old," observed Yuuyami. "Hinagiku-san and Lydia are exceptional. You understand?"
@@ -664,7 +664,7 @@ In sense of life. Or, possibly, in sense of a fate of this world.
 However.
 
 
-"Nevertheless Hinagiku was to create Michael, I believe. Moreover, if Hinagiku didn't produce Michael, human race  wouldn't have evolved, huh?"
+"Nevertheless Hinagiku was the one to create Michael, I believe. Moreover, if Hinagiku didn't produce Michael, human race  wouldn't have evolved, huh?"
 
 
 That's how it is.
@@ -759,7 +759,7 @@ No, I understand, but cannot accept—this should be more truthful.
 "Um, like I said, it seems Prico thought that she is thrown away after you became _intime_ with Nagisa, Hinagiku."
 
 
-Seated in a chair inside the library rest area, Lydia shrugged her shoulders slightly.
+Seated in a chair inside the library break space, Lydia shrugged her shoulders slightly.
 Apropos, sitting next to Lydia, Yuuyami assumed so proper a posture as similar to a statue.
 
 
@@ -862,7 +862,7 @@ Hinagiku bring her hips down next to Prico, drew a cigarette from her pocket and
 
 
 Upon feeling of emptiness of a false love, I cast Prico away.
-Hinagiku considered to light a cigarette, however, glancing over the environs​, she redrew a cigarette back into her pocket.
+Hinagiku considered to light a cigarette, however, glancing over the environs, she redrew a cigarette back into her pocket.
 Even if odds are thousand to one, she should be in a great troubles if the Woodland will  set on fire.
 
 
@@ -883,11 +883,11 @@ Hinagiku giggled lightly, stroking Prico's head.
 
 
 Prico raised her face.
-Hinagiku was dazed to catch a sight of the countenance which inspired an impression​ akin that of her being on a verge of tears.
+Hinagiku grew dazed to catch a sight of the countenance which inspired an impression​ akin that of her being on a verge of tears.
 
 
 "What's so sad?"
-"__Here__, the happening when Apricot was  unplugged of a Power Cell. In spite Apricot didn't feel anything at that time, Apricot is awfully sad, presently. Why?"
+"__Here__, the happening when Apricot was  unplugged of a Power Cell. In spite of Apricot didn't feel anything at that time, Apricot is awfully sad, presently. Why?"
 "Aah–, that is, I guess,"—Hinagiku moved her hand from Prico's head to her shoulder—"your emotions...  basically, your consciousness had began to sprout."
 "Consciousness?"
 "Aha. Right."
@@ -917,7 +917,7 @@ Perhaps Prico will be surprised likewise.
 As for the reason, that since the model of appearance of Prico is also Nagisa. However, Hinagiku decided to not bring it up now.
 
 
-"What is it? Apricot don't really understand, in spite Apricot has no heart, it feels weird,  it's trills somehow, it's pleasantly warm. But Apricot don't mind it by no means, you know? Has Apricot, broke somewhere?"
+"What is it? Apricot don't really understand, in spite of Apricot has no heart, it feels weird,  it's trills somehow, it's pleasantly warm. But Apricot don't mind it by no means, you know? Has Apricot, broke somewhere?"
 "No," Hinagiku strengthened the hug upon Prico's shoulder, "it's a normal reaction. Nothing wrong with that. There is nothing to worry about. Besides, even if something breaks, I'll fix it  at once. I can do anything. My speciality is a genetic engineering, however robotics is also my strong a point."
 "Uh-huh. Since Hina-tan is genius, it's safe for Apricot to break."
 "Aha. But please don't break if possible. For if you, Apricot, will break, I'll be sad."

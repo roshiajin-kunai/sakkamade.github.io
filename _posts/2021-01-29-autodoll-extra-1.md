@@ -52,7 +52,7 @@ He has a cool villainous features, the hair is black and doesn't cover his eyes.
 
 
 <p markdown="1">"Oh-, dragging me with one hand, a man, in sooth."</p>
-[^11]: [Dōjō] - hall for martial arts training​, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo);
+[^11]: [Dōjō] - hall for martial arts training, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo);
 
 Said Yuuyami, admiringly.
 
@@ -97,7 +97,7 @@ Furthermore, for their bodies and brains are conscientiously re-emerged against 
 <p markdown="1">"By the way, Mari-sensei," says Lydia; "is it truth that you two travelled back and forth between parallel realities... briefly, parallel worlds?"[^12]</p>
 [^12]: she says _parallel realities_ somewhat English-esque, seem too long for Japanese:<br> [Parareruriariti] and [Heikō sekai];
 
-Whereas I investigated strongest a martial art, _Kuga Ha Shinryu_, there was such an account​. Of course, no one believed it at that period, thence it was treated  an idle gossip.
+Whereas I investigated strongest a martial art, _Kuga Ha Shinryu_, there was such an account. Of course, no one believed it at that period, thence it was treated  an idle gossip.
 Lydia wanted to question it one day, however she could not afford a room to think of anything else during the trainings, and afterwards she has been so exhausted that kept forgetting.
 
 
@@ -145,7 +145,7 @@ Lyulyu is the first apprentice of Kizuna and Mari, the demon princess. Lydia pas
 One day, when I accomplish the world exploration, I should depart upon adventure in to the parallel reality, planned Lydia.
 
 
-"Well, for I am outstanding​," Yuuyami remarked with all her heart; "I have nothing to hide, after all I am the latest, the uttermost Autodoll."
+"Well, for I am outstanding," Yuuyami remarked with all her heart; "I have nothing to hide, after all I am the latest, the uttermost Autodoll."
 "Have you forget of Shii-chan?"
 
 
@@ -255,7 +255,7 @@ Said Lydia with a giggle.
 Yuuyami had a composed, apathetic bearing.
 
 
-"But you use it upon _etchi_-time, aren't you?"
+"But you use it upon _ecchi_-time, aren't you?"
 
 
 Threw a question Lydia, whilst peering up at Ohan. Ohan is taller than Yuuyami. Of course, she is tiny​ in comparison to former military body, but notwithstanding that she is yet the tallest of all an intelligent life-forms over here.
@@ -266,7 +266,7 @@ Threw a question Lydia, whilst peering up at Ohan. Ohan is taller than Yuuyami. 
 "Playing something that should be left unsaid."
 
 
-Whereas grinning​, Lydia passed a look at Yuuyami: Yuuyami raised her index finger, pondering over​--- having suspicion.
+Whereas grinning, Lydia passed a look at Yuuyami: Yuuyami raised her index finger, pondering over​--- having suspicion.
 
 
 "Wah, no! No! Wah, it's different!" _whosh, whosh,_  waved her hands Rapha. "I just reproduced it for I thought it would look good on Ohan!"
@@ -389,21 +389,21 @@ Lydia assumed a stance reflecting on her right.
 
 
 "Ohan holds a weapon," says Shii. "It is rather disadvantageous of Mama-Lydi, isn't it?"
-"It is vice versa," Kizuna assured: "this restrains Ohan's attack technique​."
+"It is vice versa," Kizuna assured: "this restrains Ohan's attack technique."
 "Yeah," Mari nods. "In a natural flow of conversation, Lydia suggested her own advantageous rule. Natural little devil."
 
 
 At present, Ohan has an incorporated ethics subroutine, she cannot, thus, provide Lydia a severe damage.
-Lydia requested for consent to shut down her ethics subroutine, however didn't gain Rapha's acceptance​.
+Lydia requested for consent to shut down her ethics subroutine, however didn't gain Rapha's acceptance.
 Thereupon, Lydia offered the method to determine a winner which allow her ethics subroutine.
 
 
 "In other words, Mama-Lydi rather followed the teachings of _Kuga Ha Shinryu_ and lured her opponent at a disadvantage?"
 "That's how it is. But, as Mari-chan said, there's no calculations, it's probably natural. Well, I guess this fellow Lydia thought, 'I am cute and loved by everyone, I can obtain a consent for anything I say.'"
-"Ah--- Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia had suggested: 'Upon Ohan hit Lydia's butt with a whip, Ohan wins.' And now to our play-by-play man, Kizuna-san?"
-"Ah-- Er, this is Kizuna-san from the scene. Err, Ohan is not just limited  to attack technique, but also to the spot of attack. Furthermore, having a high defence power,  the butt is not prone to easily bear a critical damage. She, too, prepared to be hit upon that place, Mary?"
+"Ah---. Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia had suggested: 'Upon Ohan hit Lydia's butt with a whip, Ohan wins.' And now to our play-by-play man, Kizuna-san?"
+"Ah--. Er, this is Kizuna-san from the scene. Err, Ohan is not just limited  to attack technique, but also to the spot of attack. Furthermore, having a high defence power,  the butt is not prone to easily bear a critical damage. She, too, prepared to be hit upon that place, Mary?"
 "Yes," Mari nodded. "A great natural little devil, aren't she-- But this is not a point, Ohan in a really disadvantageous situation."
-"And yet, only Mari-chan and myself realise​d that Ohan at disadvantage, huh--"
+"And yet, only Mari-chan and myself realise​d that Ohan at disadvantage, huh--."
 "Because," says Shii, "usually it is better to have a weapon. Rather, Ohan-onee-san pretty good combatant."
 "Well, and back to Kizuna-san form the scene. As for Lydia, she can achieve a victory by inflicting  a damage upon Ohan which  would be enough to take  down an ordinary human," says Kizuna. "At first sight, such appears fairly difficult, but, taking into account present Lydia, her single blow will be sufficient."
 
@@ -417,7 +417,7 @@ Albeit her body  weaker than before,  the current Ohan, as Shii said, also hold 
 
 Subsequently swung her right hand down.
 At the same time, Ohan took an action. In one pace, she emerged behind Lydia, snapping her whip crossways.
-Whereas turning, Lydia reached for Ohan's hand which were clasping a whip, thus diverting the attack downward​.
+Whereas turning, Lydia reached for Ohan's hand which were clasping a whip, thus diverting the attack downward.
 Ohan lost her stance, and whip hit a _tatami_ mat.
 
 
@@ -448,7 +448,7 @@ Ohan bent her arm to let a forearm guard the kick,
 "_Kuga Ha Shinryu: Invasion_!"
 
 
-With her arm at guard, Ohan's body arched in a curve, and just like that flew abreast​, piercing the wall of the _dojo_, whereafter rolled over the ground outside.
+With her arm at guard, Ohan's body arched in a curve, and just like that flew abreast, piercing the wall of the _dojo_, whereafter rolled over the ground outside.
 
 
 "Ooooooh, Ohan!!"
@@ -524,7 +524,7 @@ Lydia have already taken one.
 In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly sweet and easy to drink.
 
 
-"Somehow," says Lydia: "because usually  we get to _etchi_ under the flow of the mood--, it's a little stressing when we are about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such a _seiza_."[^13]
+"Somehow," says Lydia: "because usually  we get to _ecchi_ under the flow of the mood--, it's a little stressing when we are about to do it now, while like this, opposite each other, right? And you, Yuuyami, in such a _seiza_."[^13]
 "In, indeed."
 
 
@@ -537,7 +537,7 @@ In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly 
 "Eh?"
 
 
-Yuuyami distorted into extremely sad countenance​.
+Yuuyami distorted into extremely sad countenance.
 
 
 "That was a jest."
