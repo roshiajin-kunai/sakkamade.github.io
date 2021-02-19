@@ -711,4 +711,4 @@ I expect to be amidst of a happiness.
 Yuuyami said thus, at the conclusion​ of surprise party.
 I, Yuuyami,
 in this  world created anew,
-in the midst of dreaming a dream of happiness.
+in the midst of dreaming a beauteous dream of the happiness.
