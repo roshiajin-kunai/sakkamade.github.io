@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-19 02:34:05 +0000
-last_modified_at: 
+last_modified_at: 2021-02-19 23:53:41 +0000
 title: "EX05. Looming Bell Pepper Crisis."
 author: sakkani
 categories:
@@ -14,8 +14,8 @@ chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/11773540548
 ---
 
 
-Yuuyami had customary been  viewing the Lydia's dining scene.
-Within the library rest space, Lydia was stuffing her cheeks.
+Yuuyami had  been  customary viewing the Lydia's dining scene.
+Within the library rest space, Lydia was stuffing her cheeks up.
 Basically, Lydia subsist on​ nothing but vegetables.
 When, in spite of beyond a half of the salad had remained, Lydia laid a fork down.
 
@@ -32,13 +32,13 @@ Lydia had assumed an exceedingly grim look.
 "A salad? The malfunction of Food Maker?"
 
 
-Hearing Yuuyami out, Lydia shook her head.
+Hearing Yuuyami, Lydia shook her head.
 
 
 "That's not what I meant."
 
 
-Lydia took a hold of the fork again, whereupon steadily stabbed a certain vegetable by the fork.
+Lydia took a hold of the fork again, whereupon slowly stabbed a certain vegetable by the fork.
 
 
 "This greenery!"
@@ -50,7 +50,7 @@ Basically, Lydia  consumes vegetables raw.
 
 "Hmm. Bell peppers are rich in nutrients, they, however, bear a light bitterness, I presume?"
 "Light?"
-"Yes, well, I fancy  an individual difference is therein."
+"Yes, well, I fancy there is an individual difference."
 
 
 Speaking of which, Lydia had never eaten bell peppers afore.
@@ -63,8 +63,8 @@ Inasmuch as Yuuyami reviewed all the logs labelled the "Lydia's diet scene," she
 Lydia stated, with a terribly earnest countenance.
 
 
-"I guess you don't have to say as much," Yuuyami  smiled wryly. "Why had you desired to eat it today, in respect that you had not eaten it before?"
-"Although I avoided this greenery for it is odious. Somehow, I also thought the challenge is crucial."
+"I believe you don't have to say as much," Yuuyami  smiled wryly. "Why did you desired to eat it today, in respect that you had not eaten it before?"
+"Although I avoided this greenery for its odiousness. Somehow, I also thought the challenge is crucial."
 "Indeed."
 
 
@@ -90,7 +90,7 @@ Lydia placed  the fork down, and nodded once.
 "And thence, pray, I am in need of your help."
 
 
-Yuuyami communicated by means of a video transmission through a stationary computer.
+Yuuyami set off a communication by means of a video transmission through a stationary computer.
 
 
 "What do you mean by that?"
@@ -98,13 +98,13 @@ Yuuyami communicated by means of a video transmission through a stationary compu
 
 
 Upon the receiving ends are Rapha and Hinagiku.
-Rapha was assumed upon Ohan's lap, and the hand Ohan had been cuddling Rapha.
+Rapha was assumed upon Ohan's lap, and the hand of Ohan had been cuddling Rapha.
 Hinagiku was clad in a white coat over a nude body.
 Both of them were in the  midst  of flirting with their lovers, deemed Yuuyami.
 I feel bad for being disturbance, however this is a crisis.
 
 
-"In consequence, Lydia declared of willing to destroy the bell pepper."
+"In consequence, Lydia declared of willing to destroy the bell peppers."
 "...Wah, I understood that much..."
 "...I ask to repeat regarding the method."
 
@@ -118,18 +118,18 @@ Both Rapha and Hinagiku wore somewhat a discouraged look.
 Said Yuuyami,  in a grave tones.
 
 
-"Can she even make something like a time machine?"
+"Can she even create something like a time machine?"
 
 
-Rapha questioned bearing a suspicious countenance.
+Questioned Rapha, displaying a suspicious countenance.
 
 
 "I don't know. However, it is feasible, I fancy, theoretically..."
-"Supposing she would create a time machine," says Hinagiku, "Lydia is as outstanding​ so she might actually construct​ it, but what's wrong with that? It shouldn't affect our world of today, should it?"
+"Supposing she _will_ create a time machine," says Hinagiku, "Lydia is as outstanding​ so she might actually construct​ it, but what's wrong with that? It shouldn't affect our world of today, should it?"
 "Wah, at the point when onee-sama returns to the past," Rapha declared, "a new world in which onee-sama exists will be born, and the world will branch off as another time axis. Does onee-sama conscious of that?"
 "I expect she is, however there is but a likelihood of she have forgotten being impacted by a keen emotions."
 "Then, if you remind her that, that should take care of it?"
-"That is excellent! I shall transmit it to her without a delay!"
+"Excellent! I shall transmit it to her without a delay!"
 
 
 ◇
@@ -141,7 +141,7 @@ Rapha questioned bearing a suspicious countenance.
 Yuuyami reperformed a video transmission by a stationary computer.
 
 
-"Onee-sama said such, huh? 'I think it's also nice to have a new world where bell peppers doesn't exist.'"
+"Huh? onee-sama said so? 'I think it's also nice to have a new world where bell peppers doesn't exist.'"
 "In other words, knowing that the world should branch, she is yet willing to destroy it."
 "Yes."
 
@@ -160,10 +160,10 @@ Yuuyami said thus plainly, without any hesitation.
 "Why not?"
 "Yes; indeed. We are in the position of Creators. However, that purely betoken the Creators of _this_ world."
 "I see. Creation of the new world is an acting ultra vires?"
-"It feels to be, however therein laid a further issue."
+"It feels to be, however therein laid further an issue."
 "What is it?"
-"Why; upon a case of she returns back to the days of bygone, the Anunnaki-san theretofore exists as a Creator in the bygone world."
-"Ah—," Hinagiku scratches her head; "in other words, therein inhabit an availability​ of  Anunnaki will eliminate Lydia as a foreign body?"
+"Why, upon a case if she returns back to the bygone days, the Anunnaki-san theretofore exists as a Creator in the bygone world."
+"Ah—," Hinagiku scratches her head; "in other words, there inhabit an availability​ of  Anunnaki will eliminate Lydia as a foreign body?"
 "I fancy so. Anunnaki-san of days of old was not aware about Lydia, and, I presume, that should be a displeasure: observing a human of future licentiously meddling around with the evolution, in the first place. Leastwise, it is unpleasant for me."
 
 
@@ -180,16 +180,16 @@ Yuuyami dropped her head, crestfallen.
 Why does she detest a bell peppers so much; Yuuyami has no idea.
 In the first place, it is not in Lydia's fashion: to destroy something.
 Something does not feel right.
-Nevertheless, I cannot perceive  what that _something_ is.
+Nevertheless, I cannot perceive  what that something _is_.
 
 
 "Wah, alright. Let's hold a strategy meeting, please come to my house."
 "Eh? Why not here?"
-"Wah, it's not bad, too, to meet and chat once in a while. And, I think, it's already a time to get to know you, Yuuyami, okay?"
+"Wah, it's not bad, too, to meet and chat once in a while. And, I think, it's already a time to get to know you better, Yuuyami, okay?"
 
 
 Said Rapha, with a composed bearing.
-Indeed, Yuuyami nodded.
+_Indeed_, Yuuyami nodded.
 It is not that I and Rapha in discord, however we also are not especially close.
 A fair extent of the time has elapsed beyond our encounter, and the  time is definitely  a suitable to shorten the distance between us.
 
@@ -211,7 +211,7 @@ _Mm-hmm_, Yuuyami nodded.
 
 "Therefore, Lydia and I had resigned of spatial transition due to reconstruction by molecular disaggregation."
 "I suppose. Once disaggregated, it's should be not too much to imply a death."
-"Wah, I agree. I think reconstructed person is, really, identical to the one before disaggregation, but, even so, I also think that the copy is still a copy."
+"Wah, I agree. I think even if reconstructed person is, really, identical to the one before disaggregation, I also think that the copy is still just a copy."
 
 
 Within the drawing room of Underground.
@@ -221,7 +221,7 @@ For some reason, the five of them: Yuuyami, Rapha, Hinagiku, Ohan, and Prico wer
 "In other words, it is equal," says Ohan; "to how a food made by a Food Maker?"
 "Well, that's correct," Yuuyami shrugged her shoulders. "The course is: to analyse one-self's molecular structure with a Hyper Scanner, to disaggregate one-self as in case of Recycling Box thereafter, and to reconstruct them elsewhere."
 "Wah, you could create as many identical humans as you would want to."
-"Even so it's only a copy. It's good that you abandon that plan, Yuuyami."
+"Even so it's only a copy. It's good that you abandoned that plan, Yuuyami."
 "Apricot hates a complicated conversations—."
 
 
@@ -238,14 +238,14 @@ Hinagiku get her teeth into it. She is a scientist after all.
 
 
 "Definition of existence position by means of frequency fluctuation."
-"Wah, matter inherent a native frequency," stated Rapha. "Do you mean to analyse the difference between frequency when you are in the position A and the frequency when you are in the position B, and match it to the frequency at which you want to exist?"
+"Wah, matter inherent a native frequency," stated Rapha. "Do you mean to analyse the difference between frequency when you are in the position A and the frequency when you are in the position B, and match it to the frequency at which you would want to exist?"
 "Yes."
 
 
 As expected, Rapha is also excellent. Yuuyami was impressed.
 
 
-"You need a computer that does that much calculation, and a device that change the frequency."
+"You need a computer that does this much calculation, and a device that change the frequency."
 "Indeed. For now, let us commence by producing a high-performance computer. Well, we will take our time."
 
 
@@ -262,7 +262,7 @@ The participants here may easily seize how sophisticated a project is.
 "Hey, hey, let's talk about something  more _ecchi_ next—!"
 
 
-Therein, however, the one AD who does not care to understand.
+Amongst them, however, the one AD who does not care to understand.
 
 
 "No. I trust we shall return back to the main topic by now."
@@ -274,10 +274,10 @@ Prico pouts her lips.
 
 "Wah, about onee-sama's abrupt declaration of eradication of bell peppers, huh."
 "Hum," Hinagiku touched her chin. "Well, if you leave her as is for a while, her head should turn cold and she'll stop after all, I guess?"
-"Hopefully, however Lydia can surprisingly push it to the threshold."
+"Hopefully, however Lydia can surprisingly push herself to a threshold."
 
 
-Such is ans inference by analysing tendencies of Lydia so far.
+Such is an inference by analysing tendencies of Lydia so far.
 
 
 "Wah, that's true. Even so, onee-sama came up with such a ridiculous idea  as eradication the bell peppers. Onee-sama is clever, but there are many portions that lacks a common sense."
@@ -294,18 +294,18 @@ You should not be the one to tell so of Lydia, Rapha-san. Yuuyami had such a tho
 
 Said Prico with a smile.
 That's ridiculous, deemed Yuuyami.
-She thought, however:
+Upon consideration, however:
 
 
 "That's it!"
 
 
 Instantaneously, Yuuyami reversed her thought.
-The Yuuyami's remark made everyone open their eyes wide.
+The remark of Yuuyami  made everyone open their eyes wide.
 
 
-"Fufu, I shall word it this way:"—Yuuyami explains, with a  look of triumph—"I but have to be flirty enough so that Lydia forgets her ridiculous notion!"
-"W, wah, I see..."
+"Fufu, I shall word it this way:"—Yuuyami explains, with a  look of triumph—"I but have to be flirty enough for Lydia to forget her ridiculous notion!"
+"W, wah, right..."
 
 
 Upon a  slight twitch, Rapha reveal a smile.
@@ -320,7 +320,7 @@ Hinagiku reins arising Yuuyami in.
 
 "What is it?"
 "Why, does it possible? to flirt with Lydia who is as passionate  about something."
-"It is a little difficult, however  I imagine that I am able."
+"It is a little difficult, however  I believe  I am able to."
 
 
 Lydia does not really refuse Yuuyami.
@@ -345,11 +345,11 @@ Hinagiku detains Yuuyami, who has taken a step forward.
 "Now that we all here. Why don't we talk some more?"
 "No. I am in desire to flirt with Lydia. As soon as possible."
 "Wah, the purpose has changed!?"
-"It is all right. No problem. Well, then, now I..."
+"It is all right. Not an issue. Well, then, now I..."
 "Hey! hey!" says Prico. "Let's play cards!"
 "...Rather abrupt, is it not..." Yuuyami forces a smile. "However, we shall keep it for the next occasion."
 "In this case, how about a game of chess with me?"
-"What is wrong, even you, Ohan? You don't  want me to leave?"
+"What is wrong, even you, Ohan? You don't  wish me to leave?"
 
 
 Something is strange.
@@ -365,39 +365,39 @@ Suspicious, is it not? thought Yuuyami.
 "Relax, Rapha," says Hinagiku. "We are only want to get closer to you, Yuuyami."
 "We are!" affirms Prico.
 "Exactly," Ohan nods,  too.
-"...I also want to get on good terms with all of you, however I shall return homewards for the day."
+"...I also want to get on good terms with all you, however I shall return homewards for the day."
 
 
 Suspicious. Suspicious by any means. Everyone appears to be lurking something,  unfortunately, however, Yuuyami cannot read the minds.
 Yuuyami attempt to part the drawing room,
-abruptly, however, right at the place, the  consciousness had left her.
+when, abruptly, right at the place, the  consciousness had left her.
 
 
 ◇
 
 
-When I noticed, I found myself within the consciousness domain of Yggdrasil.
+Upon regaining consciousness, I found myself within the consciousness domain of Yggdrasil.
 
 
 "Mama-Yuu! Long time no see!"
 
 
 Yggdrasil—the daughter of Yuuyami and Lydia—greeted Yuuyami with a smile.
-Her apple-green forelock was set in a slight float, and she had hitherto yield the ambience of mature little girl is  the same as at an hour of our encounter  heretofore.
+Her apple-green forelock was set in a slight float, and she had hitherto yield the ambience of mature little girl, the same as upon an hour of our encounter  heretofore.
 
 
 "Yugg-chan!"
 
 
-As Yuuyami spread her arms, Yggdrasil leaped straight amidst into her bosom.
+As Yuuyami spread her arms, Yggdrasil leaped straight amidst, into her bosom.
 
 
 "Ah—, adorable! What an adorable girl! My daughter is so adorable!"
 
 
 They rubbed their cheeks together, after Yuuyami had risen Yggdrasil up.
-Incidentally, when I perform an equal development to Haruka, she seldom resists, saying, "I~am rather full-fledged intelligent life-form yet." Well, she, however, had not actually reject me, this is a rebellious phase I fear?
-Until she grew satisfied Yuuyami rubbed her cheek against Yggdrasil's,  slowly lowering, thereafter, Yggdrasil into the lea of iris flowers.
+Incidentally, upon an equal development regarding to Haruka, she seldom resists, saying, "I~am rather full-fledged intelligent life-form yet." Well, she, however, is not actually rejects me, this is a rebellious phase I fear?
+Until Yuuyami grew satisfied, she rubbed her cheek against Yggdrasil's,  slowly lowering, thereafter, Yggdrasil into the lea of iris flowers.
 
 
 "And, what had happened today?"
@@ -407,7 +407,7 @@ Until she grew satisfied Yuuyami rubbed her cheek against Yggdrasil's,  slowly l
 Said Yggdrasil, smilingly.
 
 
-"Indeed! Well, mother and daughter have to require no need in a reason for the meeting."
+"Indeed! Well, mother and daughter  require no reason for the meeting."
 
 
 With that said, Yuuyami bring her waist down upon the garden of iris flowers.
@@ -416,25 +416,25 @@ Yggdrasil likewise seated herself before Yuuyami.
 
 "How are you doing these days?"
 "Um. Perfect. Well, Yugg-chan is always doing perfect."
-"Quite so. I have it terrible upon my end, for Lydia had to bring up that she should destroy the bell pepper."
+"Quite so. I have it terrible upon my end, for Lydia had to bring up that she should destroy the bell peppers."
 "Yugg-chan cognises that. Inasmuch as we are connected."
 "What do you think? Isn't Lydia weird a little?"
 
 
-In prior of flirting, Yuuyami concluded to inspect Lydia. Perchance something abnormal is with her.
+Yuuyami concluded that she need to examine Lydia, in prior of flirting. Perchance something abnormal is with her.
 
 
 "Yugg-chan doesn't think she is particularly weird."
 "I see..."
 "You overthinking, Mama-Yuu. Mama-Lydi is invariably like that."
 "No, well, so that is, indeed, however I am at somewhat uneasiness of she had  settled to destroy it. Lydia is not of a such type."
-"Uh-huh. However Mama-Lydi's ethos is healthy in itself."
-"If that is what you say, Yugg-chan, this should be not a question of her mentality."
+"Um-huh. However Mama-Lydi's ethos is healthy in itself."
+"If this is what you say, Yugg-chan, this should be not a question of her mentality."
 
 
 Then again, wondered Yuuyami, am I overthinking?
 No, but,  Yuuyami reasoned:
-Nonetheless, I feel uneasy of something.
+Nonetheless, I feel uneasy in regard of something.
 Not only Lydia, but everyone else was weird likewise.
 If it is proved to be no mental abnormality, is it more physical an issue?
 By no means! they may be infected by a novel variety of the virus!?
@@ -452,13 +452,13 @@ Reading Yuuyami's mind, Yggdrasil stated as much.
 The likelihood of existence of this kind of mysterious virus is exceedingly low. Yuuyami understands it as well. I have merely considered one of availabilities.
 
 
-"Apropos, it is also not the radio waves that are coming from outer space, is it?"
+"Apropos, it is also not the radio waves that are coming from outer space, you know?"
 
 
 Yggdrasil forced a smile upon reading further thoughts of Yuuyami.
 
 
-"Indeed," Yuuyami smiles broadly; "you hold the answer, aren't you, Yugg-chan?"
+"Indeed," Yuuyami smiles broadly; "you hold an answer, aren't you, Yugg-chan?"
 "!?"
 
 
@@ -500,14 +500,14 @@ Endeavouring to maximise the sensitivity of the sensor resulted in  capture of n
 
 
 Thereby should have been Hinagiku, Rapha, Ohan, and Prico until a moment ago.
-Upon inspection of the drawing room, traces of someone there being positively remain. However presently no one is within reach.
+Upon inspection of the drawing room, traces of someone there were positively remaining. However presently no one is within reach.
 
 
 "Sure enough, some unusual  circumstances had an occurrence here, had they not."
 
 
 Yuuyami was relatively serene.
-For Yggdrasil has been acquainted with the answer, but didn't teach of it, this is either not as critical, or a problem which may be solved.
+For Yggdrasil has been acquainted with the answer, but didn't teach of it, this is either not as climacteric, or a problem which may be solved.
 
 
 "Assuming that is not viruses nor cosmic radio waves."
@@ -515,16 +515,16 @@ For Yggdrasil has been acquainted with the answer, but didn't teach of it, this 
 
 Whereas murmuring, Yuuyami quit the drawing room and head for Underground exit.
 I examined divers a probabilities, however none of them is coherent.
-The best  less objectionable inference is that the potentiality of existing theory being wrong.
+The best—less objectionable—inference is that the potentiality of existing theory being wrong.
 For instance, something regarding the case of utilization a time machine.
-It is possible that an old theory of the world should not have branch out and the present one shall be transformed is correct.
+It is possible that an old theory of the world should not branch out and the present one shall be transformed is the correct one.
 In other words, Lydia's tinkering with the past has affected the present.
 
 
 "Well, it is unlikely, however it is possible."
 
 
-For the record, since no one has ever gone to the past, it is actually obscure which one is correct.
+For the record, since no one has ever gone to the past, it is actually obscure which one is accurate.
 Nevertheless, it is  ever so doubtful that Lydia had constructed time machine in as short a time.
 
 
@@ -534,11 +534,11 @@ Nevertheless, it is  ever so doubtful that Lydia had constructed time machine in
 Scenery outside the Underground was all the same.
 
 
-"That had no affect upon the world likewise, it appears? Yes, it's dead—. This hypothesis is dead—."
+"That had not affected upon the world likewise, it appears? Yes, it is dead~. So this hypothesis is dead~."
 
 
-Such being a perfect soliloquy,  Yuuyami, however, was not  particularly disturbed by that.
-At any rate, I straddle the same large motorcycle I had came by, and perceive that the motorcycle of Hinagiku is missing.
+Such being a perfect soliloquy,  Yuuyami, however, was not  particularly disturbed by it.
+At any rate, she straddles the same large motorcycle she had came by, and perceives that the motorcycle of Hinagiku is missing.
 
 
 "I wonder if she simply left–?"
@@ -548,18 +548,18 @@ The fact of Yuuyami started off to Yggdrasil's consciousness domain may be  imme
 Well, the question of where they had  departed  remains.
 
 
-"But, they had treated me terribly, had they not–?"
+"But, they had treated me rather terrible, had they not–?"
 
 
-In case if the one to lost consciousness were to be Lydia, everyone definitely should  have awaited until Lydia will arouse from sleep.
+In case if the one to lost consciousness were  Lydia, everyone definitely would  have awaited until Lydia will arouse from sleep.
 Upon lightly puffing her cheeks, Yuuyami brought her motorcycle on-line.
-For now, I reckoned to return to Lydia at once, regardless of whether the abnormalities of circumstances were occurring or not.
+For now, I determined to return to Lydia at once, regardless of whether the abnormalities of circumstances were occurring or not.
 
 
 ◇
 
 
-Upon Yuuyami put in an appearance to the library, therein was a total darkness.
+Upon Yuuyami put in an appearance to the library, therein was a pitch black, total darkness.
 Well, the visual sensor of Yuuyami functions without any particular issue even in the dark, and being that she was furnished with a various sensors, it does not affect her much.
 
 
@@ -567,23 +567,23 @@ Well, the visual sensor of Yuuyami functions without any particular issue even i
 
 
 Murmured Yuuyami, in the  library lobby.
-It was plain immediately   to Yuuyami, whose the responses were of.
+Whose were the responses to Yuuyami was  plain  instantly.
 Unhurriedly, Yuuyami made her way across the lobby.
-For some reason, everybody had been holding their breath. Nonetheless, something is weird with this. Considering the possibility of being attacked, Yuuyami braced herself.
+For some reason, everybody had been holding their breaths. Nonetheless, something is weird with this. Considering the possibility of being attacked, Yuuyami braced herself.
 To be honest, Lydia is the only one who can fight against a holder of eighth _dan_ of _Kuga Ha Shinryu_ Yuuyami.
 Well, in case of Lydia and Ohan were to team up, it could grew fairly troublesome.
 When,
 the lights was suddenly switched on.
-Whereupon,
+And then,
 
 
 "Happy Birthday Yuuyami!!"
 
 
-With a sound of  crackers, Lydia said loudly,
+With a sound of  crackers, Lydia said so loudly,
 
 
-""Happy birthday!!""
+““Happy birthday!!””
 
 
 Everyone else: Rapha, Ohan, Hinagiku, Prico, Haruka and Noah had also followed in this way.
@@ -592,15 +592,15 @@ Everyone else: Rapha, Ohan, Hinagiku, Prico, Haruka and Noah had also followed i
 "...Eh? Eh—?"
 
 
-Yuuyami solidified. I could not quite  swallow the situation.
+Yuuyami solidified. I could not quite  grasp the situation.
 "Happy birthday" betoken a congratulation of the birthday.
 
 
-"Whoopee–!" Lydia sprung up and down. "Surprise is successful! Thank you, everyone!"
+"Whoopee–!" Lydia leaped up and down. "Surprise is successful! Thank you, everyone!"
 "No–, we had a hard time restraining Yuuyami until the end of preparations."
 
 
-_Oh dear!_ Hinagiku shakes her head. Thereupon, linking her arm with Prico's,  she headed for the table whereat the _sake_ was placed.
+_Oh dear!_ Hinagiku shakes her head. Linking, then, her arm with Prico's,  she headed for the table whereat the _sake_ was placed.
 
 
 "Wah, really. It was relatively difficult project, wasn't it. But with cooperation of Yugg-chan, we managed to earn some time."
@@ -608,7 +608,7 @@ _Oh dear!_ Hinagiku shakes her head. Thereupon, linking her arm with Prico's,  s
 
 
 Rapha and Ohan said, smilingly.
-It is rare to see Ohan smile, thought Yuuyami.
+It is rare to behold Ohan smile, thought Yuuyami.
 
 
 "I am rather awfully happy that Mama-Yuu was born in the world decades ago, today."
@@ -633,10 +633,10 @@ now,
 "I, I am so happy I want to cry..."
 
 
-After all, I should  append a feature to shed tears, I thought.
+After all, I should  enclose a feature to shed tears, I thought.
 However,
 Lydia, who walked up to Yuuyami,
-had her slightly quirky blond hair, her well-organized features. A beauteous  snow white skin. It would be a waste to distort them by tears.
+had her slightly quirky blond hair, her well-organized features. A beauteous  snow white skin. It would be a wasteful to distort them by tears.
 
 
 "I'm sorry to deceive you."
@@ -645,7 +645,7 @@ had her slightly quirky blond hair, her well-organized features. A beauteous  sn
 Very slowly, Lydia hugged Yuuyami.
 
 
-"No, no; this sort of thing. I am yet too happy, I thought I will overheat."
+"No, no; this sort of thing. I am so happy, I thought I will overheat."
 "Eh!? You can't!?"
 "Yes; I have managed to control it."
 "I see. If you pleased, I am happy either, Yuuyami."
@@ -671,7 +671,7 @@ Lydia should have made this plan knowing Yuuyami will consult with Rapha and  ot
 Yuuyami giggles, Lydia separates from Yuuyami.
 
 
-"Now, Yuuyami, there is  a cake, blow out the candles. Although I'll eat it."
+"Now, Yuuyami, there is  a cake, blow out the candles. I'll eat it."
 "How many dozens of candles do you have up?"
 
 
@@ -716,8 +716,8 @@ in the midst of dreaming a beauteous dream of the happiness.
 
 ---
 
-> __Note:__ If you liked the novel and my translation, please consider to leave rating on [kakuyomu.jp](https://kakuyomu.jp/works/4852201425154961396).
+> __Note:__ If you liked the novel and my translation, please consider to leave a rating on [kakuyomu.jp](https://kakuyomu.jp/works/4852201425154961396).
 >
-> For the guidelines of how to register or to disable e-mails' receiving, take a look at [Kakuyomu Guidelines]({% post_url inf/2021-02-08-guidelines-kakuyomu %})
+> For the guidelines of how to register or to disable e-mails' receiving, take a look at [Kakuyomu Guidelines]({% post_url inf/2021-02-08-guidelines-kakuyomu %}).
 > Thank you.
 {: id="note"}
