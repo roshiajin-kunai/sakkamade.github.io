@@ -485,7 +485,7 @@ Yggdrasil, thus, served a fashion doll for Lydia and Yuuyami for quite a while.
 
 
 <p markdown="1">"Yes, done! Ultra-cute, right!"</p>
-[^4]: [Culottes - Wikipedia](https://en.wikipedia.org/wiki/Culottes), unfortunately this link won't provide you with right image, <br> here some links for _pixiv_:  <a href="https://www.pixiv.net/en/artworks/73144460" target="_blank">1</a> / <a href="https://www.pixiv.net/en/artworks/76899125" target="_blank">2</a>;
+[^4]: the type of shorts, [Culottes - Wikipedia](https://en.wikipedia.org/wiki/Culottes), unfortunately this link won't provide you with right image, <br> here some links for _pixiv_:  <a href="https://www.pixiv.net/en/artworks/73144460" target="_blank">1</a> / <a href="https://www.pixiv.net/en/artworks/76899125" target="_blank">2</a>;
 
 Said Lydia, satisfied with her newly designed Yggdrasil.
 Yggdrasil had her apple-green hair tint unchanged, but her hairstyle was revised to somewhat heavier natural bob. Forelock was swept slightly backwards, which---despite her being a little girl---gave her a mature accent.

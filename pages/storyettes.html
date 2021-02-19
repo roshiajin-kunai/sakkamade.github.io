@@ -1,0 +1,22 @@
+---
+layout: columns-page
+title: Storyettes
+cat-description: | 
+permalink: /categories/storyette
+---
+
+<p>{{ page.cat-description }}</p>
+<hr>
+
+<h4 class="with-indent">The List</h4>
+
+   {% assign sorted-posts = site.posts | where: "categories", "Storyette" %}
+  <section id="toc"> 
+  {% for post in sorted-posts %}
+
+
+  {%- include cat.html -%}
+
+  
+  {% endfor %}
+  </section>

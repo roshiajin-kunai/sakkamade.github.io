@@ -20,15 +20,15 @@
   margin-left: auto;
   box-shadow: 0 0 6px $background-gray, 0 0 14px hsla(0, 0%, 20%, 0.2);
 
-  p { 
-	font-size: 19px;
+  p {
+	font-size: $base-font-size + 2px;
 	line-height: $normal-line-height;
 	text-align: justify;
 	padding: 0;
   }
 
-  li { 
-	font-size: 19px;
+  li {
+	font-size: $base-font-size + 2px;
   }
 }
 .columns-layout { 
@@ -48,10 +48,10 @@
 		p, 
 		li,
 		#markdown-toc { 
-			font-size: 17px !important; 
+			font-size: $base-font-size !important;
 		}
 		code {
-			font-size: 15px !important;
+			font-size: ($base-font-size - 2px) !important;
 		}	
 	}
 
@@ -406,7 +406,7 @@
 }
 
 .inner-bottom-menu {
-  font-size: 15px;
+  font-size: $base-font-size - 2px;
   border-top: 1px solid $background-gray;
   background-color: $light-gray;
   line-height: 40px;
@@ -491,7 +491,7 @@
 }
 .pagination a,
 .pagination span {
-  font-size: 18px; /* return font only to links */
+  font-size: $base-font-size + 1px; /* return font only to links */
   text-decoration: none;
   padding: 2px 10px;
   min-width: 36px;
@@ -637,8 +637,8 @@
   color: $tag-gray;
 }
 span.small { 
-  font-size:14px !important; 
-  opacity:.5 !important;
+  font-size: ($base-font-size - 3px) !important; 
+  opacity: .5 !important;
 }
 .tag-category-title { 
   color: $tag-gray;
@@ -742,7 +742,7 @@ span.small {
   border-top: 1px solid $background-gray;
 }
 a.bigger { 
-  font-size: 20px !important;
+  font-size: ($base-font-size + 2px) !important;
 }
 
 
@@ -754,14 +754,14 @@ a.bigger {
 .post-meta {
   text-align: left !important;
   text-transform: capitalize;
-  font-size: 17px !important;
+  font-size: ($base-font-size) !important;
   font-style: italic;
   color: $base-gray;
   cursor: default;
 }
 
 .post-meta a {
-  font-size: 17px !important;
+  font-size: ($base-font-size) !important;
   font-style: italic;
   color: $base-gray;
   text-decoration: none;

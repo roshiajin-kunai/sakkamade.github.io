@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-14 20:00:57 +0000
-last_modified_at: 2021-02-15 18:26:29 +0000
+last_modified_at: 2021-02-18 19:22:05 +0000
 title: "EX04. Love, Forgiveness, and Apricot."
 author: sakkani
 categories:
@@ -224,12 +224,12 @@ Yggdrasil slightly shrugged her shoulders. _Good grief_, as though saying.
 "Ah... aha, right. I know. But, this takes quite a courage."
 "Feel free to go. Go to-morrow."
 "Tomorrow... I want to apologise, too, but tomorrow, it's a little, I will be flirting with Apricot..."
-"You are doing it every day. Yugg-chan says you go to-morrow."
+"You are doing it every day. Yugg-chan tell you go to-morrow."
 
 
 Yggdrasil smiled bitterly.
 Hinagiku nodded vaguely.
-But certainly, Hinagiku will depart to meet Nagisa. For Hinagiku, after all, truly wants to apologise.
+But, Hinagiku will head to meet Nagisa certainly. For Hinagiku, after all, truly wants to apologise.
 
 
 ◇
@@ -378,7 +378,7 @@ Hinagiku smiled, being somewhat ashamed.
 "Aha. I was drinking it when research progressed or something good were to happen."
 
 
-I swallowed the words 'together with Nagisa.' For it should be a bother to explain about Nagisa to Ohan,  no deep meaning  lay therein.
+I swallowed the words "together with Nagisa." For it should be a bother to explain about Nagisa to Ohan,  no deep meaning  lay therein.
 
 
 "Okay. You have to wait a little."
@@ -444,7 +444,7 @@ She decided to flirt with Apricot for the time being, until Rapha will contact.
 
 That house was at the margin of Lydiyami City.
 The City is well planned, and has an exceedingly​ beautiful streetscape. The roads are extensive, and the trees in the medians contributes improvement a scenery.
-Between a footpath and a roadway, there resides a flower bed, wherein were  blooming a colourful flowers.
+Between a footpath and a roadway, there resides a flower bed, wherein could be found a blooming colourful flowers.
 Hinagiku parked a large motorcycle——a type which floats in the air by Angie, of course——on the edge of the road.
 
 
@@ -452,14 +452,14 @@ Hinagiku parked a large motorcycle——a type which floats in the air by Angie,
 
 
 Hinagiku dismount the motorcycle, and murmured thus, upon viewing Nagisa's residence from the footpath.
-Almost all the houses of the City have a similar shape and dimensions. Most are one-story houses, not dome-shaped, but their silhouettes being gently curved.
+Almost all the houses of the City have a similar shape and dimensions. Most are one-story houses, not dome-shaped, however their silhouettes bore a gentle curve.
 And, whereas Nagisa's house does not, some houses does have a pool amidst a spacious gardens.
 
 
 "It's way bigger than Hina-tan's lodge, isn't it?"
 
 
-Prico, who arrived together with me in a tandem seat, was glancing all around.
+Prico, who had arrived together with me in a tandem seat, was glancing all around.
 
 
 "Back in the days, humans of prior the world's collapse used to be even more packed."
@@ -476,7 +476,7 @@ Well, population was much higher than it is presently, of course it is appropria
 
 
 <p markdown="1">Hinagiku raises her right hand.[^1] Incidentally, Hinagiku carries a bottle of whisky in her left hand.</p>
-[^1]: rising a hand as when one saying _Goodbye_; I couldn't find a way to nicely transmit it  in English;
+[^1]: rising a hand as when one saying _Goodbye_; I couldn't find a way to nicely transmit it  to English;
 
 "Okay—."
 
@@ -578,10 +578,10 @@ Prico imitated crying in a particularly loud voice.
 "Indicate a wholeheartedness," Yuuyami raises her finger, offering an explanation, with a composed  countenance. "In this particular a situation, signifies bearing a deep relationship, that is to say _ecchi_."
 "I see. Um, Prico, it's alright," Lydia smiles, "since Nagisa is obaa-chan."
 "...Obaa-chan?" _blink, blink_, Prico blinked. "...Hina-tan's co-worker, aren't she? That is what Apricot heard from Hina-tan?"
-"Commonplace humans are grow old," observed Yuuyami. "Hinagiku-san and Lydia are exceptional. You understand?"
+"Commonplace humans are grow old," remarked Yuuyami. "Hinagiku-san and Lydia are exceptional. You understand?"
 
 
-Even upon Yuuyami statement, Prico displays a puzzled presence.
+Even upon Yuuyami's observation, Prico displays a puzzled presence.
 
 
 "Prico-chan, you don't rather understand that humans are getting older—. I'll rather explain you while  showing a pictures practically."
@@ -862,7 +862,7 @@ Hinagiku bring her hips down next to Prico, drew a cigarette from her pocket and
 
 
 Upon feeling of emptiness of a false love, I cast Prico away.
-Hinagiku considered to light a cigarette, however, glancing over the environs, she redrew a cigarette back into her pocket.
+Hinagiku considered to light a cigarette, however, glancing over the environs, she replaced a cigarette back into her pocket.
 Even if odds are thousand to one, she should be in a great troubles if the Woodland will  set on fire.
 
 
@@ -887,7 +887,7 @@ Hinagiku grew dazed to catch a sight of the countenance which inspired an impres
 
 
 "What's so sad?"
-"__Here__, the happening when Apricot was  unplugged of a Power Cell. In spite of Apricot didn't feel anything at that time, Apricot is awfully sad, presently. Why?"
+"__Here__, the happening when Apricot was  unplugged of a Power Cell. In spite of Apricot didn't feel anything at that time, Apricot is awfully sad presently. Why?"
 "Aah–, that is, I guess,"—Hinagiku moved her hand from Prico's head to her shoulder—"your emotions...  basically, your consciousness had began to sprout."
 "Consciousness?"
 "Aha. Right."
@@ -912,16 +912,16 @@ Hinagiku grew exceedingly happy, upon realising it.
 "I also want it. Next time I go to see Nagisa, I'll take you with me, Apricot. I'll introduce you as my partner."
 
 
-Nagisa would certainly be surprised.
+Nagisa will certainly be surprised.
 Perhaps Prico will be surprised likewise.
 As for the reason, that since the model of appearance of Prico is also Nagisa. However, Hinagiku decided to not bring it up now.
 
 
 "What is it? Apricot don't really understand, in spite of Apricot has no heart, it feels weird,  it's trills somehow, it's pleasantly warm. But Apricot don't mind it by no means, you know? Has Apricot, broke somewhere?"
-"No," Hinagiku strengthened the hug upon Prico's shoulder, "it's a normal reaction. Nothing wrong with that. There is nothing to worry about. Besides, even if something breaks, I'll fix it  at once. I can do anything. My speciality is a genetic engineering, however robotics is also my strong a point."
+"No," Hinagiku strengthened the grip upon Prico's shoulder, "it's a normal reaction. Nothing wrong with that. There is nothing to worry about. Besides, even if something breaks, I'll fix it  at once. I can do anything. My speciality is a genetic engineering, however robotics is also my strong a point."
 "Uh-huh. Since Hina-tan is genius, it's safe for Apricot to break."
-"Aha. But please don't break if possible. For if you, Apricot, will break, I'll be sad."
-"In that case, if that may turn Hina-tan  sad, Apricot won't break."
+"Aha. But please don't break if possible. For if you, Apricot, will break, it  would be sad for me."
+"In this case, if that may turn Hina-tan  sad, Apricot won't break."
 "You are really a good girl, Apricot," Hinagiku smiles. "Now, let's return back home."
 "Uh-huh. Though, Hina-tan, Apricot wants to stay like this a little longer. No good?"
 "No, no problem. It's comfortable here. I like the Woodland. This moderately dim atmosphere in particular."
