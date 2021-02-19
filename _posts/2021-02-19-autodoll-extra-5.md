@@ -712,3 +712,12 @@ Yuuyami said thus, at the conclusion​ of surprise party.
 I, Yuuyami,
 in this  world created anew,
 in the midst of dreaming a beauteous dream of the happiness.
+
+
+---
+
+> __Note:__ If you liked the novel and my translation, please consider to leave rating on [kakuyomu.jp](https://kakuyomu.jp/works/4852201425154961396).
+>
+> For the guidelines of how to register or to disable e-mails' receiving, take a look at [Kakuyomu Guidelines]({% post_url inf/2021-02-08-guidelines-kakuyomu %})
+> Thank you.
+{: id="note"}
