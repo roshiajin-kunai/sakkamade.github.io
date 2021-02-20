@@ -8,7 +8,7 @@
 			{% endfor %}  
 		{%- endif -%}
 	</p>
-	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title | escape }}</h3>
+	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title }}</h3>
 	<p class="post-meta" style="text-align: right !important;">
 	<span class="no-cap" title="Estimated reading time">
 			{% capture words %}
