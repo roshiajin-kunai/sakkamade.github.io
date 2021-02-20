@@ -3,7 +3,7 @@ layout: post
 date: 2021-02-20 23:16:58 +0000
 last_modified_at: 
 main-title: 
-title: "Two Lilies Bloom upon a Wordless Roof<br> by Kannazuki"
+title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
 categories:
  - Storyette
@@ -13,7 +13,7 @@ chapter-link: https://kakuyomu.jp/works/1177354054917607095
 ---
 Selective mutism.
 The condition that began revealing itself to me in elementary school.
-Whereas wishing to speak, I cannot. Whereas I talked to my family normally, at a school I grew all nervous and stiff. Desired words were not reaching a voice. My throat shut them.
+Whereas wishing to speak, I cannot. Whereas I talked to my family normally, at a school I grew all nervous and stiff. The desired words were not reaching a voice. My throat shut them.
 Whereas wanting to get along with various a people, chatting a lot, and laughing.
 I just cannot do that.
 {: class="first-paragraph"}
@@ -24,15 +24,15 @@ I just cannot do that.
 I was never understand by the people around me.
 During a class, I was receiving a reprimands by the teacher, for I could not read aloud.
 I could not even eat a school lunch, everyone were throwing at me a queerly looks.
-"Can you say 'A'?"
-I could not, and was mocked for it.
+"Can you say 'A?'"
+I could not, and was mocked for that.
 And yet, I could not retort, that was just frustrating.
 
 
 
 
-I cannot convey my gratitude, "Thank you." I cannot apologize, "I am sorry."
-I cannot even say "Good morning."
+I cannot convey my gratitude, 'Thank you.' I cannot apologize, 'I am sorry.'
+I cannot even say 'Good morning.'
 
 
 
@@ -46,7 +46,7 @@ When, to such myself, an angel came around.
 "Minami-chan, good morning!"
 Hinamura-san, who was seated next to me when I was in the second year of junior high. I used to call her by her name - Kyoka-chan. Only within my heart, however...
 She gently tapped my shoulder, smiled at me. The smile, that shines surrounded by her walnut-coloured bob cut, is very, very cute.
-Unable to return a "Good morning," I made an awkward smile ish countenance​, and inclining my head, so to bow.
+Unable to return "Good morning," I made an awkward smile ish countenance​, and inclining my head, so to bow.
 Although this is... the best I can return...
 
 
@@ -107,7 +107,7 @@ _Fufu_, Kyoka-chan giggled upon denouement.
 "Then, it's mutual, huh."
 I slowly cast a gaze at her. Upon exactly the same moment, she peered into my eyes.
 Directly.
-I entwined my fingers with hers likewise.
+I also entwined my fingers with hers.
 Slowly, slowly drawing a face closer.
 My precious person. The only friend. The first lover.
 "Ehehe... A little, embarrassing, right..."
