@@ -42,7 +42,7 @@ sup {
 }
 
 .footnote::before { content: '['; }
-.footnote::after { content: ']'; }
+.footnote::after {  content: ']'; }
 .footnote { 
   text-decoration: none;
 }
@@ -102,11 +102,11 @@ sup {
 }
 
 hr {
-    display: block;
-    margin: $base-unit 0;
-    border: none;
-    height: 1px;
-    background: $background-gray;
+  display: block;
+  margin: $base-unit 0;
+  border: none;
+  height: 1px;
+  background: $background-gray;
 }
 
 h1, h2, h3, h4, h5, h6, {
@@ -216,6 +216,7 @@ ol {
 }
 
 li {
+
   > ul,
   > ol {
     margin-bottom: 0;
@@ -358,6 +359,7 @@ a {
 }
 
 .social-media-list {
+
   li + li {
 	padding-top: 5px;
   }

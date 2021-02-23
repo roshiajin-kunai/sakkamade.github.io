@@ -1,19 +1,20 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 
+last_modified_at: 2021-02-21 19:17:06 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
 categories:
  - Storyette
 tags:
+ - webnovel translation
 note: 
-chapter-link: https://kakuyomu.jp/works/1177354054917607095
+chapter-link: https://kakuyomu.jp/works/1177354054917607095/episodes/1177354054917609531
 ---
 Selective mutism.
 The condition that began revealing itself to me in elementary school.
-Whereas wishing to speak, I cannot. Whereas I talked to my family normally, at a school I grew all nervous and stiff. The desired words were not reaching a voice. My throat shut them.
+Whereas wishing to speak, I cannot. Whereas I conversed with my family normally, at a school I grew all nervous and stiff. The desired words were not reaching a voice. My throat shut them.
 Whereas wanting to get along with various a people, chatting a lot, and laughing.
 I just cannot do that.
 {: class="first-paragraph"}
@@ -31,7 +32,7 @@ And yet, I could not retort, that was just frustrating.
 
 
 
-I cannot convey my gratitude, 'Thank you.' I cannot apologize, 'I am sorry.'
+I cannot convey my gratitude, 'Thank you.' I cannot apologise, 'I am sorry.'
 I cannot even say 'Good morning.'
 
 
@@ -46,7 +47,7 @@ When, to such myself, an angel came around.
 "Minami-chan, good morning!"
 Hinamura-san, who was seated next to me when I was in the second year of junior high. I used to call her by her name - Kyoka-chan. Only within my heart, however...
 She gently tapped my shoulder, smiled at me. The smile, that shines surrounded by her walnut-coloured bob cut, is very, very cute.
-Unable to return "Good morning," I made an awkward smile ish countenance​, and inclining my head, so to bow.
+Unable to return a 'Good morning,' I made an awkward smile ish countenance, and inclining my head, so to bow.
 Although this is... the best I can return...
 
 
@@ -184,12 +185,12 @@ I do not want to say "Good-bye..."
 
 
 
-It was in August thirteenth, almost half-way through  the summer vacation, when Kyoka-chan's mother has paid us a visit.
+It was in August thirteenth, almost half-way through  the summer vacation, when Kyoka-chan's mother has paid me a visit.
 That was the day of my birthday.
 For selective mutism, I was awfully nervous towards her mother, my symptoms would arise to the people excepting a family, even if I was at home.
 "I offer you my sincerest condolences for your loss..."
 My mother served a tea to the table, she held the tray before her and bowed her head deeply. I also bowed, imitating it.
-Kyoka-chan's mother quietly lowered her head likewise, whereafter peering into my eyes, assumed in front of me. I,  of course, could not look at her directly.
+Kyoka-chan's mother quietly lowered her head likewise, whereafter, peering into my eyes, assumed in front of me. I,  of course, could not look at her directly.
 "Shirahama Minami-san."
 Her mother called my name. My whole body tensed up.
 "I have came here today, because I have something to deliver."
@@ -255,7 +256,7 @@ I am, missing you so...
 The ring upon the left hand ring finger. I heard that the other half of the pair should enclose it in the funerary urn together with person's ashes. Here, rest together with her.
 "Kyoka-chan..."
 I want to see you. I want to hug you. I want to kiss you.
-I turned my face upwards to cool my feverish eyes down. I closed my eyes to the sharp rays of the sun.
+I turned my face upwards to cool down the feverish inner corners of my eyes. I closed my eyes to the sharp rays of the sun.
 
 
 
@@ -266,7 +267,7 @@ Always, together.
 Whereas you are far away, you are closer than anyone.
 All right.
 Let us keep at it. Do not be embarrassed.
-Upon an hour of me paying her a  visit, I hope we can talk a lot.
+Upon an hour of me paying her a  visit, I hope we will talk a lot.
 
 
 

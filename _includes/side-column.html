@@ -29,34 +29,40 @@
 <div id="side-wrapper">
   <h5 class="side-head"><a href="{{site.baseurl}}/about">About</a></h5>
   <span class="side-in block no-cap" style="text-align: justify">
-	Here I publish my translations of Japanese <em>Yuri</em> webnovels.
+	Here I publish my translations of Japanese <em>Yuri</em> web-novels.
 	<br><br>
 	Trying to obtain author's consent only upon confidence in translating a novel until the end and potential of contacting the author, so:—
-	</span>
-	
+  </span>
+
   <blockquote style="font-size: 15px !important">
   作家のために。<br>
   許可なく翻訳していただき、誠に申し訳ございません。<br> 削除したい場合はご連絡ください。
   </blockquote>
-  <hr>
-  <span class="side-in block no-cap">
-	For a nice-little chatter join a <a target="_blank" href="https://discord.gg/GKmr8Z3mTm">Discord server</a>.
-  </span>
-  <hr>
-  <span class="side-in block no-cap">
-    <a href="{{ "/feed.xml" | relative_url }}">
-      <span>Atom Feed</span>
-	</a>
+
   {%- if site.twitter_username -%}
   <span class="side-in block no-cap">
 	<a style="text-transform: none;" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
       <span>@{{ site.twitter_username| escape }}</span>
-    </a>
+    </a> on Twitter
   </span>
   {% endif %}
+  
+  <hr>
+  
+  <span class="side-in block no-cap">
+	For a nice, little chatter join <br>
+	<a target="_blank" href="https://discord.gg/GKmr8Z3mTm">Discord server</a>
+  </span>
+
+  <hr>
+
+  <span class="side-in block no-cap">
+    <a href="{{ "/feed.xml" | relative_url }}">
+      <span>Atom Feed</span>
+	</a>
   </span>
   <hr>
-  <span class="side-in block no-cap">Last update in website: 
+  <span class="side-in block no-cap">Last amend in website: 
     <time style="white-space: nowrap;" datetime="{{ "now" | date_to_xmlschema }}">{{ "now" | date: "%d/%m/%Y %H:%M" }} UTC</time>
   </span>
   <div class="spacer" style="height: 20px;"><!-- base unit --></div>
