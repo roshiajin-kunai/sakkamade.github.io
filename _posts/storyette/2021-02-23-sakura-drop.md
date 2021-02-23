@@ -16,20 +16,20 @@ The sharp winds of the winter had turned rotund and mild, as though the warmth o
 {: class="first-paragraph"}
 
 I was just a few paces behind her, beholding that, redolent an aquarelle landscape, scenery. Forming a picture frame with a fingers of my hands, I clipped her, and the article she was viewing, out.
-The _sakura_ tree, clad in an countless, innumerable petals of the idem hue as her hoodie, bore a dignified smile on its visage, gazing back at her as at a lover. Beyond such a tree, upon the sky that spread its clear spring blue, fluffy white clouds set its float a blotches, as though, upon the blue campus.
+The _sakura_ tree, clad in a countless, innumerable petals of idem to her hoodie hue, bore a dignified smile upon its visage, gazing back at her as at a lover. Beyond such a tree, upon the sky that spread its clear spring blue, fluffy white clouds set its float, a blotches as though upon the blue campus.
 
 
-I seared the picture against my eyes, as of it were to be engraved within my heart. For I am certain I should not observe​ it never any more. Certainly, at no occasion  I would be able to foregather with her like this any more. This might be the climax. I had bring myself here  bearing such determination.
+I seared the picture against my eyes, as if it were to be engraved within my heart. For I am certain I should not observe​ it never any more. Certainly, at no occasion  I would be able to foregather with her like this. This might be the climax. I had bring myself here, bearing such determination.
 
 
 
-I wondered why does her appearance grew blurred amidst the scenery. The inner canthus turned hot, an impression akin a sole thin film being stretched over my pupils. Presuming that I did not bite my lower lip, I should have stared wailing at any moment now.
+I wondered why does her appearance grew blurred amidst the scenery. The inner canthus turned hot, an impression akin a sole thin film being stretched over my pupils. Presuming that I did not bite my lower lip, I should have started wailing at any moment now.
 
 
 ——Do not cry. Not yet.
 
 
-Bearing that in mind, being nigh a wiping my eyes, she slowly cast a gaze at me over her shoulder.
+Bearing that in mind, I was being nigh wiping my eyes, as she slowly cast a gaze at me over her shoulder.
 
 
 "You are late, Yaeko.
@@ -56,7 +56,7 @@ Yoshino tilted her head lightly, staring at me curiously. I tightly clasped my f
 "I like you, Yoshino! I love you!"
 
 
-My entire face was burning hot, and even the nigh breeze appeared to boil by my influence. "Oh, my God," she said, and, seemingly wishing to proceed, upon a big nod, 
+My entire face was burning hot, and even the nigh breeze appeared to boil by my influence. "Oh, so that what it was," she said, and, seemingly wishing to proceed, upon a big nod, 
 
 
 "I know,"
@@ -68,7 +68,7 @@ She replied.
 "It's different! It's not the love which you expect, Yoshino... I..."
 
 
-The corners of my lips quivered, I could not voice it as I wished to. I cast my eyes downwards in embarrassment, my voice were to wither to a tenth of its volume from a moment when I had been at attempt to transmit her my love. What did she think? What did she think upon  receiving so an abrupt confession that someone, whom she considered a best friend, thinks of her more than mere friend? We are of the same sex, to have a love relationship  should normally not be possible. It is normal to feel abhorred. It is natural to find it impossible. I confessed bearing such determination.
+The corners of my lips quivered, I could not voice it as I wished to. I cast my eyes downwards in embarrassment, my voice were to wither to a tenth of its volume from a moment when I had been at attempt to transmit her my love. What did she think? What did she think upon  receiving so abrupt a confession that someone, whom she considered a best friend, thinks of her more than mere friend? We are of the same sex, to have a love relationship  should normally not be possible. It is normal to feel abhorred. It is natural to find it impossible. I confessed to her, bearing such determination.
 
 
 I knew that it could actually stay next to Yoshino if we were best friends. However—I wonder when have it started—I grew discontent with such position. For we were best friends, we could hold hands, as well as hugging was not unnatural. That is how  close we were.
@@ -87,13 +87,13 @@ I can hear Yoshino's soft alto voice just above my head. I raised my face. Smili
 
 
 "Yoshino... I..."
-"If you want a reply, first of all, why don't you close your eyes?"
+"If you want an answer, first of all, why don't you close your eyes?"
 
 
-Yoshino smiled, saying so in an urging tones. Being out-pushed, I shut my eyes hard. For Yoshino is kind... I wonder if she asked me this so as not to hurt me. Rather than being spurn with "Impossible," whilst watching her countenance, I might yet bear it having no need to observe her eyes. Supposing that would be useless anyway, I wish you to slay me at once——right, at once...
+Yoshino smiled, saying so in an urging tones. Being out-pushed, I shut my eyes hard. For Yoshino is kind... I wonder if she asked me this so as not to hurt myself. Rather than being spurn with "Impossible," whilst watching her countenance, I might yet bear it by having no need to observe her eyes. Supposing that would be useless anyway, I wish you to slay me at once——right, at once...
 
 
-"Well, then, I'll give you my reply."
+"Well, then, I'll give you my answer."
 
 
 The voice of Yoshino made my heart palpitate so fast that I wanted to scream. My ears were occupied by an irregular sound of my heartbeat.
@@ -102,14 +102,14 @@ The voice of Yoshino made my heart palpitate so fast that I wanted to scream. My
 ——Hurry up! Hurry up! Faster!
 
 
-That was when. Something soft came in contact with my lips—I snapped my eyes open in haste. Right before me, there was Yoshino's visage. Close enough for our eyelashes to brush each other... And her lips were resting upon mine.
+That was when. Something soft came into contact with my lips—I snapped my eyes open in haste. Right before me, there was Yoshino's visage. Close enough for our eyelashes to brush each other... And her lips were resting upon mine.
 
 
-Parting her visage​ slightly away from my dazed lips, "This is the reply," _fu, fu,_ she said. Whereafter,  questioned me again:—
+Parting her visage​ slightly away from my dazed lips, "This is the answer," _fu, fu,_ she said. Whereafter,  questioned me again:—
 
 
 "Would you like a  _drop_?"
 
 
 I nodded greatly, she, then, placed the _drop_ by a hand in her mouth, and drew my chin  towards herself.
-The solid texture of the _drop_ proceed passing back and forth, enclosed within  our mouths... Sugary taste and pink fragrance, similar to a blossoms of sakura, kept its spread further and further  amidst both of our mouths... resulting in a full bloom.
+The solid texture of the _drop_ proceed passing back and forth, enclosed within  our mouths... Sugary taste and pink fragrance, similar to a blossoms of sakura, kept its spread farther and farther  amidst both of our mouths... resulting a full bloom.
