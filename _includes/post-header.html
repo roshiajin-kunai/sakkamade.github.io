@@ -8,6 +8,9 @@
 			{% endfor %}  
 		{%- endif -%}
 	</p>
+	{% if page.chapter-title %}
+	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.chapter-title }}</h3>
+	{% endif %}
 	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title }}</h3>
 	<p class="post-meta" style="text-align: right !important;">
 	<span class="no-cap" title="Estimated reading time">

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-02-21 19:17:06 +0000
+last_modified_at: 2021-02-23 22:41:01 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -45,9 +45,9 @@ I have long since forgotten how to smile.
 
 When, to such myself, an angel came around.
 "Minami-chan, good morning!"
-Hinamura-san, who was seated next to me when I was in the second year of junior high. I used to call her by her name - Kyoka-chan. Only within my heart, however...
+Hinamura-san, who was seated next to me when I was in the second year of middle school. I used to call her by her name - Kyoka-chan. Only within my heart, however...
 She gently tapped my shoulder, smiled at me. The smile, that shines surrounded by her walnut-coloured bob cut, is very, very cute.
-Unable to return a 'Good morning,' I made an awkward smile ish countenance, and inclining my head, so to bow.
+Unable to return a 'Good morning,' I made an awkward smile ish countenance, and inclined my head, so to bow.
 Although this is... the best I can return...
 
 
@@ -95,7 +95,7 @@ Her fingers were entwined with my right hand.
 "I wonder, If I say this, will you, Minami-chan, get upset..."
 I could sense a loneliness in the air, as she giggled to hide her embarrassment.
 Lover.
-Girlfriends, perhaps it is strange, perhaps it is not, however it does not change the fact that I like her. Her feelings and my feelings...
+Girlfriends—perhaps it is strange, perhaps it is not, however it does not change the fact that I like her. Her feelings and my feelings are...
 "M, me too..!"
 "Eh?"
 My throat is tightening, it is painful. However, I want to tell you...
@@ -106,7 +106,7 @@ To speak to her, my very first a words.
 Not a "Good morning" nor a "Thank you."
 _Fufu_, Kyoka-chan giggled upon denouement.
 "Then, it's mutual, huh."
-I slowly cast a gaze at her. Upon exactly the same moment, she peered into my eyes.
+I slowly cast a gaze at her. Upon the exact moment, she peered into my eyes.
 Directly.
 I also entwined my fingers with hers.
 Slowly, slowly drawing a face closer.
@@ -207,13 +207,13 @@ With a trembling hands, I reached for the letter and a white box.
 
 
 
-Happy Birthday,
+> Happy Birthday,
 Minami-chan!
 The white box is a gift. I've worked hard to find something that will fit your  name, Minami-chan, so I hope you'll be happy.
 I feel so very happy when I'm with you, Minami-chan. It's strange, isn't it. Despite we don't even chatting or anything, simply being next to you, you know?
 I'm glad I've met you. I'm truly glad we became friends.
 I love you. I hope we will continue to be a good friends.
-From Kyoka.
+Kyoka.
 
 
 
@@ -230,7 +230,7 @@ Oh no, I cannot suppress my tears...
 I, I see...
 "She bought the pair of rings. There was another one in the room of that child. She wished to wear a matching ones. As though a married couple, huh."
 Her mother smiled, gently.
-I took the ring with my hand and put it on my left hand ring finger. A small white seashells were shining as her smile.
+I took the ring in my hand and fitted it upon my left hand ring finger. A small white seashells were shining as her smile.
 
 
 
@@ -247,7 +247,7 @@ Although my condition was persisting as of old, it was less severe comparing to 
 "Kyoka-chan, long time."
 The anniversary of her death. I went to see her diligently.
 "It's hot this year too, right. I'm going to get a sunburn."
-Offer a incense stick and flowers.
+Offer an incense stick and flowers.
 How are you?
 "As for me, I'm studying law right now. It's extremely arduous..."
 Her words were not returned.

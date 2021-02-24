@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about
-last_modified_at: 2021-02-13 00:43:55 +0000
+last_modified_at: 2021-02-23 22:17:25 +0000
 ---
 
 On this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it <i>well</i> and until the end). 
@@ -11,7 +11,7 @@ At expiration of slightly over the month at [*WordPress*](https://sakkamade.word
 #### Language Knowledge
 {: class="with-indent"}
 
-During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (one textbook ~350 pages out of four) in  three months. Whereupon had abandoned a second volume nearly at first—eleventh, actually—page for lack a motivation. 
+During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (one textbook ~350 pages out of four) in  three months. Whereupon had abandoned a second volume nearly at first—twenty-fourth, to be exact—page for lack a motivation. 
 Despite I forgot mostly everything (on the time of starting my translations), with that piece of knowledge I was able to begin. 
 "To begin somewhat"—from your point of view, most likely; 
 "Uwah, I'm doing great"—from mine.
@@ -25,8 +25,8 @@ Well, with  that said, I _am_ learning both. Whereas working over my translation
 #### Design
 {: class="with-indent"}
 
-The design for this website made in `HTML` by me entirely, and from a scratch, too, with following adjustment of it to _Jekyll_. 
-Based upon a theme I used to have in my previous blog at _WordPress_.
+The design for this website made in `HTML` by me entirely from a scratch, with following adjustment of it to _Jekyll_. 
+Influenced by a theme that I used in my previous blog at _WordPress_ and many of other web-sites that I have visited.
 
 
 #### Services for Translation 

@@ -908,13 +908,13 @@ This was a place where the former Prico would smile, saying, "This is a multi-pe
 Hinagiku grew exceedingly happy, upon realising it.
 
 
-"Apricot is, wants to stay with Hina-tan for ever."
+"Apricot, wants to stay with Hina-tan for ever."
 "I also want it. Next time I go to see Nagisa, I'll take you with me, Apricot. I'll introduce you as my partner."
 
 
 Nagisa will certainly be surprised.
 Perhaps Prico will be surprised likewise.
-As for the reason, that since the model of appearance of Prico is also Nagisa. However, Hinagiku decided to not bring it up now.
+As for the reason, that since the model of appearance of Prico is also Nagisa. However, Hinagiku decided  not to bring it up now.
 
 
 "What is it? Apricot don't really understand, in spite of Apricot has no heart, it feels weird,  it's trills somehow, it's pleasantly warm. But Apricot don't mind it by no means, you know? Has Apricot, broke somewhere?"
