@@ -50,7 +50,6 @@
 		li,
 		#markdown-toc {
 			font-size: ($base-font-size + 3px) !important;
-			line-height: $small-line-height !important;
 		}
 		code {
 			font-size: ($base-font-size - 3px) !important;
@@ -759,6 +758,11 @@ a.bigger {
   font-style: italic;
   color: $base-gray;
   cursor: default;
+  
+  span,
+  time  {
+  font-size: ($base-font-size) !important;
+  }
 }
 
 .post-meta a {
