@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-24 02:14:34 +0000
-last_modified_at: 2021-02-24 15:38:55 +0000
+last_modified_at: 2021-02-25 17:13:28 +0000
 main-title: "Para・Witches. <br> By Yuki Toy."
 chapter-title: "Intro."
 title: "That Child that I Hate."
@@ -46,7 +46,7 @@ I could not hate her, and hated myself, who had given up somewhere.
 
 Thence, I desired to vanquish her at whatsoever cost.
 Only upon her defeat may I grow a great witch, grow pleased with myself. So  believed I.
-The space in between our forces, however, had its mere widening in the course of a middle school, and I have never drew a  victory at no occasion.
+The space between our forces, however, had its mere widening in the course of a middle school, and I have never drew a  victory at no occasion.
 
 
 
@@ -66,7 +66,7 @@ No thing and no one had knew the roots. There have been rumours of this and that
 
 
 Upon elapsing three of a years, no one were to bring a subject in her regard any more.
-The subject was seldom brought up, "Aha, there was such a genius, eh;" "She was a  terrific witch;" and "I miss her;" nevertheless she grew a person of the bygone.
+The subject was seldom brought, "Aha, there was such a genius, eh;" "She was a  terrific witch;" and "I miss her;" nevertheless she grew a person of the bygone.
 
 
 However, I was different.

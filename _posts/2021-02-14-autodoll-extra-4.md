@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-14 20:00:57 +0000
-last_modified_at: 2021-02-18 19:22:05 +0000
+last_modified_at: 2021-02-25 17:15:04 +0000
 title: "EX04. Love, Forgiveness, and Apricot."
 author: sakkani
 categories:
@@ -909,18 +909,18 @@ Hinagiku grew exceedingly happy, upon realising it.
 
 
 "Apricot, wants to stay with Hina-tan for ever."
-"I also want it. Next time I go to see Nagisa, I'll take you with me, Apricot. I'll introduce you as my partner."
+"I also want it. Next time I go to see Nagisa, I'll take you with me, Apricot. I need to introduce you as my partner."
 
 
 Nagisa will certainly be surprised.
-Perhaps Prico will be surprised likewise.
+Perhaps Prico will  likewise be.
 As for the reason, that since the model of appearance of Prico is also Nagisa. However, Hinagiku decided  not to bring it up now.
 
 
-"What is it? Apricot don't really understand, in spite of Apricot has no heart, it feels weird,  it's trills somehow, it's pleasantly warm. But Apricot don't mind it by no means, you know? Has Apricot, broke somewhere?"
+"What is it? Apricot don't really understand, in spite of Apricot has no heart, it feels weird,  it trills somehow, it pleasantly warm. But, why, Apricot don't mind it by no means? Has Apricot, broke somewhere?"
 "No," Hinagiku strengthened the grip upon Prico's shoulder, "it's a normal reaction. Nothing wrong with that. There is nothing to worry about. Besides, even if something breaks, I'll fix it  at once. I can do anything. My speciality is a genetic engineering, however robotics is also my strong a point."
 "Uh-huh. Since Hina-tan is genius, it's safe for Apricot to break."
-"Aha. But please don't break if possible. For if you, Apricot, will break, it  would be sad for me."
+"Aha. But please, if possible, don't break. For if you, Apricot, would break, it  will be sad for me."
 "In this case, if that may turn Hina-tan  sad, Apricot won't break."
 "You are really a good girl, Apricot," Hinagiku smiles. "Now, let's return back home."
 "Uh-huh. Though, Hina-tan, Apricot wants to stay like this a little longer. No good?"
