@@ -2,11 +2,12 @@
 layout: page
 title: About
 permalink: /about
-last_modified_at: 2021-02-23 22:17:25 +0000
+last_modified_at: 2021-02-24 15:28:30 +0000
 ---
 
-On this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it <i>well</i> and until the end). 
-At expiration of slightly over the month at [*WordPress*](https://sakkamade.wordpress.com/), I decided to move to [*GitHub*](https://github.com/) and [*Jekyll*](https://jekyllrb.com/), hopefully to remain here, as this is the best amalgam for me.
+In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
+
+At expiration of slightly over a month at [*WordPress*](https://sakkamade.wordpress.com/), I decided to move to [*GitHub*](https://github.com/) flavoured by  [*Jekyll*](https://jekyllrb.com/), hopefully to remain here, as this is the best amalgam for me.
 
 #### Language Knowledge
 {: class="with-indent"}
@@ -26,7 +27,7 @@ Well, with  that said, I _am_ learning both. Whereas working over my translation
 {: class="with-indent"}
 
 The design for this website made in `HTML` by me entirely from a scratch, with following adjustment of it to _Jekyll_. 
-Influenced by a theme that I used in my previous blog at _WordPress_ and many of other web-sites that I have visited.
+Influenced by a theme that I used in my previous blog at _WordPress_ and a great deal of other web-sites that I have visited.
 
 
 #### Services for Translation 
@@ -35,12 +36,13 @@ Influenced by a theme that I used in my previous blog at _WordPress_ and many of
 - [wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese, mostly with English, but with Japanese either;
 - [jisho.org](https://jisho.org/) - Japanese translation tool (you—and perhaps I—would not have seen so frequent an updates if not for this amazing tool);
 - [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - great dictionary of---totally unfamiliar to me—Japanese *sfx*;
-- [translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English;
+- [dictionary.goo.ne.jp](https://dictionary.goo.ne.jp/) - kya! great dictionary for vocabulary that one utterly unable to come across nowhere else;
+- [translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English (in searching for synonyms);
 - [deepl.com](https://www.deepl.com/home) - good for translation of---truly alien to me—Japanese dialects and colloquial language;
 
 and plenty of other.
 
-<span class="small">Last updated on: {{ page.last_modified_at | date: "%Y %B %d, %H:%M:%S UTC" }}</span>
+<span class="small">Last updated on {{ page.last_modified_at | date: "%Y %B %d, %H:%M:%S UTC" }}</span>
 {: style="text-align: right"}
 
 <div class="spacer" style="height:80px;"><!-- base unit x3 --></div>

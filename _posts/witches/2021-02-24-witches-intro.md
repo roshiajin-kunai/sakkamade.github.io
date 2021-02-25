@@ -1,13 +1,13 @@
 ---
 layout: post
 date: 2021-02-24 02:14:34 +0000
-last_modified_at: 
-main-title: "U~itchi・Fitchi. <br>(title as yet under a state of translation) <br> By Yuki Toy."
+last_modified_at: 2021-02-24 15:38:55 +0000
+main-title: "Para・Witches. <br> By Yuki Toy."
 chapter-title: "Intro."
-title: "That child that I hate."
+title: "That Child that I Hate."
 author: sakkani
 categories:
- - Witches
+ - Para Witches
 tags:
  - webnovel translation
 note: 
@@ -17,7 +17,7 @@ I have hated that child.
 
 
 Enormously talented as a witch.
-She had acquired a knowledge of witchcraft faster than anyone. She had held an insight to bring forth a spells which no one may find within a textbooks, and she had also excelled at its arrangement. The school teachers were at a loss as to what teach her of, in stead conversely begged her—pupil of a middle school—of lesson for them.
+She have acquired a knowledge of witchcraft faster than anyone. She had held an insight to bring forth a spells which no one may find within a textbooks, and she had excelled at its arrangement likewise. The school teachers were at a loss as to what to teach her, in stead they have conversely begged her—a pupil of middle school—of lesson for them.
 Such is not but merit of acuteness.
 When she flew through the sky, she should made her arrive at the designated spot faster than anyone likewise. She was also exceeding anyone at perception of witchcraft.
 Genius. Genius was a vocabulary that prepared for the sake of hers.
@@ -25,10 +25,10 @@ She was being whispered by surroundings, being lionised as the retrieval of the 
 
 
 I have hated her.
-Afore I happened upon her, _I_ was the one whom commend a genius, the one upon whom surroundings rested their  gazes of esteem, she was the existence I did not wish to recognise. I had to deposit farther and farther an effort, so to not to succumb to her.
+Afore I happened upon her, _I_ was the one whom commend a genius, the one upon whom surroundings rested their  gazes of esteem, she was an existence I did not wish to recognise. I had to deposit farther and farther an effort, so to not to succumb to her.
 Contrast in talents, however, was not filled by an effort.
 I dared her often times, however each and every of them had ended in my defeat.  I was far too powerless before the enormous force.
-Nevertheless, what truly annoyed me had been not  that she was a "Genius."
+Nevertheless, what truly annoyed me had not been   that she was a "Genius."
 
 
 "It was a fair match."
@@ -45,8 +45,8 @@ I could not hate her, and hated myself, who had given up somewhere.
 
 
 Thence, I desired to vanquish her at whatsoever cost.
-Only upon her defeat may I grow a great witch, grow pleased of myself. So  believed I.
-The distinction in power, however, had its mere widening in the course of a middle school, and I have never drew a single victory.
+Only upon her defeat may I grow a great witch, grow pleased with myself. So  believed I.
+The space in between our forces, however, had its mere widening in the course of a middle school, and I have never drew a  victory at no occasion.
 
 
 
@@ -58,10 +58,10 @@ her appearance had suddenly passed from my sight.
 
 
 Passed without a harbinger.
-Passed all too suddenly from my sight.
+Passed all too suddenly from out of my sight.
 
 
-Vanishing of the genius had baffled teachers and a great people around them. They searched frantically, however were unable to find her in the end.
+Vanishing of the genius had baffled teachers and a higher-ups round them. They searched frantically, however were ultimately unable to find her.
 No thing and no one had knew the roots. There have been rumours of this and that, however the truth is hitherto strange.
 
 

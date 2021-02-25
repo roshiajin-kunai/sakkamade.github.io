@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2021-02-23 00:15:33 +0000
-last_modified_at: 2021-02-23 23:19:35 +0000
-title: "Drop of Sakura Blossom.<br> By Saki Shido."
+last_modified_at: 2021-02-24 15:31:19 +0000
+title: "Blossom of Sakura Drop.<br> By Saki Shido."
 author: sakkani
 categories:
  - Storyette
@@ -15,7 +15,7 @@ Wrapped in a pale pink hoodie, her hands were shoved within a pockets of pair of
 The sharp winds of the winter had turned rotund and mild, as though the warmth of the spring  had harvested its edges. Her short, shortcut hair was swaying  as though being softly stroked by a fingertips.
 {: class="first-paragraph"}
 
-I was just a few paces behind her, beholding that, redolent a landscape in aquarelle, scenery. Forming a picture frame with a fingers of my hands, I clipped her, and the article she was viewing, out.
+I halted just a few paces behind her, beholding that, redolent a landscape in aquarelle, scenery. Forming a picture frame with a fingers of my hands, I clipped her, and the article she was viewing, out.
 The _sakura_ tree, clad in a countless, innumerable petals of idem to her hoodie hue, bore a dignified smile upon its visage, gazing back at her as at a lover. Beyond such a tree, upon the sky that spread its clear spring blue, fluffy white clouds set its float, a blotches as though upon the blue campus.
 
 
@@ -38,7 +38,7 @@ Bearing that in mind, I was being nigh wiping my eyes, as she slowly cast a gaze
 "What are you saying? Yaeko, you are the one who is beautiful, you know?"
 
 
-Upon catching a sight of her laughing visage, my heart tightened; upon hearkening that bright, pleasant giggle, my ears grew exceedingly hot. My legs had began to tremble. It has crawled up, though my whole body. I found myself covered with goose bumps due to so high a tension. However, if I do not say——
+Upon catching a sight of her laughing visage, my heart tightened; upon hearkening that bright, pleasant giggle, my ears grew exceedingly hot. My legs had began to tremble. It has crawled up, through my whole body. I found myself covered with goose bumps due to so high a tension. However, if I do not say——
 
 
 "You know, Yoshino."
@@ -96,7 +96,7 @@ Yoshino smiled, saying so in an urging tones. Being out-pushed, I shut my eyes h
 "Well, then, I'll give you my answer."
 
 
-The voice of Yoshino made my heart palpitate so fast that I wanted to scream. My ears were occupied by an irregular sound of my heartbeat.
+The voice of Yoshino made my heart palpitate so fast that I wanted to scream. My ears were occupied by an irregular chaos of my heartbeat.
 
 
 ——Hurry up! Hurry up! Faster!
@@ -112,4 +112,4 @@ Parting her visage​ slightly away from my dazed lips, "This is the answer," _f
 
 
 I nodded greatly, she, then, placed the _drop_ by a hand in her mouth, and drew my chin  towards herself.
-The solid texture of the _drop_ proceed passing back and forth, enclosed within  our mouths... Sugary taste and pink fragrance, similar to a blossoms of sakura, kept its spread farther and farther  amidst both of our mouths... resulting a full bloom.
+The solid texture of the _drop_ proceed passing back and forth, enclosed within  our mouths... Sugary taste and pink fragrance, similar to a blossoms of _sakura_, kept its spread farther and farther  amidst both of our mouths... resulting a full bloom.
