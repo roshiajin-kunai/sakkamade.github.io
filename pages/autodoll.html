@@ -28,8 +28,8 @@ Tags: Adventure, Android, Future, Girls Love, Post-Apocalypse, Yuri <span class=
 
 <h4 class="with-indent">Table of Contents</h4>
 
-{% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | reverse %}
 <section id="toc"> 
+{% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | reverse %}
 {% for post in sorted-posts %}
 	{% unless post.tags contains 'extra' %}
 	
@@ -37,11 +37,11 @@ Tags: Adventure, Android, Future, Girls Love, Post-Apocalypse, Yuri <span class=
 	
 	{% endunless %}
 {% endfor %}
+</section>
 
+<section id="toc">
 {% assign sorted-posts-extra = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | where_exp: "item", "item.tags contains 'extra'" | reverse %}
-
 <section class="toc date"><a>Extra Episodes</a></section>
-
 {% for post in sorted-posts-extra %}  
 	
 	{%- include cat.html -%}

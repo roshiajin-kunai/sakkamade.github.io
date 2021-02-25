@@ -58,40 +58,40 @@ sup {
 #fn,
 #fnref {
 
-	&\:1,
-	&\:2,
-	&\:3,
-	&\:4,
-	&\:5,
-	&\:6,
-	&\:7,
-	&\:8,
-	&\:9,
-	&\:10,
-	&\:11,
-	&\:12,
-	&\:13,
-	&\:14,
-	&\:15,
-	&\:16,
-	&\:17,
-	&\:18,
-	&\:19,
-	&\:20 {
-
-		&:target {
-			background: #fff2f7;
-			box-shadow: 1px 1px 2px #fff2f7, -1px -1px 2px #fff2f7, 1px -1px 2px #fff2f7, -1px 1px 2px #fff2f7, 1px 0 2px #fff2f7, 0 1px 2px #fff2f7;
-		}
-		
-		&:target a {
-			color: #bb495c;
-	
-			&:hover {
-				color: $not-black;
-			}
-		}
-	}
+  &\:1,
+  &\:2,
+  &\:3,
+  &\:4,
+  &\:5,
+  &\:6,
+  &\:7,
+  &\:8,
+  &\:9,
+  &\:10,
+  &\:11,
+  &\:12,
+  &\:13,
+  &\:14,
+  &\:15,
+  &\:16,
+  &\:17,
+  &\:18,
+  &\:19,
+  &\:20 {
+  
+    &:target {
+    background: #fff2f7;
+    box-shadow: 1px 1px 2px #fff2f7, -1px -1px 2px #fff2f7, 1px -1px 2px #fff2f7, -1px 1px 2px #fff2f7, 1px 0 2px #fff2f7, 0 1px 2px #fff2f7;
+    }
+    
+    &:target a {
+    color: #bb495c;
+    
+      &:hover {
+      color: $not-black;
+      }
+    }
+  }
 }
 
 
@@ -250,18 +250,16 @@ blockquote {
   box-shadow: 1px 1px 4px $light-gray;
 
   p {
-	color: $not-black;
-	font-size: $base-font-size !important;
+  color: $not-black;
+  font-size: $base-font-size !important;
   }
-
   a,
   p a {
-	color: $base-gray;
-	font-size: $base-font-size !important;
+  color: $base-gray;
+  font-size: $base-font-size !important;
   }
-
   > :last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
   }
 }
 
@@ -296,19 +294,19 @@ pre {
   overflow-x: auto;
 
   > code {
-	border: 0;
-	font-size: $base-font-size - 1px;
-	display: block;
-	padding: 0.5em;
-	color: $almost-black;
-	background-color: #f8f8f8;
-	border-radius: 5px;
-	line-height: $normal-line-height;
-	font-family: Consolas, Monaco, Monospace, Courier;
-	white-space: pre;
-	-moz-tab-size: 4;
-	  -o-tab-size: 4;
-		 tab-size: 4;
+  border: 0;
+  font-size: $base-font-size - 1px;
+  display: block;
+  padding: 0.5em;
+  color: $almost-black;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  line-height: $normal-line-height;
+  font-family: Consolas, Monaco, Monospace, Courier;
+  white-space: pre;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
   }
 }
 
@@ -364,7 +362,7 @@ a {
 .social-media-list {
 
   li + li {
-	padding-top: 5px;
+  padding-top: 5px;
   }
 }
 
@@ -382,22 +380,22 @@ table {
   border: 1px solid $background-gray;
 
   tr {
-	&:nth-child(even) {
-	  background-color: $light-gray;
-	}
+    &:nth-child(even) {
+    background-color: $light-gray;
+    }
   }
 
   th, td {
-	padding: ($base-unit / 3) ($base-unit / 2);
+  padding: ($base-unit / 3) ($base-unit / 2);
   }
 
   th {
-	background-color: $light-gray;
-	border: 1px solid $background-gray;
-	border-bottom-color: $background-gray;
+  background-color: $light-gray;
+  border: 1px solid $background-gray;
+  border-bottom-color: $background-gray;
   }
 
   td {
-	border: 1px solid $background-gray;
+  border: 1px solid $background-gray;
   }
 }

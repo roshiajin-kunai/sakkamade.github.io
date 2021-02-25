@@ -10,6 +10,9 @@
   {% for item in site.data.bottom-menu2.docs %}
   <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
   {% endfor %}
+  {% for item in site.data.bottom-menu-novel-list.docs %}
+  <section class="indent-novel-list"><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
+  {% endfor %}
 </div>
 
 <div class="inner-bottom-column count-3">
