@@ -1,5 +1,37 @@
 @charset "utf-8";
 
+/* tentative decision for IE */
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/src/fnt/junicode/junicode-regular-webfont.woff) format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/src/fnt/junicode/junicode-bold-webfont.woff) format('woff');
+  font-weight: bold;
+}
+/* end */
+
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/src/fnt/junicode-new/JuniusX-Regular.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/src/fnt/junicode-new/JuniusX-Bold.woff2) format('woff2');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/src/fnt/junicode/junicode-italic-webfont.woff) format('woff');
+  font-style: italic;
+  font-weight: 400;
+}
+
 @font-face {
   font-family: 'CormorantGaramondW';
   src: url(/src/fnt/Cormorant/CormorantGaramond-Regular.woff) format('woff');
@@ -33,7 +65,6 @@
   font-weight: bold;
 }
 
-
 @font-face {
   font-family: 'CormorantInfantW';
   src: url(/src/fnt/Cormorant/CormorantInfant-Medium.woff) format('woff');
@@ -45,8 +76,6 @@
   font-weight: 400;
   font-style: italic;
 }
-
-
 
 @font-face {
   font-family: 'CormorantSCW';
@@ -69,7 +98,6 @@
   font-weight: bold;
 }
 
-
 @font-face {
   font-family: 'Cormorant Upright';
   src: url(/src/fnt/Cormorant/CormorantUpright-Medium.woff) format('woff');
@@ -80,6 +108,8 @@
   src: url(/src/fnt/Cormorant/CormorantUpright-SemiBold.woff) format('woff');
   font-weight: 500;
 }
+
+
 
 @font-face {
   font-family: 'NotoSerifCJKJPRegularW';

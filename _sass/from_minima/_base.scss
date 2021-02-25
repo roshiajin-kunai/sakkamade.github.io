@@ -110,8 +110,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6, {
-  font-weight: 400;
-  font-family: 'CormorantGaramondW', 'Yu Mincho Demibold', 'NotoSerifCJKJPRegularW';
+  font-weight: 400;  
   line-height: $base-line-height;
 }
 
@@ -121,6 +120,10 @@ h3 { font-size: 32px; }
 h4 { font-size: 30px; }
 h5 { font-size: 26px; }
 h6 { font-size: 24px; }
+
+mark { 
+  background-color: #fffbac;
+}
 
 
 
