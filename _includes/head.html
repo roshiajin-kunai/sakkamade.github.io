@@ -5,7 +5,7 @@
   <link rel="icon" href ="/src/img/site-icon.png" type="image/png">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <noscript><style>.cropped { max-height: none !important; -webkit-mask-image: none !important; mask-image: none !important; opacity: 1 !important; cursor: default !important; } .dropdown, .scroll-btn, .scroll-down-btn, #note-overlay, #archive-date-container { display: none !important; } #tags-list, .toc, .filter-date, .cat-description { display: block !important; }</style></noscript>
+  <noscript><style>.cropped { max-height: none !important; -webkit-mask-image: none !important; mask-image: none !important; opacity: 1 !important; cursor: default !important; } .js-only { display: none !important; } .no-js-block { display: block !important; }</style></noscript>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

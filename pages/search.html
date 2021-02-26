@@ -5,7 +5,7 @@ title: Archives
 ---
 <div class="archive-page">
  <!-- control -->
-<section id="archive-date-container">
+<section id="archive-date-container" class="js-only">
   <div class="tag archive-date active" onclick="filterSelection('all')">Display all ({{ site.posts | size }})</div>
     {% assign counter = 0 %}
   {% for post in site.posts %}
@@ -20,14 +20,14 @@ title: Archives
 </section>
 
 <!-- list -->
-<ul id="tags-list">
+<ul id="tags-list" class="no-js-block">
 {% for post in site.posts %}
   {% assign current_date = post.date | date: "%Y %B" %}
   {% if current_date != date %}
-	<div class="toc date filter-date {{current_date}}"><a id="{{current_date}}">{{ current_date }}</a></div>
+	<div class="toc date filter-date {{current_date}} no-js-block"><a id="{{current_date}}">{{ current_date }}</a></div>
 	{% assign date = current_date %} 
   {% endif %}
-	<li><div class="toc filter-date {{current_date}}">
+	<li><div class="toc filter-date {{current_date}} no-js-block">
 	<a title="{{post.categories}} ・ {{post.title}}" href="{{ site.baseurl }}{{ post.url }}">
 	<span class="tag-gray">{{ post.categories | replace: '["','' | replace: '"]','' }}
 	</span><br>

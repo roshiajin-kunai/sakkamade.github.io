@@ -8,9 +8,10 @@ categories:
  - Autodoll Dreams in a Decaying World
 tags:
  - webnovel translation
- - extra
 note: 
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054886433624
+chapter-type:
+ - extra
 ---
 
 
@@ -716,7 +717,7 @@ in the midst of dreaming a beauteous dream of the happiness.
 
 ---
 
-> __Note:__ If you liked the novel and my translation, please consider to leave a rating on [kakuyomu.jp](https://kakuyomu.jp/works/4852201425154961396).
+> __Note:__ If you liked the novel and my translation, please consider to leave a rating to the original work on [kakuyomu.jp](https://kakuyomu.jp/works/4852201425154961396).
 >
 > For the guidelines of how to register or to disable e-mails' receiving, take a look at [Kakuyomu Guidelines]({% post_url inf/2021-02-08-guidelines-kakuyomu %}).
 > Thank you.

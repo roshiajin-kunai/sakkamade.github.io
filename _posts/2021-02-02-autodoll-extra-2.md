@@ -8,9 +8,10 @@ categories:
  - Autodoll Dreams in a Decaying World
 tags:
  - webnovel translation
- - extra
 note: 
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054883491638
+chapter-type:
+ - extra
 ---
 
 - [Yggdrasil - Wikipedia](https://en.wikipedia.org/wiki/Yggdrasil);

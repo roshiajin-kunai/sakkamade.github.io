@@ -5,7 +5,7 @@ cat-description: |
  A modern witch-story woven by a pair of witches with paradoxical personalities.
  <br><br>
  Being named a genius before, she have lost her magic and remembrance, and could no longer fly high up in the sky.<br>
- A girl, a student of Tokyo University of Arts, of an absurd personality—"Space Magician: Tsugumi,"
+ A girl, a student of Tokyo University of Arts and Music, of an absurd personality—"Space Magician: Tsugumi,"
  <br><br>
  The one who have pursued her and arrived here, to Tokyo,
  a bothersome girl, a slight stalker—"Witch of Justice: Rino."
@@ -26,9 +26,9 @@ permalink: /categories/para-witches
 <h4 class="with-indent">Elucidation <span class="small"></span></h4>
 
 
-<div class="dropdown cat-description">
+<div class="dropdown cat-description no-js-block">
   <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed">&#8239;<em>(Beware! exposes quite a part of the story.)</em></button>
-  <div id="myDropdown" class="dropdown-content dropdown-content-no-list cat-description">
+  <div id="myDropdown" class="dropdown-content dropdown-content-no-list cat-description no-js-block">
 	<p class="cat-description">{{ page.cat-description }}</p>
   </div>
 </div>
@@ -52,7 +52,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 <h4 class="with-indent">Table of Contents</h4>
 
 <section id="toc">
-{% assign Intro = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.chapter-title contains 'Intro.'" | reverse %}
+{% assign Intro = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.chapter-type contains 'Intro.'" | reverse %}
 <section class="toc date"><a>Intro.</a></section>
 {% for post in Intro %}  
 	

@@ -788,7 +788,7 @@ a.bigger {
   border: 1px solid $background-gray;
   border-right: 4px solid $background-gray;
   text-transform: capitalize;
-  padding: 0px 4px 0px 6px;
+  padding: 0px 9px 0px 6px;
   margin: 0 2px;
   display: inline;
   color: $base-gray;
@@ -1266,7 +1266,7 @@ ul#markdown-toc {
 
 
 /* chromium */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
 
   p.first-paragraph::first-letter {
   font-size: 550%;
@@ -1275,9 +1275,9 @@ ul#markdown-toc {
   padding-top: .28em !important;
   float: left;
   }
-}
+} */
 /* ie */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
   p.first-paragraph::first-letter {
   font-size: 550%;
@@ -1286,9 +1286,9 @@ ul#markdown-toc {
   padding-top: .28em !important;
   float: left;
   }
-}
+} */
 /* firefox */
-@-moz-document url-prefix() {
+/* @-moz-document url-prefix() {
 
   p.first-paragraph::first-letter {
   font-size: 550%;
@@ -1297,4 +1297,4 @@ ul#markdown-toc {
   padding-top: .075em !important;
   float: left;
   }
-}
+} */

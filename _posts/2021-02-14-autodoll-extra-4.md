@@ -8,9 +8,10 @@ categories:
  - Autodoll Dreams in a Decaying World
 tags:
  - webnovel translation
- - extra
 note: Quite a time it took, isn't it. But bear no fright. The time was spent on improvement of web-site (please inform me via Twitter or Discord if you find some flaw) and editing a previous chapters ٩(๑`^´๑)۶ <br>(Only two of the days were consumed by searching for a typeface—to no avail! almost.)
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054884553982
+chapter-type:
+ - extra
 ---
 
 

@@ -3,8 +3,7 @@ layout: post
 date: 2021-02-24 02:14:34 +0000
 last_modified_at: 2021-02-25 17:13:28 +0000
 main-title: "Para・Witches. <br> By Yuki Toy."
-chapter-title: "Intro."
-title: "That Child that I Hate."
+title: "Intro. <br>That Child that I Hate."
 author: sakkani
 categories:
  - Para Witches
@@ -12,6 +11,8 @@ tags:
  - webnovel translation
 note: 
 chapter-link: https://kakuyomu.jp/works/1177354054889003864/episodes/1177354054889090504
+chapter-type:
+ - Intro.
 ---
 I have hated that child.
 
@@ -79,7 +80,7 @@ I did not give up.
 But kept pursuing her, kept seeking for her.
 
 
-Whereafter, at last, I had made a discovery.
+Whereafter, at last, I have made a discovery.
 
 
 "Tsugu. This time, precisely, shall be my win."

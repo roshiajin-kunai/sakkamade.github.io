@@ -8,9 +8,10 @@ categories:
  - Autodoll Dreams in a Decaying World
 tags:
  - webnovel translation
- - extra
 note: Wah! New site-header, registration in Discord, and a fresh chapter. <br>Awfully exhausted, lost all the motivation on the way.  Need some change of pace to return to my usual self.<br> Anyway, Discord.<br>  Although I am unfamiliar with this service, I hope I didn't messed anything up. <br> So, please join me. But only with aim of conversing, do not join for staying silent. Well, just read the rules heading over the <a target="_blank" href="https://discord.gg/GKmr8Z3mTm">https://discord.gg/GKmr8Z3mTm</a><br>Never knew there is an in-browser version, so handy. 
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054883551388
+chapter-type:
+ - extra
 ---
 
 

@@ -1,3 +1,15 @@
+{%- if page.main-title -%}
+	{% for category in categories %}
+		<h1 class="post-title main-title">
+			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}" itemprop="name headline">
+				{{ page.main-title }}
+			</a>
+		</h1>
+	{% endfor %}
+{% endif %}
+
+
+
 <!-- top information -->
 <div class="post-header">
 	<p class="post-meta meta-categories no-cap no-margin">
@@ -8,9 +20,6 @@
 			{% endfor %}  
 		{%- endif -%}
 	</p>
-	{% if page.chapter-title %}
-	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.chapter-title }}</h3>
-	{% endif %}
 	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title }}</h3>
 	<p class="post-meta" style="text-align: right !important;">
 	<span class="no-cap" title="Estimated reading time">
@@ -25,14 +34,13 @@
 	</span>
 	</p>
 </div>
-
-
-
 <!-- end top information -->
+
+
 
 {% if page.note or page.chapter-link %}
 <div onclick="classSwitch()" class="note-wrapper">
-<div id="note-overlay" class="note-overlay"></div>
+<div id="note-overlay" class="note-overlay js-only"></div>
 <blockquote class="cropped" id="note">
 
       {% if page.note %}

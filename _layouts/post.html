@@ -2,7 +2,6 @@
 layout: default-page
 ---
 <article class="only-main" itemscope itemtype="http://schema.org/BlogPosting">
-
 <!-- cat assign -->
 {% if post %}
 	{% assign categories = post.categories | sort %}
@@ -10,17 +9,6 @@ layout: default-page
 	{% assign categories = page.categories | sort %}
 {% endif %}
 
-{%- if page.main-title -%}
-
-{% for category in categories %}
-	<h1 class="post-title main-title" itemprop="name headline">
-		<a href="{{ site.baseurl }}/categories/{{ category | slugify }}">
-			{{ page.main-title }}
-		</a>
-	</h1>
-{% endfor %}
-
-{% endif %}
 
 
 {%- include post-header.html -%}
@@ -31,20 +19,10 @@ layout: default-page
     {{ content }}
 </div>
 
-  {% if page.under-note %}
-  <!-- under note -->
-  <blockquote>  
-	
-      {% if page.under-note %}
-        {{ page.under-note }}<br><br>
-      {% endif %}
-	  
-  </blockquote>  
-  <!-- end under note -->
-  {% endif %}
 
 
 <hr>
+
 
 
 <!-- bottom information -->
@@ -69,7 +47,9 @@ layout: default-page
 </p>
 <!-- end bottom information -->
 
-<div class="dropdown">
+
+
+<div class="dropdown js-only">
   {% for category in categories %}
   <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>{{ category }}</em></button>
   {% endfor %} 
