@@ -34,20 +34,31 @@ permalink: /categories/para-witches
 </div>
 
 
+
 <hr>
+
+
 
 <p>Original: 
 <a class="bigger" href="https://kakuyomu.jp/works/1177354054889003864"  target="_blank">ウィッチ・フイッチ</a> 
 <span class="small"> (U~icchi・Fuicchi)</span><br>
 Author: <a class="bigger" href="https://kakuyomu.jp/users/yukiToy"  target="_blank">結城十維</a>  <span class="small"> Yuki Toy </span></p>
 
+
+
 <hr>
+
+
 
 <p>Genre: Contemporary Fantasy<br>
 Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Witches, Yuri
 </p>
 
+
+
 <hr>
+
+
 
 <h4 class="with-indent">Table of Contents</h4>
 
@@ -55,6 +66,18 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 {% assign Intro = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.chapter-type contains 'Intro.'" | reverse %}
 <section class="toc date"><a>Intro.</a></section>
 {% for post in Intro %}  
+	
+	{%- include cat.html -%}
+	
+{% endfor %}
+</section>
+
+
+
+<section id="toc">
+{% assign Section1 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.chapter-type contains 'Section 1.'" | reverse %}
+<section class="toc date"><a>Section 1</a></section>
+{% for post in Section1 %}  
 	
 	{%- include cat.html -%}
 	
