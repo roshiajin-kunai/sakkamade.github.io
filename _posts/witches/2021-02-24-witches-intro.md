@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-24 02:14:34 +0000
-last_modified_at: 2021-02-25 17:13:28 +0000
+last_modified_at: 2021-03-01 02:39:28 +0000
 main-title: "Para・Witches. <br> By Yuki Toy."
 title: "Intro. <br>That Child that I Hate."
 author: sakkani
@@ -33,7 +33,7 @@ Nevertheless, what truly annoyed me had not been   that she was a "Genius."
 
 
 "It was a fair match."
-"Wah—, Rino, you are amazing!"
+"Wah—, Rino is amazing!"
 "Thank you for the interview to-day as well."
 "It's fun to compete against you, Rino."
 "When shall we dare next a time? to-morrow? the day after to-morrow?"
