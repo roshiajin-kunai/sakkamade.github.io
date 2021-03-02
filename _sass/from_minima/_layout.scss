@@ -47,7 +47,8 @@
   
     p, 
     li,
-    #markdown-toc {
+    #markdown-toc,
+    #note p, #note a {
     font-size: ($base-font-size + 3px) !important;
     }
     code {
