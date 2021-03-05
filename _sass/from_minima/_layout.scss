@@ -1063,7 +1063,6 @@ i.button-arrow-down {
   min-width: 100%;
   border: 1px solid $background-gray;
   border-right: 4px solid $background-gray;
-  transition: .2s;
   border-radius: 0 !important;
 }
 /* ie */
@@ -1119,6 +1118,7 @@ i.button-arrow-down {
   min-width: 100%;
   box-shadow: -2px 4px 4px $light-gray;
   border-bottom: 1px solid $background-gray;
+  margin-top: -1px !important;
 }
 .dropdown-content > #tags-list div a {
   padding: 0 4px 0 8px;
@@ -1156,7 +1156,7 @@ i.button-arrow-down {
   border: 1px solid $background-gray;
   border-right: 4px solid $background-gray;
   border-top: none !important;
-  margin-top: -1px;
+  margin-top: -2px !important;
   padding: 0 8px;
   padding: ($base-unit / 2) 5.3% ($base-unit / 2) 3%;  /* look the "blockquote" (mirrored) */
 }
