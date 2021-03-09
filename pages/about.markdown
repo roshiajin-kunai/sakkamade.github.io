@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about
-last_modified_at: 2021-02-24 15:28:30 +0000
+last_modified_at: 2021-03-08 20:10:59 +0000
 ---
 
 In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
@@ -35,8 +35,8 @@ Influenced by a theme that I used in my previous blog at _WordPress_ and a great
 
 - [wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese, mostly with English, but with Japanese either;
 - [jisho.org](https://jisho.org/) - Japanese translation tool (you—and perhaps I—would not have seen so frequent an updates if not for this amazing tool);
-- [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - great dictionary of---totally unfamiliar to me—Japanese *sfx*;
-- [dictionary.goo.ne.jp](https://dictionary.goo.ne.jp/) - kya! great dictionary for vocabulary that one utterly unable to come across nowhere else;
+- [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - impressive dictionary of totally unfamiliar to me Japanese *sfx*;
+- [dictionary.goo.ne.jp](https://dictionary.goo.ne.jp/) - kya! great dictionary of vocabulary that one utterly unable to come across nowhere else;
 - [translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English (in searching for synonyms);
 - [deepl.com](https://www.deepl.com/home) - good for translation of---truly alien to me—Japanese dialects and colloquial language;
 
@@ -47,7 +47,7 @@ and plenty of other.
 
 <div class="spacer" style="height:80px;"><!-- base unit x3 --></div>
 
-<blockquote style='padding-top: 1.3em;'><strong style="font-size: 1.8em;">継続は力なり。</strong><em style="font-size: .9em;">Keizoku wa Chikara nari.</em><br>
-<a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size: .9em;">wikiquote.org</em></a>
+<blockquote style='padding-top: 1.3em;'><strong style="font-size: 1.8em;">継続は力なり。</strong><em style="font-size: 1em; white-space: nowrap;">Keizoku wa Chikara nari.</em><br>
+<a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size: 1em;">wikiquote.org</em></a>
 </blockquote>
-<span style="font-size:15px; font-weight:normal;">What translates as: <strong><em>"To continue is the powe</em></strong></span>
+<span style="font-size: .9em; font-weight:normal;">What translates as: <strong><em>"To continue is the powe</em></strong></span>
