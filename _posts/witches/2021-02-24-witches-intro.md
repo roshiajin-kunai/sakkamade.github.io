@@ -3,7 +3,7 @@ layout: post
 date: 2021-02-24 02:14:34 +0000
 last_modified_at: 2021-03-01 02:39:28 +0000
 main-title: "Para・Witches. <br> By Yuki Toy."
-title: "Intro. <br>That Child that I Hate."
+title: "Intro. That Child that I Hate."
 author: sakkani
 categories:
  - Para Witches

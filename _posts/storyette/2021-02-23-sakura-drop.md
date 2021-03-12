@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-23 00:15:33 +0000
-last_modified_at: 2021-02-24 15:31:19 +0000
+last_modified_at: 2021-03-12 19:27:32 +0000
 title: "Blossom of Sakura Drop.<br> By Saki Shido."
 author: sakkani
 categories:
@@ -56,7 +56,7 @@ Yoshino tilted her head lightly, staring at me curiously. I tightly clasped my f
 "I like you, Yoshino! I love you!"
 
 
-My entire face was burning hot, and even the nigh breeze appeared to boil by my influence. "Oh, so that what it was," she said, and, seemingly wishing to proceed, upon a big nod, 
+My entire face was burning hot, and even the nigh breeze appeared to boil by my influence. "Oh, so that what it was," said she, and, seemingly wishing to proceed, upon a big nod, 
 
 
 "I know,"
@@ -111,5 +111,5 @@ Parting her visage​ slightly away from my dazed lips, "This is the answer," _f
 "Would you like a  _drop_?"
 
 
-I nodded greatly, she, then, placed the _drop_ by a hand in her mouth, and drew my chin  towards herself.
+I nodded greatly, she, then, placed the _drop_ by a hand in her mouth and drew my chin  towards herself.
 The solid texture of the _drop_ proceed passing back and forth, enclosed within  our mouths... Sugary taste and pink fragrance, similar to a blossoms of _sakura_, kept its spread farther and farther  amidst both of our mouths... resulting a full bloom.
