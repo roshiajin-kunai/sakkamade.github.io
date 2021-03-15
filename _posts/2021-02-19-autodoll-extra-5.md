@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-19 02:34:05 +0000
-last_modified_at: 2021-02-19 23:53:41 +0000
+last_modified_at: 2021-03-14 20:57:05 +0000
 title: "EX05. Looming Bell Pepper Crisis."
 author: sakkani
 categories:
@@ -51,7 +51,7 @@ Basically, Lydia  consumes vegetables raw.
 
 "Hmm. Bell peppers are rich in nutrients, they, however, bear a light bitterness, I presume?"
 "Light?"
-"Yes, well, I fancy there is an individual difference."
+"Yes, well, I fancy there is an individual distinctions."
 
 
 Speaking of which, Lydia had never eaten bell peppers afore.
@@ -712,7 +712,7 @@ I expect to be amidst of a happiness.
 Yuuyami said thus, at the conclusion​ of surprise party.
 I, Yuuyami,
 in this  world created anew,
-in the midst of dreaming a beauteous dream of the happiness.
+in the midst of dreaming a beauteous dream, the one  of the happiness.
 
 
 ---
