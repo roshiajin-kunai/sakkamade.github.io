@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-24 02:14:34 +0000
-last_modified_at: 2021-03-01 02:39:28 +0000
+last_modified_at: 2021-03-18 21:57:45 +0000
 main-title: "Para・Witches. <br> By Yuki Toy."
 title: "Intro. That Child that I Hate."
 author: sakkani
@@ -42,7 +42,7 @@ Nevertheless, what truly annoyed me had not been   that she was a "Genius."
 In such fashion, I was frustrated by her conversing peacefully and delightedly, without making so much as cutting remark in spite of achieving a victory. Be more proud, more scornful, more dignified. Why are you so amicable? If she were detestable, I could hate her. Her tender and amicable demeanour leaves me out of synch.
 
 
-I could not hate her, and hated myself, who had given up somewhere.
+I could not loather her, and loathed myself, who had given up elsewhere.
 
 
 Thence, I desired to vanquish her at whatsoever cost.
