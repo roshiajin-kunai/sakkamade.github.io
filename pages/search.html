@@ -6,17 +6,24 @@ title: Archives
 <div class="archive-page">
  <!-- control -->
 <section id="archive-date-container" class="js-only">
-  <div class="tag archive-date active" onclick="filterSelection('all')">Display all ({{ site.posts | size }})</div>
+<div class="dropdown">
+  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed" title="Expand date filters">&#8239;Date filters</button>
+  <div id="myDropdown" class="dropdown-content">
+	<section id="tags-list">
+    <div class="toc archive-date active" onclick="filterSelection('all')"><a>Display all ({{ site.posts | size }})</a></div>
     {% assign counter = 0 %}
   {% for post in site.posts %}
     {% assign thisyear = post.date | date: "%Y %B" %}
     {% assign prevyear = post.previous.date | date: "%Y %B" %}
     {% assign counter = counter | plus: 1 %}
   {% if thisyear != prevyear %}
-  <div class="tag archive-date" onclick="filterSelection('{{ thisyear }}')">{{ thisyear }} ({{ counter }})</div>
+    <div class="toc archive-date" onclick="filterSelection('{{ thisyear }}')"><a>{{ thisyear }} ({{ counter }})</a></div>
     {% assign counter = 0 %}
   {% endif %}
   {% endfor %}
+	</section>
+  </div>
+  </div>
 </section>
 
 <!-- list -->

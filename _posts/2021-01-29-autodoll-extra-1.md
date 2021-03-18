@@ -161,7 +161,7 @@ She wanted to put _the latest and uttermost_ at any cost, judged Lydia.
 
 
 "Anyway, it's about a time for you to be able to fight that fellow Ohan."
-"In fact, who can even compare to Lydiyami under this perish​ed... no, under this Renewed World?"
+"In fact, who can even compare to Lydiyami under this perished... no, under this Renewed World?"
 
 
 Suggested Kizuna. Mari bent her neck.
@@ -446,7 +446,7 @@ For Lydia's height, even her upper kick could not reach Ohan's shoulder.
 Ohan bent her arm to let a forearm guard the kick,
 
 
-"_Kuga Ha Shinryu: Invasion_!"
+_"Kuga Ha Shinryu: Invasion!"_
 
 
 With her arm at guard, Ohan's body arched in a curve, and just like that flew abreast, piercing the wall of the _dojo_, whereafter rolled over the ground outside.
