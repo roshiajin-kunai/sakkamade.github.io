@@ -31,7 +31,7 @@ Tags: Adventure, Android, Future, Girls Love, Post-Apocalypse, Yuri <span class=
 <section id="toc"> 
 {% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | reverse %}
 {% for post in sorted-posts %}
-	{% unless post.tags contains 'extra' %}
+	{% unless post.chapter-type contains 'extra' %}
 	
 	{%- include cat.html -%}
 	
