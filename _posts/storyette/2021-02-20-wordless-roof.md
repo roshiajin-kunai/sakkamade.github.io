@@ -219,7 +219,7 @@ With a trembling hands, I reached for the letter and a white box.
 
 
 
-Inside of the white box was a ring, made of beautiful seashells from the sandy beach. A seashells that are much prettier than any precious stone.
+Inside of the white box was a ring made of beautiful seashells from the sandy beach. A seashells that are much prettier than any precious stone.
 A ring that looks exactly as my name—Minami Shirahama.
 I noted as a drops had accumulated upon the lens of my glasses.
 Simply being next to you. That is all I need to be happy.
