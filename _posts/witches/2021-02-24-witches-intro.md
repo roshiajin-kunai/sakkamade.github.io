@@ -20,7 +20,7 @@ I have hated that child.
 Enormously talented as a witch.
 She have acquired a knowledge of witchcraft faster than anyone. She have held an insight to bring forth a spells which no one may find within a textbooks, and she had excelled at its arrangement likewise. The school teachers were at a loss as to what to teach her, in stead they have conversely begged her—a pupil of middle school—of lesson for them.
 Such is not but merit of acuteness.
-When she was flying through the sky, she should made her arrive at the designated spot faster than anyone likewise. She was also exceeding anyone at perception of witchcraft.
+Upon her flights through the sky, she should made her arrive at the designated spot faster than anyone likewise. She was also exceeding anyone at perception of witchcraft.
 Genius. Genius was a vocabulary that prepared for the sake of hers.
 She was being whispered by surroundings, being lionised as the retrieval of the "Witch of Hajimari."
 
