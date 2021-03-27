@@ -68,7 +68,7 @@ She replied.
 "It's different! It's not the love which you expect, Yoshino... I..."
 
 
-The corners of my lips quivered, I could not voice it as I wished to. I cast my eyes downwards in embarrassment, my voice were to wither to a tenth of its volume from a moment when I had been at attempt to transmit her my love. What did she think? What did she think upon  receiving so abrupt a confession that someone, whom she considered a best friend, thinks of her more than of mere a friend? We are of the same sex, to have a love relationship  should normally not be possible. It is normal to feel abhorred. It is natural to find it impossible. I confessed to her, bearing such determination.
+The corners of my lips quivered, I could not voice it as I wished to. I cast my eyes downwards in embarrassment, my voice were to wither to a tenth of its volume from a moment when I had been at attempt to transmit her my love. What did she think? What did she think upon  receiving so abrupt a confession that someone whom she considered a best friend thinks of her more than of a mere friend? We are of the same sex, to have a love relationship  should normally not be possible. It is normal to feel abhorred. It is natural to find it impossible. I confessed to her, bearing such determination.
 
 
 I knew that it could actually be better to stay next to Yoshino if we were best friends. However—I wonder when have it started—I grew discontent with such position. For we were best friends, we could hold hands, as well as hugging was not unnatural. That is how  close we were.
