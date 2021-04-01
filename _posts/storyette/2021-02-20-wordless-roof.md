@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-02-23 22:41:01 +0000
+last_modified_at: 2021-03-31 23:53:08 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -207,14 +207,14 @@ With a trembling hands, I reached for the letter and a white box.
 
 
 
-"Happy Birthday,
-"Minami-chan!
-"The white box is a gift. I've worked hard to find something that will fit your  name, Minami-chan, so I hope you'll be happy.
-"I feel so very happy when I'm with you, Minami-chan. It's strange, isn't it. Despite we don't even chatting or anything, simply being next to you, you know?
-"I'm glad I've met you. I'm truly glad we became friends.
-"I love you. I hope we will continue to be a good friends.
-"Kyoka."
-{: style="font-size: .95em !important"}
+Happy Birthday,
+Minami-chan!—
+The white box is a gift. I've worked hard to find something that will fit your  name, Minami-chan, so I hope you'll be happy.
+I feel so very happy when I'm with you, Minami-chan. It's strange, isn't it. Despite we don't even chatting or anything, simply being next to you, you know?
+I'm glad I've met you. I'm truly glad we became friends.
+<span style="float: right">I love you. I hope we will continue to be a good friends.</span>
+<span style="float: right">Kyoka.</span>
+{: style="font-size: .95em !important; margin-bottom: 50px"}
 
 
 
