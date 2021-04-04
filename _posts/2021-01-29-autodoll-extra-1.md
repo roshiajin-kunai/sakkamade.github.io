@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-29 23:31:20 +0000
-last_modified_at: 2021-02-14 01:32:50 +0000
+last_modified_at: 2021-04-02 21:38:06 +0000
 title: "EX01. Lydia's Introduction to Martial Arts."
 main-title: "Autodoll Dreams in a Decaying World.<br> Extra Episodes.<br> By Hazuki Sou."
 author: sakkani
@@ -9,7 +9,14 @@ categories:
  - Autodoll Dreams in a Decaying World
 tags:
  - webnovel translation
-note: "And hello again, here we are. The first extra chapter.<br>In short: I advice you not to skip a 7th foot-link.<br>And at length: .... Some another time."
+note: |
+ And hello again, here we are. The first extra chapter.<br>In short: I advice you not to skip a 7th foot-link.<br>And at length: .... Some another time. <br> <br> <strong>From Description on <ins>Kakuyomu</ins>:</strong><br>
+ [Extra volume is available now!]<br>
+ The first episode is a crossover with "Introduction to Martial Arts for Perishing Demon!"<br>
+ <br>
+ "Introduction to Martial Arts for Perishing Demon"<br>
+ <a href="https://kakuyomu.jp/works/1177354054881994480">https://kakuyomu.jp/works/1177354054881994480</a><br>
+ <br>
 chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/1177354054883464875
 chapter-type:
  - extra
@@ -39,7 +46,7 @@ Whereafter she undertook striping a scarlet _hokama_[^2] off Lydia.
 
 Lydia suppressed the head of Yuuyami.
 Both Lydia and Yuuyami wore scarlet _hokama_ over a white _dogi_.[^3]
-Apropos, Yuuyami had recently embedded a taste sensor. And ever since she grew enthusiast  licking a various objects. She loving to taste Lydia's body in particular, and she will lick it upon every opportunity.
+Apropos, Yuuyami had recently embedded a taste sensor. And from that time forward she grew enthusiast  licking a various objects. She loving to taste Lydia's body in particular, and she will lick it upon every opportunity.
 Yuuyami has an appearance of a Japanese lady of around eighteen of age, her hair is black and long. Forelock cut straight. Her bosom is larger than Lydia's, however generally modest.
 Her visage is harmonious at a level what without a hindrance​ might be described as a God represent all the beauty upon. Surely there is no life-form under this universe that is more lovely than you, Yuuyami. Lydia was convinced.
 
@@ -113,7 +120,7 @@ There is no magic under this world. Nigh the World War IV, it appears that there
 
 
 "Well, I'll talk about magic and Otherworld one of these days, now is a training."
-"Yes-- The objective is to beat Ohan!"
+"Yes--. The objective is to beat Ohan!"
 
 
 Lydia clenched her fist and raised it up high.
@@ -299,7 +306,7 @@ And now, Lydia also embraced Yuuyami.
 
 
 "Rapha-san and Ohan are such a love birds, are they not? Flirting in a broad daylight."
-"That's right- I wish they were a little more restrained."
+"That's right-. I wish they were a little more restrained."
 
 
 Yuuyami gently brushed Lydia's head. Lydia rubbed her cheeks within  Yuuyami's bosom.
@@ -480,7 +487,7 @@ Ohan halted before Lydia, and said so, plainly.
 Shii remarked, in whisper.
 
 
-"My body is magnificent. And not at all inferior to Shii-chan;" ---Ohan perfectly heard Shii-chan's words--- "my quantum brain is elaborate, too, and it will not take long before I become conscious."
+"My body is magnificent. And not at all inferior to Shii-chan." ---Ohan perfectly heard Shii-chan's words--- "my quantum brain is elaborate, too, and it will not take long before I become conscious."
 "Hum. However I was the first to obtain consciousness. Indeed, I am a consciousness _senpai_. You may address me Yuuyami-senpai, I presume?"
 
 
@@ -556,7 +563,7 @@ Said composed Yuuyami.
 "...Kablooey! Masoyami-san passed away–. I am Yuuyami. I would not want to wait."
 
 
-Yuuyami has an extraordinary greedy personality. She wasn't like this in the past, but since she started dealing with a lots of emotions, she grew more and more humane.
+Yuuyami has an extraordinary greedy personality. She wasn't like this in the past, but ever since she started to deal with a lots of emotions, she grew more and more humane.
 How should I put it, her personality was turning more and more rubbishy--- soft and fluffy.
 Lydia loved the cool Yuuyami of the past, however she also loves a soft and fluffy Yuuyami of today.
 
@@ -565,7 +572,7 @@ Lydia loved the cool Yuuyami of the past, however she also loves a soft and fluf
 "Indeed. We are in trouble."
 
 
-Mn---, tilted her head Yuuyami.
+_Mn---_, tilted her head Yuuyami.
 
 
 "A little more chatter then."
@@ -578,7 +585,7 @@ Yuuyami gently smoothed down Lydia's head.
 "Lydia, on the other side, has become stronger, right," says Yuuyami, quietly. "Albeit you, Lydia, a new human breed, originally were highly capable, you was able to win Ohan at present."
 "Uh-huh. Well, rules were in my favour today. In addition, if Ohan didn't have an ethics subroutine, if it was weapon-Ohan, I would probably lose then."
 "But there is no longer a weapon-Ohan."
-"Right. That glittering silver body was cool, too, however I like a current Ohan better--"
+"Right. That glittering silver body was cool, too, however I like a current Ohan better--."
 "The appearance?"
 "Mm--mm. I think, current Ohan won't slay a snake any more."
 "Ah," Yuuyami nods; "you, Lydia, have unceasingly been anxious over it."
@@ -586,7 +593,7 @@ Yuuyami gently smoothed down Lydia's head.
 "How related?"
 "Ohan of that time murdered a snake to protect me. If I were stronger back then, if I weren't surprised by the snakes' warning, and didn't topple over, Ohan wouldn't have crushed a snake, I think. Or else, upon an attempt to crush it, I could save it. "
 "However, it was not your fault, Lydia..."
-"But, Yuuyami, I had perfectly forgotten that Ohan was a weapon, you know? And I bring them to explore quite unconscious."
+"But, Yuuyami, I had perfectly forgotten that Ohan was a weapon, you know? And I brought her on exploration quite unconsciously."
 
 
 Lydia laughed, a little sadly.
@@ -594,9 +601,9 @@ Yuuyami stroked Lydia's head again. Much softer than before.
 
 
 "For that reason you set the goal to gain a victory over Ohan?"
-"Yes. I thought if I was stronger than Ohan such won't happen again; but I would've never imagined that Rapha and Ohan will adhere together, and Ohan will change a body."
+"Yes. I thought if I was stronger than Ohan, such won't happen again; but I would've never imagined that Rapha and Ohan will adhere together and Ohan will change a body."
 "I expected someday it bound to result such, aren't I?"
-"Right-- Only Yuuyami perceived Rapha and Ohan's mutual feelings---"
+"Right--. Only Yuuyami perceived Rapha and Ohan's mutual feelings---."
 "Pray praise me."
 "It's amazing, Yuuyami, you are so acute as a brilliant detective."
 
@@ -604,11 +611,11 @@ Yuuyami stroked Lydia's head again. Much softer than before.
 Said Lydia. Yuuyami smiled, delightedly.
 
 
-"Hence, there's something I have to turn in a good use your acuteness."
+"Hence, there's something I have to turn your acuteness in a good use."
 "Yes?"
 "Does Rapha and Ohan actually play with that whip--?"
 "Of course, certainly. Most likely Rapha-san says, 'Ohan, will you punish me, I was such a bad girl today, you know?'"
-"And, then, Ohan returns like this: 'Ha--, Rapha, you are really a helpless girl--, come here.' Kya---!"
+"And, then, Ohan returns like this: 'Ha--, Rapha, you are really a helpless girl--, come here.' 'Kya---!'"
 
 
 Placing a hands upon her cheeks, Lydia  wriggled her body.
@@ -618,13 +625,13 @@ Placing a hands upon her cheeks, Lydia  wriggled her body.
 
 
 Yuuyami cheeks dyed, and her body jolted.
-Then, for a next few moments, the pair squealed, _Kya, kya,_ whereas imagining Rapha and Ohan.
+Then, for a next few moments, the pair squealed, _Kya, kya,_ while imagining Rapha and Ohan.
 
 
 "Now, Yuuyami, there is another case for your acuteness."
 
 
-During saying, Lydia raised up, and seated herself upon Yuuyami's lap. Facing Yuuyami, of course.
+Whereas saying, Lydia raised up, and seated herself upon Yuuyami's lap. Facing Yuuyami, of course.
 
 
 "You turned a little aroused imagining Rapha-san and Ohan's play?"
@@ -636,5 +643,5 @@ During saying, Lydia raised up, and seated herself upon Yuuyami's lap. Facing Yu
 Said Lydia. Yuuyami smiled, gently.
 Whereafter, Yuuyami rested her lips upon Lydia's.
 Tender kisses gradually then grew ardent.
-Ah--, taste of nutrition drink--- thought Yuuyami, having embedded a taste sensor.
+Ah--, taste of nutrition drink---, thought Yuuyami, having embedded a taste sensor.
 That was a correct choice of sugary-flavoured nutrition drinks--, so she also deemed.

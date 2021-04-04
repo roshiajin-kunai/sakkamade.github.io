@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-03-31 23:53:08 +0000
+last_modified_at: 2021-04-04 00:06:13 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -23,7 +23,7 @@ I just cannot do that.
 
 
 I was never understand by the people around me.
-During a class, I was receiving a reprimands by the teacher, for I could not read aloud.
+During a class, I  received a reprimands by the teacher, for I could not read aloud.
 I could not even eat a school lunch, everyone were throwing at me a queerly looks.
 "Can you say 'A?'"
 I could not, and was mocked for that.
@@ -46,7 +46,7 @@ I have long since forgotten how to smile.
 When, to such myself, an angel came around.
 "Minami-chan, good morning!"
 Hinamura-san, who was seated next to me when I was in the second year of middle school. I used to call her by her name - Kyoka-chan. Only within my heart, however...
-She gently tapped my shoulder, smiled at me. The smile, that shines surrounded by her walnut-coloured bob cut, is very, very cute.
+She gently tapped my shoulder, smiled at me. The shining smile, that surrounded by her walnut-coloured bob cut, is very, very cute.
 Unable to return a 'Good morning,' I made an awkward smile ish countenance, and inclined my head, so to bow.
 Although this is... the best I can return...
 
@@ -54,20 +54,20 @@ Although this is... the best I can return...
 
 
 
-Kyoka-chan was the hero that saved me from being harassed.
-She the only one to name me a friend.
+Kyoka-chan was the hero who saved me from being harassed.
+She—the only one to name me a friend.
 "There is nothing strange with you, Minami-chan. After all, you are so cute."
 I vividly remember that time of her saying it, and embracing me closely after driving a bully away.
 
 
 
-Her gentle voice resemble a vanilla ice cream texture.
-The fragrance of her flower shampoo filled my lungs.
-I could feel it through the uniform—her warmth that pounding  within the depth of her soft chest.
+Her gentle voice that resembled a vanilla ice cream texture.
+The fragrance of her flower that shampoo filled my lungs.
+Her warmth that pounding  within the depth of her soft chest—I could feel it through the uniform.
 
 
 
-Upon her parting my body, arranging my ruffled hair with her little hand, and aligning my shifted eye-glasses with both of her hands, I could  plainly see the contour of her smile, reflected in the middle of a world.
+Upon her parting my body, arranging my ruffled hair with her petite hand, and aligning my shifted eye-glasses with both of her hands, I could  plainly see the contour of her smile, reflected in the middle of a world.
 "I would like to be friends with you, Minami-chan."
 Her saying so.
 
@@ -75,7 +75,7 @@ Her saying so.
 
 
 
-That summer, I spent most of my time together with her upon the roof of the school.
+That summer I spent most of my time together with her upon the roof of the school:
 Morning time when no one around. Lunch breaks. After school.
 The time when the two of us entrusted ourselves to the summer breeze that flowed through our white sailor uniforms, skimming us as though—a mysterious, wordless time. With, occasionally carrying within, the fragrance of a flower shampoo.
 Even with that alone, I felt something akin  blessedness.
@@ -86,10 +86,10 @@ Even with that alone, I felt something akin  blessedness.
 
 "Say, Minami-chan."
 'Mm?'
-After the first semester, when tests had ended, awaiting for the summer  vacation, while my eardrums were as though jolting of a noise of cicada, she suddenly unsealed her lips.
+After the first semester, when tests  ended, awaiting for the summer  vacation, while my eardrums were as though jolting of a noise of cicada, she suddenly unsealed her lips.
 "I like you, Minami-chan..."
 'Eh..?'
-She was a little embarrassed, dropping her head down to hide her lips. A wind shook her pure white uniform that was reflecting all the radiance of the sun rays.
+She was a little embarrassed, dropping her head down to hide her lips. A wind shook her pure white uniform, that was reflecting all the radiance of the sun rays.
 "Certainly, as a friend also, but... I like you, as a lover..."
 Her fingers were entwined with my right hand.
 "I wonder, If I say this, will you, Minami-chan, get upset..."
@@ -133,8 +133,8 @@ I could not believe it. I did not wish to believe.
 
 
 
-I could not visit the funeral, of course. There was selective mutism also, however, above all, I was scared.
-Scared to observe the contour of her smile not in the middle of my unblurred view, however fitted within the black portrait frame.
+I did not visit the funeral, of course. There was selective mutism also, however, above all, I was scared.
+Scared to observe the contour of her smile not in the middle of my unblurred view but fitted within the black portrait frame.
 She will not come back. Nor she will remain next to me.
 Whereas saying we should stay together forever...
 
@@ -157,7 +157,7 @@ If I could say that I liked being hugged, without nervousness...
 
 A summer night was far too short for me to regain my tranquillity.
 I wonder how can the sun ascend as vibrantly every of the days.
-I  secluded  myself within the room, I cried a lot all alone.
+I  secluded  myself within the room—I cried a lot all alone.
 
 
 
@@ -187,13 +187,13 @@ I do not want to say "Good-bye..."
 
 It was in August thirteenth, almost half-way through  the summer vacation, when Kyoka-chan's mother has paid me a visit.
 That was the day of my birthday.
-For selective mutism, I was awfully nervous towards her mother, my symptoms would arise to the people excepting a family, even if I was at home.
+For selective mutism, I was awfully nervous towards her mother, my symptoms would arise to the people excepting a family even if I was at home.
 "I offer you my sincerest condolences for your loss..."
 My mother served a tea to the table, she held the tray before her and bowed her head deeply. I also bowed, imitating it.
 Kyoka-chan's mother quietly lowered her head likewise, whereafter, peering into my eyes, assumed in front of me. I,  of course, could not look at her directly.
 "Shirahama Minami-san."
 Her mother called my name. My whole body tensed up.
-"I have came here today, because I have something to deliver."
+"I have come here today, because I have something to deliver."
 ...Something, to deliver..?
 A letter and a white box were tendered before me.
 This is...
@@ -201,7 +201,7 @@ This is...
 "Eh..."
 "Today is your birthday, Minami-san, right? Although she should have wanted to give it to you directly, she cannot do that any more. I wanted you to receive it."
 N, no way...
-With a trembling hands, I reached for the letter and a white box.
+With a trembling hands, I reached for the letter and a white box:
 
 
 
@@ -262,7 +262,7 @@ I turned my face upwards to cool down the feverish inner corners of my eyes. I c
 
 
 
-Ah–, oh no. Doubtless she misses me as well.
+Ah–, oh no. Doubtless she misses me also.
 Always, together.
 Whereas you are far away, you are closer than anyone.
 All right.

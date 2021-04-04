@@ -13,8 +13,6 @@ chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/11773540548
 chapter-type:
  - extra
 ---
-
-
 Yuuyami had  been  customary viewing the Lydia's dining scene.
 Within the library rest space, Lydia was stuffing her cheeks up.
 Basically, Lydia subsist on​ nothing but vegetables.

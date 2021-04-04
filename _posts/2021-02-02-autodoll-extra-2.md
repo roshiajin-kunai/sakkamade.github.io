@@ -101,7 +101,7 @@ At that time, "Say, let's make it an evolving plant which I told you earlier," s
 
 
 <p markdown="1">"Yes; it have indeed grown well."</p>
-[^1]: it is actually Yggdrasil two times, however first time in kanji and second time in _katakana_ more European-like, and previously Lydia also said it in _katakana_. By the way, in episode's title the Yggdrasil is in kanji;
+[^1]: it is actually Yggdrasil two times, however first time in kanji and second time in _katakana_ more European-esque, and previously Lydia also said it in _katakana_. By the way, in episode's title the Yggdrasil is in kanji;
 
 There is no record of such a gigantic tree had ever once inhabit under this world.
 At the beginning, when we planted it, we named it The World Tree---Yggdrasil,<!-- [^1] --> but now that it has grown up to this point, it is no longer losing to its name.
