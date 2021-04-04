@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-29 23:31:20 +0000
-last_modified_at: 2021-04-02 21:38:06 +0000
+last_modified_at: 2021-04-04 22:59:41 +0000
 title: "EX01. Lydia's Introduction to Martial Arts."
 main-title: "Autodoll Dreams in a Decaying World.<br> Extra Episodes.<br> By Hazuki Sou."
 author: sakkani
@@ -21,13 +21,11 @@ chapter-link: https://kakuyomu.jp/works/4852201425154961396/episodes/11773540548
 chapter-type:
  - extra
 ---
-
-
 <p class="first-paragraph" markdown="1">"Youch--!"</p>
 [^1]: [Tatami] - Japanese straw floor coverings,​ [Tatami - Wikipedia](https://en.wikipedia.org/wiki/Tatami);
 
 Lydia pressed upon her groin, curling herself up on a place.
-Lydia is a petite girl who appeared to be around thirteen of age, has a small breasts. Her hair is bright, shiny blond. It is a little curly, of length nigh a chest. Her skin is fair and smooth. It reminiscent me a beauteous snowscape.
+Lydia is a petite girl, who appeared to be around thirteen of age, has a small breasts. Her hair is bright, shiny blond. It is a little curly, of length nigh a chest. Her skin is fair and smooth. It reminiscent me a beauteous snowscape.
 We are inside a self-defence _dojo_[^11] which built by the side of underground library.
 Three months had passed since Lydia and Yuuyami became Creators. This self-defence _dojo_ was constructed by ​​Lydia's suggestion, as the Creator leastwise she should be able to protect herself.
 Within the _dojo_ there are four-and-twenty _tatami_ mats[^1] and a board-covered area of an equal extent. Having a tall ceiling, the room resulted spacious. Wooden swords and canes in various sizes were installed upon a corners of board-covered area.
@@ -41,14 +39,14 @@ Whereafter she undertook striping a scarlet _hokama_[^2] off Lydia.
 
 
 "May I lick it? I'd better lick it, right? I fancy to lick it."
-"Hey, wait, Yuuyami, you can't! I'm yet practising now!"
+"Hey, wait, Yuuyami, you can't! I'm  practising yet!"
 
 
 Lydia suppressed the head of Yuuyami.
 Both Lydia and Yuuyami wore scarlet _hokama_ over a white _dogi_.[^3]
 Apropos, Yuuyami had recently embedded a taste sensor. And from that time forward she grew enthusiast  licking a various objects. She loving to taste Lydia's body in particular, and she will lick it upon every opportunity.
-Yuuyami has an appearance of a Japanese lady of around eighteen of age, her hair is black and long. Forelock cut straight. Her bosom is larger than Lydia's, however generally modest.
-Her visage is harmonious at a level what without a hindrance​ might be described as a God represent all the beauty upon. Surely there is no life-form under this universe that is more lovely than you, Yuuyami. Lydia was convinced.
+Yuuyami has an appearance of a Japanese lady of about eighteen of age, her hair is black and long. Forelock cut straight. Her bosom is larger than Lydia's, however generally modest.
+Her visage is harmonious at a level which without a hindrance​ might be described as the God has represented all the beauty upon. Surely there is no life-form under this universe that is more lovely than you, Yuuyami—was convinced Lydia.
 
 
 <p markdown="1">"Oi, you, over there, Yuuyami."</p>
@@ -109,7 +107,7 @@ Whereas I investigated strongest a martial art, _Kuga Ha Shinryu_, there was suc
 Lydia wanted to question it one day, however she could not afford a room to think of anything else during the trainings, and afterwards she has been so exhausted that kept forgetting.
 
 
-"If you talking of the Otherworld, then yes. We defeated the demon king in the Otherworld at the age of thirteen, and were summoned again at the age of seventeen, this time for teaching a perishing demons of combat."
+"If you talking of the Otherworld, then yes. We defeated the demon king in the Otherworld at the age of thirteen, and were summoned again at the age of seventeen, this time for teaching a perishing demon of combat."
 "If you were summoned, then there were such a technology, in that parallel reality--- Otherworld, right?"
 "Technology you say, that was magic."
 "Magic!?"
@@ -142,7 +140,7 @@ Stated Kizuna, appearing deeply emotional.
 In the _Kuga Ha Shinryu_, the fourth _dan_ positioned as a _teacher_.
 Incidentally, at fifth _dan_ or higher one would reach a _master_.
 Both Kizuna and Mari are of the highest tenth _dan_. Within its history there are but the founder, Kizuna, Mari, and a few others having it.
-Amidst them, Kizuna and Mari hold a titles of strongest under a bonnet of this world. According to one theory, it was said that the two of them comparable to small country's military forces.
+Amidst them, Kizuna and Mari hold a titles of strongest under a bonnet of this world. According to one theory, it was said that the two of them comparable to military force of a small country.
 
 
 "Fourth _dan_ in such a short period, reminds me Lyulyu."
@@ -154,17 +152,17 @@ One day, when I accomplish the world exploration, I should depart upon adventure
 
 
 "Well, for I am outstanding," Yuuyami remarked with all her heart; "I have nothing to hide, after all I am the latest, the uttermost Autodoll."
-"Have you forget of Shii-chan?"
+"Have you forgotten of Shii-chan?"
 
 
-Upon Lydia meddle in,
+Upon Lydia meddle in:
 
 
-"...Was the latest and uttermost Autodoll in a previous generation."
+"..._Was_ the latest and uttermost Autodoll in a previous generation."
 
 
-Yuuyami rephrased.
-She wanted to put _the latest and uttermost_ at any cost, judged Lydia.
+Rephrased Yuuyami.
+She wanted to put the _latest and uttermost_ at any cost, judged Lydia.
 
 
 "Anyway, it's about a time for you to be able to fight that fellow Ohan."
@@ -185,7 +183,7 @@ Said Yuuyami.
 
 
 Assumed Lydia. Yuuyami nodded.
-Well, proceed in to the space, parallel realities such is hitherto a business of a distant future.
+Well, proceed in to the space, parallel realities, such is hitherto a business of a distant future.
 
 
 "If so, let's keep training."
@@ -199,7 +197,7 @@ Lydia and Yuuyami grew a warm smiles upon receiving endorsement of the masters.
 "Indeed. Such was our original goal."
 
 
-To beat Ohan. It is Lydia's objective.
+To beat Ohan. This is Lydia's objective.
 If she becomes stronger than Ohan, she may be considered a nighly perfect in self-defence.
 Initially, according to the calculations of Yuuyami, it was necessary to have seventh _dan_-level to gain a victory over Ohan. However, with present body-modifications of Ohan, a victory appears to be probable having around a fourth _dan_ of strength.
 
@@ -213,11 +211,11 @@ Wearing a solemn expression, Yuuyami propose​d something that I cannot quite u
 "Eh? We doing it every day, are we not?"
 
 
-Lydia and Yuuyami kept living a lovey-dovey life ever since they recognised their love for each other. There infrequent quarrels every now and again, generally,  however, upon a kiss we are turning back normal.
+Lydia and Yuuyami kept living a lovey-dovey life ever since they recognised their love for each other. There infrequent quarrels every now and again, generally,  however, upon a kiss they are turning back normal.
 
 
 "Forget a projects and training, let us flirt for twenty-and-four hours."
-"...I wonder if I yet strong enough--..."
+"...I wonder if I am yet strong enough--..."
 
 
 I have to reproduce nutrition drinks, thought Lydia.
@@ -226,14 +224,14 @@ I have to reproduce nutrition drinks, thought Lydia.
 ◇
 
 
-In hardly an hour Rapha and Ohan arrived to _dojo_.
-Rapha has invariant​ hair, peach of colour, and Gothic Lolita outfit as before. She appeared to be a little girl of around eleven years of age, chest the precipitous cliff. Her eyes are round and cute.
+Rapha and Ohan arrived to _dojo_ in hardly an hour.
+Rapha has an invariant hair, peach of colour, and Gothic Lolita outfit as before. She appeared to be a little girl of around eleven years of age, chest the precipitous cliff. Her eyes are round and cute.
 And, withal that.
-Ohan pass into an adult onee-san in the middle of her twenties.  Rapha created this fresh body  by the occasion of Rapha and Ohan start dating.
+Ohan have passed into an adult onee-san in the middle of her twenties.  Rapha created this novel body  by the occasion of Rapha and Ohan start dating.
 Ohan has a satsuma orange hair tint, of equal to Yuuyami's length. She had, however, her hair braided in one point upon the right side.
 Her skin of regular colour. Not so white as Lydia's. She dressed in azure military uniform, however her skirt was short.
-Bosom is bigger than of Yuuyami, but is not too big and appeared just right. Her figure, too, was neat. Lydia instantly grasped, this was the only place Rapha were exceptionally fixated upon.
-Her features gave an impression​ of a superior official setting, a little severe. Pretty, but  somewhat eerie.
+Bosom is bigger than of Yuuyami, but is not too big and appeared just right. Her figure, too, was neat. Lydia instantly grasped, this was the only place Rapha was exceptionally fixated upon.
+Her features gave an impression of a superior official setting, a little severe. Pretty, but  somewhat eerie.
 And, withal that,
 
 
@@ -249,8 +247,8 @@ Ohan hold a horse-riding whip in her right hand. Lydia asked whereas viewing it.
 Ohan lightly revised a manner of speech upon occasion of dating Rapha. Was what she said, however she merely stopped using honorifics.
 
 
-"Wait, Ohan!?" cried Rapha, visibly impatient. "Can you stop making such a misleading remarks!?"
-"He—. Rapha likes this kind of play--. She's daughter of Hinagiku after all–."
+"Wait, Ohan!?" cried Rapha, visibly agitated. "Can you stop making such a misleading remarks!?"
+"He—. Rapha likes this kind of play--. She's a daughter of Hinagiku after all–."
 
 
 Said Lydia with a giggle.
@@ -288,7 +286,7 @@ Rapha cling on to Ohan.
 "Onee-sama is so mean, waaa!"
 
 
-Rapha tend to call Lydia _onee-sama_. Such is also from around  a time when they started dating.
+Rapha tend to call Lydia onee-_sama_. Such is also from about  a time when they started dating.
 
 
 "There, there."
@@ -324,7 +322,7 @@ Asked Kizuna, leaning against a wall of _dojo_.
 "Who knows. But they've just started chatter."
 
 
-Standing  a similar manner upon the left of Kizuna, Mari let out a breath.
+Standing in a similar manner upon the left of Kizuna, Mari let out a breath.
 
 
 "You know, I'm pretty out of place with all these women around, right?"
@@ -348,8 +346,8 @@ Mari lifts her right fist up to the shoulder.
 
 
 Questioned Shii, upon tottering up to the pair.
-Shii, the daughter of Lydia and Yuuyami, had just come to the _dojo_, but for the flock of love birds  flirt around, she passed through them.
-Shii has a tawny​ shortcut and boyish features.
+Shii, the daughter of Lydia and Yuuyami, had just come to the _dojo_, but for the flock of love birds  were flirting about, she passed through them.
+Shii has a tawny shortcut and boyish features.
 Shii wears a white _dogi_ and a scarlet _hokama_, inasmuch as she also tentatively learning the _Kuga Ha Shinryu_. However, is not so ardent for training as Lydiyami.
 Incidentally, Shii as yet unconscious at this period.
 
@@ -403,12 +401,12 @@ Lydia assumed a stance reflecting on her right.
 
 At present, Ohan has an incorporated ethics subroutine, she cannot, thus, provide Lydia a severe damage.
 Lydia requested for consent to shut down her ethics subroutine, however didn't gain Rapha's acceptance.
-Thereupon, Lydia offered the method to determine a winner which allow her ethics subroutine.
+Thereupon, Lydia offered the method to determine a winner which should admit even her ethics subroutine.
 
 
 "In other words, Mama-Lydi rather followed the teachings of _Kuga Ha Shinryu_ and lured her opponent at a disadvantage?"
 "That's how it is. But, as Mari-chan said, there's no calculations, it's probably natural. Well, I guess this fellow Lydia thought, 'I am cute and loved by everyone, I can obtain a consent for anything I say.'"
-"Ah---. Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia had suggested: 'Upon Ohan hit Lydia's butt with a whip, Ohan wins.' And now to our play-by-play man, Kizuna-san?"
+"Ah---. Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia has suggested: 'Upon Ohan hit Lydia's butt with a whip, Ohan wins.' And now to our play-by-play man, Kizuna-san?"
 "Ah--. Er, this is Kizuna-san from the scene. Err, Ohan is not just limited  to attack technique, but also to the spot of attack. Furthermore, having a high defence power,  the butt is not prone to easily bear a critical damage. She, too, prepared to be hit upon that place, Mary?"
 "Yes," Mari nodded. "A great natural little devil, aren't she-- But this is not a point, Ohan in a really disadvantageous situation."
 "And yet, only Mari-chan and myself realise​d that Ohan at disadvantage, huh--."
@@ -425,7 +423,7 @@ Albeit her body  weaker than before,  the current Ohan, as Shii said, also hold 
 
 Subsequently swung her right hand down.
 At the same time, Ohan took an action. In one pace, she emerged behind Lydia, snapping her whip crossways.
-Whereas turning, Lydia reached for Ohan's hand which were clasping a whip, thus diverting the attack downward.
+Whereas turning, Lydia reached for Ohan's hand which was clasping a whip, thus diverting the attack downward.
 Ohan lost her stance, and whip hit a _tatami_ mat.
 
 
@@ -433,7 +431,7 @@ Ohan lost her stance, and whip hit a _tatami_ mat.
 
 
 Ohan  leaped backwards, in surprise.
-Ohan's power expected to exceed Lydia plainly.
+Ohan's power expected to exceed Lydia's plainly.
 
 
 "Ohan, if you won't get more serious, I'll evade everything, you know?"
@@ -487,7 +485,7 @@ Ohan halted before Lydia, and said so, plainly.
 Shii remarked, in whisper.
 
 
-"My body is magnificent. And not at all inferior to Shii-chan." ---Ohan perfectly heard Shii-chan's words--- "my quantum brain is elaborate, too, and it will not take long before I become conscious."
+"My body is magnificent. And not at all inferior to Shii-chan." ---Ohan perfectly heard Shii-chan's words--- "My quantum brain is elaborate, too, and it will not take long before I become conscious."
 "Hum. However I was the first to obtain consciousness. Indeed, I am a consciousness _senpai_. You may address me Yuuyami-senpai, I presume?"
 
 
@@ -526,8 +524,8 @@ And now, I have to swiftly​ reproduce nutrition drinks, thought Lydia.
 
 
 Lydia is always sleep upon the futon which laid over the library floor.
-And upon that futon Lydia and Yuuyami were sitting now, facing each other.
-Upon the floor beside a futon, there a pile of nutrition drinks. These nutrition drinks were not  articles reproduced by Lydia, but articles reproduced by Yuuyami. According to her, a deluxe​ twenty-four hour's combat drink.
+And upon that very futon Lydia and Yuuyami were sitting now, facing each other.
+Upon the floor beside a futon, a pile of nutrition drinks was thereat. These nutrition drinks were not  articles reproduced by Lydia, but articles reproduced by Yuuyami. According to her, a deluxe​ twenty-four hours' combat drink.
 Lydia have already taken one.
 In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly sweet and easy to drink.
 
@@ -536,7 +534,7 @@ In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly 
 "In, indeed."
 
 
-<p markdown="1">Yuuyami darted her spine straight; her _seiza_ is very beautiful. If there were a _seiza_ championship, she definitely would have been a champion.</p>
+<p markdown="1">Yuuyami darted her spine straight; her _seiza_ is very beautiful. If there were a _seiza_ championship, she  would definitely have been a champion.</p>
 [^13]: [Seiza] - formal traditional sitting manner, [Seiza - Wikipedia](https://en.wikipedia.org/wiki/Seiza);
 
 "Then, let's chat for awhile, until a suitable mood."
@@ -582,7 +580,7 @@ Upon saying, Lydia threw herself down, placing her  head upon Yuuyami's  thighs.
 Yuuyami gently smoothed down Lydia's head.
 
 
-"Lydia, on the other side, has become stronger, right," says Yuuyami, quietly. "Albeit you, Lydia, a new human breed, originally were highly capable, you was able to win Ohan at present."
+"Lydia, on the other side, has become stronger, right," says Yuuyami, quietly. "Albeit you, Lydia, a new human breed, originally was highly capable, you was able to win Ohan at present."
 "Uh-huh. Well, rules were in my favour today. In addition, if Ohan didn't have an ethics subroutine, if it was weapon-Ohan, I would probably lose then."
 "But there is no longer a weapon-Ohan."
 "Right. That glittering silver body was cool, too, however I like a current Ohan better--."
@@ -621,10 +619,10 @@ Said Lydia. Yuuyami smiled, delightedly.
 Placing a hands upon her cheeks, Lydia  wriggled her body.
 
 
-"Kya---!"
+"'Kya---!'"
 
 
-Yuuyami cheeks dyed, and her body jolted.
+Yuuyami's cheeks dyed, and her body jolted.
 Then, for a next few moments, the pair squealed, _Kya, kya,_ while imagining Rapha and Ohan.
 
 
@@ -637,7 +635,7 @@ Whereas saying, Lydia raised up, and seated herself upon Yuuyami's lap. Facing Y
 "You turned a little aroused imagining Rapha-san and Ohan's play?"
 "It's different! Ah, no, it's not different, but it's not..."
 "I understand. You don't have to say any more."
-"I like chattering--, so if you won't stop me, I'll talk for ever, you know?"
+"I like chattering--, so if you won't stop me, I would talk for ever, you know?"
 
 
 Said Lydia. Yuuyami smiled, gently.

@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about
-last_modified_at: 2021-03-29 22:39:41 +0000
+last_modified_at: 2021-04-04 22:37:14 +0000
 ---
 
 In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
@@ -12,7 +12,7 @@ At expiration of slightly over a month at [*WordPress*](https://sakkamade.wordpr
 #### Language Knowledge
 {: class="with-indent"}
 
-During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (one textbook ~350 pages out of four) in  three months. Whereupon had abandoned a second volume nearly at first—twenty-fourth, to be exact—page for lack a motivation. 
+During the autumn of 2019 I was learning Japanese, simply because grew curious after reading some _manga_. Upon completion  a first course (first textbook of ~350 pages out of four) in  three months I have abandoned a second volume nearly at first—twenty-fourth, to be exact—page for lack a motivation.
 Despite I forgot mostly everything (on the time of starting my translations), with that piece of knowledge I was able to begin. 
 "To begin somewhat"—from your point of view, most likely; 
 "Uwah, I'm doing great"—from mine.
@@ -38,7 +38,7 @@ Influenced by a theme that I used in my previous blog at _WordPress_ and a great
 - [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - impressive dictionary of totally unfamiliar to me Japanese *sfx*;
 - [dictionary.goo.ne.jp](https://dictionary.goo.ne.jp/) - kya! great dictionary of vocabulary that one utterly unable to come across nowhere else;
 - [translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English (search for synonyms);
-- [deepl.com](https://www.deepl.com/home) - good for translation of---truly alien to me—Japanese dialects and colloquial language;
+- [deepl.com](https://www.deepl.com/home) - good for translation of truly alien to me Japanese dialects and colloquial language;
 
 and plenty of other.
 
