@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-06 02:09:40 +0000
-last_modified_at: 2021-02-12 20:34:03 +0000
+last_modified_at: 2021-04-07 20:51:20 +0000
 title: "EX03. Bouquet of Weiss Lilies ／ Name of C-chan."
 author: sakkani
 categories:
@@ -301,7 +301,7 @@ Cried Yuuyami, appearing to be surprised.
 "It's a jest. Armament is dummy, right?"
 
 
-Both Weiss Lily and Phantom equipped  with weapons, however they are only a fake.
+Both Weiss Lily and Phantom equipped  with weapons, however they are only a dummy.
 
 
 "That surprised me," _whew_, Yuuyami grew a sigh of relief. "However, upon a World War IV days, therein were frequent to take a place an actual battles  of Masquerades."
