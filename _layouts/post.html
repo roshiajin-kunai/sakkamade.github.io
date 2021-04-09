@@ -28,7 +28,7 @@ layout: default-page
 <!-- bottom information -->
 {%- assign date_format = "%Y %B %d" -%}
 {%- assign date_format_type_2 = "%Y %B" -%}
-{%- assign date_mend_to_day = "%H:%M:%S" -%}
+{%- assign date_mend_to_day = "%H:%M" -%}
 {%- assign last_mend = page.last_modified_at | date: date_format -%}
 {%- assign last_mend_type_2 = page.last_modified_at | date: date_format_type_2 -%}
 {%- assign published_date = page.date | date: date_format -%}
@@ -36,27 +36,28 @@ layout: default-page
 <p class="post-meta" style="text-align: right !important;">
   <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Written on&nbsp;</span>{{ published_date_type_2 }}&nbsp;<span class="no-cap">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</span></time>
   {%- if page.last_modified_at -%}<br>
-  <time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up" datetime="{{ page.last_modified_at | date_to_xmlschema }}"><span>Last amend on&nbsp;</span>{%- if last_mend == published_date -%}{{ page.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ last_mend_type_2 }}&nbsp;<span class="no-cap">{% assign d_m = page.last_modified_at | date: "%-d" %}{% case d_m %}{% when '1' or '21' or '31' %}{{ d_m }}st{% when '2' or '22' %}{{ d_m }}nd{% when '3' or '23' %}{{ d_m }}rd{% else %}{{ d_m }}th{% endcase %}{%- endif -%}</span></time>
+  <time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up" datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified"><span>Last amend on&nbsp;</span>{%- if last_mend == published_date -%}{{ page.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ last_mend_type_2 }}&nbsp;<span class="no-cap">{% assign d_m = page.last_modified_at | date: "%-d" %}{% case d_m %}{% when '1' or '21' or '31' %}{{ d_m }}st{% when '2' or '22' %}{{ d_m }}nd{% when '3' or '23' %}{{ d_m }}rd{% else %}{{ d_m }}th{% endcase %}{%- endif -%}</span></time>
   {%- endif -%}
 </p>
 <!-- end bottom information -->
 
+</article>
 
-
+<div class="only-main" style="margin-bottom: 0 !important; margin-top: -70px !important">
 <div class="dropdown js-only">
   {% for category in categories %}
   <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>{{ category }}</em></button>
-  {% endfor %} 
+  {% endfor %}
   <div id="myDropdown" class="dropdown-content">
 	<section id="tags-list">
 	{% for category in page.categories %}
 	  {% assign sotred_posts = site.categories[category] | reverse %}
 	  {% for post in sotred_posts %}
 	  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
-	    <time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></div> 
+	    <time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></div>
       {% endfor %}
-	{% endfor %}	  
+	{% endfor %}
 	</section>
   </div>
 </div>
-</article>
+</div>

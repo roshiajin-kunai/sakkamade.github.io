@@ -38,7 +38,7 @@
 {% if prev_post %}
 <!-- prev -->
 <div class="only-main-top">
-	<section class="switch-post previous-post">  
+	<section class="switch-post previous-post">
 		<a href="{{ prev_post_url }}" title="{{ prev_post_cat }} ・ {{ prev_post_title }}">Previous: "{{ prev_post_title | strip_html | truncatewords: 10 }}"</a>
 	</section>
 </div>
@@ -49,6 +49,7 @@
 {% if prev_post %}
 	<div class="spacer" style="margin-top: -20px !important;"><!-- $base-unit --></div>
 {% endif %}
+
 	<section class="inner-wrap-column">
 	{{ content }}
 	</section>

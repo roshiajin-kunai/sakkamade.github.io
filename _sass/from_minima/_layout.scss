@@ -628,11 +628,11 @@
 .toc:last-child a { 
   border-bottom: 1px solid $background-gray;
 }
-.toc a:hover { 
+.toc a:hover {
   background-color: $light-gray !important;
   color: $not-black !important;
   
-  > span, 
+  > span.tag-gray,
   time {
   color: $base-gray !important;
   }
@@ -829,7 +829,7 @@ a.bigger {
      -moz-user-select: none;
       -ms-user-select: none;
 }
-.archive-date:hover a { 
+.archive-date:hover a {
   background-color: $light-gray !important;
   color: $not-black;
 }
