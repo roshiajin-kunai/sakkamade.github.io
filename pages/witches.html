@@ -62,7 +62,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 <h4 class="with-indent">Table of Contents</h4>
 
-<section id="toc">
+<section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Intro = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Intro.'" | reverse %}
 <section class="toc date"><a>Intro.</a></section>
 {% for post in Intro %}  
@@ -74,7 +74,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 
 
-<section id="toc">
+<section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Section1 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Section 1.'" | reverse %}
 <section class="toc date"><a>Section 1. Flightless Witch.</a></section>
 {% for post in Section1 %}  
@@ -84,7 +84,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 {% endfor %}
 </section>
 
-<section id="toc">
+<section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Section2 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Section 2.'" | reverse %}
 <section class="toc date"><a>Section 2. Forgotten witch.</a></section>
 {% for post in Section2 %}  
