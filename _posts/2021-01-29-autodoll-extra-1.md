@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-29 23:31:20 +0000
-last_modified_at: 2021-04-04 22:59:41 +0000
+last_modified_at: 2021-04-09 20:22:22 +0000
 title: "EX01. Lydia's Introduction to Martial Arts."
 main-title: "Autodoll Dreams in a Decaying World.<br> Extra Episodes.<br> By Hazuki Sou."
 author: sakkani
@@ -406,9 +406,9 @@ Thereupon, Lydia offered the method to determine a winner which should admit eve
 
 "In other words, Mama-Lydi rather followed the teachings of _Kuga Ha Shinryu_ and lured her opponent at a disadvantage?"
 "That's how it is. But, as Mari-chan said, there's no calculations, it's probably natural. Well, I guess this fellow Lydia thought, 'I am cute and loved by everyone, I can obtain a consent for anything I say.'"
-"Ah---. Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia has suggested: 'Upon Ohan hit Lydia's butt with a whip, Ohan wins.' And now to our play-by-play man, Kizuna-san?"
-"Ah--. Er, this is Kizuna-san from the scene. Err, Ohan is not just limited  to attack technique, but also to the spot of attack. Furthermore, having a high defence power,  the butt is not prone to easily bear a critical damage. She, too, prepared to be hit upon that place, Mary?"
-"Yes," Mari nodded. "A great natural little devil, aren't she-- But this is not a point, Ohan in a really disadvantageous situation."
+"Ah---. Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia has suggested: If Ohan hit Lydia's butt with a whip—Ohan wins. And now to our play-by-play man, Kizuna-san?"
+"Ah--. Er, this is Kizuna-san from the scene. Err, Ohan is not just limited  to attack technique, but also to the spot of attack. Furthermore, having a high defence power,  the butt is not prone to easily bear a critical damage. She, too, prepared to be hit upon that place; Mary?"
+"Yes," Mari nodded. "A great natural little devil, aren't she--. But this is not a point, Ohan in a really disadvantageous situation."
 "And yet, only Mari-chan and myself realise​d that Ohan at disadvantage, huh--."
 "Because," says Shii, "usually it is better to have a weapon. Rather, Ohan-onee-san pretty good combatant."
 "Well, and back to Kizuna-san form the scene. As for Lydia, she can achieve a victory by inflicting  a damage upon Ohan which  would be enough to take  down an ordinary human," says Kizuna. "At first sight, such appears fairly difficult, but, taking into account present Lydia, her single blow will be sufficient."
