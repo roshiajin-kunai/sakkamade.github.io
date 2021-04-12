@@ -86,10 +86,20 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Section2 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Section 2.'" | reverse %}
-<section class="toc date"><a>Section 2. Forgotten witch.</a></section>
+<section class="toc date"><a>Section 2. Forgotten Witch.</a></section>
 {% for post in Section2 %}  
 	
 	{%- include cat.html -%}
 	
+{% endfor %}
+</section>
+
+<section id="toc" itemscope itemtype="http://schema.org/Blog">
+{% assign Section3 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Section 3.'" | reverse %}
+<section class="toc date"><a>Section 3. Witch of Darkness.</a></section>
+{% for post in Section3 %}
+
+	{%- include cat.html -%}
+
 {% endfor %}
 </section>
