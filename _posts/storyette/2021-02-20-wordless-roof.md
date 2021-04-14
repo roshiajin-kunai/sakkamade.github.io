@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-04-04 00:06:13 +0000
+last_modified_at: 2021-04-14 20:44:23 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -45,7 +45,7 @@ I have long since forgotten how to smile.
 
 When, to such myself, an angel came around.
 "Minami-chan, good morning!"
-Hinamura-san, who was seated next to me when I was in the second year of middle school. I used to call her by her name - Kyoka-chan. Only within my heart, however...
+Hinamura-san who was seated next to me when I was in the second year of middle school. I used to call her by her name—Kyoka-chan. Only within my heart, however...
 She gently tapped my shoulder, smiled at me. The shining smile, that surrounded by her walnut-coloured bob cut, is very, very cute.
 Unable to return a 'Good morning,' I made an awkward smile ish countenance, and inclined my head, so to bow.
 Although this is... the best I can return...
@@ -78,7 +78,7 @@ Her saying so.
 That summer I spent most of my time together with her upon the roof of the school:
 Morning time when no one around. Lunch breaks. After school.
 The time when the two of us entrusted ourselves to the summer breeze that flowed through our white sailor uniforms, skimming us as though—a mysterious, wordless time. With, occasionally carrying within, the fragrance of a flower shampoo.
-Even with that alone, I felt something akin  blessedness.
+Even with that alone I felt something akin  blessedness.
 
 
 
@@ -89,11 +89,11 @@ Even with that alone, I felt something akin  blessedness.
 After the first semester, when tests  ended, awaiting for the summer  vacation, while my eardrums were as though jolting of a noise of cicada, she suddenly unsealed her lips.
 "I like you, Minami-chan..."
 'Eh..?'
-She was a little embarrassed, dropping her head down to hide her lips. A wind shook her pure white uniform, that was reflecting all the radiance of the sun rays.
+She was a little embarrassed, dropping her head down to hide her lips. A wind shook her pure white uniform that was reflecting all the radiance of the sun rays.
 "Certainly, as a friend also, but... I like you, as a lover..."
 Her fingers were entwined with my right hand.
 "I wonder, If I say this, will you, Minami-chan, get upset..."
-I could sense a loneliness in the air, as she giggled to hide her embarrassment.
+I could sense loneliness in the air, as she giggled to hide her embarrassment.
 Lover.
 Girlfriends—perhaps it is strange, perhaps it is not, however it does not change the fact that I like her. Her feelings and my feelings are...
 "M, me too..!"
@@ -225,12 +225,12 @@ I noted as a drops had accumulated upon the lens of my glasses.
 Simply being next to you. That is all I need to be happy.
 _She_, have thought so.
 "..."
-Oh no, I cannot suppress my tears...
+Oh, no, I cannot suppress my tears...
 "That child truly loved you, Minami-chan. When she was coming home, all she  talked about was Minami-chan. She looked so happy."
 I, I see...
-"She bought the pair of rings. There was another one in the room of that child. She wished to wear a matching ones. As though a married couple, huh."
+"She bought the pair of rings. There was another one in her room. She wished to wear a matching ones. As  a married couple, huh."
 Her mother smiled, gently.
-I took the ring in my hand and fitted it upon my left hand ring finger. A small white seashells were shining as her smile.
+I took the ring and fitted it upon my left hand ring finger. A small white seashells were shining akin to her smile.
 
 
 
@@ -243,7 +243,7 @@ These words, she seemed to be telling me.
 
 
 And now, the fifth summer has arrived.
-Although my condition was persisting as of old, it was less severe comparing to my days in elementary and middle school. I could exchange  a few words with  the people, and was not as nervous of leaving the house any more.
+Although my condition was persisting as of old, it was less severe comparing to my days in elementary and middle school. I could exchange  a few words with  people, and was not as nervous of leaving the house any more.
 "Kyoka-chan, long time."
 The anniversary of her death. I went to see her diligently.
 "It's hot this year too, right. I'm going to get a sunburn."
@@ -262,7 +262,7 @@ I turned my face upwards to cool down the feverish inner corners of my eyes. I c
 
 
 
-Ah–, oh no. Doubtless she misses me also.
+Ah–, oh, no. Doubtless she misses me also.
 Always, together.
 Whereas you are far away, you are closer than anyone.
 All right.

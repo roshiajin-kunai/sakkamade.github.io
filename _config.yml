@@ -9,7 +9,7 @@
 
 title: sakkamade
 description: >- # this means to ignore newlines until "baseurl:"
-  through a life with yuri in heart
+  through life with yuri in heart
 baseurl: "" # the subpath of your site, e.g. /blog
 # tagline: 百合に心の中とで人生を通して
 url: "https://sakkamade.github.io" # e.g. http://example.com

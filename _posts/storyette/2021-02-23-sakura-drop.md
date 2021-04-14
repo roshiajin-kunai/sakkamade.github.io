@@ -77,7 +77,7 @@ I knew that it could actually be better for me to stay by Yoshino if we keep bei
 But...—for I was insatiable...—I desired to tread beyond that, and, above all, I did not wish Yoshino to pass there with anyone but myself... and, for such a thought, before long it grew arduous for me to remain in the position of a friend. It was getting harder and harder, I could not help it...
 
 
-Thence, by now, I have mustered up the courage to cease it. Even if she should loathe myself, I hold no desire to keep an act of a fib female friendship as is—concealing this feeling. For the feeling within myself is not the feeling for  her as for a friend, but for the girl whom I love.
+Thence, by now, I have mustered up the courage to cease it. Even if she should loathe myself, I hold no desire to keep an act of a fib female friendship as is—concealing this feeling. For the feeling within myself is not the feeling for  her as for  friend but for the girl whom I love.
 
 
 <p markdown="1">"Say, Yaeko. Would you like a _drop_?"[^1]</p>
