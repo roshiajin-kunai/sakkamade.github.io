@@ -32,87 +32,11 @@
   font-weight: 400;
 }
 
-@font-face {
-  font-family: 'CormorantGaramondW';
-  src: url(/src/fnt/Cormorant/CormorantGaramond-Regular.woff) format('woff');
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'CormorantGaramondW';
-  src: url(/src/fnt/Cormorant/CormorantGaramond-Italic.woff) format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CormorantGaramondW';
-  src: url(/src/fnt/Cormorant/CormorantGaramond-Medium.woff) format('woff');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'CormorantGaramondW';
-  src: url(/src/fnt/Cormorant/CormorantGaramond-MediumItalic.woff) format('woff');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CormorantGaramondW';
-  src: url(/src/fnt/Cormorant/CormorantGaramond-SemiBold.woff) format('woff');
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'CormorantGaramondW';
-  src: url(/src/fnt/Cormorant/CormorantGaramond-Bold.woff) format('woff');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'CormorantInfantW';
-  src: url(/src/fnt/Cormorant/CormorantInfant-Medium.woff) format('woff');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'CormorantInfantW';
-  src: url(/src/fnt/Cormorant/CormorantInfant-MediumItalic.woff) format('woff');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'CormorantSCW';
-  src: url(/src/fnt/Cormorant/CormorantSC-Regular.woff) format('woff');
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'CormorantSCW';
-  src: url(/src/fnt/Cormorant/CormorantSC-Medium.woff) format('woff');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'CormorantSCW';
-  src: url(/src/fnt/Cormorant/CormorantSC-SemiBold.woff) format('woff');
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'CormorantSCW';
-  src: url(/src/fnt/Cormorant/CormorantSC-Bold.woff) format('woff');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Cormorant Upright';
-  src: url(/src/fnt/Cormorant/CormorantUpright-Medium.woff) format('woff');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Cormorant Upright';
-  src: url(/src/fnt/Cormorant/CormorantUpright-SemiBold.woff) format('woff');
-  font-weight: 500;
-}
-
-
 
 @font-face {
   font-family: 'NotoSerifCJKJPRegularW';
   src: url(/src/fnt/noto-cjk-jp/NotoSerifCJKjp-Regular.woff) format('woff');
   font-weight: 400;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');

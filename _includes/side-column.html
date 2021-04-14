@@ -1,10 +1,29 @@
+<div id="side-wrapper">
+  <h5 class="side-head">Latest Amends</h5>
+  {% assign sorted_posts = site.posts | sort: "last_modified_at" | reverse %}
+{% for post in sorted_posts limit: 7 %}
+  <span class="side-in side-in-background block">
+	<!-- title -->
+	<a href="{{ post.url | relative_url }}">{{ post.title | strip_html}}</a>
+<!-- meta -->
+<span class="post-meta">
+	<time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.last_modified_at | date: date_full_format }}" datetime="{{ post.last_modified_at | date_to_xmlschema }}" class="nowrap">
+	{%- assign date_format = "%Y %B" -%}{{ post.last_modified_at | date: date_format }}
+	<span class="no-cap">{% assign d = post.last_modified_at | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+	</span>
+	</time>
+</span>
+    </header>
+</span>
+  {%- endfor -%}
+</div>
 
 
 <div id="side-wrapper">
   <h5 class="side-head">Categories</h5>
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
-  <span class="side-in no-cap"><a href="{{site.baseurl}}/categories/{{ category | first | slugify }}">{{ category[0] }} </a> ({{ category | last | size }})&nbsp;</span>
+  <span class="side-in side-in-background no-cap"><a href="{{site.baseurl}}/categories/{{ category | first | slugify }}">{{ category[0] }} </a> ({{ category | last | size }})&nbsp;</span>
 {% endfor %}
 </div>
 
@@ -17,7 +36,7 @@
     {% assign prevyear = post.previous.date | date: "%Y %B" %}
     {% assign counter = counter | plus: 1 %}
   {% if thisyear != prevyear %}
-  <span class="side-in block">
+  <span class="side-in side-in-background block">
     <a href="{{site.baseurl}}/archives#{{ post.date | date:"%Y %B" }}">{{ thisyear }}</a> ({{ counter }})
   </span>
     {% assign counter = 0 %}
@@ -63,7 +82,7 @@
   </span>
   <hr>
   <span class="side-in block no-cap">Last amend/update in website: 
-    <time style="white-space: nowrap;" datetime="{{ "now" | date_to_xmlschema }}">{{ "now" | date: "%d %B %Y %H:%M" }} UTC</time>
+    <time class="nowrap" datetime="{{ "now" | date_to_xmlschema }}">{{ "now" | date: "%d %B %Y %H:%M" }} UTC</time>
   </span>
   <div class="spacer" style="height: 20px;"><!-- base unit --></div>
 </div>

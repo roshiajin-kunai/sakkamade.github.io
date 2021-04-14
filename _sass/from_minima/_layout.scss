@@ -212,6 +212,12 @@
   #site-under-title {
   margin-top: 114px !important;
   }
+  .mobile-pagination {
+  display: block !important;
+  }
+  .desktop-pagination {
+  display: none !important;
+  }
 }
 
 
@@ -550,8 +556,12 @@
   color: $base-gray;
   background: $very-light-gray
 }
-
-
+.mobile-pagination {
+  display: none;
+}
+.desktop-pagination {
+  display: block;
+}
 
 /* side content */
 
@@ -578,6 +588,12 @@
 }
 .side-in a {
   text-decoration: none;
+}
+.side-in-background:nth-of-type(odd) {
+  background-color: $very-light-gray;
+}
+.nowrap {
+  white-space: nowrap;
 }
 .block {
   display: block; 

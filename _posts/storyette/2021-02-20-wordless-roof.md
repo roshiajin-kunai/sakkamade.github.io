@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-04-14 20:44:23 +0000
+last_modified_at: 2021-04-14 21:09:52 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -93,7 +93,7 @@ She was a little embarrassed, dropping her head down to hide her lips. A wind sh
 "Certainly, as a friend also, but... I like you, as a lover..."
 Her fingers were entwined with my right hand.
 "I wonder, If I say this, will you, Minami-chan, get upset..."
-I could sense loneliness in the air, as she giggled to hide her embarrassment.
+I could sense loneliness in the air as she giggled to hide her embarrassment.
 Lover.
 Girlfriends—perhaps it is strange, perhaps it is not, however it does not change the fact that I like her. Her feelings and my feelings are...
 "M, me too..!"
