@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-23 00:15:33 +0000
-last_modified_at: 2021-03-29 22:46:27 +0000
+last_modified_at: 2021-04-15 18:39:18 +0000
 title: "Blossom of Sakura Drop.<br> By Saki Shido."
 author: sakkani
 categories:
@@ -50,13 +50,13 @@ I pressed my hand upon a left breast hard to subdue a rapid, severe palpitation,
 "I..."
 
 
-Yoshino tilted her head lightly, staring at me curiously. I tightly clasped my fists, and shouted to her, in a loud voice:—
+Yoshino tilted her head lightly, staring at me curiously. I clasped my fists hard, and shouted to her, in a loud voice:—
 
 
 "I like you, Yoshino! I love you!"
 
 
-My entire face was burning hot, and even the breeze closed by appeared to boil affected by myself. "Oh, so that what it was," said she, and, seemingly wishing to proceed, upon a big nod, 
+My entire face was burning hot, and even the breeze close by appeared to boil affected by myself. "Oh, so that what it was," said she, and, seemingly wishing to proceed, upon a big nod,
 
 
 "I know,"
@@ -65,7 +65,7 @@ My entire face was burning hot, and even the breeze closed by appeared to boil a
 She replied.
 
 
-"It's different! It's not the love which you expect, Yoshino... I..."
+"It's different! It's not the love  you expect, Yoshino... I..."
 
 
 The corners of my lips quivered, I could not voice it as I wished to. I cast my eyes downwards in embarrassment, my voice were to wither to a tenth of its volume from a moment when I had been at attempt to transmit her my love. What did she think? What did she think upon  receiving so abrupt a confession that someone whom she considered a best friend thinks of her more than of a mere friend? We are of the same sex, to have a love relationship  should normally not be possible. It is normal to feel abhorred. It is natural to find it impossible. I confessed to her... bearing such determination.
@@ -102,7 +102,7 @@ The voice of Yoshino made my heart palpitate so fast that I wanted to scream. My
 ——Hurry up! Hurry up! Faster!
 
 
-That was when. Something soft came into contact with my lips—I snapped my eyes open in haste. Right before me, there was Yoshino's visage. Close enough for our eyelashes to brush each other... And her lips were resting upon mine.
+That was when. Something soft came into contact with my lips—I snapped my eyes open in haste. Right before me there was Yoshino's visage. Close enough for our eyelashes to brush each other... And her lips were resting upon mine.
 
 
 Parting her visage​ slightly away from my dazed lips, "This is the answer," _fu, fu,_ she said. Whereafter,  questioned me again:
@@ -112,4 +112,4 @@ Parting her visage​ slightly away from my dazed lips, "This is the answer," _f
 
 
 I nodded greatly, she, then, placed the _drop_ by a hand in her mouth and drew my chin  towards herself.
-The solid texture of the _drop_ proceed passing back and forth, enclosed within  our mouths... Sugary taste and pink fragrance, similar to a blossoms of _sakura_, kept its spread farther and farther  amidst both of our mouths... resulting a full bloom.
+The solid texture of the _drop_ proceed passing back and forth, enclosed within  our mouths... Sugary taste and pink fragrance, similar to blossoms of _sakura_, kept its spread farther and farther  amidst both of our mouths... resulting a full bloom.

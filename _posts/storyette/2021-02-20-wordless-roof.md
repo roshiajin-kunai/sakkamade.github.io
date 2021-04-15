@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-04-14 21:09:52 +0000
+last_modified_at: 2021-04-15 18:50:09 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -14,8 +14,8 @@ chapter-link: https://kakuyomu.jp/works/1177354054917607095/episodes/11773540549
 ---
 Selective mutism.
 The condition that began revealing itself to me in elementary school.
-Whereas wishing to speak, I cannot. Whereas I conversed with my family normally, at a school I grew all nervous and stiff. The desired words were not reaching a voice. My throat shut them.
-Whereas wanting to get along with various a people, chatting a lot, and laughing.
+Whereas wishing to speak, I cannot. Whereas I conversed with my family normally, at school I grew all nervous and stiff. Desired words were not reaching a voice. My throat shut them off.
+Whereas wanting to get along with various people, chatting a lot, and laughing.
 I just cannot do that.
 {: class="first-paragraph"}
 
@@ -23,8 +23,8 @@ I just cannot do that.
 
 
 I was never understand by the people around me.
-During a class, I  received a reprimands by the teacher, for I could not read aloud.
-I could not even eat a school lunch, everyone were throwing at me a queerly looks.
+During a class, I  received reprimands by the teacher, for I could not read aloud.
+I could not even eat a school lunch, everyone were throwing at me queerly looks.
 "Can you say 'A?'"
 I could not, and was mocked for that.
 And yet, I could not retort, that was just frustrating.
@@ -46,28 +46,28 @@ I have long since forgotten how to smile.
 When, to such myself, an angel came around.
 "Minami-chan, good morning!"
 Hinamura-san who was seated next to me when I was in the second year of middle school. I used to call her by her name—Kyoka-chan. Only within my heart, however...
-She gently tapped my shoulder, smiled at me. The shining smile, that surrounded by her walnut-coloured bob cut, is very, very cute.
+She gently tapped my shoulder, smiled at me. The shining smile that surrounded by her walnut-coloured bob cut is very, very cute.
 Unable to return a 'Good morning,' I made an awkward smile ish countenance, and inclined my head, so to bow.
-Although this is... the best I can return...
+Although this... is the best I can return...
 
 
 
 
 
 Kyoka-chan was the hero who saved me from being harassed.
-She—the only one to name me a friend.
+She—the only one to name me friend.
 "There is nothing strange with you, Minami-chan. After all, you are so cute."
 I vividly remember that time of her saying it, and embracing me closely after driving a bully away.
 
 
 
 Her gentle voice that resembled a vanilla ice cream texture.
-The fragrance of her flower that shampoo filled my lungs.
-Her warmth that pounding  within the depth of her soft chest—I could feel it through the uniform.
+The fragrance of her flower  shampoo that filled my lungs.
+Her warmth that pounded  within the depth of her soft chest—I could feel it through the uniform.
 
 
 
-Upon her parting my body, arranging my ruffled hair with her petite hand, and aligning my shifted eye-glasses with both of her hands, I could  plainly see the contour of her smile, reflected in the middle of a world.
+Upon her parting my body, arranging my ruffled hair with her petite hand, and aligning my shifted eye-glasses with both of her hands, I could  plainly see the contour of her smile reflected in the middle of a world.
 "I would like to be friends with you, Minami-chan."
 Her saying so.
 
@@ -86,13 +86,13 @@ Even with that alone I felt something akin  blessedness.
 
 "Say, Minami-chan."
 'Mm?'
-After the first semester, when tests  ended, awaiting for the summer  vacation, while my eardrums were as though jolting of a noise of cicada, she suddenly unsealed her lips.
+After the first semester, when tests  ended, awaiting for  summer  vacation, while my eardrums were as though jolting of a noise of cicada, she suddenly unsealed her lips.
 "I like you, Minami-chan..."
 'Eh..?'
 She was a little embarrassed, dropping her head down to hide her lips. A wind shook her pure white uniform that was reflecting all the radiance of the sun rays.
-"Certainly, as a friend also, but... I like you, as a lover..."
+"Certainly, as a friend also, but... I like you... as a lover..."
 Her fingers were entwined with my right hand.
-"I wonder, If I say this, will you, Minami-chan, get upset..."
+"I wonder, if I say this, will you, Minami-chan, get upset..."
 I could sense loneliness in the air as she giggled to hide her embarrassment.
 Lover.
 Girlfriends—perhaps it is strange, perhaps it is not, however it does not change the fact that I like her. Her feelings and my feelings are...
@@ -102,17 +102,17 @@ My throat is tightening, it is painful. However, I want to tell you...
 I quiver my throat, not losing to cicada.
 "I lo... lo, love, you too..."
 I was able to tell.
-To speak to her, my very first a words.
+To speak to her, my very first words.
 Not a "Good morning" nor a "Thank you."
 _Fufu_, Kyoka-chan giggled upon denouement.
-"Then, it's mutual, huh."
+"Then it's mutual, huh."
 I slowly cast a gaze at her. Upon the exact moment, she peered into my eyes.
 Directly.
-I also entwined my fingers with hers.
-Slowly, slowly drawing a face closer.
+I entwined my fingers with hers also.
+Slowly, slowly drawing my face closer.
 My precious person. The only friend. The first lover.
-"Ehehe... A little, embarrassing, right..."
-With faintly dyed face, she smiled. Truly, cute.
+"Ehehe... A little... embarrassing, right..."
+With faintly dyed face, she smiled. Truly... cute.
 "Let's stay together forever. From now on too—always and forever..."
 'Uh-huh...'
 I touched her lips slowly enough to feel as the sweat made its way down faster. My eyes arbitrarily closed, as I bite into the soft, warm happiness.
@@ -122,7 +122,7 @@ The voice of cicada had drifted somewhere far away.
 
 
 
-The next day, she left this world, of ischaemic heart failure.
+The next day, she left this world of ischaemic heart failure.
 That was a sudden demise.
 
 
@@ -133,7 +133,7 @@ I could not believe it. I did not wish to believe.
 
 
 
-I did not visit the funeral, of course. There was selective mutism also, however, above all, I was scared.
+I had not visited the funeral, of course. There was selective mutism also, however, above all, I was scared.
 Scared to observe the contour of her smile not in the middle of my unblurred view but fitted within the black portrait frame.
 She will not come back. Nor she will remain next to me.
 Whereas saying we should stay together forever...
@@ -157,7 +157,7 @@ If I could say that I liked being hugged, without nervousness...
 
 A summer night was far too short for me to regain my tranquillity.
 I wonder how can the sun ascend as vibrantly every of the days.
-I  secluded  myself within the room—I cried a lot all alone.
+I  secluded  myself within the room—I cried, cried a lot all alone.
 
 
 
@@ -221,7 +221,7 @@ I'm glad I've met you. I'm truly glad we became friends.
 
 Inside of the white box was a ring made of beautiful seashells from the sandy beach. A seashells that are much prettier than any precious stone.
 A ring that looks exactly as my name—Minami Shirahama.
-I noted as a drops had accumulated upon the lens of my glasses.
+I noted as a drops had accumulated upon the lens of my eye-glasses.
 Simply being next to you. That is all I need to be happy.
 _She_, have thought so.
 "..."
