@@ -446,7 +446,6 @@
   padding-bottom: $base-unit * 2;
 
   a {
-  text-transform: capitalize;
   color: $base-gray;
   padding: 0 3%;
   margin: 0;
@@ -456,7 +455,6 @@
   overflow-x: hidden;
   text-overflow: ellipsis;
   }
-  
   section { 
   margin-right: 1.5%;
   margin-left: 1.5%; 
@@ -1074,8 +1072,8 @@ i.button-arrow-down {
 
 
 
-.dropbtn:hover,
-.dropdown:hover > .dropbtn {
+//.dropdown:hover > .dropbtn,
+.dropbtn:hover {
   background: $light-gray;
   color: $not-black;
 }
@@ -1089,7 +1087,7 @@ i.button-arrow-down {
   background-color: $very-light-gray;
   color: $base-gray;
   font-size: $base-font-size;
-  line-height: 1em;
+  line-height: 1.2em;
   text-align: left;
   padding: 3px 8px;
   cursor: pointer;
@@ -1098,6 +1096,7 @@ i.button-arrow-down {
   border-right: 4px solid $background-gray;
   border-radius: 0 !important;
   transition: .2s;
+  margin: 0;
 }
 /* ie */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -1105,6 +1104,13 @@ i.button-arrow-down {
   .dropbtn {
   padding: 0px 10px;
   }
+  .dropdown-content {
+  margin-top: -3px;
+  }
+}
+.drop-opened {
+  background: $light-gray;
+  color: $not-black;
 }
 .drop-opened:before {
   content: '';
@@ -1136,8 +1142,9 @@ i.button-arrow-down {
       -ms-transform: rotate(45deg);
        -o-transform: rotate(45deg);
 }
-.dropdown:hover > .drop-closed:before,
-.dropdown:hover > .drop-opened:before {
+//.dropdown:hover > .drop-closed:before,
+//.dropdown:hover > .drop-opened:before,
+.drop-opened:before {
   border: solid $not-black;
   border-radius: 0 0 1px 0;
   border-width: 0 2px 2px 0;
@@ -1151,7 +1158,6 @@ i.button-arrow-down {
   min-width: 100%;
   box-shadow: -2px 4px 4px $light-gray;
   border-bottom: 1px solid $background-gray;
-  margin-top: -2px !important;
 }
 .dropdown-content > #tags-list div a {
   padding: 0 4px 0 8px;
@@ -1189,7 +1195,6 @@ i.button-arrow-down {
   border: 1px solid $background-gray;
   border-right: 4px solid $background-gray;
   border-top: none !important;
-  margin-top: -2px !important;
   padding: 0 8px;
   padding: ($base-unit / 2) 5.3% ($base-unit / 2) 3%;  /* look the "blockquote" (mirrored) */
 }

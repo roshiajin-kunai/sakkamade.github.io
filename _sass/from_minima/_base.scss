@@ -273,6 +273,9 @@ blockquote {
   color: $base-gray;
   font-size: $base-font-size !important;
   }
+  a:hover {
+  color: $not-black;
+  }
   > :last-child {
   margin-bottom: 0;
   }
@@ -335,7 +338,7 @@ pre {
 a {
   transition: .2s;
   color: $link-blue;
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover {
   color: $base-gray;

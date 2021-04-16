@@ -1,5 +1,5 @@
 <div id="side-wrapper">
-  <h5 class="side-head">Latest Amends</h5>
+  <h5 class="side-head" title='List of latest amends of publications'>Latest Amends</h5>
   {% assign sorted_posts = site.posts | sort: "last_modified_at" | reverse %}
 {% for post in sorted_posts limit: 7 %}
   <span class="side-in side-in-background block no-cap">
@@ -20,16 +20,16 @@
 
 
 <div id="side-wrapper">
-  <h5 class="side-head">Categories</h5>
+  <h5 class="side-head" title='List of categories'>Categories</h5>
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
   <span class="side-in side-in-background no-cap"><a href="{{site.baseurl}}/categories/{{ category | first | slugify }}">{{ category[0] }} </a> ({{ category | last | size }})&nbsp;</span>
-{% endfor %}
+  {% endfor %}
 </div>
 
 
 <div id="side-wrapper">
-  <h5 class="side-head"><a href="{{site.baseurl}}/archives">Archives</a></h5>
+  <h5 class="side-head"><a href="{{site.baseurl}}/archives" title='Visit an Archive page'>Archives</a></h5>
     {% assign counter = 0 %}
   {% for post in site.posts %}
     {% assign thisyear = post.date | date: "%Y %B" %}
@@ -46,7 +46,7 @@
 
 
 <div id="side-wrapper">
-  <h5 class="side-head"><a href="{{site.baseurl}}/about">About</a></h5>
+  <h5 class="side-head"><a href="{{site.baseurl}}/about" title='Visit About page'>About</a></h5>
   <span class="side-in block no-cap" style="text-align: justify">
 	Here I publish my translations of Japanese <em>yuri</em> web-novels.
 	<br><br>
@@ -76,12 +76,12 @@
   <hr>
 
   <span class="side-in block no-cap">
-    <a href="{{ "/feed.xml" | relative_url }}">
+    <a href="{{ "/feed.xml" | relative_url }}" title="Subscribe to receive notifications of updates via Atom Feed">
       <span>Atom Feed</span>
 	</a>
   </span>
   <hr>
-  <span class="side-in block no-cap">Last amend/update in website: 
+  <span class="side-in block no-cap" title='Time of most recent "Update," "Amend," or something else'>Last amend/update in website:
     <time class="nowrap" datetime="{{ "now" | date_to_xmlschema }}">{{ "now" | date: "%d %B %Y %H:%M" }} UTC</time>
   </span>
   <div class="spacer" style="height: 20px;"><!-- base unit --></div>

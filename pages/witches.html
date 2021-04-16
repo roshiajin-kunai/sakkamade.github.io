@@ -1,6 +1,6 @@
 ---
 layout: columns-page
-title: Para・Witches
+title: Para・Witches (discontinued)
 cat-description: | 
  A modern witch-story woven by a pair of witches with paradoxical personalities.
  <br><br>
@@ -75,9 +75,9 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
-{% assign Section1 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Section 1.'" | reverse %}
-<section class="toc date"><a>Section 1. Flightless Witch.</a></section>
-{% for post in Section1 %}  
+{% assign Part1 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 1.'" | reverse %}
+<section class="toc date"><a>Part 1. Flightless Witch.</a></section>
+{% for post in Part1 %}
 	
 	{%- include cat.html -%}
 	
@@ -85,9 +85,9 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 </section>
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
-{% assign Section2 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Section 2.'" | reverse %}
-<section class="toc date"><a>Section 2. Forgotten Witch.</a></section>
-{% for post in Section2 %}  
+{% assign Part2 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 2.'" | reverse %}
+<section class="toc date"><a>Part 2. Forgotten Witch.</a></section>
+{% for post in Part2 %}
 	
 	{%- include cat.html -%}
 	
@@ -95,9 +95,9 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 </section>
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
-{% assign Section3 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Section 3.'" | reverse %}
-<section class="toc date"><a>Section 3. Witch of Darkness.</a></section>
-{% for post in Section3 %}
+{% assign Part3 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 3.'" | reverse %}
+<section class="toc date"><a>Part 3. Witch of Darkness.</a></section>
+{% for post in Part3 %}
 
 	{%- include cat.html -%}
 

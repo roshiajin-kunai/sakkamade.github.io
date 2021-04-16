@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* tentative decision for IE */
-@font-face {
+/*@font-face {
   font-family: 'JunicodeNew';
   src: url(/src/fnt/junicode/junicode-regular-webfont.woff) format('woff');
   font-style: normal;
@@ -11,12 +11,12 @@
   font-family: 'JunicodeNew';
   src: url(/src/fnt/junicode/junicode-bold-webfont.woff) format('woff');
   font-weight: bold;
-}
+}*/
 /* end */
 
 @font-face {
   font-family: 'JunicodeNew';
-  src: url(/src/fnt/junicode-new/JuniusX-Regular.woff2) format('woff2');
+  src: url(/src/fnt/junicode-new/JuniusX-Regular.woff) format('woff');
   font-style: normal;
   font-weight: 400;
 }
