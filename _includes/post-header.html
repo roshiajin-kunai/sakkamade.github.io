@@ -1,7 +1,7 @@
 {%- if page.main-title -%}
 	{% for category in categories %}
 		<h1 class="post-title main-title">
-			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}" itemprop="name headline" title='Visit a page of "{{ category }}"'>
+			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}" itemprop="name headline" title='Visit the page of "{{ category }}"'>
 				{{ page.main-title }}
 			</a>
 		</h1>
@@ -15,7 +15,7 @@
 	<p class="post-meta meta-categories no-cap" style="margin-bottom: 5px">
 		{%- if page.main-title -%}<!--no top category-->{%- else -%}
 			{% for category in categories %}
-			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit a page of "{{ category }}"'>{{ category }}</a>
+			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit the page of "{{ category }}"'>{{ category }}</a>
 				{% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			{% endfor %}  
 		{%- endif -%}
@@ -40,7 +40,7 @@
 
 {% if page.note or page.chapter-link %}
 <div onclick="classSwitch()" class="note-wrapper">
-<div id="note-overlay" class="note-overlay js-only"></div>
+<div id="note-overlay" class="note-overlay js-only" title="Expand translator's note and/or source link for original work"></div>
 <blockquote class="cropped" id="note">
 
       {% if page.note %}
