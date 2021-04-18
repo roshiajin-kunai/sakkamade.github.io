@@ -1,6 +1,6 @@
 <div class="post-content">
 		{% if post.note %}
-	<blockquote><b>Note:</b> {{ post.note }}</blockquote>		  
+	<blockquote style="margin-top: 30px;"><b>Note:</b> {{ post.note }}</blockquote>
 		{% else %}
 	<p>{{  post.content | strip_html | truncatewords: 37 }}</p>
 		{% endif %}

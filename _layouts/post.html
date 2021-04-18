@@ -46,7 +46,7 @@ layout: default-page
 <div class="only-main" style="margin-bottom: 0 !important; margin-top: -70px !important">
 <div class="dropdown js-only">
   {% for category in categories %}
-  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>{{ category }}</em></button>
+  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed" title='Expand a TOC of "{{ category }}"'><em>{{ category }}</em></button>
   {% endfor %}
   <div id="myDropdown" class="dropdown-content">
 	<section id="tags-list">

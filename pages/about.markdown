@@ -28,6 +28,7 @@ Well, with  that said, I _am_ learning both. Whereas working over my translation
 
 The design for this website made by me from a scratch, with following adjustment of it to _Jekyll_.
 Influenced by theme that I used in my previous blog at _WordPress_ and great deal of other web-sites that I have visited.
+The font I use presently is [_Junicode New_](https://github.com/psb1558/Junicode-New), and [_Junicode_](https://github.com/Fromager/junicode) for italic, since italic of _Junicode New_ is still WIP.
 
 
 #### Services for Translation 

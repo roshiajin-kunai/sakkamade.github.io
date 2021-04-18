@@ -137,6 +137,11 @@
   }
   .side-head {
   text-align: left !important;
+  border-bottom: 1px solid $background-gray !important;
+
+  span {
+  padding-left: 0 !important;
+  }
   }
   .inner-bottom-column {
   width: 100% !important;
@@ -564,7 +569,9 @@
 /* side content */
 
 
-
+.side #side-wrapper:first-child {
+  margin-top: -5px; // temporary
+}
 #side-wrapper {
   margin: 0;
   cursor: default;
@@ -573,8 +580,10 @@
 }
 .side-head {
   text-align: center;
-  padding-bottom: $base-unit;
-  border-bottom: 1px solid $background-gray;
+  border-bottom: 1px solid $tag-gray;
+  line-height: 0em;
+  margin-bottom: $base-unit * 2;
+  margin-top: $base-unit;
 
   > a { 
   color: $almost-black;
@@ -583,6 +592,10 @@
   > a:hover {
   color: $link-blue !important;
   }
+}
+.side-head span {
+    background: $white;
+    padding: 0 10px;
 }
 .side-in a {
   text-decoration: none;

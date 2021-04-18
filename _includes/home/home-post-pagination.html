@@ -1,6 +1,6 @@
 <!-- pagination -->
 {% if paginator.total_pages != 1 %}
-{% if paginator.total_pages < 7 %}
+{% if paginator.total_pages < 9 %}
 
 <div class="pagination desktop-pagination">
   {% if paginator.total_pages >= 10 %}
@@ -81,7 +81,7 @@
 		{% if paginator.page == 5 %}
 			<a href="/page=2">2</a>
 		{% else %}
-    <span class="page-active">...</span>
+            <span class="page-active">...</span>
 		{% endif %}
 	{% endunless %}
     {% endif %}
@@ -91,7 +91,7 @@
   {% endif %}
 
   {% if page_start == 1 %}
-    {% assign page_end = paginator.page | plus: 4 %}
+    {% assign page_end = paginator.page | plus: 3 %}
     {% assign page_start = 2 %}
   {% if paginator.page == 1 %}
      <span class="page-active">1</span>
