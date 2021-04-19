@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-04-15 18:50:09 +0000
+last_modified_at: 2021-04-18 19:25:49 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -115,7 +115,7 @@ My precious person. The only friend. The first lover.
 With faintly dyed face, she smiled. Truly... cute.
 "Let's stay together forever. From now on too—always and forever..."
 'Uh-huh...'
-I touched her lips slowly enough to feel as the sweat made its way down faster. My eyes arbitrarily closed, as I bite into the soft, warm happiness.
+I touched her lips slowly enough to feel as the perspiration made its way down faster. My eyes arbitrarily closed, as I bite into the soft, warm happiness.
 The voice of cicada had drifted somewhere far away.
 
 
@@ -141,7 +141,7 @@ Whereas saying we should stay together forever...
 
 
 
-For some reason, but a regret moving forth in to my mind.
+For some reason, but a regret crawling forth in to my mind.
 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-23 00:15:33 +0000
-last_modified_at: 2021-04-15 18:39:18 +0000
+last_modified_at: 2021-04-18 15:55:51 +0000
 title: "Blossom of Sakura Drop.<br> By Saki Shido."
 author: sakkani
 categories:
@@ -11,15 +11,15 @@ tags:
 note: "(Translated with author's consent.)"
 chapter-link: https://kakuyomu.jp/works/1177354054882933694/episodes/1177354054882934188
 ---
-Wrapped in a pale pink hoodie, her hands were shoved within a pockets of pair of ankles-length jeans, which were unsealing her feet just a little excessive, she  stretched her spine straight whereas fixedly gazing upwards.
-The sharp winds of the winter had turned rotund and mild, as though the warmth of the spring  had harvested its edges. Her short, shortcut hair was swaying  as though being softly stroked by a fingertips.
+Wrapped in a pale pink hoodie, her hands were shoved within pockets of pair of ankles-length jeans, which were unsealing her feet only a little excessive, she  stretched her spine straight whereas fixedly gazing upwards.
+The sharp winds of the winter had turned rotund and mild, as though the warmth of the spring  had harvested its edges. Her short, shortcut hair was swaying  as though being softly stroked by fingertips.
 {: class="first-paragraph"}
 
-I halted just a few paces behind her, beholding that, redolent a landscape in aquarelle, scenery. Forming a picture frame with a fingers of my hands, I clipped her, and the article she was viewing, out.
-The _sakura_ tree, clad in a countless, innumerable petals of idem to her hoodie hue, bore a dignified smile upon its visage, gazing back at her as at its beloved. Beyond such a tree, upon the sky that spread its clear spring blue, fluffy white clouds set its float, a blotches as though upon the blue campus.
+I halted just a few paces behind her, beholding that, redolent a landscape in aquarelle, scenery. Forming a picture frame with fingers of my hands, I clipped her, and the article she was viewing, out.
+The _sakura_ tree, clad in a countless, innumerable petals of idem to her hoodie hue, bore dignified smile upon its visage, gazing back at her as at its beloved. Past such a tree, upon the sky that spread its clear spring blue, fluffy white clouds had set its float, a blotches as though upon the blue campus.
 
 
-I seared the picture against my eyes, as if it were to be engraved within my very heart. For I am certain I should not observe​ it never any more. Certainly, at no occasion  I would be able to foregather with her like this. This might be the climax. I had bring myself here... bearing such determination.
+I seared the picture against my eyes, as if it bound to be engraved within my very heart. For I am certain I should not witness​ it never any more. Certainly, at no occasion  I would be able to foregather with her like this. This might be the climax. I have bring myself here... bearing such attitude.
 
 
 
@@ -68,7 +68,7 @@ She replied.
 "It's different! It's not the love  you expect, Yoshino... I..."
 
 
-The corners of my lips quivered, I could not voice it as I wished to. I cast my eyes downwards in embarrassment, my voice were to wither to a tenth of its volume from a moment when I had been at attempt to transmit her my love. What did she think? What did she think upon  receiving so abrupt a confession that someone whom she considered a best friend thinks of her more than of a mere friend? We are of the same sex, to have a love relationship  should normally not be possible. It is normal to feel abhorred. It is natural to find it impossible. I confessed to her... bearing such determination.
+The corners of my lips quivered, I could not voice it as I wished to. I cast my eyes downwards in embarrassment, my voice were to wither to a tenth of its volume from a moment when I had been at attempt to transmit her my love. What did she think? What did she think upon  receiving so abrupt a confession that someone whom she considered a best friend thinks of her more than of a mere friend? We are of the same sex, to have a love relationship  should normally not be possible. It is normal to feel abhorred. It is natural to find it impossible. I have confessed to her... bearing such attitude.
 
 
 I knew that it could actually be better for me to stay by Yoshino if we keep being best friends. However—I wonder when have it started—I grew discontent with such position. For we were best friends, we could hold hands, as well as hugging was not unnatural. That is how  close we were.
