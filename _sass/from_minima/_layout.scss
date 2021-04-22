@@ -433,9 +433,8 @@
 
 .inner-bottom-menu a:hover,
 .active-menu {
-  color: $not-black !important;
+  color: $base-gray !important;
   text-decoration: none !important;
-  text-shadow: 0 1px $white;
 }
 
 .inner-bottom-menu {
@@ -450,7 +449,8 @@
   padding-bottom: $base-unit * 2;
 
   a {
-  color: $base-gray;
+  color: $not-black;
+  text-shadow: 0 1px $white;
   padding: 0 3%;
   margin: 0;
   text-decoration: none !important;
@@ -656,11 +656,11 @@
 }
 .toc a:hover {
   background-color: $light-gray !important;
-  color: $not-black !important;
+  color: $almost-black !important;
   
-  > span.tag-gray,
+  > span.base-gray,
   time {
-  color: $base-gray !important;
+  color: $not-black !important;
   }
 }
 #tags-list a:last-child { 
@@ -672,18 +672,18 @@
 .date a { 
   text-align: center;
   pointer-events: none;
-  color: $not-black !important;
+  color: $almost-black !important;
   background-color: $light-gray !important;
   text-transform: capitalize;
 }
 .category-post-date {
   float: right;
   white-space: nowrap;
-  color: $tag-gray;
+  color: $base-gray;
 }
 
-.tag-gray { 
-  color: $tag-gray;
+.base-gray {
+  color: $base-gray;
 }
 span.small { 
   font-size: ($base-font-size - 3px) !important; 
@@ -745,13 +745,13 @@ span.small {
 
   a:hover, 
   a:focus {
-  color: $base-gray;
+  color: $not-black;
   background-color: $light-gray;
   }
 
   a:hover i, 
   a:focus i {
-  border-color: $base-gray; 
+  border-color: $not-black;
   }
 }
 .switch-off { 
@@ -1017,8 +1017,8 @@ i.button-arrow-down {
 }
 
 @keyframes fade {
-  from {opacity: 0;}
-  to {opacity: 0.4;}
+  from { opacity: 0; }
+  to {   opacity: 0.4; }
 }
 
 .scroll-down-btn {
@@ -1061,8 +1061,7 @@ i.button-arrow-down {
 }
 .scroll-btn:hover, 
 .scroll-down-btn:hover {
-  border: 1px solid $background-gray;
-  box-shadow: 0 0 5px $base-gray;
+  box-shadow: 0 0 5px $not-black;
 }
 
 .btn-unpin {
@@ -1087,7 +1086,7 @@ i.button-arrow-down {
 //.dropdown:hover > .dropbtn,
 .dropbtn:hover {
   background: $light-gray;
-  color: $not-black;
+  color: $almost-black;
 }
 .dropdown {
   display: block;
@@ -1097,7 +1096,7 @@ i.button-arrow-down {
 .dropbtn {
   font-family: 'JunicodeNew', "Times New Roman", Times, serif;
   background-color: $very-light-gray;
-  color: $base-gray;
+  color: $not-black;
   font-size: $base-font-size;
   line-height: 1.2em;
   text-align: left;
@@ -1126,7 +1125,7 @@ i.button-arrow-down {
 }
 .drop-opened:before {
   content: '';
-  border: solid $base-gray;
+  border: solid $not-black;
   border-radius: 0 0 1px 0;
   border-width: 0 2px 2px 0;
   display: inline-block;
@@ -1141,7 +1140,7 @@ i.button-arrow-down {
 }
 .drop-closed:before {
   content: '';
-  border: solid $base-gray;
+  border: solid $not-black;
   border-radius: 0 0 1px 0;
   border-width: 0 2px 2px 0;
   display: inline-block;
@@ -1154,15 +1153,15 @@ i.button-arrow-down {
       -ms-transform: rotate(45deg);
        -o-transform: rotate(45deg);
 }
-//.dropdown:hover > .drop-closed:before,
 //.dropdown:hover > .drop-opened:before,
+.dropdown:hover > .drop-closed:before,
 .drop-opened:before {
-  border: solid $not-black;
+  border: solid $almost-black;
   border-radius: 0 0 1px 0;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 2px;
-  transition: color .3s !important;
+  transition: .4s !important;
 }
 .dropdown-content {
   display: none;

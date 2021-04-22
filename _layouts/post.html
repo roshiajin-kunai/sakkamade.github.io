@@ -46,14 +46,14 @@ layout: default-page
 <div class="only-main" style="margin-bottom: 0 !important; margin-top: -70px !important">
 <div class="dropdown js-only">
   {% for category in categories %}
-  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed" title='Expand a TOC of "{{ category }}"'><em>{{ category }}</em></button>
+  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed" title='Expand the TOC of "{{ category }}"'><em>{{ category }}</em></button>
   {% endfor %}
   <div id="myDropdown" class="dropdown-content">
 	<section id="tags-list">
 	{% for category in page.categories %}
 	  {% assign sotred_posts = site.categories[category] | reverse %}
 	  {% for post in sotred_posts %}
-	  <div title="{{ post.title }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
+	  <div title="{{ post.title | strip_html }}" class="toc"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}
 	    <time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></div>
       {% endfor %}
 	{% endfor %}

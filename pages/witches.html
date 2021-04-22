@@ -64,7 +64,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Intro = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Intro.'" | reverse %}
-<section class="toc date"><a>Intro.</a></section>
+<section class="toc date"><a class="no-cap">Intro.</a></section>
 {% for post in Intro %}  
 	
 	{%- include cat.html -%}
@@ -76,7 +76,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Part1 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 1.'" | reverse %}
-<section class="toc date"><a>Part 1. Flightless Witch.</a></section>
+<section class="toc date"><a class="no-cap">Part 1. Flightless Witch.</a></section>
 {% for post in Part1 %}
 	
 	{%- include cat.html -%}
@@ -86,7 +86,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Part2 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 2.'" | reverse %}
-<section class="toc date"><a>Part 2. Forgotten Witch.</a></section>
+<section class="toc date"><a class="no-cap">Part 2. Forgotten Witch.</a></section>
 {% for post in Part2 %}
 	
 	{%- include cat.html -%}
@@ -96,7 +96,7 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 
 <section id="toc" itemscope itemtype="http://schema.org/Blog">
 {% assign Part3 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 3.'" | reverse %}
-<section class="toc date"><a>Part 3. Witch of Darkness.</a></section>
+<section class="toc date"><a class="no-cap">Part 3. Witch of Darkness.</a></section>
 {% for post in Part3 %}
 
 	{%- include cat.html -%}

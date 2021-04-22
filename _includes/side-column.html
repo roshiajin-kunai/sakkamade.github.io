@@ -4,7 +4,7 @@
 {% for post in sorted_posts limit: 7 %}
   <span class="side-in side-in-background block no-cap">
 	<!-- title -->
-	<a href="{{ post.url | relative_url }}">{{ post.title | strip_html}}</a>
+	<a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">{{ post.title | strip_html}}</a>
 <!-- meta -->
 <span class="post-meta">
 	<time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.last_modified_at | date: date_full_format }}" datetime="{{ post.last_modified_at | date_to_xmlschema }}" class="nowrap">

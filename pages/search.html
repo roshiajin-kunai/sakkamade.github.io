@@ -35,8 +35,8 @@ title: Archives
 	{% assign date = current_date %} 
   {% endif %}
 	<li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><div class="toc filter-date {{current_date}} no-js-block">
-	<a itemprop="url" title="{{post.categories}} ・ {{post.title}}" href="{{ site.baseurl }}{{ post.url }}">
-	<span class="tag-gray">{{ post.categories | replace: '["','' | replace: '"]','' }}
+	<a itemprop="url" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}" href="{{ site.baseurl }}{{ post.url }}">
+	<span class="base-gray">{{ post.categories | replace: '["','' | replace: '"]','' }}
 	</span><br>
 	<span itemprop="name">{{ post.title | strip_html }}</span>
 	<time itemprop="datePublished" class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%B %d %a." -%}{{ post.date | date: date_format }}
