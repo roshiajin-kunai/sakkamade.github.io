@@ -661,6 +661,11 @@
   line-height: $normal-line-height;
   margin-top: -1px;
   text-shadow: 0 -1px $white, 0 -2px $white;
+
+  > a:hover,
+  > a:focus {
+  color: $almost-black !important;
+  }
 }
 .toc:last-child {
   border-bottom: 1px solid $background-gray;
@@ -671,9 +676,6 @@
   > span.base-gray,
   time {
   color: $not-black !important;
-  }
-  > a:hover {
-  color: $almost-black !important;
   }
 }
 #tags-list div:last-child {
@@ -841,6 +843,10 @@ a.bigger {
 
 .post-meta a:hover { color: $not-black; }
 
+.bottom-meta {
+  border-top: 1px solid $background-gray;
+  padding-top: $base-unit !important;
+}
 
 
 /* tag / date */
@@ -865,6 +871,7 @@ a.bigger {
 }
 
 .archive-date {
+  color: $base-gray;
   cursor: pointer;
           user-select: none;
   -webkit-user-select: none;
@@ -916,7 +923,8 @@ a.bigger {
   text-align: left !important;
 }
 
-.post-link a:hover {
+.post-link a:hover,
+.post-link a:focus {
   color: $link-blue;
 }
 .in-block {
@@ -948,7 +956,8 @@ a.bigger {
   color: $almost-black;
   text-decoration: none !important; 
   }
-  > a:hover {
+  > a:hover,
+  > a:focus {
   color: $link-blue !important;
   }
 }
@@ -1108,6 +1117,10 @@ i.button-arrow-down {
   display: block;
   min-width: 100%;
   margin: $base-unit 0;
+
+  a {
+  transition: 0s !important;
+  }
 }
 .dropbtn {
   font-family: 'JunicodeNew', "Times New Roman", Times, serif;
@@ -1124,6 +1137,7 @@ i.button-arrow-down {
   border-radius: 0 !important;
   transition: .2s;
   margin: 0;
+  text-shadow: 0 -1px $white, 0 -2px $white;
 }
 /* ie */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
