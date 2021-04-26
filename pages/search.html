@@ -10,14 +10,14 @@ title: Archives
   <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed" title="Expand date filters"><em>Date filters</em></button>
   <div id="myDropdown" class="dropdown-content">
 	<section id="tags-list">
-    <div class="toc archive-date active" onclick="filterSelection('all')" title="Display all publications"><a>Display all ({{ site.posts | size }})</a></div>
+    <div class="toc archive-date active" onclick="filterSelection('all')" title="Display all publications">Display all ({{ site.posts | size }})</div>
     {% assign counter = 0 %}
   {% for post in site.posts %}
     {% assign thisyear = post.date | date: "%Y %B" %}
     {% assign prevyear = post.previous.date | date: "%Y %B" %}
     {% assign counter = counter | plus: 1 %}
   {% if thisyear != prevyear %}
-    <div class="toc archive-date" onclick="filterSelection('{{ thisyear }}')" title="Display publications only of {% assign titleyear = post.date | date: "%B of %Y" %}{{ titleyear }}"><a>{{ thisyear }} ({{ counter }})</a></div>
+    <div class="toc archive-date" onclick="filterSelection('{{ thisyear }}')" title="Display publications only of {% assign titleyear = post.date | date: "%B of %Y" %}{{ titleyear }}">{{ thisyear }} ({{ counter }})</div>
     {% assign counter = 0 %}
   {% endif %}
   {% endfor %}
@@ -31,17 +31,17 @@ title: Archives
 {% for post in site.posts %}
   {% assign current_date = post.date | date: "%Y %B" %}
   {% if current_date != date %}
-	<div class="toc date filter-date {{current_date}} no-js-block"><a id="{{current_date}}">{{ current_date }}</a></div>
+	<div id="{{current_date}}" class="toc date filter-date {{current_date}} no-js-block">{{ current_date }}</div>
 	{% assign date = current_date %} 
   {% endif %}
-	<li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><div class="toc filter-date {{current_date}} no-js-block">
-	<a itemprop="url" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}" href="{{ site.baseurl }}{{ post.url }}">
+	<li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><div class="toc filter-date {{current_date}} no-js-block"  onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
 	<span class="base-gray">{{ post.categories | replace: '["','' | replace: '"]','' }}
 	</span><br>
+	<a itemprop="url" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}" href="{{ site.baseurl }}{{ post.url }}">
 	<span itemprop="name">{{ post.title | strip_html }}</span>
+	</a>
 	<time itemprop="datePublished" class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%B %d %a." -%}{{ post.date | date: date_format }}
 	</time>
-	</a>
 	</div></li>
 {% endfor %}
 </ul> 

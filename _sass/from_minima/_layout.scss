@@ -605,6 +605,17 @@
 .nowrap {
   white-space: nowrap;
 }
+.last-amend-list:hover {
+  background-color: $light-gray !important;
+  color: $almost-black !important;
+
+  > time {
+  color: $not-black !important;
+  }
+  > a:hover {
+  color: $almost-black;
+  }
+}
 .block {
   display: block; 
 }
@@ -638,7 +649,7 @@
   display: inline;
   text-align: left;
 }
-.toc a {
+.toc {
   transition: 0s;
   padding: 0 4px;
   float: right;
@@ -651,25 +662,30 @@
   margin-top: -1px;
   text-shadow: 0 -1px $white, 0 -2px $white;
 }
-.toc:last-child a { 
+.toc:last-child {
   border-bottom: 1px solid $background-gray;
 }
-.toc a:hover {
+.toc:hover {
   background-color: $light-gray !important;
-  color: $almost-black !important;
   
   > span.base-gray,
   time {
   color: $not-black !important;
   }
+  > a:hover {
+  color: $almost-black !important;
+  }
 }
-#tags-list a:last-child { 
+#tags-list div:last-child {
   margin-bottom:0 !important;
 }
-.toc:nth-of-type(odd) a {
+#tags-list li .toc {
+  line-height: $small-line-height !important;
+}
+.toc:nth-of-type(odd) {
   background-color: $very-light-gray;
 }
-.date a { 
+.date {
   text-align: center;
   pointer-events: none;
   color: $almost-black !important;
@@ -712,10 +728,10 @@ span.small {
   list-style-type: none;
 }
 
-#tags-list li:nth-of-type(even) a {
+#tags-list li:nth-of-type(even) div {
   background-color: $white;
 }
-#tags-list li:last-child a {
+#tags-list li:last-child div {
   margin-bottom: $base-unit;
 }
 
@@ -848,14 +864,14 @@ a.bigger {
   box-shadow: 0 2px 5px $light-gray;
 }
 
-.archive-date a {
+.archive-date {
   cursor: pointer;
           user-select: none;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
 }
-.archive-date:hover a {
+.archive-date:hover {
   background-color: $light-gray !important;
   color: $not-black;
 }
@@ -865,7 +881,7 @@ a.bigger {
 .show-date {
   display: block;
 }
-.archive-date.active a {
+.archive-date.active {
   color: $not-black !important;
   pointer-events: none !important;
   background-color: $light-gray !important;
@@ -880,7 +896,7 @@ a.bigger {
   margin-top: $base-unit * 1.5;
   font-size: $base-font-size;
   
-    a {
+    a, span, time {
     font-size: $base-font-size;
     }
   }
@@ -1039,7 +1055,7 @@ i.button-arrow-down {
   transition: .4s;
 }
 
-.scroll-btn {
+.scroll-btn-up {
   visibility: hidden;
   display: none;
   position: fixed;
@@ -1059,7 +1075,7 @@ i.button-arrow-down {
   transition: transform 0.25s ease-in-out;
   transition: .4s;
 }
-.scroll-btn:hover, 
+.scroll-btn-up:hover,
 .scroll-down-btn:hover {
   box-shadow: 0 0 5px $not-black;
 }
@@ -1168,18 +1184,17 @@ i.button-arrow-down {
   transition: .1s;
   min-width: 100%;
   box-shadow: -2px 4px 4px $light-gray;
-  border-bottom: 1px solid $background-gray;
 }
-.dropdown-content > #tags-list div a {
+.dropdown-content > #tags-list div {
   padding: 0 4px 0 8px;
 }
 .dropdown-content > #tags-list .toc:last-child a { 
   border-bottom: none !important; 
 }
-.dropdown-content > #tags-list .toc a { 
+.dropdown-content > #tags-list .toc a {
   color: $base-gray;
 }
-.dropdown-content > #tags-list .toc a:hover {
+.dropdown-content > #tags-list .toc:hover {
   color: $not-black !important;
 }
 .dropdown-content > #tags-list a:visited {
@@ -1194,7 +1209,7 @@ i.button-arrow-down {
       -ms-transform: scaleX(-1);
        -o-transform: scaleX(-1);
 }
-.dropdown-content > #tags-list a {
+.dropdown-content > #tags-list div {
           transform: scaleX(-1); /* Flips the child back to normal */
   -webkit-transform: scaleX(-1);
      -moz-transform: scaleX(-1);
