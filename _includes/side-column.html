@@ -8,8 +8,8 @@
 <!-- meta -->
 <span class="post-meta">
 	<time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.last_modified_at | date: date_full_format }}" datetime="{{ post.last_modified_at | date_to_xmlschema }}" class="nowrap">
-	{%- assign date_year = "%Y %B %d" -%}{%- assign modified_to_day = post.last_modified_at | date: date_year -%}{%- assign to_day = "now" | date: date_year -%}{%- assign date_mend_to_day = "%H:%M" -%}{%- assign mend_date_format = "%Y %B" -%}{%- if modified_to_day == to_day -%}{{ post.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ post.last_modified_at | date: mend_date_format }}
-	<span class="no-cap">{% assign d = post.last_modified_at | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}{%- endif -%}
+	{%- assign date_format = "%Y %B" -%}{{ post.last_modified_at | date: date_format }}
+	<span class="no-cap">{% assign d = post.last_modified_at | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
 	</span>
 	</time>
 </span>
