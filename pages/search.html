@@ -5,26 +5,7 @@ title: Archives
 ---
 <div class="archive-page">
  <!-- control -->
-<section id="archive-date-container" class="js-only">
-<div class="dropdown">
-  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed" title="Expand date filters"><em>Date filters</em></button>
-  <div id="myDropdown" class="dropdown-content">
-	<section id="tags-list">
-    <div class="toc archive-date active" onclick="filterSelection('all')" title="Display all publications">Display all ({{ site.posts | size }})</div>
-    {% assign counter = 0 %}
-  {% for post in site.posts %}
-    {% assign thisyear = post.date | date: "%Y %B" %}
-    {% assign prevyear = post.previous.date | date: "%Y %B" %}
-    {% assign counter = counter | plus: 1 %}
-  {% if thisyear != prevyear %}
-    <div class="toc archive-date" onclick="filterSelection('{{ thisyear }}')" title="Display publications only of {% assign titleyear = post.date | date: "%B of %Y" %}{{ titleyear }}">{{ thisyear }} ({{ counter }})</div>
-    {% assign counter = 0 %}
-  {% endif %}
-  {% endfor %}
-	</section>
-  </div>
-  </div>
-</section>
+
 
 <!-- list -->
 <ul id="tags-list" class="no-js-block" itemscope itemtype="http://schema.org/Blog">
@@ -46,6 +27,4 @@ title: Archives
 {% endfor %}
 </ul> 
 </div>
-
-<script src="/src/js/filter-date.js" type="text/javascript"></script>
 

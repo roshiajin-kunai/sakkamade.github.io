@@ -152,7 +152,7 @@ mark {
 body {
   font: $base-font-weight #{$base-font-size}/#{$normal-line-height} $base-font-family;
   color: $almost-black;
-  background-image: linear-gradient(to bottom, $light-gray, $background-gray 80%);
+  //background-image: linear-gradient(to bottom, $light-gray, $background-gray 80%);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;

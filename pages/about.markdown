@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: columns-page
 title: About
 permalink: /about
 last_modified_at: 2021-04-29 21:55:45 +0000

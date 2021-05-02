@@ -3,22 +3,62 @@
 }
 
 
+.main {
+    //background-image: url('/src/img/head1.jpg');
+    //background-repeat: no-repeat;
+    //background-size: 85% auto;
+    //background-position: center bottom;
+    //bottom: 0;
+}
+
+
+body {
+    //background-image: url('/src/img/head1.jpg');
+    //background-repeat: no-repeat;
+    //background-size: 100% auto;
+    background-color: $very-light-gray;
+}
 
 /* wrap */
 
+#page-header {
+  padding: 0;
+  padding-top: $base-unit;
+  padding-right: $base-unit * 3;
+  padding-left: $base-unit * 3;
+    margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background: transparent;
+  min-width: 1px;
+  text-align: center;
+  width: 100%;
+  max-width: 1150px !important; //some random value which seemed to be slightly centered
+}
 
+.top-main {
+  flex: 70%;
+  min-width: 1px;
+  text-align: right;
+  padding: ($base-unit);
+}
+.top-side {
+  flex: 30%;
+  min-width: 1px;
+  text-align: left;
+  padding: ($base-unit) ($base-unit) ($base-unit) ($base-unit * 5);
+}
 
 .page-inner-main {
   min-height: 80vh;
 }
 #page-inner {
-  max-width: 1000px;
+  max-width: 1000px; // do not really work
   width: 100%;
-  padding: 0; 
-  background: $white;
+  padding-bottom: ($base-unit * 2);
+  background: transparent;
   margin-right: auto;
   margin-left: auto;
-  box-shadow: 0 0 6px $background-gray, 0 0 14px hsla(0, 0%, 20%, 0.2);
 
   p {
   font-size: $base-font-size + 2px;
@@ -32,7 +72,39 @@
   }
 }
 .columns-layout { 
-  max-width: 1150px !important;
+  max-width: 1150px !important; //this work
+}
+
+ #sidebar-button-close {
+    display: none;
+}
+.mobile-only {
+    display: none;
+}
+.pc-only {
+    display: block;
+}
+.dummy {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    border: none !important;
+    // main and side has no margin or padding
+}
+@media screen and (min-width: 1000px) {
+
+    #sidebar {
+        display: block !important;
+        background: transparent;
+        box-shadow: none;
+    }
+    #sidebar-button-open,
+    #sidebar-button-close {
+        display: none !important;
+    }
+    #main {
+        display: block !important;
+    }
 }
 /* ie */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -43,6 +115,42 @@
 }
 @media screen and (max-width: 1000px) {
 
+    .inner-top-menu {
+        border-bottom: 1px solid $background-gray;
+    }
+
+    .mobile-only {
+        display: block !important;
+    }
+    .pc-only {
+    display: none !important;
+    }
+    .top-side {
+        padding: ($base-unit) !important;
+    }
+    .main {
+        border-radius: 0 !important;
+    }
+    #sidebar {
+        display: none;
+        background: $white;
+  box-shadow: 0 0 6px $background-gray, 0 0 14px hsla(0, 0%, 20%, 0.2);
+    }
+    #sidebar-button-open {
+        display: inline-block;
+    }
+    .side-in-background:nth-of-type(odd) {
+        background-color: $very-light-gray !important;
+    }
+    .side-hover:hover {
+        background-color: $light-gray !important;
+    }
+    .side-head span {
+    background: $white !important;
+    }
+    .side-head {
+        border-bottom-color: $tag-gray !important;
+    }
   #page-inner {
   
     p, 
@@ -56,14 +164,11 @@
     }
   }
   
-  .side {
-  padding: 0 5% ($base-unit) 0 !important; 
+  .in-main-home {
+  padding-right: 5% !important;
   }
-  .main {
-  padding: 0 4.7% 0 0 !important; /* this main is special */
-  }
-  .main-with-margin {
-  padding: 0 7% ($base-unit * 3) 5% !important; /* 40px = 5% everywhere, now 7% */
+  .in-main {
+  padding-bottom: ($base-unit * 3) !important;
   }
   .only-main {
   max-width: 640px !important;
@@ -74,13 +179,13 @@
   }
   /* ie */
   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  
-    .only-main img {
-    max-width: 100% !important; /* otherwise imgs will overflow although pages will be very long for some reason */
-    }
+      .only-main img {
+          max-width: 100% !important; /* otherwise imgs will overflow although pages will be very long for some reason */
+      }
   }
+  /* end ie */
   .post-list > li {
-  padding-left: 7.527% !important;
+  padding-left: 7% !important;
   }
   .post-list-heading {
   margin-left: 7% !important;
@@ -89,17 +194,9 @@
   #scroll-down-btn {
   visibility: visible !important;
   }
-}
-@media screen and (max-width: 800px) {
 
-  .main-with-margin {
-  padding: 0 7% ($base-unit * 3) 7% !important;
-  }
-  .side {
-  padding: ($base-unit * 2) 7% 0 7% !important;
-  }
   .side, 
-  .main, 
+  .main,
   .only-main, 
   .main-with-margin {
   flex: 100% !important;
@@ -108,40 +205,41 @@
   padding-left: 7% !important;
   }
   /* ie */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  //@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   
-    .side,
-    .main,
-    .main-with-margin {
-    min-width: 640px;
-    }
-  }
-  .side,
-  .main,
-  .main-with-margin {
+    //.side,
+    //.main,
+    //.main-with-margin {
+    //min-width: 640px;
+    //}
+  //}
+  /* end ie */
+  .in-side,
+  .in-main-home,
+  .in-main {
   padding-right: 0 !important; /* for proper 'max-width' */
   padding-left: 0 !important; /* for proper 'max-width' */
   max-width: 640px !important;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: $base-unit * 3 !important;
+  padding-top: $base-unit * 3 !important;
+  }
+  .in-side {
+  padding-bottom: $base-unit !important; //because side-wrapper has margin-bottom
   }
   .main {
-  
-    li { 
+
+    li {
     padding-right: 0 !important;
     padding-left: 0 !important;
     }
-    ul { 
+    ul {
     margin-right: 0 !important;
     }
   }
-  .side-head {
-  text-align: left !important;
 
-  span {
-  padding-left: 0 !important;
-  }
-  }
+
   .inner-bottom-column {
   width: 100% !important;
   margin-bottom: 0 !important;
@@ -166,35 +264,35 @@
   margin-right: 0 !important;
   margin-left: 0 !important;
   }
-  .side-in {
-  display: block !important;
-  }
 }
 @media screen and (max-width: 670px) {
   
   /* max-width = screen width + return padding */
   .side,
-  .only-main,
   .main,
   .only-main,
   .main-with-margin {
   max-width: 670px !important;
   }
+  .in-main-home {
+  padding-right: 7% !important;
+  padding-top: $base-unit * 2 !important;
+  }
   .main {
-  padding: 0 7% 0 0 !important;
 
-    li {
+    ul.post-list li {
     padding-left: 7% !important;
     }
   }
-  .main-with-margin {
-  padding: 0 7% ($base-unit * 3) 7% !important;
+  .only-main,
+  .in-main,
+  .in-side {
+  padding-right: 7% !important;
+  padding-left: 7% !important;
+  padding-top: $base-unit * 2 !important;
   }
   .only-main {
-  padding: ($base-unit) 7% !important;
-  }
-  .side {
-  padding: ($base-unit) 7% 0 7% !important;
+  padding-bottom: $base-unit * 2 !important; //probably needs to be in 1000px /\
   }
 }
 @media screen and (max-width: 470px) {
@@ -222,7 +320,25 @@
   .desktop-pagination {
   display: none !important;
   }
+    .inner-top-menu {
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden !important; //issue on mobile still
+        margin-bottom: 0;
+    }
+    //temporary
+    .dummy .side-head {
+        line-height: 1.4em !important;
+        border: none !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
 }
+//temporary
+.dummy .side-head {
+    margin-bottom: $base-unit;
+}
+
 
 
 /* main */
@@ -236,11 +352,9 @@
   .main-with-margin {
   max-width: 70%;
   }
-
   .side {
   max-width: 30%;
   }
-
   .only-main, 
   .only-main-top {
   max-width: 100%;
@@ -250,29 +364,23 @@
 .inner-wrap-column {
   display: flex;
   flex-wrap: wrap;
-  padding: ($base-unit * 2) 0;
 }
-/* main of "home" */
-.main {
-  flex: 70%;
-  padding: ($base-unit) ($base-unit / 1.95) 0 0;
+
+// main of "home"
+.in-main-home {
+    padding: ($base-unit * 3) ($base-unit * 2) ($base-unit * 2) 0;
 }
-/* main of other pages (e.g. categories) */
-.main-with-margin {
-  flex: 70%;
-  padding: ($base-unit) ($base-unit * 2) ($base-unit) ($base-unit * 5);
+// main of other pages (e.g. categories)
+.in-main {
+    padding: ($base-unit * 3) ($base-unit * 2) ($base-unit * 3) ($base-unit * 5);
+
+    > section#toc:last-child div:last-child {
+        margin-bottom: $base-unit * 3; //issue with padding bottom in arhive
+    }
 }
-/* side for both */
-.side {
-  flex: 30%;
-  padding: ($base-unit) ($base-unit * 2) ($base-unit) ($base-unit);
-}
+// main of post
 .only-main {
-  flex: 100%;
-  padding-top: ($base-unit);
-  padding-bottom: ($base-unit);
-  margin: ($base-unit) ($base-unit * 5);
-  margin-top: 0;
+  padding: ($base-unit * 3) 0;
   max-width: 605px;
   margin-left: auto;
   margin-right: auto;
@@ -282,17 +390,42 @@
   }
 }
 .only-main img {
-  min-width: 800px;
-  margin-left: -99px;
+  min-width: 700px; //changed with thiner column
+  margin-left: -50px;
   cursor: pointer;
 }
 
-.only-main-top {
-  flex: 100%;
+.main {
+
+    ul {
+        margin-right: 0;
+    }
+    .next-post {
+        margin-top: -$base-unit !important;
+    }
+    .previous-post {
+        margin-bottom: -$base-unit !important; //causing issue because of "only-main" padding
+    }
+}
+.main {
+    border-radius: 5px;
+    align-self: flex-start; //for short posts
+  flex: 70%;
   min-width: 1px;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: white;
+  box-shadow: 0 0 6px $background-gray, 0 0 14px hsla(0, 0%, 20%, 0.2);
+}
+/* main of other pages (e.g. categories) */
+.main-with-margin {
+  flex: 70%;
+}
+/* side for both */
+.in-side {
+  padding: ($base-unit * 6) ($base-unit) ($base-unit) ($base-unit);
+  background-color: transparent;
+}
+.side {
+  flex: 30%;
 }
 .post-list-heading {
   margin-left: ($base-unit * 5);
@@ -326,30 +459,39 @@
 
 /* header */
 
+.top-nav {
 
-
-#site-header-inner {
-  height: 210px;
-  margin: 0;
-  text-align: center;
-
-  > a {
-  text-decoration: none;
-  }
 }
 
-.header-img {
-  position: relative;
-  top: -20px;
-  max-height: 260px;
-  min-height: 210px;
+.home-link {
+  white-space: nowrap;
+
+  span {
+  color: $base-gray;
+  font-size: $base-font-size;
 }
-#site-title-back {
-  max-height: 210px;
-  overflow: hidden !important;
-  width: auto;
-  margin: 0;
 }
+//#site-header-inner {
+  //height: 210px;
+  //margin: 0;
+
+  //> a {
+  //text-decoration: none;
+  //}
+//}
+
+//.header-img {
+  //position: relative;
+  //top: -20px;
+  //max-height: 260px;
+  //min-height: 210px;
+//}
+//#site-title-back {
+  //max-height: 210px;
+  //overflow: hidden !important;
+  //width: auto;
+  //margin: 0;
+//}
 
 
 
@@ -357,31 +499,25 @@
 
 
 
-#site-title h1::selection,
-#site-under-title::selection {
-  text-shadow: 0px 0 0px black;
-  background: $lighter-blue;
-  color: $almost-black;
-}
-#site-title,
-#site-under-title {
-  text-align: left;
-  text-shadow: -2px 2px $white, 2px -2px $white, 2px 2px $white, -2px -2px $white, -1px 1px $white, 1px -1px $white, 1px 1px $white, -1px -1px $white, -3px 3px $white, 3px -3px $white, 3px 3px $white, -3px -3px $white, -4px 4px $white, 4px -4px $white, 4px 4px $white, -4px -4px $white, 0 0 7px $white, 0 0 7px $white, 0 0 7px $white, 0 0 7px $white;
-  position: absolute;
-  z-index: 2;
-  white-space: nowrap;
-}
-#site-title {
-  text-decoration: none;
-  margin-left: 7%;
-  margin-top: 139px;
-}
-#site-under-title {
-  margin-left: 7%;
-  margin-top: 175px;
-  color: $base-gray;
-  font-style: italic;
-}
+//#site-title h1::selection,
+//#site-under-title::selection {
+  //text-shadow: 0px 0 0px black;
+  //background: $lighter-blue;
+  //color: $almost-black;
+//}
+//#site-title,
+//#site-under-title {
+  //z-index: 2;
+  //white-space: nowrap;
+  //text-align: left;
+  //z-index: 2;
+//}
+//#site-title {
+//padding-top: 10px;
+//}
+//#site-under-title {
+  //color: $base-gray;
+//}
 
 
 
@@ -390,11 +526,9 @@
 
 
 .inner-top-menu {
-  border-top: 1px solid $light-blue;
-  border-bottom: 1px solid $background-gray;
   line-height: 50px;
   height: 50px;
-  background-color: $light-blue; /* hsl(219, 25%, 75%); #b0bbd0; */
+  //background-color: $light-blue; /* hsl(219, 25%, 75%); #b0bbd0; */
   text-align: center;
   cursor: default;
   text-transform: uppercase;
@@ -416,12 +550,13 @@
 .inner-top-menu a:hover,
 .inner-top-menu a:focus {
   text-decoration: none !important;
-  box-shadow: inset 0 -6px $background-gray;
+  box-shadow: inset 0 -6px $light-blue;
   opacity: 1 !important;
+  color: $link-blue;
 }
 .active-menu-top, 
 .active-menu-top:hover {
-  box-shadow: inset 0 -6px $white !important;
+  box-shadow: inset 0 -6px $background-gray !important;
   opacity: 1 !important;
 }
 
@@ -430,7 +565,7 @@
 /* bottom */
 
 
-
+/*
 .inner-bottom-menu a:hover,
 .active-menu {
   color: $base-gray !important;
@@ -440,7 +575,7 @@
 .inner-bottom-menu {
   font-size: $base-font-size - 1px;
   border-top: 1px solid $background-gray;
-  background-color: $light-gray;
+  background-color: rgba(232,232,232, 0.4); //$light-gray;
   line-height: 40px;
   overflow: hidden;
   text-align: left;
@@ -492,7 +627,7 @@
 .col-2 {
   text-align: center;
 }
-
+*/
 .inner-footer { 
   background-color: $tag-gray;
   color: $light-gray;
@@ -569,7 +704,7 @@
 
 
 .side #side-wrapper:first-child {
-  margin-top: -5px; // temporary
+  //margin-top: -5px; // temporary
 }
 #side-wrapper {
   margin: 0;
@@ -579,7 +714,7 @@
 }
 .side-head {
   text-align: center;
-  border-bottom: 1px solid $background-gray;
+  border-bottom: 1px solid $not-black;
   line-height: 0em;
   margin-bottom: $base-unit * 2;
   margin-top: $base-unit;
@@ -593,31 +728,40 @@
   }
 }
 .side-head span {
-    background: $white;
+    background: $very-light-gray;
     padding: 0 10px;
+}
+.side-in {
+    padding: 2px 5px;
+    display: block;
+}
+
+.side-in:first-of-type {
+    border-radius: 5px 5px 0 0;
+}
+
+.side-in:last-of-type {
+    border-radius: 0 0 5px 5px;
 }
 .side-in a {
   text-decoration: none;
 }
 .side-in-background:nth-of-type(odd) {
-  background-color: $very-light-gray;
+  background-color: $light-gray;
 }
 .nowrap {
   white-space: nowrap;
 }
-.last-amend-list:hover {
-  background-color: $light-gray !important;
+.side-hover:hover {
+  background-color: $white;
   color: $almost-black !important;
 
   > time {
-  color: $not-black !important;
+  color: $not-black !important; //only latest amends list
   }
   > a:hover {
   color: $almost-black;
   }
-}
-.block {
-  display: block; 
 }
 .no-cap {
   text-transform: none !important;
@@ -641,8 +785,6 @@
 
 
 /* toc */
-
-
 
 .toc {
   margin: 0;
@@ -671,21 +813,23 @@
   border-bottom: 1px solid $background-gray;
 }
 .toc:hover {
-  background-color: $light-gray !important;
+  //background-color: $light-gray !important;
+  background-color: rgba(232,232,232, 0.5) !important;
   
   > span.base-gray,
   time {
   color: $not-black !important;
   }
 }
-#tags-list div:last-child {
-  margin-bottom:0 !important;
-}
+//#tags-list div:last-child {
+//  margin-bottom: 0 !important;
+//}
 #tags-list li .toc {
   line-height: $small-line-height !important;
 }
 .toc:nth-of-type(odd) {
-  background-color: $very-light-gray;
+  //background-color: $very-light-gray;
+  background-color: rgba(232,232,232, 0.3);
 }
 .date {
   text-align: center;
@@ -734,7 +878,7 @@ span.small {
   background-color: $white;
 }
 #tags-list li:last-child div {
-  margin-bottom: $base-unit;
+  margin-bottom: $base-unit; //issue with bottom padding on archive page
 }
 
 
@@ -745,7 +889,6 @@ span.small {
 
 .switch-post {
   text-align: center;
-  background-color: $very-light-gray;
   font-weight: 400;
   font-size: 22px; /* = top-menu font-size */
 }
@@ -764,7 +907,7 @@ span.small {
   a:hover, 
   a:focus {
   color: $not-black;
-  background-color: $light-gray;
+  //background-color: $light-gray;
   }
 
   a:hover i, 
@@ -787,6 +930,15 @@ span.small {
 
 .previous-post {
   border-bottom: 1px solid $background-gray;
+  height: 50px;
+  border-radius: 5px 5px 0 0;
+  background-color: $very-light-gray;
+
+  a:hover,
+  a:focus {
+  color: $not-black;
+  background-color: $light-gray;
+  }
 }
 .previous-post a {
   color: $base-gray;
@@ -796,14 +948,20 @@ span.small {
   border-bottom: 1px solid $background-gray;
 }
 
-.next-post { 
+.next-post { //issue with short posts
   border-top: 1px solid $background-gray;
+  background-color: rgba(232,232,232, 0.3);
   color: $almost-black; 
+  height: 100px;
+  border-radius: 0 0 5px 5px;
+
+  a:hover {
+  background-color: rgba(232,232,232, 0.5);}
 }
 .next-post a { 
   color: $not-black;
 }
-.next-post:hover, 
+.next-post:hover,
 .next-post:focus {
   border-top: 1px solid $background-gray;
 }
@@ -902,6 +1060,10 @@ a.bigger {
   ul#tags-list {
   margin-top: $base-unit * 1.5;
   font-size: $base-font-size;
+
+    > li:last-child div.toc {
+        margin-bottom: $base-unit * 3;
+    }
   
     a, span, time {
     font-size: $base-font-size;
@@ -1110,7 +1272,8 @@ i.button-arrow-down {
 
 //.dropdown:hover > .dropbtn,
 .dropbtn:hover {
-  background: $light-gray;
+  //background: $light-gray;
+  background-color: rgba(232,232,232, 0.5);
   color: $almost-black;
 }
 .dropdown {
@@ -1124,7 +1287,8 @@ i.button-arrow-down {
 }
 .dropbtn {
   font-family: 'JunicodeNew', "Times New Roman", Times, serif;
-  background-color: $very-light-gray;
+  //background-color: $very-light-gray;
+  background-color: rgba(232,232,232, 0.3);
   color: $not-black;
   font-size: $base-font-size;
   line-height: 1.2em;
@@ -1150,7 +1314,8 @@ i.button-arrow-down {
   }
 }
 .drop-opened {
-  background: $light-gray;
+  //background: $light-gray;
+  background-color: rgba(232,232,232, 0.5);
   color: $almost-black;
 }
 .drop-opened:before {
@@ -1222,6 +1387,9 @@ i.button-arrow-down {
      -moz-transform: scaleX(-1);
       -ms-transform: scaleX(-1);
        -o-transform: scaleX(-1);
+}
+.dropdown-toc .dropdown-content > #tags-list {
+  max-height: 500px;
 }
 .dropdown-content > #tags-list div {
           transform: scaleX(-1); /* Flips the child back to normal */

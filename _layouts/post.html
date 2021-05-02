@@ -1,7 +1,51 @@
 ---
-layout: default-page
+layout: default
 ---
-<article class="only-main" itemscope itemtype="http://schema.org/BlogPosting">
+<main id="main" class="main" aria-label="Content" role="main">
+
+<!--for posts-->
+  {% if page.categories %}
+  {% assign category = page.categories[0] %}
+  {% assign posts = site.categories[category] %}
+  {% for post in posts %}
+    {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+    {% endif %}
+  {% endfor %}
+  {% for post in posts %}
+    {% if post_index0 == forloop.index %}
+      {% assign next_post = post %}
+      {% assign next_post_url = post.url %}
+      {% assign next_post_title = post.title %}
+      {% assign next_post_cat = post.categories %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+      {% assign prev_post = post %}
+      {% assign prev_post_url = post.url %}
+      {% assign prev_post_title = post.title %}
+      {% assign prev_post_cat = post.categories %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+
+{% if prev_post %}
+<!-- prev -->
+	<section class="switch-post previous-post">
+		<a href="{{ prev_post_url }}" title="{{ prev_post_cat }} ・ {{ prev_post_title }}">Previous: "{{ prev_post_title | strip_html | truncatewords: 10 }}"</a>
+	</section>
+<!-- end prev -->
+{% endif %}
+
+<!-- end for posts -->
+
+
+<div class="only-main">
+
+
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
 <!-- cat assign -->
 {% if post %}
 	{% assign categories = post.categories | sort %}
@@ -39,21 +83,39 @@ layout: default-page
 
 </article>
 
-<div class="only-main" style="margin-bottom: 0 !important; margin-top: -70px !important">
-<div class="dropdown js-only">
-  {% for category in categories %}
-  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed" title='Expand the TOC of "{{ category }}"'><em>{{ category }}</em></button>
-  {% endfor %}
-  <div id="myDropdown" class="dropdown-content">
-	<section id="tags-list">
-	{% for category in page.categories %}
-	  {% assign sotred_posts = site.categories[category] | reverse %}
-	  {% for post in sotred_posts %}
-	  <div title="{{ post.title | strip_html }}" class="toc" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}</a>
-	  <time title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" class="category-post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></div>
-      {% endfor %}
-	{% endfor %}
-	</section>
-  </div>
+
 </div>
+
+
+
+
+{% if next_post %}
+  <!-- next -->
+    <section class="switch-post next-post">
+	<a href="{{ next_post_url }}" title="{{ next_post_cat }} ・ {{ next_post_title }}">Following: "{{ next_post_title | strip_html | truncatewords: 10 }}"<br>
+	<i class="button-arrow-down"></i>
+	</a>
+    </section>
+{% endif %}
+
+
+
+</main>
+
+
+<aside id="sidebar" class="side">
+
+
+<section class="in-side">
+
+<div id="side-wrapper">
+  <h5 class="side-head no-cap" title=''><span>Table of Contents</span></h5>
+{%- include toc-publication.html -%}
+
 </div>
+
+
+
+  {%- include side-column.html -%}
+  </section>
+</aside>
