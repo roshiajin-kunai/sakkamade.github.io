@@ -26,14 +26,14 @@ The user experience was improved for both PC and mobile devices.
 For Mobile:
 - Removed bottom menu and bottom "sidebar" (like in Updates page), scroll-to-bottom button have become more useful
 - Decreased height of header (image is quite removed for now)
-- The "Menu" in place of sidebar at the bottom
+- The overlay "Menu" in place of sidebar at the bottom
 
 For PC:
 - Column-layout on PC keeps itself in every page, including Publication's pages
-- Primary (main) column lighter than secondary (sidebar) to cease distraction
+- Primary (main) column lighter than secondary (sidebar) to reduce factor of distraction
 
 For both:
-- In-page-TOC and Date filter in Archive were moved to sidebar (to "Menu" for mobile users)
+- TOC of Publication’s pages and Date filter in Archives were moved to sidebar (to "Menu" for mobile users)
 
 P.s. The flowers shall return.
-P.p.s. Mobile users, I know it is not much of menu from user's point, but you can tap  the "Archive," the "About" in it, and you will be sent to respective page. I wonder if I need to think of name for a bit more.
+P.p.s. Mobile users, I know it has not much of menu look from user's point, but tap  the "Archive," the "About" in it, will sent the user to respective page. I wonder if I need to think of name for a bit more.
