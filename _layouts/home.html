@@ -4,15 +4,17 @@ layout: default
 <main id="main" class="main" aria-label="Content" role="main">
 <div class="in-main-home">
 
+    {{ content }}
 
-
-  {{ content }}
 </div>
 </main>
 
-<aside id="sidebar" class="side">
 
+
+<aside id="sidebar" class="side">
 <section class="in-side">
-  {%- include side-column.html -%}
-  </section>
+
+    {%- include side-column.html -%}
+
+</section>
 </aside>

@@ -1,26 +1,26 @@
-
 <!-- top navigation -->
 <nav class="inner-top-menu">
-  {% for item in site.data.top-menu.docs %}
-  <a class="{% if item.url == page.url %}active-menu-top{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
-  {% endfor %}
+    {% for item in site.data.top-menu.docs %}
+    <a class="{% if item.url == page.url %}active-menu-top{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+    {% endfor %}
 
+    <!-- menu -->
+    <a id="sidebar-button-open" onclick="sidebar_open()" style="
+            user-select: none;
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;">Menu</a>
+    <a class="active-menu-top" id="sidebar-button-close" onclick="sidebar_close()" style="
+            user-select: none;
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;">Menu</a>
+    <!-- end menu -->
 
-  <a id="sidebar-button-open" onclick="sidebar_open()" style="
-          user-select: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;">Menu</a>
-  <a class="active-menu-top" id="sidebar-button-close" onclick="sidebar_close()" style="
-          user-select: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;">Menu</a>
-
-  {% for item in site.data.top-menu-home.docs %}
-  <a class="{% if item.url == page.url %}active-menu-top{% else %}
-    {% if page.url contains 'page=' %}active-menu-top
-    {% endif %}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
-  {% endfor %}
+    {% for item in site.data.top-menu-home.docs %}
+    <a class="{% if item.url == page.url %}active-menu-top{% else %}
+        {% if page.url contains 'page=' %}active-menu-top
+        {% endif %}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+    {% endfor %}
 </nav>
 <!-- end top navigation -->
