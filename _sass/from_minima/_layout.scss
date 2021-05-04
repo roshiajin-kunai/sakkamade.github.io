@@ -123,7 +123,7 @@ body {
         display: block !important;
     }
     .pc-only {
-    display: none !important;
+        display: none !important;
     }
     .top-side {
         padding: ($base-unit) !important;
@@ -134,7 +134,7 @@ body {
     #sidebar {
         display: none;
         background: $white;
-  box-shadow: 0 0 6px $background-gray, 0 0 14px hsla(0, 0%, 20%, 0.2);
+        box-shadow: 0 0 6px $background-gray, 0 0 14px hsla(0, 0%, 20%, 0.2);
     }
     #sidebar-button-open {
         display: inline-block;
@@ -144,6 +144,9 @@ body {
     }
     .side-hover:hover {
         background-color: $light-gray !important;
+    }
+    .side-toc:hover {
+        background-color: rgba(232,232,232, 0.5) !important;
     }
     .side-head span {
     background: $white !important;
@@ -426,6 +429,7 @@ body {
 }
 .side {
   flex: 30%;
+  min-width: 1px;
 }
 .post-list-heading {
   margin-left: ($base-unit * 5);
@@ -753,11 +757,11 @@ body {
   white-space: nowrap;
 }
 .side-hover:hover {
-  background-color: $white;
-  color: $almost-black !important;
+  background-color: $white !important;
+  color: $almost-black;
 
-  > time {
-  color: $not-black !important; //only latest amends list
+  > span time {
+  color: $not-black !important; //only for latest amends list
   }
   > a:hover {
   color: $almost-black;
@@ -782,7 +786,16 @@ body {
   margin: 0 !important;
 }
 
-
+.flex {
+  display: flex;
+}
+.side-wrapper-string a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
 
 /* toc */
 
