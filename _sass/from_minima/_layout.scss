@@ -537,7 +537,7 @@ body {
   font-size: 0;
 }
 .inner-top-menu a {
-  height: 49px;
+  //height: 49px; //issue: does not work now
   text-align: center;
   transition: ease-out .2s;
   display: inline-block;

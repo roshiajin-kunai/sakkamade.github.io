@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-20 23:16:58 +0000
-last_modified_at: 2021-04-18 19:25:49 +0000
+last_modified_at: 2021-05-03 22:28:37 +0000
 main-title: 
 title: "Two Lilies Bloom upon a Wordless Roof.<br> By Kannazuki."
 author: sakkani
@@ -23,7 +23,7 @@ I just cannot do that.
 
 
 I was never understand by the people around me.
-During a class, I  received reprimands by the teacher, for I could not read aloud.
+During a class, I  received reprimands from the teacher, for I could not read aloud.
 I could not even eat a school lunch, everyone were throwing at me queerly looks.
 "Can you say 'A?'"
 I could not, and was mocked for that.
@@ -123,7 +123,7 @@ The voice of cicada had drifted somewhere far away.
 
 
 The next day, she left this world of ischaemic heart failure.
-That was a sudden demise.
+That was an abrupt demise.
 
 
 
@@ -264,7 +264,7 @@ I turned my face upwards to cool down the feverish inner corners of my eyes. I c
 
 Ah–, oh, no. Doubtless she misses me also.
 Always, together.
-Whereas you are far away, you are closer than anyone.
+Whereas you far away, you are closer than anyone.
 All right.
 Let us keep at it. Do not be embarrassed.
 Upon an hour of me paying her a  visit, I hope we will talk a lot.
