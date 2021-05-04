@@ -145,9 +145,6 @@ body {
     .side-hover:hover {
         background-color: $light-gray !important;
     }
-    .side-toc:hover {
-        background-color: rgba(232,232,232, 0.5) !important;
-    }
     .side-head span {
     background: $white !important;
     }
@@ -757,7 +754,7 @@ body {
   white-space: nowrap;
 }
 .side-hover:hover {
-  background-color: $white !important;
+  background-color: $white;
   color: $almost-black;
 
   > span time {
