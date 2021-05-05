@@ -320,12 +320,6 @@ body {
   .desktop-pagination {
   display: none !important;
   }
-    .inner-top-menu {
-        white-space: nowrap;
-        overflow-x: scroll;
-        overflow-y: hidden !important; //issue on mobile still
-        margin-bottom: 0;
-    }
     //temporary
     .dummy .side-head {
         line-height: 1.4em !important;
@@ -339,7 +333,15 @@ body {
     margin-bottom: $base-unit;
 }
 
+@media screen and (max-width: 450px) { //depends upon number of entries in top-menu
 
+    .inner-top-menu {
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden !important; //issue on mobile in old browsers still
+        margin-bottom: 0;
+    }
+}
 
 /* main */
 
@@ -1555,3 +1557,10 @@ ul#markdown-toc {
   float: left;
   }
 } */
+
+.copying-footer {
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 4px 4px 0 4px;
+    text-align: right;
+}
