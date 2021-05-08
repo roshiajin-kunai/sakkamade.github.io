@@ -30,7 +30,7 @@ For Mobile:
 
 For PC:
 - Column-layout persists in every page, including Publication's pages
-- Primary (main) column lighter than secondary (sidebar) to reduce factor of distraction
+- Brightness of the background of primary (main) column higher than of secondary (sidebar) to reduce factor of distraction
 
 For both:
 - TOC of Publication’s pages and Date filter in Archives were moved to sidebar (to "Menu" for mobile users)
