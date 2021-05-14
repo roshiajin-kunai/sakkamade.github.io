@@ -286,7 +286,7 @@
 </url>
 <url>
 <loc>https://sakkamade.github.io/2021/04/24/vixen-1-3</loc>
-<lastmod>2021-05-01T06:08:17+00:00</lastmod>
+<lastmod>2021-05-13T21:12:27+00:00</lastmod>
 </url>
 <url>
 <loc>https://sakkamade.github.io/2021/04/28/vixen-1-4</loc>
@@ -307,6 +307,10 @@
 <url>
 <loc>https://sakkamade.github.io/2021/05/10/vixen-1-7</loc>
 <lastmod>2021-05-11T23:24:33+00:00</lastmod>
+</url>
+<url>
+<loc>https://sakkamade.github.io/2021/05/14/vixen-1-8</loc>
+<lastmod>2021-05-14T05:08:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://sakkamade.github.io/about</loc>
@@ -354,5 +358,8 @@
 </url>
 <url>
 <loc>https://sakkamade.github.io/page=7/</loc>
+</url>
+<url>
+<loc>https://sakkamade.github.io/page=8/</loc>
 </url>
 </urlset>
