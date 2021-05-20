@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main id="main" class="main" aria-label="Content" role="main" itemscope itemtype="http://schema.org/BlogPosting">
+<main id="main" class="main" aria-label="Content" role="main" itemscope itemtype="http://schema.org/BlogPosting" style="padding-bottom: 60px !important"><!--"$base-unit * 3" in archive, categories, because of toc bottom margin; problems with about and 404; temporary-->
 <div class="in-main">
     <header>
     <h2 class="post-title" itemprop="name headline">{{ page.title | escape | default: "Untitled." }}</h2>
@@ -17,7 +17,7 @@ layout: default
 <aside id="sidebar" class="side">
 <section class="in-side">
 
-{% if page.url contains 'archive' %}
+{% if page.url contains 'archives' %}
 <div id="side-wrapper">
 <h5 class="side-head no-cap js-only" title='Date filters'><span>Archive Filter</span></h5>
 <section id="archive-date-container" class="js-only">

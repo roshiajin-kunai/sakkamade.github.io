@@ -1,5 +1,5 @@
 <div id="side-wrapper">
-<h5 class="side-head" title='List of latest amends of publications'><span>Latest Amends</span></h5>
+<h5 class="side-head" title=''><span>Latest Amends</span></h5>
     {% assign sorted_posts = site.posts | sort: "last_modified_at" | reverse %}
 {% for post in sorted_posts limit: 9 %}
     <section class="side-in side-in-background no-cap side-hover flex side-wrapper-string">
@@ -18,7 +18,7 @@
 
 
 <div id="side-wrapper">
-<h5 class="side-head" title='List of categories'><span>Categories</span></h5>
+<h5 class="side-head" title=''><span>Categories</span></h5>
     {% assign categories = site.categories | sort %}
 {% for category in categories %}
     <section class="side-in side-in-background side-hover no-cap test flex side-wrapper-string">
@@ -32,7 +32,7 @@
 {% if page.url contains 'archives' %}
 {% else %}
 <div id="side-wrapper">
-<h5 class="side-head"><a href="{{site.baseurl}}/archives" title='Visit an Archive page'><span>Archives</span></a></h5>
+<h5 class="side-head"><a href="{{site.baseurl}}/archives" title='Visit Archive page'><span>Archives</span></a></h5>
     {% assign counter = 0 %}
 {% for post in site.posts %}
     {% assign thisyear = post.date | date: "%Y %B" %}
@@ -55,11 +55,10 @@
 	<br><br>
 	Trying to obtain author's consent only upon confidence in translating a novel until the end and potential of contacting the author, so:—
     </span>
-
-    <blockquote>
+    <br>
     作家様達への注意。<br>
     許可なく翻訳していただき、誠に申し訳ございません。<br> 削除したい場合はご連絡ください。
-    </blockquote>
+    <br><br>
 
     {%- if site.twitter_username -%}
     <span class="side-in no-cap">

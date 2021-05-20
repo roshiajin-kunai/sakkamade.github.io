@@ -289,9 +289,9 @@ li {
 
 blockquote {
   margin-top: $base-unit;
-  border: 1px solid $background-gray;
+  //border: 1px solid $background-gray;
   border-left: 5px solid $background-gray;
-  padding: ($base-unit / 2) 3% ($base-unit / 2) 5.3%;
+  padding: ($base-unit / 2) 3% ($base-unit / 2) 5%;
   color: $not-black;
   text-align: justify;
   word-break: break-word;
@@ -300,7 +300,8 @@ blockquote {
   overflow: hidden;
   text-overflow: ellipsis;
   text-shadow: 0 -1px $white;
-  box-shadow: 1px 1px 4px $light-gray;
+  //box-shadow: 1px 1px 4px $light-gray;
+  border-radius: 0 5px 5px 0;
 
   p {
   color: $not-black;

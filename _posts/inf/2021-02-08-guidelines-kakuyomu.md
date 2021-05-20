@@ -7,7 +7,7 @@ author: sakkani
 categories:
  - Information
 tags:
-note: 
+note:
 chapter-link:
 ---
 * TOC

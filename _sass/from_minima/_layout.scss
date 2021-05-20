@@ -134,7 +134,7 @@ body {
     }
     .main:not(.dummy),
     .side:not(.dummy) {
-        border-bottom:  1px solid $background-gray !important;
+        border-bottom:  1px solid $background-gray;
     }
     #sidebar {
         display: none;
@@ -381,9 +381,9 @@ body {
 .in-main {
     padding: ($base-unit * 3) ($base-unit * 2) ($base-unit * 3) ($base-unit * 5);
 
-    > section#toc:last-child div:last-child {
-        margin-bottom: $base-unit * 3; //issue with padding bottom in arhive
-    }
+    //> section#toc:last-child div:last-child {
+        //margin-bottom: $base-unit * 3; //issue with padding bottom in arhive
+    //}
 }
 // main of post
 .only-main {
@@ -642,12 +642,10 @@ body {
   display: block;
 }
 
+
 /* side content */
 
 
-.side #side-wrapper:first-child {
-  //margin-top: -5px; // temporary
-}
 #side-wrapper {
   margin: 0;
   cursor: default;
@@ -681,7 +679,6 @@ body {
 .side-in:first-of-type {
     border-radius: 5px 5px 0 0;
 }
-
 .side-in:last-of-type {
     border-radius: 0 0 5px 5px;
 }
@@ -748,9 +745,9 @@ body {
   float: right;
   width: 100% !important;  
   text-decoration: none;
-  border-left: 1px solid $background-gray;
-  border-top: 1px solid $background-gray;
-  border-right: 4px solid $background-gray;
+  //border-left: 1px solid $background-gray;
+  //border-top: 1px solid $background-gray;
+  border-right: 5px solid $background-gray;
   line-height: $normal-line-height;
   margin-top: -1px;
   text-shadow: 0 -1px $white, 0 -2px $white;
@@ -761,20 +758,24 @@ body {
   }
 }
 .toc:last-child {
-  border-bottom: 1px solid $background-gray;
+  //border-bottom: 1px solid $background-gray;
 }
 .toc:hover {
   //background-color: $light-gray !important;
   background-color: rgba(232,232,232, 0.5) !important;
+  cursor: pointer;
   
   > span.base-gray,
   time {
   color: $not-black !important;
   }
 }
-//#tags-list div:last-child {
-//  margin-bottom: 0 !important;
-//}
+.toc a:hover {
+    color: $link-blue !important;
+}
+#tags-list div:last-child {
+  margin-bottom: 0 !important;
+}
 #tags-list li .toc {
   line-height: $small-line-height !important;
 }
@@ -783,6 +784,7 @@ body {
   background-color: rgba(232,232,232, 0.3);
 }
 .date {
+  border-top: 1px solid $background-gray;
   text-align: center;
   pointer-events: none;
   color: $almost-black !important;
@@ -1248,11 +1250,11 @@ i.button-arrow-down {
   cursor: pointer;
   min-width: 100%;
   border: 1px solid $background-gray;
-  border-right: 4px solid $background-gray;
-  border-radius: 0 !important;
+  border-right: 5px solid $background-gray;
   transition: .2s;
   margin: 0;
   text-shadow: 0 -1px $white, 0 -2px $white;
+  border-radius: 5px 0 0 5px;
 }
 /* ie */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -1268,6 +1270,7 @@ i.button-arrow-down {
   //background: $light-gray;
   background-color: rgba(232,232,232, 0.5);
   color: $almost-black;
+  border-radius: 5px 0 0 0;
 }
 .drop-opened:before {
   content: '';
@@ -1313,7 +1316,10 @@ i.button-arrow-down {
   display: none;
   transition: .1s;
   min-width: 100%;
-  box-shadow: -2px 4px 4px $light-gray;
+  border: 1px solid $background-gray;
+  border-top: none;
+  border-right: none;
+  //box-shadow: -2px 4px 4px $light-gray;
 }
 .dropdown-content > #tags-list div {
   padding: 0 4px 0 8px;
@@ -1351,11 +1357,11 @@ i.button-arrow-down {
 }
 .dropdown-content-no-list {
   background-color: $very-light-gray;
-  border: 1px solid $background-gray;
-  border-right: 4px solid $background-gray;
+  border-right: 5px solid $background-gray;
+  border-radius: 0 0 0 5px;
   border-top: none !important;
   padding: 0 8px;
-  padding: ($base-unit / 2) 5.3% ($base-unit / 2) 3%;  /* look the "blockquote" (mirrored) */
+  padding: ($base-unit / 2) 5% ($base-unit / 2) 3%;  /* look the "blockquote" (mirrored) */
 }
 .show-dropdown {
   display: block;
@@ -1413,10 +1419,12 @@ details {
 }
 .note-wrapper .note-overlay:hover {
   cursor: row-resize !important;
+  border: 1px solid $tag-gray !important;
+  border-radius: 1px 5px 5px 1px;
 }
 .note-wrapper #note {
   margin: 0 !important;
-  position: relative;
+  position: relative; // is this needed?
   z-index: 1;
 }
 .pinned {
@@ -1436,8 +1444,8 @@ ul#markdown-toc {
   depth: 1;
 }
 #markdown-toc {
-  border: 1px solid $background-gray;
-  border-right: 4px solid $background-gray;
+  border-right: 5px solid $background-gray;
+  border-radius: 5px 0 0 5px;
   background-color: $very-light-gray;
   padding: 1em 2em;
   list-style: decimal;
