@@ -11,14 +11,14 @@ title: Archives
         <div id="{{current_date}}" class="toc date filter-date {{current_date}} no-js-block">{{ current_date }}</div>
             {% assign date = current_date %}
     {% endif %}
-	<li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><div class="toc filter-date {{current_date}} no-js-block"  onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+	<li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="toc filter-date {{current_date}} no-js-block"  onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
         <span class="base-gray">{{ post.categories | replace: '["','' | replace: '"]','' }}
         </span><br>
         <a itemprop="url" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}" href="{{ site.baseurl }}{{ post.url }}">
         <span itemprop="name">{{ post.title | strip_html }}</span>
         </a>
         <time itemprop="datePublished" class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%B %d %a." -%}{{ post.date | date: date_format }}
-        </time></div>
+        </time>
 	</li>
 {% endfor %}
 </ul> 
