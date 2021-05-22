@@ -24,7 +24,7 @@
 	<p class="post-meta" style="text-align: right !important;">
 	<span class="no-cap" title="Estimated reading time">
 			{% capture words %}
-		{{ page.content | number_of_words | minus: 250 }}
+		{{ page.content | strip_html | number_of_words | minus: 250 }}
 			{% endcapture %}
 		{% if words contains "-" %}
 		Less than a minute
@@ -39,13 +39,14 @@
 
 
 {% if page.note or page.chapter-link %}
-{% if page.note %}
+{% assign number_words_note = page.note | strip_html | number_of_words %}
+{% if number_words_note >= 10 %}
 <div onclick="classSwitch()" class="note-wrapper">
 <div id="note-overlay" class="note-overlay js-only" title="Click to expand"></div>
 {% else %}
 <div class="note-wrapper">
 {% endif %}
-<blockquote class="cropped" id="note">
+<blockquote {% if number_words_note >= 10 %}class="cropped"{% endif %} id="note">
 
       {% if page.note %}
         <p class="translator-note"><strong>Note:</strong> {{ page.note }}</p>

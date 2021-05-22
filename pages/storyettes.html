@@ -11,7 +11,7 @@ permalink: /categories/storyette
 
 <h4 class="with-indent">The List</h4>
 
-   {% assign sorted-posts = site.posts | where: "categories", "Storyette" %}
+   {% assign sorted-posts = site.posts | where: "categories", "Storyette" | reverse %}
   <section id="toc"> 
   {% for post in sorted-posts %}
 
