@@ -8,7 +8,7 @@ categories:
  - Storyette
 tags:
  - webnovel translation
-note: "(Translated with author's consent.)"
+note: "Translated with author's consent."
 chapter-link: https://kakuyomu.jp/works/1177354054882933694/episodes/1177354054882934188
 ---
 Wrapped in a pale pink hoodie, her hands were shoved within pockets of pair of ankles-length jeans, which were unsealing her feet only a little excessive, she  stretched her spine straight whereas fixedly gazing upwards.

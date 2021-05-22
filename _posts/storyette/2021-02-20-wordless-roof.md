@@ -9,7 +9,7 @@ categories:
  - Storyette
 tags:
  - webnovel translation
-note: "(Translated with author's consent.)"
+note: "Translated with author's consent."
 chapter-link: https://kakuyomu.jp/works/1177354054917607095/episodes/1177354054917609531
 ---
 Selective mutism.
