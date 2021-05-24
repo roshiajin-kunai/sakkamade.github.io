@@ -17,7 +17,7 @@ title: Archives
         <a itemprop="url" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}" href="{{ site.baseurl }}{{ post.url }}">
         <span itemprop="name">{{ post.title | strip_html }}</span>
         </a>
-        <time itemprop="datePublished" class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%B %d %a." -%}{{ post.date | date: date_format }}
+        <time itemprop="datePublished" class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%B %d %a." -%}{{ post.date | date: date_format }}
         </time>
 	</li>
 {% endfor %}
