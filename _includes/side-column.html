@@ -21,7 +21,7 @@
 <h5 class="side-head" title=''><span>Categories</span></h5>
     {% assign categories = site.categories | sort %}
 {% for category in categories %}
-    <section class="side-in side-in-background side-hover no-cap test flex side-wrapper-string">
+    <section class="side-in side-in-background side-hover no-cap flex side-wrapper-string">
     <a href="{{site.baseurl}}/categories/{{ category | first | slugify }}" title='Visit table of content of "{{ category | first }}"'>{{ category[0] }}</a>&nbsp;
     <span>({{ category | last | size }})</span>
     </section>
@@ -40,7 +40,7 @@
     {% assign counter = counter | plus: 1 %}
 {% if thisyear != prevyear %}
     <span class="side-in side-in-background side-hover">
-    <a href="{{site.baseurl}}/archives#{{ post.date | date:"%Y %B" }}" title='Scroll to publications of {{ post.date | date:"%B of %Y" }}'>{{ thisyear }}</a> ({{ counter }})
+    <a href="{{site.baseurl}}/archives#{{ post.date | date:"%Y %B" }}" title='Show publications of {{ post.date | date:"%B of %Y" }}'>{{ thisyear }}</a> ({{ counter }})
     </span>
         {% assign counter = 0 %}
 {% endif %}
