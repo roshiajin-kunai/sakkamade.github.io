@@ -51,5 +51,14 @@ Keywords: Age Difference, Daily Life, Female Protagonist, Gentle Universe, Girls
 
 {% endfor %}
 </section>
+<section id="toc" itemscope itemtype="http://schema.org/Blog">
+{% assign chapter2 = site.posts | where: "categories", "The Marriage of the Vixen-chan" | where_exp: "item", "item.chapter-type contains 'Chapter 2.'" | reverse %}
+<section class="toc date no-cap">Chapter 2. Vixen and Spring Pattern.</section>
+{% for post in chapter2 %}
+
+	{%- include cat.html -%}
+
+{% endfor %}
+</section>
 
 {%- include footnote.html -%}
