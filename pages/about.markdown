@@ -2,7 +2,7 @@
 layout: columns-page
 title: About
 permalink: /about
-last_modified_at: 2021-05-21 03:00:55 +0000
+last_modified_at: 2021-06-01 01:35:55 +0000
 ---
 
 In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
@@ -27,7 +27,7 @@ Well, with  that said, I _am_ learning both. Whereas working over my translation
 {: class="with-indent"}
 
 The design for this website made by me from a scratch, with following adjustment of it to _Jekyll_.
-Influenced by theme that I used in my previous blog at _WordPress_ and great deal of other web-sites that I have visited.
+Used to be influenced by theme which I used in my previous blog at _WordPress_, and now only by great deal of other web-sites that I have visited.
 The font I use presently is [_Junicode New_](https://github.com/psb1558/Junicode-New), and [_Junicode_](https://github.com/Fromager/junicode) for italic, since italic of _Junicode New_ is still WIP.
 
 
@@ -51,4 +51,4 @@ and plenty of other.
 <blockquote style='padding-top: 1.3em;'><strong style="font-size: 1.8em;">継続は力なり。</strong><em style="font-size: 1em; white-space: nowrap;">Keizoku wa Chikara nari.</em><br>
 <a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size: 1em;">wikiquote.org</em></a>
 </blockquote>
-<span style="font-size: .9em; font-weight:normal;">What literally translates as <strong>"Persistence is the powe</strong></span>
+<span style="font-size: .9em; font-weight:normal;">What literally translates as <strong>"Persistence is the virt</strong></span>
