@@ -198,7 +198,7 @@ Lydia and Yuuyami grew a warm smiles upon receiving endorsement of the masters.
 
 
 To beat Ohan. This is Lydia's objective.
-If she becomes stronger than Ohan, she may be considered a nighly perfect in self-defence.
+If she becomes stronger than Ohan, she may be considered a nigh perfect in self-defence.
 Initially, according to the calculations of Yuuyami, it was necessary to have seventh _dan_-level to gain a victory over Ohan. However, with present body-modifications of Ohan, a victory appears to be probable having around a fourth _dan_ of strength.
 
 

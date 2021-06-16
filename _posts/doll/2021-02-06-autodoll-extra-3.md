@@ -438,7 +438,7 @@ The girls acted as evil, yet  evil they were never.
 Phantom and Weiss Lily.
 Illusion​ and  <em><ruby>Shirayuri<rt> White Lily </rt></ruby></em>.
 The war chronicle was as shocking so to turn Shii's view warped.
-Upon reading the records of the girls' battles entirely, upon that moment, my view grew distorted, blurred, nighly causing me to panic.
+Upon reading the records of the girls' battles entirely, upon that moment, my view grew distorted, blurred, nigh causing me to panic.
 
 
 "What is this!?"
