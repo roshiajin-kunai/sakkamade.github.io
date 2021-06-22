@@ -1,4 +1,0 @@
-<generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
-<link href="{{ site.url }}/" rel="alternate" type="text/html"/>
-<updated>{{ "now" | date_to_xmlschema }}</updated>
-<subtitle>{{ site.description | xml_escape }}</subtitle>
