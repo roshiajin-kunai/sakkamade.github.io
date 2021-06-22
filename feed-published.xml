@@ -11,9 +11,10 @@ layout: null
     <title type="html">{{ site.title | xml_escape }} - Recently published</title>
     <subtitle>{{ site.description | xml_escape }}</subtitle>
         {% for post in site.posts limit: 13 %}<entry>
-            <title type="html">{{ post.title | xml_escape }}</title>
+            <title type="html">{{ post.title | smartify | xml_escape }}</title>
             <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
             <published>{{ post.date | date_to_xmlschema }}</published>
+            <updated>{{ post.date | date_to_xmlschema }}</updated>
             <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
             <author>
                 <name>{{ post.author | xml_escape }}</name>

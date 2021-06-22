@@ -11,7 +11,7 @@ layout: null
     <title type="html">{{ site.title | xml_escape }}</title>
     <subtitle>{{ site.description | xml_escape }}</subtitle>
         {% for post in site.posts limit: 13 %}<entry>
-            <title type="html">{{ post.title | xml_escape }}</title>
+            <title type="html">{{ post.title | smartify | xml_escape }}</title>
             <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
             <published>{{ post.date | date_to_xmlschema }}</published>
             <updated>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</updated>
