@@ -1,0 +1,11 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+    {%- include /feed/feed-head.xml -%}
+        {% assign sorted_modified_posts = site.posts | sort: "last_modified_at" | reverse %}{% for post in sorted_modified_posts limit: 13 %}<entry>
+            {%- include /feed/feed-post-summary.xml -%}
+            <updated>{{ post.last_modified_at | date_to_xmlschema }}</updated>
+        </entry>{% endfor %}
+</feed>
