@@ -5,9 +5,6 @@
     <link rel="shortcut icon" href="{{ "/src/img/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
     {%- seo -%}
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <noscript><style>.cropped { max-height: none !important; -webkit-mask-image: none !important; mask-image: none !important; opacity: 1 !important; cursor: default !important; } .js-only { display: none !important; } .no-js-block { display: block !important; } .toc a:hover { color: inherit !important;} </style></noscript>
     {%- feed_meta -%}
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-        {%- include google-analytics.html -%}
-    {%- endif -%}
+    <noscript>.no-js-block { display: block !important; }</noscript>
 </head>

@@ -1,5 +1,5 @@
 ---
-layout: columns-page
+layout: base-page-title
 title: The Marriage of the Vixen-chan.
 cat-description: |
  "I've come here as your bride!"<br>
@@ -8,9 +8,13 @@ cat-description: |
  When, before this  exhausted to the core Fuyuka Hiragi, putting in an appearance a maiden with ears of vixen and bushy tail, who introduced herself as Ohana.<br>
  Whilst being bewildered by her saying of becoming a wife, Fuyuka gradually opens her heart to cheerful, slightly clumsy, but tender towards her girl.<br>
  This story is a warm and gentle tale of certain worn-out member of society and vixen-girl, who have come to her as her bride.
+description-name: Summary
 permalink: /categories/the-marriage-of-the-vixen-chan
 ---
-<h4 class="with-indent">Summary</h4>
+
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">{{ page.description-name }}</div>
+</div>
 
 <p class="cat-description">{{ page.cat-description }}</p>
 
@@ -36,24 +40,24 @@ Keywords: Age Difference, Daily Life, Female Protagonist, Gentle Universe, Girls
 
 
 
-<hr>
 
 
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">Table of Contents</div>
+</div>
 
-<h4 class="with-indent">Table of Contents</h4>
-
-<section id="toc" itemscope itemtype="http://schema.org/Blog">
+<section id="toc">
 {% assign chapter1 = site.posts | where: "categories", "The Marriage of the Vixen-chan" | where_exp: "item", "item.chapter-type contains 'Chapter 1.'" | reverse %}
-<section class="toc date no-cap">Chapter 1. Encounter between Fuyuka Hiragi and vixen Ohana.</section>
+<section class="toc date centered">Chapter 1. Encounter between Fuyuka Hiragi and vixen Ohana.</section>
 {% for post in chapter1 %}
 
 	{%- include cat.html -%}
 
 {% endfor %}
 </section>
-<section id="toc" itemscope itemtype="http://schema.org/Blog">
+<section id="toc">
 {% assign chapter2 = site.posts | where: "categories", "The Marriage of the Vixen-chan" | where_exp: "item", "item.chapter-type contains 'Chapter 2.'" | reverse %}
-<section class="toc date no-cap">Chapter 2. Vixen and Spring Pattern.</section>
+<section class="toc date centered">Chapter 2. Vixen and Spring Pattern.</section>
 {% for post in chapter2 %}
 
 	{%- include cat.html -%}

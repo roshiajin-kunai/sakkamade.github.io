@@ -1,0 +1,21 @@
+<div class="home">
+
+<section class="start-header-wrapper align-center none-mobile">
+    <div class="start-site-name">{{ site.title }}</div>
+</section>
+
+<section class="start-header-wrapper align-center">
+    <div class="start-site-description">{{ site.description }}</div>
+</section>
+
+<div class="header-image-wrapper align-center">
+    <div class="start-h1">Projects</div>
+</div>
+
+<ul class="stripped">
+{% assign categories = site.categories | sort %}{% for category in categories %}{% unless category contains "Information" %}
+    <li class=""><a href="{{ site.baseurl }}/categories/{{ category | first | slugify }}" title='Visit table of content of "{{ category | first }}"'>{{ category[0] }}</a></li>
+{% endunless %}{% endfor %}
+</ul>
+
+</div>

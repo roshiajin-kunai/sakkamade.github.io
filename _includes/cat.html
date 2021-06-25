@@ -1,6 +1,5 @@
-
-<div title="{{ post.title }}" class="toc" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
-<a itemprop="url" href="{{ site.baseurl }}{{ post.url }}"><span itemprop="name">{{ post.title | strip_html }}</span>
+<div title="{{ post.title }}" class="toc" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+<a itemprop="url" href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.title | strip_html }}</span>
 </a>&nbsp;
-<time itemprop="datePublished" class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M UTC" -%}{% if post.last_modified_at %}Last amend on {{ post.last_modified_at | date: date_full_format }}{% else %}{{ post.date | date: date_full_format }}{% endif %}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format = "%Y %B %d" -%}{{ post.date | date: date_format }}{% if post.last_modified_at %}*{% endif %}</time>
+<time class="toc-post-date" title="{%- assign date_format = "%d/%m/%Y" -%}{% if post.last_modified_at %}Last amend on {{ post.last_modified_at | date: date_format }}{% else %}{{ post.date | date: date_format }}{% endif %}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format_2 = "%Y %B %d" -%}{{ post.date | date: date_format_2 }}{% if post.last_modified_at %}*{% endif %}</time>
 </div>

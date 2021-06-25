@@ -1,5 +1,5 @@
 ---
-layout: columns-page
+layout: base-page-title
 title: Para・Witches (discontinued)
 cat-description: | 
  A modern witch-story woven by a pair of witches with paradoxical personalities.
@@ -21,10 +21,13 @@ cat-description: |
  <br>
  Himeka Kitazawa&nbsp;&nbsp;&nbsp;&#8239;&#8239;&hairsp;&hairsp;(15) "Witch of Illusion <span class="small">(Bewitching)</span>"<br>
  Yayoi Fujimoto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8239;&hairsp;(27) "Witch of Disaster"
+description-name: Elucidation
 permalink: /categories/para-witches
 ---
-<h4 class="with-indent">Elucidation <span class="small"></span></h4>
 
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">{{ page.description-name }}</div>
+</div>
 
 <div class="dropdown cat-description no-js-block">
   <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>(Beware! exposes quite a part of the story.)</em></button>
@@ -44,27 +47,20 @@ permalink: /categories/para-witches
 <span class="small"> (U~icchi・Fuicchi)</span><br>
 Author: <a class="bigger" href="https://kakuyomu.jp/users/yukiToy"  target="_blank">結城十維</a>  <span class="small"> (Yuki Toy) </span></p>
 
-
-
 <hr>
-
-
 
 <p>Genre: Contemporary Fantasy<br>
 Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Witches, Yuri
 </p>
 
 
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">Table of Contents</div>
+</div>
 
-<hr>
-
-
-
-<h4 class="with-indent">Table of Contents</h4>
-
-<section id="toc" itemscope itemtype="http://schema.org/Blog">
+<section id="toc">
 {% assign Intro = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Intro.'" | reverse %}
-<section class="toc date">Intro.</section>
+<section class="toc date centered">Intro.</section>
 {% for post in Intro %}  
 	
 	{%- include cat.html -%}
@@ -72,11 +68,9 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 {% endfor %}
 </section>
 
-
-
-<section id="toc" itemscope itemtype="http://schema.org/Blog">
+<section id="toc">
 {% assign Part1 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 1.'" | reverse %}
-<section class="toc date">Part 1. Flightless Witch.</section>
+<section class="toc date centered">Part 1. Flightless Witch.</section>
 {% for post in Part1 %}
 	
 	{%- include cat.html -%}
@@ -84,9 +78,9 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 {% endfor %}
 </section>
 
-<section id="toc" itemscope itemtype="http://schema.org/Blog">
+<section id="toc">
 {% assign Part2 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 2.'" | reverse %}
-<section class="toc date">Part 2. Forgotten Witch.</section>
+<section class="toc date centered">Part 2. Forgotten Witch.</section>
 {% for post in Part2 %}
 	
 	{%- include cat.html -%}
@@ -94,9 +88,9 @@ Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Wit
 {% endfor %}
 </section>
 
-<section id="toc" itemscope itemtype="http://schema.org/Blog">
+<section id="toc">
 {% assign Part3 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 3.'" | reverse %}
-<section class="toc date no-cap">Part 3. Witch of Darkness.</section>
+<section class="toc date centered">Part 3. Witch of Darkness.</section>
 {% for post in Part3 %}
 
 	{%- include cat.html -%}

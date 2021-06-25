@@ -1,38 +1,43 @@
 /**
  * Reset some basic elements
  */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
 
 
-
-/* html { 
-  scroll-behavior: smooth;
-} */
-
-body { 
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    background-color: #ffe1e7;
+    -webkit-text-size-adjust: 100%;
+     -webkit-font-feature-settings: "kern" 1, "ss18";
+        -moz-font-feature-settings: "kern" 1, "ss18";
+          -o-font-feature-settings: "kern" 1, "ss18";
+             font-feature-settings: "kern" 1, "ss18";
+    font-kerning: normal;
     cursor: default;
 }
 
-body, 
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
 h1, h2, h3, h4, h5, h6,
-p, 
-blockquote, pre,
-dl, dd, ol, ul, 
-figure {
-    margin: 0;
-    padding: 0;
-    color: $almost-black;
-    line-height: $normal-line-height;
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $base-unit;
 }
 
-p {
-    color: $almost-black;
-}
-
-
-/* footnotes */
-
-
-sup { 
+/*
+ * footnotes
+ */
+sup {
     padding: 0 0 0 1px;
     margin-top: 60px !important;
     vertical-align: top;
@@ -43,16 +48,18 @@ sup {
 
 .footnote::before { content: '['; }
 .footnote::after {  content: ']'; }
-.footnote { 
+.footnote {
     text-decoration: none;
 }
+
 .footnotes {
     color: $not-black;
     border-top: 1px solid $background-gray;
     margin-top: $base-unit;
     padding-top: $base-unit;
 }
-.reversefootnote { 
+
+.reversefootnote {
     margin-left: 4px;
     text-decoration: underline;
 }
@@ -82,7 +89,6 @@ sup {
 
         &:target {
             background: #fff2f7;
-            //box-shadow: 1px 1px 2px #fff2f7, -1px -1px 2px #fff2f7, 1px -1px 2px #fff2f7, -1px 1px 2px #fff2f7, 1px 0 2px #fff2f7, 0 1px 2px #fff2f7;
             border-radius: 5px;
         }
         &:target a {
@@ -109,9 +115,10 @@ hr {
     background: $background-gray;
 }
 
-h1, h2, h3, h4, h5, h6, {
-    font-weight: 400;
+h1, h2, h3, h4, h5, h6 {
     line-height: $base-line-height;
+    font-weight: $base-font-weight;
+    text-align: center;
 }
 
 h1 { font-size: 38px; }
@@ -123,94 +130,40 @@ h6 { font-size: 24px; }
 
 
 @media screen and (max-width: 670px) {
-  
+
     h1 { font-size: 34px !important; }
     h2 { font-size: 30px !important; }
     h3 { font-size: 28px !important; }
     h4 { font-size: 26px !important; }
     h5 { font-size: 24px !important; }
     h6 { font-size: 20px !important; }
-    #site-title {
-        margin-top: 144px !important;
-    }
 }
 
-
-mark { 
+mark {
     background-color: #fffbac;
 }
-
-
-
-/**
- * Basic styling
- */
-
-
-
-body {
-    font: $base-font-weight #{$base-font-size}/#{$normal-line-height} $base-font-family;
-    color: $almost-black;
-    //background-image: linear-gradient(to bottom, $light-gray, $background-gray 80%);
-    -webkit-text-size-adjust: 100%;
-     -webkit-font-feature-settings: "kern" 1, "ss18";
-        -moz-font-feature-settings: "kern" 1, "ss18";
-          -o-font-feature-settings: "kern" 1, "ss18";
-             font-feature-settings: "kern" 1, "ss18";
-    font-kerning: normal;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-
-
-
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $base-unit;
-}
-
 
 
 /**
  * `main` element
  */
-
-
-
 main {
     display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
 
-
 /**
  * Images
  */
-
-
-
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
 
-
 /**
  * Figures
  */
-
-
-
 figure > img {
     display: block;
 }
@@ -220,75 +173,53 @@ figcaption {
 }
 
 
-
 /**
- * Lists
+ * Links
  */
+a {
+    color: $link-blue;
+    text-decoration: none;
+    transition: color ease-in .15s;
 
-
-
-ul, 
-ol {
-    margin-right: 4%;
-    margin-left: 6%;
+  &:hover {
+      color: $base-gray;
+  }
 }
-
-li {
-
-    > ul,
-    > ol {
-        margin-bottom: 0;
-    }
-}
-
 
 
 /**
  * Blockquotes
  */
-
-
-
 blockquote {
-    margin-top: $base-unit;
-    //border: 1px solid $background-gray;
-    border-left: 5px solid $background-gray;
-    padding: ($base-unit / 2) 3% ($base-unit / 2) 5%;
-    color: $not-black;
-    text-align: justify;
-    word-break: break-word;
-    font-size: $base-font-size !important;
-    background-color: $very-light-gray;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-shadow: 0 -1px $white;
-    //box-shadow: 1px 1px 4px $light-gray;
+    border-left: 6px solid $background-gray;
+    padding-left: $base-per;
+    color: $not-so-black;
 
-    p {
-        color: $not-black;
-        font-size: $base-font-size !important;
-    }
-    a,
-    p a {
+    > p a {
         color: $base-gray;
-        font-size: $base-font-size !important;
-    }
-    a:hover {
-        color: $not-black;
+        text-decoration: underline;
+
+        &:hover {
+            color: $link-blue;
+            text-decoration: none;
+        }
     }
     > :last-child {
         margin-bottom: 0;
     }
 }
 
+@media screen and (max-width: 500px) {
+
+    blockquote {
+        word-break: break-all !important;
+    }
+}
 
 
 /**
  * Code formatting
  */
-
-
-
 pre,
 code {
     border: 1px solid #cccccc;
@@ -319,7 +250,7 @@ pre {
         color: $almost-black;
         background-color: #f8f8f8;
         border-radius: 5px;
-        line-height: $normal-line-height;
+        line-height: $base-line-height;
         font-family: Consolas, Monaco, Monospace, Courier;
         white-space: pre;
         -moz-tab-size: 4;
@@ -329,31 +260,10 @@ pre {
 }
 
 
-/**
- * Links
- */
-
-
-
-a {
-    transition: .2s;
-    color: $link-blue;
-    text-decoration: none;
-
-  &:hover {
-    color: $base-gray;
-    text-decoration: none;
-  }
-}
-
-
 
 /**
  * Clearfix
  */
-
-
-
 %clearfix:after {
     content: "";
     display: table;
@@ -361,13 +271,9 @@ a {
 }
 
 
-
 /**
  * Icons
  */
-
-
-
 .svg-icon {
     width: 16px;
     height: 16px;
@@ -377,22 +283,12 @@ a {
     vertical-align: text-top;
 }
 
-.social-media-list {
-
-    li + li {
-        padding-top: 5px;
-    }
-}
-
-
 
 /**
  * Tables
  */
-
-
-
 table {
+    margin-bottom: $base-unit;
     width: 100%;
     border-collapse: collapse;
     border: 1px solid $background-gray;

@@ -1,0 +1,26 @@
+<!-- top nav -->
+<nav class="nav">
+
+<ul class="stripped navbar bottom-border">
+
+    <li class="nav-left-home-item"><a class="{% if "/" == page.url %}nav-active{% endif %} nav-title" href="/"><img src="/src/img/sitename.png" alt="{{ site.title }}" width="auto" height="35"></a></li>
+
+    <li class="nav-right-menu-item">
+    <button class="nav-dropbtn nav-menubtn" onclick="navMenuFunction()">Menu</button>
+    </li>
+
+    <div id="nav-item" class="nav-menu">
+
+    {% for item in site.data.top-updates-menu.docs %}
+    <li class="nav-right-item"><a class="{% if page.url contains 'updates' %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+
+    {% endfor %}
+    {% for item in site.data.top-menu.docs %}
+    <li class="nav-right-item"><a class="{% if item.url == page.url %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+
+    </div>
+</ul>
+
+</nav>
+<!-- end top nav -->

@@ -9,20 +9,19 @@
 {% endif %}
 
 
-
 <!-- top information -->
 <div class="post-header">
-	<p class="post-meta meta-categories no-cap" style="margin-bottom: 5px">
+	<div class="post-meta centered">
 		{%- if page.main-title -%}<!--no top category-->{%- else -%}
 			{% for category in categories %}
-			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit the basic page of "{{ category }}"'>{{ category }}</a>
+			<a class="in-post-category" href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit the basic page of "{{ category }}"'>{{ category }}</a>
 				{% unless forloop.last %}<!--&nbsp;-->{% endunless %}
 			{% endfor %}  
 		{%- endif -%}
-	</p>
-	<h3 class="post-title" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title }}</h3>
-	<p class="post-meta" style="text-align: right !important;">
-	<span class="no-cap" title="Estimated reading time">
+	</div>
+	<h3 class="post-title centered" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title }}</h3>
+	<p class="post-meta post-bottom-meta">
+	<span title="Estimated reading time">
 			{% capture words %}
 		{{ page.content | strip_html | number_of_words | minus: 250 }}
 			{% endcapture %}
@@ -37,26 +36,15 @@
 <!-- end top information -->
 
 
-
 {% if page.note or page.chapter-link %}
 {% assign number_words_note = page.note | strip_html | number_of_words %}
-{% if number_words_note >= 10 %}
-<div onclick="classSwitch()" class="note-wrapper">
-<div id="note-overlay" class="note-overlay js-only" title="Click to expand"></div>
-{% else %}
-<div class="note-wrapper">
-{% endif %}
-<blockquote {% if number_words_note >= 10 %}class="cropped"{% endif %} id="note">
-
+<blockquote id="note">
       {% if page.note %}
-        <p class="translator-note"><strong>Note:</strong> {{ page.note }}</p>
+        <p class="translator-note"><strong>Note:</strong> {% if number_words_note > 13 %}<span id="truncated-note">{{ page.note | truncatewords: 13 | replace: '["', '' }}</span> <a id="toggle-note" href="javascript:void(0)" onclick="fullNoteFunction()"><em>Continue reading</em></a>{% endif %}<span id="full-note"{% if number_words_note > 13 %} class="none"{% endif %}>{{ page.note }}</span></p>
       {% endif %}
-  
+
       {% if page.chapter-link %}
         <p class="original-chapter-link"><strong>Source:</strong>&#8239;<a href="{{ page.chapter-link }}" target="_blank" title="Visit the page of original work">{{ page.chapter-link }}</a></p>
       {% endif %}
 </blockquote>
-</div>
-	{% else %}
-		<hr>
 {% endif %}

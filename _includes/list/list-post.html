@@ -1,10 +1,10 @@
-<ul class="post-list">
+<ul class="stripped">
   {%- for post in paginator.posts -%}
   {% unless post.tags contains 'pinned' %}
-  <li>
-	<header class="post-header">
-		<!-- category --> 
-	<div class="post-categories">
+  <li class="post-entry bottom-border">
+	<header class="">
+		<!-- category -->
+	<div class="centered post-meta">
 		{% if post %}
 		{% assign categories = post.categories | sort %}
 		{% else %}
@@ -16,11 +16,11 @@
 		{% endfor %}
 	</div>        
 	
-	{%- include /home/home-post-meta.html -%}
+	{%- include /list/list-post-meta.html -%}
 	
     </header>
 	
-	{%- include /home/home-post-excerpt.html -%}
+	{%- include /list/list-post-excerpt.html -%}
 	
   </li>
   {% endunless %}

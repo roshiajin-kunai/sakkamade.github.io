@@ -1,33 +1,30 @@
-<section id="bottom-menu" class="inner-bottom-menu">
 
-<div class="inner-bottom-column count-3 col-1">  
-  {% for item in site.data.bottom-menu1.docs %}
-  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
-  {% endfor %}
-</div>
+<section class="footer">
+<ul class="stripped navbar top-border bottom-border">
+    {% for item in site.data.top-menu.docs %}
+    <li class="nav-left-item none-mobile"><a class="{% if item.url == page.url %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
 
-<div class="inner-bottom-column count-3 col-2">  
-  {% for item in site.data.bottom-menu2.docs %}
-  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
-  {% endfor %}
-  {% for item in site.data.bottom-menu-novel-list.docs %}
-  <section class="indent-novel-list"><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
-  {% endfor %}
-</div>
+    {% for item in site.data.top-updates-menu.docs %}
+    <li class="nav-left-item none-mobile"><a class="{% if page.url contains 'updates' %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
 
-<div class="inner-bottom-column count-3">
-  {% for item in site.data.top-menu-home.docs %}
-  <section><a class="{% if item.url == page.url %}active-menu{% else %}
-    {% if page.url contains 'page=' %}active-menu
-    {% endif %}{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
-  {% endfor %}
-  {% for item in site.data.bottom-menu3.docs %}
-  <section><a class="{% if item.url == page.url %}active-menu{% endif %}" href="{{ item.url }}">{{ item.title }}</a></section>
-  {% endfor %}
-</div>
+    {%- if site.twitter_username -%}
+    <li class="nav-right-item"><a style="text-transform: none;" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">Twitter</a></li>
+    {% endif %}
+
+    <li class="nav-right-item nav-drop">
+    <button onclick="dropFunction()" class="nav-dropbtn">Atom Feeds</button>
+    <div id="drop" class="drop-content">
+      <a class="drop-content-item" href="{{ "/feed.xml" | relative_url }}" title="Subscribe to receive notifications of updates via Atom Feed">Updates</a>
+      <a class="drop-content-item" href="{{ "/feed-amends.xml" | relative_url }}">Latest Amends</a>
+    </div>
+  </li>
+</ul>
+
+<section class="copying-footer">
+    <span class="small">Translated web-novels present in this web-site are property of their authors.<br /><strong>Any usage of translated work allowed only with permission from the author.</strong><br /><br />20{{ site.time | date: '%y' }} <a href="/" title="">sakkamade</a>. Bringing you love by <a href="https://jekyllrb.com/" target="_blank"><em>jekyll</em></a> 💕</span>
 
 </section>
 
-<section class="inner-footer">
-<!-- skkamade 20{{ site.time | date: '%y' }} -->
 </section>

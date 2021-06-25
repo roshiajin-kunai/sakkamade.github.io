@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: base-page
 ---
-<main id="main" class="main" aria-label="Content" role="main">
 
 {% if page.categories %}
     {% assign category = page.categories[0] %}
@@ -35,12 +34,11 @@ layout: default
 </section>
 {% else %}
 <section class="switch-post previous-post switch-off">
-	<a href="" title=""></a>
+	<a href="javascript:void(0)" title=""></a>
 </section>
 {% endif %}
 <!-- end prev -->
 
-<div class="only-main">
 <article itemscope itemtype="http://schema.org/BlogPosting">
 <!-- cat assign -->
 {% if post %}
@@ -65,7 +63,7 @@ layout: default
     {%- assign last_mend_type_2 = page.last_modified_at | date: date_format_type_2 -%}
     {%- assign published_date = page.date | date: date_format -%}
     {%- assign published_date_type_2 = page.date | date: date_format_type_2 -%}
-<p class="post-meta bottom-meta" style="text-align: right !important;">
+<p class="post-meta post-bottom-meta">
     <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Written on&nbsp;</span>{{ published_date_type_2 }}&nbsp;<span class="no-cap">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</span></time>
 {%- if page.last_modified_at -%}<br>
     <time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up" datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified"><span>Last amend on&nbsp;</span>{%- if last_mend == published_date -%}{{ page.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ last_mend_type_2 }}&nbsp;<span class="no-cap">{% assign d_m = page.last_modified_at | date: "%-d" %}{% case d_m %}{% when '1' or '21' or '31' %}{{ d_m }}st{% when '2' or '22' %}{{ d_m }}nd{% when '3' or '23' %}{{ d_m }}rd{% else %}{{ d_m }}th{% endcase %}{%- endif -%}</span></time>
@@ -73,7 +71,6 @@ layout: default
 </p>
 <!-- end bottom information -->
 </article>
-</div>
 
 <!-- next -->
 {% if next_post %}
@@ -96,20 +93,4 @@ layout: default
 </section>
 {% endif %}
 <!-- end next -->
-</main>
 
-
-
-<aside id="sidebar" class="side">
-<section class="in-side">
-    <div id="side-wrapper">
-        <h5 class="side-head no-cap js-only" title=''><span>Table of Contents</span></h5>
-
-    {%- include toc-publication.html -%}
-
-    </div>
-
-    {%- include side-column.html -%}
-
-</section>
-</aside>

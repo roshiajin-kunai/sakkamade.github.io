@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 drafts
+pages/search.html
+obsolete-feed.xml

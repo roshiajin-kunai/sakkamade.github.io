@@ -5,7 +5,7 @@
 <div class="pagination desktop-pagination">
   {% if paginator.total_pages >= 10 %}
   {% if paginator.previous_page %}
-    <a href="/">&laquo;&laquo;</a>
+    <a href="/updates/">&laquo;&laquo;</a>
   {% else %}
     <span class="page-active none">&laquo;&laquo;</span>
   {% endif %}
@@ -13,9 +13,9 @@
 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a href="/">&laquo;</a>
+    <a href="/updates/">&laquo;</a>
     {% else %}
-    <a href="/page={{paginator.previous_page}}">&laquo;</a>
+    <a href="/updates/page={{paginator.previous_page}}">&laquo;</a>
     {% endif %}
   {% else %}
     <span class="page-active none">&laquo;</span>
@@ -24,7 +24,7 @@
   {% if paginator.page == 1 %}
     <span class="page-active">1</span>
   {% else %}
-    <a href="/">1</a>
+    <a href="/updates/">1</a>
   {% endif %}
 
   {% for count in (2..paginator.total_pages) %}
@@ -33,19 +33,19 @@
     <span class="page-active">{{count}}</span>
 	{% endunless %}
     {% else %}
-    <a href="/page={{count}}">{{count}}</a>
+    <a href="/updates/page={{count}}">{{count}}</a>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="/page={{paginator.next_page}}">&raquo;</a>
+    <a href="/updates/page={{paginator.next_page}}">&raquo;</a>
   {% else %}
     <span class="page-active">{{paginator.total_pages}}</span>
   {% endif %}
 
   {% if paginator.total_pages >= 10 %}
   {% if paginator.next_page %}
-    <a href="/page={{paginator.total_pages}}">&raquo;&raquo;</a>
+    <a href="/updates/page={{paginator.total_pages}}">&raquo;&raquo;</a>
   {% else %}
     <span class="page-active">&raquo;&raquo;</span>
   {% endif %}
@@ -75,11 +75,11 @@
     {% if paginator.previous_page == 1 %}
 		<a href="">&laquo;</a>
     {% else %}
-		<a href="/page={{paginator.previous_page}}">&laquo;</a>
-		<a href="/">1</a>
+		<a href="/updates/page={{paginator.previous_page}}">&laquo;</a>
+		<a href="/updates/">1</a>
 	{% unless paginator.page == 3 or paginator.page == 4 %}
 		{% if paginator.page == 5 %}
-			<a href="/page=2">2</a>
+			<a href="/updates/page=2">2</a>
 		{% else %}
             <span class="page-active">...</span>
 		{% endif %}
@@ -96,7 +96,7 @@
   {% if paginator.page == 1 %}
      <span class="page-active">1</span>
   {% else %}
-     <a href="/">1</a>
+     <a href="/updates/">1</a>
   {% endif %}
   {% endif %}
 
@@ -108,7 +108,7 @@
     <span class="page-active">{{count}}</span>
     {% endif %}
   {% else %}
-    <a href="/page={{count}}">{{count}}</a>
+    <a href="/updates/page={{count}}">{{count}}</a>
   {% endif %}
   {% endfor %}
 
@@ -122,14 +122,14 @@
 	{% unless paginator.page == near_end or paginator.page == very_near_end %}
 	{% unless paginator.page == quite_near_end %}
 		{% if paginator.page == somewhat_near_end %}
-			<a href="/page={{ very_near_end }}">{{ very_near_end }}</a>
+			<a href="/updates/page={{ very_near_end }}">{{ very_near_end }}</a>
 		{% else %}
     <span class="page-active">...</span>
 		{% endif %}
 	{% endunless %}
-    <a href="/page={{paginator.total_pages}}">{{paginator.total_pages}}</a>
+    <a href="/updates/page={{paginator.total_pages}}">{{paginator.total_pages}}</a>
 	{% endunless %}
-    <a href="/page={{paginator.next_page}}">&raquo;</a>
+    <a href="/updates/page={{paginator.next_page}}">&raquo;</a>
   {% else %}
     <span class="page-active">{{paginator.total_pages}}</span>
   {% endif %}
@@ -144,12 +144,13 @@
 <div class="pagination mobile-pagination">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
+        <a href="javascript:void(0)" class="invisible">&laquo;&laquo;</a>
 	{% else %}
-        <a href="/">&laquo;&laquo;</a>
+        <a href="/updates/">&laquo;&laquo;</a>
     {% endif %}
     <a href="{{ paginator.previous_page_path }}">&laquo;</a>
   {% else %}
-    <span class="page-active none">Previous</span>
+    <span class="page-active invisible">&laquo;</span>
   {% endif %}
 	{% unless paginator.page == paginator.total_pages %}
   <span class="page-active ">
@@ -158,7 +159,7 @@
     {% endunless %}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">&raquo;</a>
-    <a href="/page={{paginator.total_pages}}">&raquo;&raquo;</a>
+    <a href="/updates/page={{paginator.total_pages}}">&raquo;&raquo;</a>
   {% else %}
     <span class="page-active">{{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% endif %}

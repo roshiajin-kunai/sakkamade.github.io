@@ -16,7 +16,7 @@ url: "https://sakkamade.github.io" # e.g. http://example.com
 twitter_username: sakka_made
 
 paginate: 11
-paginate_path: "/page=:num"
+paginate_path: "/updates/page=:num/"
 
 kramdown:
   input: GFM
@@ -85,3 +85,4 @@ plugins:
 
 exclude:
   - drafts
+  - obsolete-feed.xml
