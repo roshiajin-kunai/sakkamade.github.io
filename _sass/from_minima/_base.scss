@@ -129,13 +129,13 @@ h5 { font-size: 26px; }
 h6 { font-size: 24px; }
 
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: $tablet-unit) {
 
     h1 { font-size: 34px !important; }
     h2 { font-size: 30px !important; }
-    h3 { font-size: 28px !important; }
-    h4 { font-size: 26px !important; }
-    h5 { font-size: 24px !important; }
+    h3 { font-size: 26px !important; }
+    h4 { font-size: 24px !important; }
+    h5 { font-size: 22px !important; }
     h6 { font-size: 20px !important; }
 }
 
@@ -181,7 +181,8 @@ a {
     text-decoration: none;
     transition: color ease-in .15s;
 
-  &:hover {
+  &:hover,
+  &:focus {
       color: $base-gray;
   }
 }
@@ -209,13 +210,36 @@ blockquote {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: $mobile-unit) {
 
     blockquote {
         word-break: break-all !important;
     }
 }
 
+
+/*
+ * lists
+ */
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul,
+ol {
+    margin-left: $base-unit;
+}
+
+li {
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
+}
 
 /**
  * Code formatting

@@ -2,15 +2,15 @@
 <section class="footer">
 <ul class="stripped navbar top-border bottom-border">
     {% for item in site.data.top-menu.docs %}
-    <li class="nav-left-item none-mobile"><a class="{% if item.url == page.url %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+    <li class="nav-left-item none-tablet"><a class="{% if item.url == page.url %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
 
-    {% for item in site.data.top-updates-menu.docs %}
-    <li class="nav-left-item none-mobile"><a class="{% if page.url contains 'updates' %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
-    {% endfor %}
+    <li class="nav-left-item none-tablet"><a class="{% if page.url contains 'updates' %}nav-active{% endif %}" href="/updates">Updates</a></li>
+
+    <li class="nav-right-item"><a target="_blank" href="https://discord.gg/GKmr8Z3mTm">Discord</a></li>
 
     {%- if site.twitter_username -%}
-    <li class="nav-right-item"><a style="text-transform: none;" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">Twitter</a></li>
+    <li class="nav-right-item"><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">Twitter</a></li>
     {% endif %}
 
     <li class="nav-right-item nav-drop">

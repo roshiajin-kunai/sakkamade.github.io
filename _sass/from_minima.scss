@@ -29,7 +29,10 @@ $almost-black:     #323232 !default;
 $brand-color:      #808faa !default;
 $white:            #ffffff !default;
 
-$table-text-align: left !default;
+$table-text-align:  left !default;
+
+$tablet-unit:       670px !default;
+$mobile-unit:       570px !default;
 
 // Import partials.
 @import

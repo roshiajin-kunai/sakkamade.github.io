@@ -1,3 +1,4 @@
+{% unless page.url contains "updates/page=" %}
 {% if site.tags contains 'pinned' %}
 <ul class="stripped">
 	{% for post in site.tags.pinned %}
@@ -27,3 +28,4 @@
 	{% endfor %}
 </ul>
 {% endif %}
+{% endunless %}

@@ -2,12 +2,12 @@
 layout: base-page-title
 title: About
 permalink: /about
-last_modified_at: 2021-06-01 01:35:55 +0000
+last_modified_at: 2021-06-26 01:51:39 +0000
 ---
 
 In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
 
-At expiration of slightly over a month at [*WordPress*](https://sakkamade.wordpress.com/), I decided to move to [*GitHub*](https://github.com/) flavoured by  [*Jekyll*](https://jekyllrb.com/), hopefully to remain here, I really love it!
+At expiration of slightly over a month at [*WordPress*](https://sakkamade.wordpress.com/), I decided to move to [*GitHub*](https://github.com/) flavoured by  [*Jekyll*](https://jekyllrb.com/), hopefully to remain here, I am loving it so much!
 
 #### Language Knowledge
 {: class="with-indent"}
@@ -17,7 +17,7 @@ Despite I forgot mostly everything (on the time of starting my translations), wi
 "To begin somewhat"—from your point of view, most likely; 
 "Uwah, I'm doing great"—from mine.
 
-No one call off my problems of English indeed. BUt I am doing  best I am capable of upon the time of publishing the chapter.
+No one call off my problems of English indeed. But I am doing  best I am capable of upon the time of publishing the chapter.
 My English knowledge (as of the end of 2020) is being utterly for British and American movies' subtitles; for translated from Japanese *manga* and novels; and for songs' lyrics, which had been accompanied by a constant look up dictionaries for unfamiliar words. Should confess I have never learned English with intention to write, just to be able to read and understand verbal language.
 
 Must admit it is not sufficient. I do not have much of motivation, however, to learn Japanese nor English, presently. 
@@ -26,12 +26,16 @@ Well, with  that said, I _am_ learning both. Whereas working over my translation
 #### Design
 {: class="with-indent"}
 
-The design for this website made by me from a scratch, with following adjustment of it to _Jekyll_.
-Used to be influenced by theme which I used in my previous blog at _WordPress_, and now only by great deal of other web-sites that I have visited.
-The font I use presently is [_Junicode New_](https://github.com/psb1558/Junicode-New), and [_Junicode_](https://github.com/Fromager/junicode) for italic, since italic of _Junicode New_ is still WIP.
+The design for this website made entirely by me.
+It used to be influenced by theme which I used in my previous blog at _WordPress_, however now by great deal of other web-sites which I have visited.
+
+Every fonts used in this web-site is under [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL):
+- [_Junicode New_](https://github.com/psb1558/Junicode-New)
+    - [_Junicode_](https://github.com/Fromager/junicode) - for italic
+- [_Alex Brush_](https://fonts.adobe.com/fonts/alex-brush#fonts-section) - for   site header
 
 
-#### Services for Translation 
+#### Services which I use
 {: class="with-indent"}
 
 - [wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese, mostly with English, but with Japanese either;
@@ -49,6 +53,6 @@ and plenty of other.
 <div class="spacer" style="height:80px;"><!-- base unit x3 --></div>
 
 <blockquote style='padding-top: 1.3em;'><strong style="font-size: 1.8em;">継続は力なり。</strong><em style="font-size: 1em; white-space: nowrap;">Keizoku wa Chikara nari.</em><br>
-<a href="https://en.wikiquote.org/wiki/Japanese_proverbs"><em style="font-size: 1em;">wikiquote.org</em></a>
+<em style="font-size: 1em;">from <a href="https://en.wikiquote.org/wiki/Japanese_proverbs">wikiquote.org</a></em>
 </blockquote>
 <span style="font-size: .9em; font-weight:normal;">What literally translates as <strong>"Persistence is the virt</strong></span>
