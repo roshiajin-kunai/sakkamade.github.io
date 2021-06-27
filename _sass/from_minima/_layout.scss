@@ -323,6 +323,14 @@ nav.nav,
 nav.nav a.nav-title {
     padding-right: 0 !important;
     padding-left: 0 !important;
+    height: 40px; /*= max-height of img; to remove flicker when image is not yet loaded*/
+
+    img {
+        position: relative;
+        top: -5px;
+        max-width: auto;
+        max-height: 40px;
+    }
 }
 
 ul.navbar {
