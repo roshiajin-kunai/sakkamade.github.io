@@ -128,7 +128,7 @@ div.main-wrapper {
 }
 
 div.base-wrapper {
-    padding: ($base-unit * 2) $base-per $base-unit $base-per;
+    padding: ($base-unit * 2) $base-per ($base-unit * 2) $base-per;
     overflow-x: hidden; /*to hide strips*/
 
     @media screen and (max-width: $tablet-unit) {
@@ -416,10 +416,11 @@ ul.navbar {
  * footer
  */
 .footer {
+    margin-top: $base-unit; /*to make up for moving bottom border into .footer instead of .copying-footer*/
 
     .copying-footer {
-        padding: ($base-unit) 0; /* I am not sure where it is in nav */
-        margin: $base-unit 0;
+        /*padding-top: $base-unit;*/ /* to make up for "max-height: 40px" in nav */
+        padding-bottom: $base-unit * 2; /*to make up for floating date at the bottom*/
         line-height: 1em;
         text-align: center;
 
