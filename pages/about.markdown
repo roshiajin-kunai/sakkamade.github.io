@@ -2,7 +2,7 @@
 layout: base-page-title
 title: About
 permalink: /about
-last_modified_at: 2021-06-26 01:51:39 +0000
+last_modified_at: 2021-06-26 22:56:59 +0000
 ---
 
 In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
@@ -55,4 +55,4 @@ and plenty of other.
 <blockquote style='padding-top: 1.3em;'><strong style="font-size: 1.8em;">継続は力なり。</strong><em style="font-size: 1em; white-space: nowrap;">Keizoku wa Chikara nari.</em><br>
 <em style="font-size: 1em;">from <a href="https://en.wikiquote.org/wiki/Japanese_proverbs">wikiquote.org</a></em>
 </blockquote>
-<span style="font-size: .9em; font-weight:normal;">What literally translates as <strong>"Persistence is the virt</strong></span>
+<span style="font-size: .9em; font-weight:normal;">What can be translated as <strong>"Persistence is the virt</strong></span>

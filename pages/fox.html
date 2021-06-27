@@ -1,6 +1,6 @@
 ---
 layout: base-page-title
-title: The Marriage of the Vixen-chan.
+title: The Marriage of the Vixen-chan
 cat-description: |
  "I've come here as your bride!"<br>
  <br>
@@ -16,53 +16,33 @@ permalink: /categories/the-marriage-of-the-vixen-chan
 <div class="start-h2">{{ page.description-name }}</div>
 </div>
 
-<p class="cat-description">{{ page.cat-description }}</p>
-
-
+<p class="cat-description">{{ page.cat-description | smartify }}</p>
 
 <hr>
-
-
 
 <p>Original:
 <a class="bigger" href="https://ncode.syosetu.com/n1514fx/" target="_blank">お狐ちゃんのお嫁入り</a>&nbsp;<span class="small">(O-Kitsune-chan no O-Yomeiri)</span><br>
 Writer: <a class="bigger" href="https://twitter.com/kumani0619" target="_blank">熊煮</a>&nbsp;<span class="small">(Kumani)</span></p>
 
-
-
 <hr>
-
-
 
 <p>Genre: Real World [Romance]<br>
 Keywords: Age Difference, Daily Life, Female Protagonist, Gentle Universe, Girls' Love,   Heartwarming, Happy Ending, Onee-Loli, R-15, Vixen-girl, Yuri
 </p>
-
-
-
-
 
 <div class="smaller-header-image-wrapper align-center">
 <div class="start-h2">Table of Contents</div>
 </div>
 
 <section id="toc">
-{% assign chapter1 = site.posts | where: "categories", "The Marriage of the Vixen-chan" | where_exp: "item", "item.chapter-type contains 'Chapter 1.'" | reverse %}
-<section class="toc date centered">Chapter 1. Encounter between Fuyuka Hiragi and vixen Ohana.</section>
-{% for post in chapter1 %}
 
-	{%- include cat.html -%}
 
-{% endfor %}
-</section>
-<section id="toc">
-{% assign chapter2 = site.posts | where: "categories", "The Marriage of the Vixen-chan" | where_exp: "item", "item.chapter-type contains 'Chapter 2.'" | reverse %}
-<section class="toc date centered">Chapter 2. Vixen and Spring Pattern.</section>
-{% for post in chapter2 %}
+{% include chapter.html category='The Marriage of the Vixen-chan' chapter='Chapter 1. Encounter between Fuyuka Hiragi and vixen Ohana.' chapter-type='Chapter 1.' id='chapter1' %}
 
-	{%- include cat.html -%}
 
-{% endfor %}
+{% include chapter.html category='The Marriage of the Vixen-chan' chapter='Chapter 2. Vixen and Spring Pattern.' chapter-type='Chapter 2.' id='chapter2' %}
+
+
 </section>
 
 {%- include footnote.html -%}

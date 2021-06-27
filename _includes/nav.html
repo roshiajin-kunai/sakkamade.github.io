@@ -17,6 +17,14 @@
     <li class="nav-right-item"><a class="{% if item.url == page.url %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
 
+    <li class="nav-right-item nav-drop">
+    <button onclick="dropFunction()" class="nav-dropbtn">Atom Feeds</button>
+        <div id="drop" class="drop-content">
+            <a class="drop-content-item" href="{{ "/feed.xml" | relative_url }}" title="Subscribe to receive notifications of updates via Atom Feed">Updates</a>
+            <a class="drop-content-item" href="{{ "/feed-amends.xml" | relative_url }}">Latest Amends</a>
+        </div>
+    </li>
+
     </div>
 </ul>
 

@@ -5,10 +5,10 @@ cat-description: |
  A modern witch-story woven by a pair of witches with paradoxical personalities.
  <br><br>
  Being named a genius before, she have lost her magic and remembrance, and could no longer fly high up in the sky.<br>
- A girl, a student of "Tokyo University of Arts and Music" of an absurd personality—"Space Magician: Tsugumi,"
+ A girl, a student of "Tokyo University of Arts and Music" of an absurd personality—“Space Magician: Tsugumi,"
  <br><br>
  The one who have pursued her and arrived here, to Tokyo,
- a bothersome girl, a slight stalker—"Witch of Justice: Rino."
+ a bothersome girl, a slight stalker—“Witch of Justice: Rino."
  <br><br>
  Whereas solving diverse a troubles that had its occur amid Tokyo,
  two rugged individuals playing an active part in recovering a girl's lost force.
@@ -19,8 +19,8 @@ cat-description: |
  Tsugumi Kominato&#8239; (19) "Space Magician"<br>
  Rino Honda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8239;&#8239;(18) "Witch of Justice"<br>
  <br>
- Himeka Kitazawa&nbsp;&nbsp;&nbsp;&#8239;&#8239;&hairsp;&hairsp;(15) "Witch of Illusion <span class="small">(Bewitching)</span>"<br>
- Yayoi Fujimoto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8239;&hairsp;(27) "Witch of Disaster"
+ Himeka Kitazawa&#8239;&#8239;&#8239;&#8239;&#8239;&#8239;(15) "Witch of Illusion <span class="small">(Bewitching)</span>"<br>
+ Yayoi Fujimoto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(27) "Witch of Disaster"
 description-name: Elucidation
 permalink: /categories/para-witches
 ---
@@ -32,15 +32,11 @@ permalink: /categories/para-witches
 <div class="dropdown cat-description no-js-block">
   <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>(Beware! exposes quite a part of the story.)</em></button>
   <div id="myDropdown" class="dropdown-content dropdown-content-no-list cat-description no-js-block">
-	<p class="cat-description">{{ page.cat-description }}</p> <!--karamdown do not process the .html files-->
+	<p class="cat-description">{{ page.cat-description | smartify }}</p> <!--~~karamdown do not process the .html files~~ you should just have used "smartify"-->
   </div>
 </div>
 
-
-
 <hr>
-
-
 
 <p>Original: 
 <a class="bigger" href="https://kakuyomu.jp/works/1177354054889003864"  target="_blank">ウィッチ・フイッチ</a> 
@@ -52,7 +48,6 @@ Author: <a class="bigger" href="https://kakuyomu.jp/users/yukiToy"  target="_bla
 <p>Genre: Contemporary Fantasy<br>
 Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Witches, Yuri
 </p>
-
 
 <div class="smaller-header-image-wrapper align-center">
 <div class="start-h2">Table of Contents</div>

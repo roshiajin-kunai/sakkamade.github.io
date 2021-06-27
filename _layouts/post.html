@@ -30,7 +30,7 @@ layout: base-page
 <!-- prev -->
 {% if prev_post %}
 <section class="switch-post previous-post">
-    <a href="{{ prev_post_url }}" title="{{ prev_post_cat }} ・ {{ prev_post_title }}">Previous: "{{ prev_post_title | strip_html | truncatewords: 10 }}"</a>
+    <a href="{{ prev_post_url }}" title="{{ prev_post_cat }} ・ {{ prev_post_title | strip_html }}">Previous: “{{ prev_post_title | strip_html | smartify | truncatewords: 10 }}”</a>
 </section>
 {% else %}
 <section class="switch-post previous-post switch-off">
@@ -75,7 +75,7 @@ layout: base-page
 <!-- next -->
 {% if next_post %}
 <section class="switch-post next-post">
-	<a href="{{ next_post_url }}" title="{{ next_post_cat }} ・ {{ next_post_title }}">Following: "{{ next_post_title | strip_html | truncatewords: 10 }}"</a>
+	<a href="{{ next_post_url }}" title="{{ next_post_cat }} ・ {{ next_post_title | strip_html }}">Following: “{{ next_post_title | strip_html | smartify | truncatewords: 10 }}”</a>
 </section>
 {% else %}
 <section class="" style="">

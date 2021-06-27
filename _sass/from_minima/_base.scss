@@ -46,8 +46,8 @@ sup {
     font-size: $base-font-size - 5px;
 }
 
-.footnote::before { content: '['; }
-.footnote::after {  content: ']'; }
+.footnote:before { content: '['; }
+.footnote:after {  content: ']'; }
 .footnote {
     text-decoration: none;
 }

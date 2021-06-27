@@ -1,6 +1,6 @@
 <!-- title -->
 <h3 class="post-link centered">
-	<a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">{{ post.title }}</a>
+	<a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">{{ post.title | smartify }}</a>
 </h3>
 
 <!-- meta -->

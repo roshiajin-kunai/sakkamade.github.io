@@ -42,6 +42,24 @@ span.small {
     border-top: 1px solid $background-gray;
 }
 
+.nowrap {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: $tablet-unit) {
+
+    .none-tablet {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: $mobile-unit) {
+
+    .none-mobile {
+        display: none !important;
+    }
+}
+
 
 /*
  * base page
@@ -90,14 +108,6 @@ span.small {
 main.main {
     margin-right: 1%;
     margin-left: 1%;
-
-    @media screen and (max-width: $mobile-unit) {
-
-        .main-wrapper {
-            margin-top: 1% !important;
-            margin-bottom: 1% !important;
-        }
-    }
 }
 
 div.main-wrapper {
@@ -110,6 +120,11 @@ div.main-wrapper {
     margin-left: auto;
     margin-top: $base-unit;
     margin-bottom: $base-unit;
+
+    @media screen and (max-width: $mobile-unit) {
+        margin-top: 1% !important;
+        margin-bottom: 1% !important;
+    }
 }
 
 div.base-wrapper {
@@ -237,20 +252,6 @@ ul.navbar {
     }
 }
 
-@media screen and (max-width: $tablet-unit) {
-
-    .none-tablet {
-        display: none !important;
-    }
-}
-
-@media screen and (max-width: $mobile-unit) {
-
-    .none-mobile {
-        display: none !important;
-    }
-}
-
 nav.nav {
 
     .nav-menubtn {
@@ -271,9 +272,6 @@ nav.nav {
             a {
                 text-align: left !important;
             }
-        }
-
-        .nav-menu-item {
         }
 
         .nav-menu {
@@ -332,10 +330,10 @@ ul.navbar {
     padding: ($base-unit / 2) 0;
 
     li a {
-    color: $base-gray;
-    display: block;
-    text-align: center;
-    padding: 0 ($base-unit);
+        color: $base-gray;
+        display: block;
+        text-align: center;
+        padding: 0 ($base-unit);
 
         &:hover:not(.nav-active),
         &:active:not(.nav-active) {
@@ -343,57 +341,63 @@ ul.navbar {
         }
     }
 
-
     .nav-active {
         color: $almost-black !important;
     }
 
     .nav-dropbtn {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $base-gray;
-    background-color: transparent;
-    padding: 0 ($base-unit);    /* look "ul.navbar li a" */
-    border: none;
-    cursor: pointer;
-    transition: all ease-in .15s;
+        font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+        color: $base-gray;
+        background-color: transparent;
+        padding: 0 ($base-unit);    /* look "ul.navbar li a" */
+        border: none;
+        cursor: pointer;
+        transition: all ease-in .15s;
 
-        &:focus {
-            outline: none;
-            box-shadow: none;
+
+        @media screen and (max-width: $tablet-unit) /*remove rings on mobile only*/ {
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+            &::-moz-focus-inner {
+                border: 0;
+            }
         }
     }
 
     .drop-content {
-    display: none;
-    position: absolute;
-    background-color: $very-light-gray;
-    min-width: 160px;
-    box-shadow: 0px 7px 14px 0px hsla(0, 0%, 30%, .3);
-    z-index: 1;
-    border-radius: 0 4px 4px 4px;
+        display: none;
+        position: absolute;
+        background-color: $very-light-gray;
+        min-width: 160px;
+        box-shadow: 0px 7px 14px 0px hsla(0, 0%, 30%, .3);
+        z-index: 1;
+        border-radius: 0 4px 4px 4px;
     }
 
     .drop-content a.drop-content-item {
-    margin: 0;
-    text-align: left;
-    padding: 7px $base-unit;
-    text-decoration: none;
-    display: block;
+        margin: 0;
+        text-align: left;
+        padding: 7px $base-unit;
+        text-decoration: none;
+        display: block;
     }
 
     .drop-content-v {
-    display: block;
+        display: block;
     }
 
     .nav-dropbtn:hover,
     .nav-dropbtn:focus {
-    color: $not-black;
-    background-color: $very-light-gray;
+        color: $not-black;
+        background-color: $very-light-gray;
     }
 
     li.nav-right-item {
-    display: block;
-    float: right;
+        display: block;
+        float: right;
     }
 
     li.nav-left-item,
@@ -414,9 +418,15 @@ ul.navbar {
 .footer {
 
     .copying-footer {
+        padding: ($base-unit) 0; /* I am not sure where it is in nav */
         margin: $base-unit 0;
         line-height: 1em;
         text-align: center;
+
+        .social-footer {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
     }
 }
 
@@ -443,6 +453,7 @@ li.post-entry {
 
 li.post-entry,
 div.post-header {
+
     @media screen and (max-width: $mobile-unit) {
 
         .centered {
@@ -539,7 +550,6 @@ section#toc {
         cursor: pointer;
         display: flex;
         text-align: left;
-        width: 100% !important;
 
         &:hover:not(.date) {
             background-color: $very-light-gray;
@@ -557,6 +567,7 @@ section#toc {
         margin-top: $base-unit;
         margin-bottom: $base-unit;
         cursor: default !important;
+        display: block !important;      /* for text-align: center */
     }
 
     time.toc-post-date {
@@ -591,9 +602,9 @@ i.button-arrow-up {
     margin-bottom: -3px;
             transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
-        -moz-transform: rotate(-135deg);
+       -moz-transform: rotate(-135deg);
         -ms-transform: rotate(-135deg);
-        -o-transform: rotate(-135deg);
+         -o-transform: rotate(-135deg);
 }
 i.button-arrow-down-2 {
     border: solid $base-gray;
@@ -604,9 +615,9 @@ i.button-arrow-down-2 {
     margin-bottom: 1px;
             transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
 }
 i.button-arrow-down {
     border-style: double !important;
@@ -619,9 +630,9 @@ i.button-arrow-down {
     transition: .2s;
             transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
 }
 
 @keyframes fade {
@@ -675,13 +686,13 @@ i.button-arrow-down {
 .btn-unpin {
             transform: translateX(120px);
         -ms-transform: translateX(120px);
-        -moz-transform: translateX(120px);
+       -moz-transform: translateX(120px);
     -webkit-transform: translateX(120px);
 }
 .btn-pin {
             transform: translateX(0px);
         -ms-transform: translateX(0px);
-        -moz-transform: translateX(0px);
+       -moz-transform: translateX(0px);
     -webkit-transform: translateX(0px);
 }
 
@@ -693,8 +704,8 @@ i.button-arrow-down {
      -webkit-user-select: none;
         -moz-user-select: none;
          -ms-user-select: none;
-                user-drag: none;
-        -webkit-user-drag: none;
-    -webkit-touch-callout: none;
+             user-drag: none;
+     -webkit-user-drag: none;
+     -webkit-touch-callout: none;
 }
 
