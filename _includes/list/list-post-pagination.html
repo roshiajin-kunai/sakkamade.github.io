@@ -18,7 +18,7 @@
     <a href="/updates/page={{paginator.previous_page}}">&laquo;</a>
     {% endif %}
   {% else %}
-    <span class="page-active none">&laquo;</span>
+    <span class="invisible">&laquo;<!--to centre pagination--></span>
   {% endif %}
 
   {% if paginator.page == 1 %}
@@ -41,6 +41,7 @@
     <a href="/updates/page={{paginator.next_page}}">&raquo;</a>
   {% else %}
     <span class="page-active">{{paginator.total_pages}}</span>
+    <span class="invisible">&raquo;<!--to centre pagination--></span>
   {% endif %}
 
   {% if paginator.total_pages >= 10 %}
@@ -144,13 +145,14 @@
 <div class="pagination mobile-pagination">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-        <a href="javascript:void(0)" class="invisible">&laquo;&laquo;</a>
+        <a href="javascript:void(0)" class="invisible">&laquo;&laquo;<!--to centre pagination--></a>
 	{% else %}
         <a href="/updates/">&laquo;&laquo;</a>
     {% endif %}
     <a href="{{ paginator.previous_page_path }}">&laquo;</a>
   {% else %}
-    <span class="page-active invisible">&laquo;</span>
+    <span class="invisible">&laquo;&laquo;<!--to centre pagination--></span>
+    <span class="invisible">&laquo;<!--to centre pagination--></span>
   {% endif %}
 	{% unless paginator.page == paginator.total_pages %}
   <span class="page-active ">
@@ -162,6 +164,8 @@
     <a href="/updates/page={{paginator.total_pages}}">&raquo;&raquo;</a>
   {% else %}
     <span class="page-active">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="invisible">&raquo;<!--to centre pagination--></span>
+    <span class="invisible">&raquo;&raquo;<!--to centre pagination--></span>
   {% endif %}
 </div>
 <!-- end mobile pagination -->

@@ -3,6 +3,11 @@ layout: base-page
 title: Updates
 ---
 
+{% if page.url contains "updates/page=" %}
+{%- include /list/list-post-pagination.html -%}
+<br>
+{% endif %}
+
 {%- include /list/list-post-pinned.html -%}
 
 {%- include /list/list-post.html -%}

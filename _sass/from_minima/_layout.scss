@@ -133,6 +133,7 @@ div.base-wrapper {
 
     @media screen and (max-width: $tablet-unit) {
         padding-top: $base-unit !important;
+        padding-bottom: $base-unit !important;
     }
 }
 
@@ -204,6 +205,10 @@ div.pagination {
         border-radius: 4px;
         display: inline-block;
         min-width: 15px;
+
+        &.invisible {
+            visibility: hidden;
+        }
     }
 
     a:hover {
@@ -214,10 +219,6 @@ div.pagination {
 
 .mobile-pagination {
     display: none;
-
-    .invisible {
-        visibility: hidden;
-    }
 }
 
 @media screen and (max-width: $mobile-unit) {
