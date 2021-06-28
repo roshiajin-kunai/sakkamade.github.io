@@ -445,6 +445,7 @@ ul.navbar {
 
             > a:not(:first-child)::before {
                 content: " ・ ";
+                color: $almost-black;
             }
         }
     }
