@@ -1,0 +1,8 @@
+docs_list_title: bottom-menu
+docs:
+
+#- title: Archives
+  #url: /archives
+  #html-title: Visit an archive page of all publications
+- title: About
+  url: /about

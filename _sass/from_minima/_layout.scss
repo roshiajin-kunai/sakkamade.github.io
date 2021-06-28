@@ -14,7 +14,7 @@ ul.stripped {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden; /*causing cut focus rings (e.g. top menu bottom) for firefox and chromium*/
 }
 
 .none {
@@ -25,7 +25,7 @@ ul.stripped {
     text-transform: none;
 }
 
-span.small {
+.small {
     font-size: $base-font-size * 0.8;
     opacity: .6;
 }
@@ -362,8 +362,8 @@ ul.navbar {
         cursor: pointer;
         transition: all ease-in .15s;
 
+        @media screen and (max-width: $tablet-unit) /*remove rings; chromium and firefox; mobile only*/ {
 
-        @media screen and (max-width: $tablet-unit) /*remove rings on mobile only*/ {
             &:focus {
                 outline: none;
                 box-shadow: none;
@@ -372,6 +372,13 @@ ul.navbar {
             &::-moz-focus-inner {
                 border: 0;
             }
+        }
+    }
+
+    @media screen and (max-width: $tablet-unit) /*remove rings for links too; firefox; mobile only*/ {
+
+        li a:focus {
+           outline:none;
         }
     }
 
@@ -435,6 +442,10 @@ ul.navbar {
         .social-footer {
             padding-top: 8px;
             padding-bottom: 8px;
+
+            > a:not(:first-child)::before {
+                content: " ・ ";
+            }
         }
     }
 }
@@ -475,6 +486,20 @@ div.post-header {
 /*
  * post page
  */
+.original-chapter-link {
+
+    @media screen and (max-width: $tablet-unit) { /*important only for no js*/
+        min-width: 1px !important;
+        display: flex !important;
+        white-space: nowrap !important;
+
+        a {
+            display: block !important;
+            overflow-x: hidden !important;
+            text-overflow: ellipsis;
+        }
+    }
+}
 .switch-post {
     text-align: center;
     min-width: 1px;
@@ -588,7 +613,7 @@ section#toc {
             display: none !important
         }
 
-        &:after {
+        &::after {
             clear: both;
         }
     }

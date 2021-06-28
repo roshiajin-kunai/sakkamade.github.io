@@ -20,7 +20,7 @@
 		{%- endif -%}
 	</div>
 	<h3 class="post-title centered" {%- if page.main-title -%}{%- else -%}itemprop="name headline"{%- endif -%}>{{ page.title | smartify }}</h3>
-	<p class="post-meta post-bottom-meta">
+	<p style="text-align: right" class="post-meta post-bottom-meta"><!--do not remove the style-->
 	<span title="Estimated reading time">
 			{% capture words %}
 		{{ page.content | strip_html | number_of_words | minus: 250 }}
@@ -40,7 +40,7 @@
 {% assign number_words_note = page.note | strip_html | number_of_words %}
 <blockquote id="note">
       {% if page.note %}
-        <p class="translator-note"><strong>Note:</strong> {% if number_words_note > 13 %}<span id="truncated-note">{{ page.note | truncatewords: 13 | replace: '["', '' }}</span> <a id="toggle-note" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a>{% endif %}<span id="full-note"{% if number_words_note > 13 %} class="none"{% endif %}>{{ page.note }}</span></p>
+        <p class="translator-note"><strong>Note:</strong> {% if number_words_note > 13 %}<span id="truncated-note" class="no-js-none">{{ page.note | truncatewords: 13 | replace: '["', '' }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a>{% endif %}<span id="full-note" class="{% if number_words_note > 13 %}none{% endif %} no-js-inline">{{ page.note }}</span></p>
       {% endif %}
 
       {% if page.chapter-link %}

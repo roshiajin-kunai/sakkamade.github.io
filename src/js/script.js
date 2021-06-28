@@ -1,7 +1,5 @@
-/*
- * When the user clicks on the button,
- * toggle between hiding and showing the dropdown content
- */
+//  When the user clicks on the button,
+//  toggle between hiding and showing the dropdown content
 function dropFunction() {
     document.getElementById("drop").classList.toggle("drop-content-v");
 }
@@ -20,14 +18,15 @@ window.onclick = function(event) {
     }
 }
 
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+// Toggle between showing and hiding the navigation menu
+// links when the user clicks on the hamburger menu bar icon
 function navMenuFunction() {
-  var x = document.getElementById("nav-item");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+    var x = document.getElementById("nav-item");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
 
 function fullNoteFunction() {
@@ -42,8 +41,8 @@ function fullNoteFunction() {
 // visually cut long links
 var number = document.querySelectorAll(".original-chapter-link a")[0].textContent.length;
 if (number > 70) {
-  var content = document.querySelector(".original-chapter-link a").innerHTML;
-  var res = content.slice(0, 26);
-  var res2 = content.slice(-11);
-  document.querySelector(".original-chapter-link a").innerHTML = res + "..." + res2;
+    var content = document.querySelector(".original-chapter-link a").innerHTML;
+    var res = content.slice(0, 26);
+    var res2 = content.slice(-11);
+    document.querySelector(".original-chapter-link a").innerHTML = res + "..." + res2;
 }

@@ -6,5 +6,11 @@
     {%- seo -%}
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     {%- feed_meta -%}
-    <noscript>.no-js-block { display: block !important; }</noscript>
+    <noscript>
+        <style>
+        .no-js-block  { display: block !important; }
+        .no-js-inline { display: inline !important; }
+        .no-js-none   { display: none !important; }
+        </style>
+    </noscript>
 </head>
