@@ -1,5 +1,5 @@
 //  When the user clicks on the button,
-//  toggle between hiding and showing the dropdown content
+//  toggle between hiding and showing the dropdown content (w3school)
 function dropFunction() {
     document.getElementById("drop").classList.toggle("drop-content-v");
 }
@@ -29,20 +29,25 @@ function navMenuFunction() {
     }
 }
 
-function fullNoteFunction() {
-	var element = document.getElementById("truncated-note");
-	var element2 = document.getElementById("toggle-note");
-	element.classList.add("none");
-	element2.classList.add("none");
-	var element = document.getElementById("full-note");
-	element.classList.remove("none");
-}
-
 // visually cut long links
-var number = document.querySelectorAll(".original-chapter-link a")[0].textContent.length;
-if (number > 70) {
-    var content = document.querySelector(".original-chapter-link a").innerHTML;
-    var res = content.slice(0, 26);
-    var res2 = content.slice(-11);
-    document.querySelector(".original-chapter-link a").innerHTML = res + "..." + res2;
+var linkLength =
+  document.querySelectorAll(".original-chapter-link a")[0].textContent.length;
+if (linkLength > 70) {
+    var linkContent =
+      document.querySelector(".original-chapter-link a").innerHTML;
+    var strippedlinkContent =
+      linkContent.replace(/http:\/\/|https:\/\//gi, '');
+    var linkRes1 =
+      strippedlinkContent.split("/", 2).join("/");
+    var linkRes2 =
+      strippedlinkContent.split("/").pop();
+    document.querySelector(".original-chapter-link a").innerHTML =
+      linkRes1 + "..." + linkRes2;
+} else {
+    var linkContent =
+      document.querySelector(".original-chapter-link a").innerHTML;
+    var strippedlinkContent =
+      linkContent.replace(/http:\/\/|https:\/\//gi, '');
+    document.querySelector(".original-chapter-link a").innerHTML =
+      strippedlinkContent;
 }

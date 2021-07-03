@@ -561,6 +561,10 @@ h1.main-title {
     .none {
         display: none;
     }
+
+    a#toggle-note {
+        white-space: nowrap;
+    }
 }
 
 .spoiler {

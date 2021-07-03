@@ -37,10 +37,9 @@
 
 
 {% if page.note or page.chapter-link %}
-{% assign number_words_note = page.note | strip_html | number_of_words %}
 <blockquote id="note">
       {% if page.note %}
-        <p class="translator-note"><strong>Note:</strong> {% if number_words_note > 13 %}<span id="truncated-note" class="no-js-none">{{ page.note | truncatewords: 13 | replace: '["', '' }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a>{% endif %}<span id="full-note" class="{% if number_words_note > 13 %}none{% endif %} no-js-inline">{{ page.note }}</span></p>
+        <p class="translator-note"><strong>Note:</strong> <span data-truncateat="120" data-onword="1" id="full-note">{{ page.note }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a></p>
       {% endif %}
 
       {% if page.chapter-link %}

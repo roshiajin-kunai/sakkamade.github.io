@@ -2,8 +2,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href='{{ site.baseurl }}/src/img/favicon.ico?' type="image/x-icon">
     {%- seo -%}
+    <link href="/src/img/site-icon.png" rel="shortcut icon" type="image/png">
     <link rel="stylesheet" href='{{ "/assets/main.css" | relative_url }}'>
     {%- feed_meta -%}
     <noscript>
@@ -11,6 +11,7 @@
         .no-js-block  { display: block !important; }
         .no-js-inline { display: inline !important; }
         .no-js-none   { display: none !important; }
+        section#toc .toc { cursor: default !important; }
         </style>
     </noscript>
 </head>
