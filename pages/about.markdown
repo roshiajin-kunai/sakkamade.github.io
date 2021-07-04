@@ -2,7 +2,7 @@
 layout: base-page-title
 title: About
 permalink: /about
-last_modified_at: 2021-06-28 00:53:30 +0000
+last_modified_at: 2021-07-04 03:07:16 +0000
 ---
 
 In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
@@ -29,7 +29,7 @@ Well, with  that said, I _am_ learning both. Whereas working over my translation
 The design for this website made entirely by me.
 It used to be influenced by theme which I used in my previous blog at _WordPress_, however now by great deal of other web-sites which I have visited.
 
-Every fonts used in this web-site is distributed under [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL):
+Every fonts used in this web-site are distributed under [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL), namely:
 - [_Junicode New_](https://github.com/psb1558/Junicode-New)
     - [_Junicode_](https://github.com/Fromager/junicode) - for italic
 - [_Alex Brush_](https://fonts.adobe.com/fonts/alex-brush#fonts-section) - for   site header
