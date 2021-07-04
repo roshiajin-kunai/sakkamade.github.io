@@ -1,7 +1,12 @@
 //  When the user clicks on the button,
 //  toggle between hiding and showing the dropdown content (w3school)
+//  https://www.w3schools.com/howto/howto_js_dropdown.asp
 function dropFunction() {
     document.getElementById("drop").classList.toggle("drop-content-v");
+}
+
+function dropFunction2() {
+    document.getElementById("drop2").classList.toggle("drop-content-v");
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -10,13 +15,15 @@ window.onclick = function(event) {
         var dropdowns = document.getElementsByClassName("drop-content");
         var i;
         for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('drop-content-v')) {
-            openDropdown.classList.remove('drop-content-v');
-        }
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('drop-content-v')) {
+                openDropdown.classList.remove('drop-content-v');
+            }
         }
     }
 }
+
+// Close one dropdown when another is open ???
 
 // Toggle between showing and hiding the navigation menu
 // links when the user clicks on the hamburger menu bar icon
@@ -29,25 +36,11 @@ function navMenuFunction() {
     }
 }
 
-// visually cut long links
-var linkLength =
-  document.querySelectorAll(".original-chapter-link a")[0].textContent.length;
-if (linkLength > 70) {
-    var linkContent =
-      document.querySelector(".original-chapter-link a").innerHTML;
-    var strippedlinkContent =
-      linkContent.replace(/http:\/\/|https:\/\//gi, '');
-    var linkRes1 =
-      strippedlinkContent.split("/", 2).join("/");
-    var linkRes2 =
-      strippedlinkContent.split("/").pop();
-    document.querySelector(".original-chapter-link a").innerHTML =
-      linkRes1 + "..." + linkRes2;
-} else {
-    var linkContent =
-      document.querySelector(".original-chapter-link a").innerHTML;
-    var strippedlinkContent =
-      linkContent.replace(/http:\/\/|https:\/\//gi, '');
-    document.querySelector(".original-chapter-link a").innerHTML =
-      strippedlinkContent;
+// https://stackoverflow.com/questions/22270664/how-to-remove-a-class-from-elements-in-pure-javascript#22270709
+function collapseAll() {
+    var elems = document.querySelectorAll(".drop-content.drop-content-v");
+
+[].forEach.call(elems, function(el) {
+    el.classList.remove("drop-content-v");
+});
 }
