@@ -278,7 +278,6 @@ nav.nav {
     ul.navbar .nav-tocbtn {
         overflow-x: hidden;
         text-overflow: ellipsis;
-        color: $not-black !important;
     }
 
     .nav-menubtn {
@@ -326,6 +325,7 @@ nav.nav {
     @media screen and (max-width: $tablet-unit) {
 
         .nav-menu {
+            display: none;
 
             li.nav-right-item {
                 clear: both;
@@ -333,6 +333,7 @@ nav.nav {
 
                 a {
                     text-align: left !important;
+                    padding: 3px 8px;
                 }
 
                 button,
@@ -369,14 +370,6 @@ nav.nav {
                     }
                 }
             }
-        }
-
-        .nav-menu {
-            display: none;
-        }
-
-        .nav-menu a {
-            padding: 3px 8px;
         }
 
         .nav-menu-item {

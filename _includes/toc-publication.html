@@ -4,16 +4,16 @@
         {% assign categories = page.categories | sort %}
     {% endif %}
     <li class="nav-right-item nav-drop right-align">
-			{% for category in categories %}
-        <button onclick="dropFunction2()" class="nav-dropbtn nav-tocbtn" title='Expand the TOC of "{{ category }}"'><i class="arrow-down"></i>Table of Contents: {{ category }}</button>
+        {% for category in categories %}
+        <button onclick="dropFunction2()" class="nav-dropbtn nav-tocbtn nav-active" title='Expand the TOC of "{{ category }}"'><i class="arrow-down"></i>Table of Contents: {{ category }}</button>
         {% endfor %}
 
         <div id="drop2" class="drop-content">
-	{% for category in page.categories %}
+        {% for category in page.categories %}
         {% assign sotred_posts = site.categories[category] | reverse %}
-    {% for post in sotred_posts %}
-            <a class="drop-content-item" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}</a>
-    {% endfor %}
-	{% endfor %}
+        {% for post in sotred_posts %}
+            <a class="{% if post.url == page.url %}nav-active{% endif %} drop-content-item" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 12 }}</a>
+        {% endfor %}
+        {% endfor %}
         </div>
     </li>
