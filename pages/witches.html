@@ -29,12 +29,9 @@ permalink: /categories/para-witches
 <div class="start-h2">{{ page.description-name }}</div>
 </div>
 
-<div class="dropdown cat-description no-js-block">
-  <button type="button" onclick="dropdownFunction()" id="closed" class="dropbtn drop-closed"><em>(Beware! exposes quite a part of the story.)</em></button>
-  <div id="myDropdown" class="dropdown-content dropdown-content-no-list cat-description no-js-block">
-	<p class="cat-description">{{ page.cat-description | smartify }}</p> <!--~~karamdown do not process the .html files~~ you should just have used "smartify"-->
-  </div>
-</div>
+<details><summary><em>(Beware! exposes quite a part of the story.)</em></summary>
+  <p class="cat-description">{{ page.cat-description | smartify }}</p> <!--~~karamdown do not process the .html files~~ you should just have used "smartify"-->
+</details>
 
 <hr>
 
