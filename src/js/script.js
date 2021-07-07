@@ -23,7 +23,7 @@ window.onclick = function(event) {
     }
 }
 
-// Close one dropdown when another is open ???
+// Close one drop down when another is open ???
 
 // Toggle between showing and hiding the navigation menu
 // links when the user clicks on the hamburger menu bar icon

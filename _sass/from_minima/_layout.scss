@@ -214,7 +214,8 @@ div.pagination {
         }
     }
 
-    a:hover {
+    a:hover,
+    a:focus {
         background: $light-gray;
         transition: background-color ease-in .15s;
     }
@@ -262,6 +263,14 @@ header.header {
 }
 
 nav.nav {
+
+    a {
+
+        &:hover,
+        &:focus {
+            color: $not-black;
+        }
+    }
 
     .right-align {
         /*
@@ -616,7 +625,8 @@ ul.navbar {
         color: $almost-black;
         display: inline-block;
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: $link-blue;
         }
     }
@@ -682,7 +692,8 @@ div.post-header {
     > a.in-post-category {
         color: $base-gray;
 
-        &:hover{
+        &:hover,
+        &:focus {
             color: $not-black;
         }
     }
@@ -704,7 +715,8 @@ h1.main-title {
         color: $almost-black;
         display: inline-block;
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: $link-blue;
         }
     }
@@ -727,7 +739,8 @@ h1.main-title {
     transition: .1s;
     transition-delay: .5s;
 
-    &:hover {
+    &:hover,
+    &:focus {
         transition-delay: 0s;
         background: $light-gray;
         color: $almost-black;
@@ -745,6 +758,7 @@ section#toc {
         display: flex;
         text-align: left;
 
+        //no "focus" because it is not actually being focused
         &:hover:not(.date) {
             background-color: $very-light-gray;
         }
