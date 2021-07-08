@@ -5,8 +5,11 @@ function dropFunction() {
     document.getElementById("drop").classList.toggle("drop-content-v");
 }
 
-function dropFunction2() {
-    document.getElementById("drop2").classList.toggle("drop-content-v");
+function dropToc(element) {
+    document.getElementById("z-drop-toc").classList.toggle("drop-content-v");
+
+    document.getElementById(element).scrollIntoView();
+    window.scrollTo(0,0);
 }
 
 // Close the dropdown menu if the user clicks outside of it
