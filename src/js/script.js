@@ -10,14 +10,17 @@ function dropFunction2() {
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-    if (!event.target.matches('.nav-dropbtn')) {
-        var dropdowns = document.getElementsByClassName("drop-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('drop-content-v')) {
-                openDropdown.classList.remove('drop-content-v');
+// however not for tablet
+if (window.innerWidth > 770) {
+    window.onclick = function(event) {
+        if (!event.target.matches('.nav-dropbtn')) {
+            var dropdowns = document.getElementsByClassName("drop-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('drop-content-v')) {
+                    openDropdown.classList.remove('drop-content-v');
+                }
             }
         }
     }
