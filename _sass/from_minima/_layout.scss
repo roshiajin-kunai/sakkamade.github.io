@@ -796,18 +796,29 @@ section#toc {
 
 
 /*
- * inserted from old
- */
-
-/*
  * scroll
  */
-i.button-arrow-up {
-    border: solid $base-gray;
+@media screen and (max-width: $tablet-unit) {
+
+    #scroll-btn,
+    #scroll-down-btn {
+        visibility: visible !important;
+    }
+}
+
+/*
+ * inserted from old
+ */
+i.button-arrow-up,
+i.button-arrow-down {
+    border: solid $not-black;
     border-radius: 3px;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 6px;
+}
+
+i.button-arrow-up {
     margin-bottom: -3px;
             transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
@@ -815,12 +826,8 @@ i.button-arrow-up {
         -ms-transform: rotate(-135deg);
          -o-transform: rotate(-135deg);
 }
-i.button-arrow-down-2 {
-    border: solid $base-gray;
-    border-radius: 3px;
-    border-width: 0 4px 4px 0;
-    display: inline-block;
-    padding: 6px;
+
+i.button-arrow-down {
     margin-bottom: 1px;
             transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -828,27 +835,8 @@ i.button-arrow-down-2 {
         -ms-transform: rotate(45deg);
          -o-transform: rotate(45deg);
 }
-i.button-arrow-down {
-    border-style: double !important;
-    border: solid $not-black;
-    border-radius: 2px;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 9px;
-    transition: .2s;
-            transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-}
 
-@keyframes fade {
-    from { opacity: 0; }
-    to {   opacity: 0.4; }
-}
-
+.scroll-btn-up,
 .scroll-down-btn {
     visibility: hidden;
     position: fixed;
@@ -857,7 +845,7 @@ i.button-arrow-down {
     z-index: 9;
     font-size: 18px;
     outline: none;
-    background-color: $light-gray;
+    background-color: $white;
     cursor: pointer;
     width: ($base-unit * 4);
     height: ($base-unit * 4);
@@ -865,31 +853,27 @@ i.button-arrow-down {
     border: none;
     opacity: .4 !important;
     transition: .4s;
+
+    /*
+     * remove rings; chromium and firefox; mobile only
+     */
+    @media screen and (max-width: $tablet-unit) {
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        &::-moz-focus-inner {
+            border: 0;
+        }
+    }
 }
 
 .scroll-btn-up {
-    visibility: hidden;
     display: none;
-    position: fixed;
-    bottom: $base-unit;
-    right: 3%;
-    z-index: 9;
-    font-size: 18px;
-    outline: none;
-    background-color: $light-gray;
-    cursor: pointer;
-    width: ($base-unit * 4);
-    height: ($base-unit * 4);
-    border-radius: 50%;
-    border: none;
-    opacity: .4 !important;
     will-change: transform;
     transition: transform 0.25s ease-in-out;
-    transition: .4s;
-}
-.scroll-btn-up:hover,
-.scroll-down-btn:hover {
-    box-shadow: 0 0 5px $not-black;
 }
 
 .btn-unpin {
@@ -898,6 +882,7 @@ i.button-arrow-down {
        -moz-transform: translateX(120px);
     -webkit-transform: translateX(120px);
 }
+
 .btn-pin {
             transform: translateX(0px);
         -ms-transform: translateX(0px);
