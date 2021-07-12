@@ -67,7 +67,7 @@ ul.stripped {
 }
 
 .header-image-wrapper {
-    background-image: url('/src/img/pattern-23-102.jpeg');
+    background-image: url('/assets/img/pattern-23-102.jpeg');
     background-repeat: repeat-x;
     height: 102px;
     margin: ($base-unit * 2) 0;
@@ -85,7 +85,7 @@ ul.stripped {
 }
 
 .smaller-header-image-wrapper {
-    background-image: url('/src/img/pattern-23-102.jpeg');
+    background-image: url('/assets/img/pattern-23-102.jpeg');
     background-repeat: repeat-x;
     height: 67px;
     background-size: 15px; /*width*/
@@ -187,7 +187,7 @@ div.start-site-description::after {
 }
 
 .start-header-wrapper {/*
-    background-image: url('/src/img/flowers2-resume.png');
+    background-image: url('/assets/img/flowers2-resume.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
     min-height: 90vh;*/
@@ -805,6 +805,7 @@ section#toc {
         visibility: visible !important;
     }
 }
+
 
 /*
  * inserted from old

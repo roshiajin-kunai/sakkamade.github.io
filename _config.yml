@@ -85,5 +85,6 @@ plugins:
 #   - vendor/ruby/
 
 exclude:
-  - drafts
+  - drafts/
   - obsolete-feed.xml
+  - src/
