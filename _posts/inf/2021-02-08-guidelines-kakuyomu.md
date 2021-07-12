@@ -20,7 +20,7 @@ Shall we register in <em>kakuyomu</em> so to support the author since we like th
 First of all go over <a href="https://kakuyomu.jp/works/4852201425154961396" target="_blank" rel="noopener">kakuyomu.jp</a>.<br /> Then in that page click a blue button on the top---
 
 ![reg1](/src/img/kakuyomu-guide/omg-kakuyomu-reg1.png){: class="white-img" onclick="window.open(this.src)"}
-<span class="small js-only">(Click/ touch image to enlarge it)</span>
+<span class="small no-js-none">(Click/ touch image to enlarge it)</span>
 {: style="text-align: center" }
 
 Type in your e-mail, password, &c.<br /> Uncheck receiving e-mails (if you want to), click a  mark box for your agreements with guidelines and click a blue button.
