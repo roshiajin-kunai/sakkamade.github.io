@@ -45,14 +45,14 @@ ul.stripped {
     white-space: nowrap;
 }
 
-@media screen and (max-width: $tablet-unit) {
+@media only screen and (max-width: $tablet-unit) {
 
     .none-tablet {
         display: none !important;
     }
 }
 
-@media screen and (max-width: $mobile-unit) {
+@media only screen and (max-width: $mobile-unit) {
 
     .none-mobile {
         display: none !important;
@@ -111,7 +111,7 @@ main.main {
 
 div.main-wrapper {
     color: $almost-black;
-    box-shadow: 0 9px 7px hsla(0, 0%, 30%, .3);
+    box-shadow: 0 9px 7px hsla(0, 0%, 30%, .2);
     border-radius: 7px;
     background-color: $white;
     max-width: 950px;
@@ -120,7 +120,7 @@ div.main-wrapper {
     margin-top: $base-unit;
     margin-bottom: $base-unit;
 
-    @media screen and (max-width: $mobile-unit) {
+    @media only screen and (max-width: $mobile-unit) {
         margin-top: 1% !important;
         margin-bottom: 1% !important;
     }
@@ -130,7 +130,7 @@ div.base-wrapper {
     padding: ($base-unit * 2) $base-per ($base-unit * 2) $base-per;
     overflow-x: hidden;     /* to hide headers strips */
 
-    @media screen and (max-width: $tablet-unit) {
+    @media only screen and (max-width: $tablet-unit) {
         padding-top: $base-unit !important;
         padding-bottom: $base-unit !important;
     }
@@ -176,7 +176,7 @@ div.start-site-description {
     margin-right: auto;
     margin-left: auto;
 
-    @media screen and (max-width: $mobile-unit) {
+    @media only screen and (max-width: $mobile-unit) {
         font-size: $base-font-size * 1.5 !important;
     }
 }
@@ -186,11 +186,11 @@ div.start-site-description::after {
     content: " ~ ";
 }
 
-.start-header-wrapper {/*
+.home-wrapper {/*
     background-image: url('/assets/img/flowers2-resume.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 90vh;*/
+    min-height: 500px;*/
 }
 
 
@@ -225,7 +225,7 @@ div.pagination {
     display: none;
 }
 
-@media screen and (max-width: $mobile-unit) {
+@media only screen and (max-width: $mobile-unit) {
 
     .desktop-pagination {
         display: none;
@@ -244,7 +244,7 @@ header.header {
     //height: 101px;
 }
 
-@media screen and (min-width: $tablet-unit) { /* less than */
+@media only screen and (min-width: $tablet-unit) { /* less than */
 
     ul.navbar {
 
@@ -331,7 +331,7 @@ nav.nav {
         }
     }
 
-    @media screen and (max-width: $tablet-unit) {
+    @media only screen and (max-width: $tablet-unit) {
 
         .nav-menu {
             display: none;
@@ -386,7 +386,7 @@ nav.nav {
         }
     }
 
-    @media screen and (max-width: $mobile-unit) {
+    @media only screen and (max-width: $mobile-unit) {
 
         ul {
 
@@ -413,7 +413,7 @@ nav.nav,
 .footer {
     padding: $base-unit ($base-unit * 2);
 
-    @media screen and (max-width: $mobile-unit) {
+    @media only screen and (max-width: $mobile-unit) {
         padding-right: $base-per !important;
         padding-left: $base-per !important;
     }
@@ -500,7 +500,7 @@ ul.navbar {
         /*
          * remove rings; chromium and firefox; mobile only
          */
-        @media screen and (max-width: $tablet-unit) {
+        @media only screen and (max-width: $tablet-unit) {
 
             &:focus {
                 outline: none;
@@ -516,7 +516,7 @@ ul.navbar {
     /*
      * remove rings for links too; firefox; mobile only
      */
-    @media screen and (max-width: $tablet-unit)  {
+    @media only screen and (max-width: $tablet-unit)  {
 
         li a:focus {
            outline: none;
@@ -639,7 +639,7 @@ li.post-entry {
 li.post-entry,
 div.post-header {
 
-    @media screen and (max-width: $mobile-unit) {
+    @media only screen and (max-width: $mobile-unit) {
 
         .centered {
             text-align: left !important;
@@ -653,7 +653,7 @@ div.post-header {
  */
 .original-chapter-link {
 
-    @media screen and (max-width: $tablet-unit) { /* important only for no js */
+    @media only screen and (max-width: $tablet-unit) { /* important only for no js */
         min-width: 1px !important;
         display: flex !important;
         white-space: nowrap !important;
@@ -783,7 +783,7 @@ section#toc {
         white-space: nowrap;
         margin-left: auto;
 
-        @media screen and (max-width: $mobile-unit) {
+        @media only screen and (max-width: $mobile-unit) {
             display: none !important
         }
 
@@ -798,7 +798,7 @@ section#toc {
 /*
  * scroll
  */
-@media screen and (max-width: $tablet-unit) {
+@media only screen and (max-width: $tablet-unit) {
 
     #scroll-btn,
     #scroll-down-btn {
@@ -858,7 +858,7 @@ i.button-arrow-down {
     /*
      * remove rings; chromium and firefox; mobile only
      */
-    @media screen and (max-width: $tablet-unit) {
+    @media only screen and (max-width: $tablet-unit) {
 
         &:focus {
             outline: none;
@@ -904,3 +904,31 @@ i.button-arrow-down {
     -webkit-touch-callout: none;
 }
 
+
+/*
+ * markdown table of contents
+ */
+
+ul#markdown-toc {
+    list-style: bullets;
+    depth: 1;
+}
+#markdown-toc {
+    border: 1px solid $base-gray;
+    border-radius: 5px;
+    padding: 1em 2em;
+    list-style: decimal;
+    display: inline-block;
+    color: $not-black;
+}
+#markdown-toc::before {
+    content: 'Table of contents';
+}
+#markdown-toc li a {
+    text-decoration: none;
+}
+#markdown-toc li:hover a {
+}
+#markdown-toc li:first-child {
+    margin-top: .5em;
+}
