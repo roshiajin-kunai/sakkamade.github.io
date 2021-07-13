@@ -2,10 +2,10 @@
 {% if site.tags contains 'pinned' %}
 <ul class="stripped">
     {% for post in site.tags.pinned %}
-    <li class="post-entry bottom-border">
+    <li class="post-entry bottom-border pinned-entry">
     <header class="">
     <div class="centered post-meta">
-        <span class="">Pinned Article ・ </span>
+        <span class="pinned">Pinned Article</span><span> ・ </span>
         {% if post %}
         {% assign categories = post.categories | sort %}
         {% else %}

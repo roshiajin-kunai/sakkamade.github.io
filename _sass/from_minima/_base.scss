@@ -197,14 +197,15 @@ blockquote {
     border-left: 6px solid $background-gray;
     padding-left: $base-per;
     color: $not-so-black;
+    background-color: $white-semitrans;
 
-    > p a {
+    a {
         color: $base-gray;
         text-decoration: underline;
 
         &:hover,
         &:focus {
-            color: $link-blue;
+            background-color: $very-light-gray;
             text-decoration: none;
         }
     }

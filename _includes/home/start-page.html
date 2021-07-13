@@ -6,6 +6,8 @@
     <div class="start-site-description">{{ site.description }}</div>
 </section>
 
+
+
 <div class="header-image-wrapper align-center">
     <div class="start-h1">Projects</div>
 </div>
@@ -14,6 +16,8 @@
     <li class=""><a href="{{ site.baseurl }}/categories/{{ category | first | slugify }}" title='Visit table of content of "{{ category | first }}"'>{{ category[0] }}</a></li>
 {% endunless %}{% endfor %}
 </ul>
+
+<div class="base-page-content">
 
 <div class="smaller-header-image-wrapper align-center">
     <div class="start-h2">Latest Updates</div>
@@ -47,4 +51,7 @@
     </div>
     {% endfor %}
 </section>
+
+</div>
+
 </div>
