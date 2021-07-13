@@ -224,7 +224,7 @@ div.pagination {
         border: 2px solid transparent;
 
         &.page-active {
-            background-color: $very-light-gray;
+            background-color: $very-light-gray-trans;
         }
     }
 
@@ -241,7 +241,7 @@ div.pagination {
         &:hover,
         &:focus {
             color: $link-blue;
-            background-color: $very-light-gray;
+            background-color: $very-light-gray-trans;
         }
     }
 }
@@ -455,6 +455,12 @@ nav.nav,
 }
 
 nav.nav {
+    /*
+     * remove bottom padding
+     * because I no longed have bottom border
+     * so I need not keep it centre
+     */
+    padding-bottom: 0;
 
     a.nav-title {
         padding-right: 0 !important;
@@ -618,26 +624,28 @@ ul.navbar {
  */
 .footer {
     background-color: $white-semitrans;
-
-    /*
-     * to make up for moving bottom border into .footer instead of
-     * .copying-footer
-     */
-    margin-top: $base-unit;
+    backdrop-filter: blur(1px);
+    text-shadow:
+        0 -2px $white;
 
     .copying-footer {
         /*
-         * to make up for "max-height: 40px" in nav
+         * x2 padding of header ul
          */
-        /*padding-top: $base-unit;*/
+        padding-top: $base-unit;
 
         /*
+         * x2 pading of header ul, and
          * to make up for floating date at the bottom
          */
         padding-bottom: $base-unit * 2;
 
         line-height: 1em;
         text-align: center;
+
+        .small {
+            opacity: .8 !important;
+        }
 
         .social-footer {
             padding-top: 8px;
@@ -706,6 +714,10 @@ div.post-header {
     }
 }
 
+li.pinned-entry {
+    border-bottom-width: 4px;
+    border-bottom-color: $light-gray;
+}
 
 /*
  * post page
@@ -747,7 +759,7 @@ div.post-header {
         &:hover,
         &:focus {
             color: $link-blue;
-            background-color: $very-light-gray;
+            background-color: $very-light-gray-trans;
         }
     }
 }
@@ -778,6 +790,10 @@ div.post-header {
     -webkit-touch-callout: none;*/
 }
 
+.recommend {
+    background-color: $white-semitrans;
+    border-radius: 5px;
+}
 
 .post-meta {
     font-style: italic;

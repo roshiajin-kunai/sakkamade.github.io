@@ -39,7 +39,7 @@
 {% if page.note or page.chapter-link %}
 <blockquote id="note">
       {% if page.note %}
-        <p class="translator-note"><strong>Note:</strong> <span data-truncateat="120" data-onword="1" id="full-note">{{ page.note }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a></p>
+        <p class="translator-note"><strong>Note:</strong> <span data-truncateat="120" data-onword="1" id="full-note">{{ page.note | replace: '["','' | replace: '"]','' | smartify }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a></p>
       {% endif %}
 
       {% if page.chapter-link %}

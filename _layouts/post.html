@@ -67,8 +67,8 @@ layout: base-page
     {% assign site_categories = site.categories | sort %}
     {% for site_category in site_categories %}
     {% unless site_category contains "Information" %}
-    <section class="">
-    <a href="{{site.baseurl}}/categories/{{ site_category | first | slugify }}" title='Visit table of content of "{{ site_category | first }}"'>{{ site_category[0] }}</a>
+    <section class="recommend">
+    <a href="{{ site.baseurl }}/categories/{{ site_category | first | slugify }}" title='Visit table of content of "{{ site_category | first }}"'>{{ site_category[0] }}</a>
     </section>
     {% endunless %}
     {% endfor %}

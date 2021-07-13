@@ -4,7 +4,7 @@ const LongstringHelper = str => {
     const truncate = (n, useWordBoundary) =>
         str.length <= n ? str : `${ useWordBoundary
             ? sliceBoundary(str.slice(0, n - 1))
-            : str.substr(0, n - 1)}&hellip;`;
+            : str.substr(0, n - 1)}&#8228;&#8203;&nldr;`;
     return { full: str,  truncate };
 };
 
@@ -35,11 +35,9 @@ function fullNoteFunction() {
 // none if above is used
 var noteContent =
     document.querySelector(".translator-note #full-note").innerHTML;
-var noteLength =
-    noteContent.length;
 var noteLast =
-    noteContent.charAt(noteLength - 1);
-if (noteLast === `…`) {
+    noteContent.slice(-3);
+if (noteLast === `․​‥`) {
 } else {
     var elementToggler =
         document.getElementById("toggle-note");
