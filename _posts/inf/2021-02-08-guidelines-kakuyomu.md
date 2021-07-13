@@ -7,11 +7,13 @@ author: sakkani
 categories:
  - Information
 tags:
+ - pinned
 note:
 chapter-link:
 ---
 * TOC
 {:toc}
+
 #### Registration
 {: class="with-indent"}
 

@@ -7,7 +7,6 @@ author: sakkani
 categories:
  - Information
 tags:
- - pinned
 note:
 chapter-link:
 chapter-type:
