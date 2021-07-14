@@ -57,6 +57,7 @@ sup {
     border-top: 1px solid $background-gray;
     margin-top: $base-unit;
     padding-top: $base-unit;
+    background-color: $white-semitrans;
 }
 
 .reversefootnote {
@@ -88,7 +89,8 @@ sup {
     &\:20 {
 
         &:target {
-            background: #fff2f7;
+            // background: #fff2f7;
+            background-color: rgba(255,220,227, 0.3); // #ffdce3
             border-radius: 5px;
         }
 

@@ -1,37 +1,37 @@
-{%- if page.main-title -%}
-	{% for category in categories %}
-		<h1 class="post-title main-title">
-			<a href="{{ site.baseurl }}/categories/{{ category | slugify }}" itemprop="name headline" title='Visit page of "{{ category }}"'>
-				{{ page.main-title | smartify }}
-			</a>
-		</h1>
-	{% endfor %}
-{% endif %}
-
-
 <!-- top information -->
 <div class="post-header">
-	<div class="post-meta centered">
-		{%- if page.main-title -%}<!--no top category-->{%- else -%}
-			{% for category in categories %}
-			<a class="in-post-category" href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit page of "{{ category }}"'>{{ category }}</a>
-				{% unless forloop.last %}<!--&nbsp;-->{% endunless %}
-			{% endfor %}  
-		{%- endif -%}
-	</div>
-	<h3 class="post-title centered" {% if page.main-title %}{% else %} itemprop="name headline"{% endif %}>{{ page.title | smartify }}</h3>
-	<p style="text-align: right" class="post-meta post-bottom-meta"><!--do not remove the style-->
-	<span title="Estimated reading time">
-			{% capture words %}
-		{{ page.content | strip_html | number_of_words | minus: 250 }}
-			{% endcapture %}
-		{% if words contains "-" %}
-		Less than a minute
-		{% else %}
-		Circa {% assign number_words = words | plus: 250 | divided_by: 180 | lstrip %}{% case number_words %}{% when '1' %}{{ number_words }} minute{% else %}{{ number_words }} minutes{% endcase %}
-		{% endif %}
-	</span>
-	</p>
+
+{%- if page.main-title -%}
+    {% for category in categories %}
+        <h1 class="post-title main-title">
+            <a href="{{ site.baseurl }}/categories/{{ category | slugify }}" itemprop="name headline" title='Visit page of "{{ category }}"'>
+                {{ page.main-title | smartify }}
+            </a>
+        </h1>
+    {% endfor %}
+{% endif %}
+
+    <div class="post-meta centered">
+        {%- if page.main-title -%}<!--no top category-->{%- else -%}
+            {% for category in categories %}
+            <a class="in-post-category" href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit page of "{{ category }}"'>{{ category }}</a>
+                {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+            {% endfor %}
+        {%- endif -%}
+    </div>
+    <h3 class="post-title centered" {% if page.main-title %}{% else %} itemprop="name headline"{% endif %}>{{ page.title | smartify }}</h3>
+    <p style="text-align: right" class="post-meta post-bottom-meta"><!--do not remove the style-->
+    <span title="Estimated reading time">
+            {% capture words %}
+        {{ page.content | strip_html | number_of_words | minus: 250 }}
+            {% endcapture %}
+        {% if words contains "-" %}
+        Less than a minute
+        {% else %}
+        Circa {% assign number_words = words | plus: 250 | divided_by: 180 | lstrip %}{% case number_words %}{% when '1' %}{{ number_words }} minute{% else %}{{ number_words }} minutes{% endcase %}
+        {% endif %}
+    </span>
+    </p>
 </div>
 <!-- end top information -->
 

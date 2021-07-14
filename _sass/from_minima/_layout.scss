@@ -224,7 +224,7 @@ div.pagination {
         border: 2px solid transparent;
 
         &.page-active {
-            background-color: $very-light-gray-trans;
+            background-color: $very-light-gray;
         }
     }
 
@@ -242,6 +242,9 @@ div.pagination {
         &:focus {
             color: $link-blue;
             background-color: $very-light-gray-trans;
+            text-shadow:
+                0 -2px $white,
+                0 -1px $white;
         }
     }
 }
@@ -319,6 +322,27 @@ nav.nav {
         border-width: 2px !important;
         border-radius: 5px;
 
+        &:hover {
+            background: unset !important;
+            border-color: $tag-gray !important;
+            border-width: 2px !important;
+
+            section.menu-icon div {
+                background-color: $not-black !important;
+            }
+        }
+
+        &:focus {
+            background: unset !important;
+            border-color: $dark-pink !important;
+            border-width: 2px !important;
+            box-shadow: 0 0 2px $base-pink !important;
+
+            section.menu-icon div {
+                background-color: $not-black !important;
+            }
+        }
+
         /*
          * I hope there is a more neat way...
          */
@@ -334,27 +358,6 @@ nav.nav {
                 height: 2px;
                 background-color: $base-gray;
                 margin: 3px 0;
-            }
-        }
-
-        &:hover {
-            background: unset !important;
-            border: solid $tag-gray !important;
-            border-width: 2px !important;
-
-            section.menu-icon div {
-                background-color: $not-black !important;
-            }
-        }
-
-        &:focus {
-            background: unset !important;
-            border: solid $dark-pink !important;
-            border-width: 2px !important;
-            box-shadow: 0 0 2px $base-pink !important;
-
-            section.menu-icon div {
-                background-color: $not-black !important;
             }
         }
     }
@@ -524,6 +527,12 @@ ul.navbar {
         transition: all ease-in .15s;
         position: relative; /* to keep the icon for tablet/mobile */
 
+        &:hover,
+        &:focus {
+            color: $not-black;
+            background-color: $very-light-gray;
+        }
+
             i.arrow-down {
                 display: block;
                 position: absolute;
@@ -594,12 +603,6 @@ ul.navbar {
 
     .drop-content-v {
         display: block;
-    }
-
-    .nav-dropbtn:hover,
-    .nav-dropbtn:focus {
-        color: $not-black;
-        background-color: $very-light-gray;
     }
 
     li.nav-right-item {
@@ -748,28 +751,53 @@ li.pinned-entry {
         white-space: nowrap;
 
         padding: 3px 17px;
-        border: solid !important;
-        border-color: $tag-gray !important;
+        border: solid $background-gray !important;
         border-width: 2px !important;
         border-radius: 5px;
-        transition: background-color ease-in .15s;
+        transition: all ease-in .15s;
 
         background-color: $white-semitrans;
 
-        &:hover,
+        &:hover {
+            color: $not-black;
+            border-color: $tag-gray !important;
+        }
+
         &:focus {
-            color: $link-blue;
-            background-color: $very-light-gray-trans;
+            color: $not-black;
+            border-color: $dark-pink !important;
+            box-shadow: 0 0 2px $base-pink !important;
         }
     }
 }
 
 .previous-post {
     margin-bottom: $base-unit * 2;
+
+    > a {
+        color: $base-gray;
+    }
 }
 
 .next-post {
     margin-top: $base-unit * 2;
+
+    > a {
+        color: $not-black;
+        box-shadow:
+            inset 0 0 5px $white,
+            inset 0 6px 2px $white,
+            inset 0 3px 5px $white,
+            inset 5px 0 5px $white;
+        text-shadow:
+            0 -2px $white,
+            1px -1px $white;
+
+        &:hover,
+        &:focus {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    }
 }
 
 .switch-off {
@@ -811,9 +839,6 @@ li.pinned-entry {
 
 .post-bottom-meta {
     text-align: right !important;
-}
-
-.post-title {
 }
 
 h1.main-title {
@@ -965,7 +990,7 @@ i.button-arrow-down {
     height: ($base-unit * 4);
     border-radius: 50%;
     border: none;
-    opacity: .4 !important;
+    opacity: .6 !important;
     transition: .4s;
 
     /*
