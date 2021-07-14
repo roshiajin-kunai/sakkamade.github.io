@@ -24,7 +24,7 @@
 </div>
 <section id="toc">
     {% for post in site.posts limit: 9 %}
-    <div title="{{ post.title | strip_html | smartify }}" class="toc bottom-border flex" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+    <div title="{{ post.title | strip_html | smartify }}" class="toc bottom-border flex">
         <a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">
         <span>{{ post.title | strip_html }}</span>
         </a>&nbsp;
@@ -41,7 +41,7 @@
 <section id="toc">
     {% assign sorted_posts = site.posts | sort: "last_modified_at" | reverse %}
     {% for post in sorted_posts limit: 9 %}
-    <div title="{{ post.title | strip_html | smartify }}" class="toc bottom-border flex" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+    <div title="{{ post.title | strip_html | smartify }}" class="toc bottom-border flex">
         <a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">
         <span>{{ post.title | strip_html }}</span>
         </a>&nbsp;

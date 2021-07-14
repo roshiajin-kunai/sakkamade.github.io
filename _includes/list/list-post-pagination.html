@@ -54,7 +54,7 @@
 </div>
 
 {% else %}
-<!-- code is quite confusing and I have no will to explain, 0.8.5, (body min-width >480px, better >500px) good luck; although I fear I'll never utilise it; __well I am now__ -->
+<!-- code is quite confusing and I have no will to explain, 0.8.5, (body min-width >480px, better >500px) good luck; although I fear I'll never utilise it; __well I do now__ -->
 {% assign page_start = paginator.page | minus: 2 %}
 {% assign page_end = paginator.page | plus: 2 %}
 {% if page_end > paginator.total_pages %}
@@ -82,7 +82,7 @@
 		{% if paginator.page == 5 %}
 			<a href="/updates/page=2">2</a>
 		{% else %}
-            <span class="page-active">...</span>
+            <span class="page-hellip">&hellip;</span>
 		{% endif %}
 	{% endunless %}
     {% endif %}
@@ -125,7 +125,7 @@
 		{% if paginator.page == somewhat_near_end %}
 			<a href="/updates/page={{ very_near_end }}">{{ very_near_end }}</a>
 		{% else %}
-    <span class="page-active">...</span>
+    <span class="page-hellip">&hellip;</span>
 		{% endif %}
 	{% endunless %}
     <a href="/updates/page={{paginator.total_pages}}">{{paginator.total_pages}}</a>

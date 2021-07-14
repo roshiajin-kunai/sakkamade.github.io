@@ -2,7 +2,7 @@
 layout: base-page-title
 title: About
 permalink: /about
-last_modified_at: 2021-07-04 03:07:16 +0000
+last_modified_at: 2021-07-14 03:11:00 +0000
 ---
 
 In this website I publish my translations of Japanese web-novels. Occasionally gaining author's consent (if I can contact them and certain of translating it until the end).
@@ -30,9 +30,9 @@ The design for this website made entirely by me.
 It used to be influenced by theme which I used in my previous blog at _WordPress_, however now by great deal of other web-sites which I have visited.
 
 Every fonts used in this web-site are distributed under [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL), namely:
-- [_Junicode New_](https://github.com/psb1558/Junicode-New)
-    - [_Junicode_](https://github.com/Fromager/junicode) - for italic
-- [_Alex Brush_](https://fonts.adobe.com/fonts/alex-brush#fonts-section) - for   site header
+- [_Junicode New_](https://github.com/psb1558/Junicode-New) - main web-site's font
+    - [_Junicode (legacy)_](https://github.com/psb1558/Junicode-New) - italic
+- [_Alex Brush_](https://fonts.adobe.com/fonts/alex-brush#fonts-section) -   site header
 
 
 #### Services which I use
@@ -41,7 +41,7 @@ Every fonts used in this web-site are distributed under [SIL Open Font License](
 - [wiktionary.org](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) - helps me with both English and Japanese, mostly with English, but with Japanese either;
 - [jisho.org](https://jisho.org/) - Japanese translation tool (you—and perhaps I—would not have seen so frequent an updates if not for this amazing tool);
 - [thejadednetwork.com/sfx](http://thejadednetwork.com/sfx/) - impressive dictionary of totally unfamiliar to me Japanese *sfx*;
-- [dictionary.goo.ne.jp](https://dictionary.goo.ne.jp/) - kya! great dictionary of vocabulary that one utterly unable to come across nowhere else;
+- [dictionary.goo.ne.jp](https://dictionary.goo.ne.jp/) - kya! it's just a great dictionary of vocabulary that one utterly unable to come across nowhere else;
 - [translate.google.com](https://translate.google.com/?hl=en&amp;tab=TT) - translation from Japanese, rare help with English;
 - [deepl.com](https://www.deepl.com/home) - good for translation of truly alien to me Japanese dialects and colloquial language;
 
