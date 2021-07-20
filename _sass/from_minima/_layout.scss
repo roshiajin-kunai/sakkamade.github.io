@@ -688,6 +688,10 @@ ul.navbar {
 .post-link {
     margin-bottom: 0;
 
+    /* temporary */
+    margin-bottom: 8px;
+    margin-top: 2px;
+
     > a {
         color: $almost-black;
         display: inline-block;
@@ -703,7 +707,7 @@ li.post-entry {
     margin-bottom: $base-unit;
 
     header > div.post-meta {
-        --padding-meta: 8px 6px;
+        --padding-meta: 2px 6px;
 
         > a {
             transition: ease-out .15s;
