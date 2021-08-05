@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   through life with yuri in heart
 baseurl: "" # the subpath of your site, e.g. /blog
 # tagline: 百合に心の中とで人生を通して
-url: "https://sakkamade.github.io" # e.g. http://example.com
+url: https://sakkamade.github.io # e.g. http://example.com
 twi-item: sakka_made
 disc-item: GKmr8Z3mTm
 
@@ -46,9 +46,9 @@ timezone: UTC
 #     - Autodoll Dreams in a Decaying World
 #     - Information
     
-feed:
-  posts_limit: 10 # default: 10
-  excerpt_only: true
+#feed:
+#  posts_limit: 10 # default: 10
+#  excerpt_only: true
 
 collections:
   posts:
@@ -60,7 +60,7 @@ locale: en_GB
 host: 0.0.0.0
 
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag  
   - jekyll-sitemap
