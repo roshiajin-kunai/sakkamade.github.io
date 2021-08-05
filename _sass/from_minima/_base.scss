@@ -53,7 +53,6 @@ sup {
 }
 
 .footnotes {
-    color: $not-black;
     border-top: 1px solid $background-gray;
     margin-top: $base-unit;
     padding-top: $base-unit;
@@ -89,8 +88,8 @@ sup {
     &\:20 {
 
         &:target {
-            // background: #fff2f7;
-            background-color: rgba(255,220,227, 0.3); // #ffdce3
+            // background-color: #fff2f7;
+            background-color: rgba(255, 205, 215, 0.2); // #ffdce3
             border-radius: 5px;
         }
 
@@ -106,7 +105,7 @@ sup {
 }
 
 ::selection {
-    background: hsla(218, 37%, 90%, 0.8); /* $lighter-blue; */
+    background-color: hsla(218, 37%, 90%, 0.8); /* $lighter-blue; */
     color: #222222;
     text-shadow: none;
 }
@@ -116,7 +115,7 @@ hr {
     margin: $base-unit 0;
     border: none;
     height: 1px;
-    background: $background-gray;
+    background-color: $background-gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -183,7 +182,7 @@ figcaption {
 a {
     color: $link-blue;
     text-decoration: none;
-    transition: color ease-in .15s;
+    transition: color $base-transition;
 
   &:hover,
   &:focus {
@@ -197,7 +196,7 @@ a {
  */
 blockquote {
     border-left: 6px solid $background-gray;
-    padding-left: $base-per;
+    padding-left: $base-percents;
     color: $not-so-black;
     background-color: $white-semitrans;
 
@@ -228,7 +227,7 @@ blockquote {
  * lists
  */
 ol {
-    list-style-type: lower-roman;
+    //list-style-type: lower-roman;
 }
 
 ul {

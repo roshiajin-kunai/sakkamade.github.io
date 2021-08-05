@@ -135,7 +135,7 @@ div.main-wrapper {
 }
 
 div.base-wrapper {
-    padding: ($base-unit * 2) $base-per ($base-unit * 2) $base-per;
+    padding: ($base-unit * 2) $base-percents ($base-unit * 2) $base-percents;
     overflow-x: hidden;     /* to hide headers strips */
 
     @media only screen and (max-width: $tablet-unit) {
@@ -160,7 +160,7 @@ div.base-page-content {
  * start page
  */
 div.start-wrapper {
-    padding: $base-unit $base-per $base-unit $base-per;
+    padding: $base-unit $base-percents $base-unit $base-percents;
     overflow-x: hidden;     /* to hide headers strips */
 }
 
@@ -249,7 +249,7 @@ div.pagination {
          * ("transparent" doesn't help)
          */
         background-color: $white-semitrans;
-        transition: background-color ease-in .15s,
+        transition: background-color $base-transition,
             border-color ease-out .05s;
 
         &:hover,
@@ -368,7 +368,7 @@ nav.nav {
             margin-right: 12px;
 
             div {
-                transition: background-color ease-in .15s;
+                transition: background-color $base-transition;
                 width: 16px;
                 height: 2px;
                 background-color: $base-gray;
@@ -467,8 +467,8 @@ nav.nav,
     padding: $base-unit ($base-unit * 2);
 
     @media only screen and (max-width: $mobile-unit) {
-        padding-right: $base-per !important;
-        padding-left: $base-per !important;
+        padding-right: $base-percents !important;
+        padding-left: $base-percents !important;
     }
 }
 
@@ -539,7 +539,7 @@ ul.navbar {
 
         border: none;
         cursor: pointer;
-        transition: all ease-in .15s;
+        transition: all $base-transition;
         position: relative; /* to keep the icon for tablet/mobile */
 
         &:hover,
@@ -636,7 +636,7 @@ ul.navbar {
     }
 
     .nav-menu li {
-        transition: ease-in .15s;
+        transition: $base-transition;
     }
 }
 
@@ -777,7 +777,7 @@ li.pinned-entry {
         border: solid $background-gray;
         border-width: 2px;
         border-radius: 5px;
-        transition: all ease-in .15s;
+        transition: all $base-transition;
 
         background-color: $white-semitrans;
 
@@ -892,15 +892,14 @@ h1.main-title {
 }
 
 .spoiler {
-    background: $almost-black;
+    background-color: $almost-black;
     color: transparent;
     transition: .1s;
     //transition-delay: .5s;
 
-    &:hover,
-    &:focus {
+    &:hover {
         //transition-delay: 0s;
-        background: $light-gray;
+        background-color: $light-gray;
         color: $almost-black;
     }
 }

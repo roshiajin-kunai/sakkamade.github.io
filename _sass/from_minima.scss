@@ -7,12 +7,14 @@ $base-font-size:   20.4px !default;       /*should not be even because of "junic
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 
-$base-line-height:      1.6em    !default;
-$small-line-height:     1.4em    !default;
-$smaller-line-height:   1.1em    !default;
+$base-line-height:      1.6em   !default;
+$small-line-height:     1.4em   !default;
+$smaller-line-height:   1.1em   !default;
 
-$base-unit:        20px    !default;
-$base-per:         6%      !default;
+$base-unit:             20px    !default;
+$base-percents:         6%      !default;
+
+$base-transition:       ease-in .15s    !default;
 
 /*
 $lighter-blue:     #dce3ef !default;
