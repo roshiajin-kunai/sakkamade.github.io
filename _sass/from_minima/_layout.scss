@@ -245,8 +245,11 @@ div.pagination {
         transition: border-color ease-in .9s;
 
         /*
-         * to remove weird flickering in firefox; the cause is transition;
-         * ("transparent" doesn't help)
+         * to remove weird flickering in firefox on linux; the cause is transition;
+         * ("transparent" doesn't help);
+         * additional property should also be specified,
+         * e.g. "background-color";
+         * not "all"
          */
         background-color: $white-semitrans;
         transition: background-color $base-transition,
@@ -749,17 +752,46 @@ li.pinned-entry {
  * post page
  */
 .original-chapter-link {
+    color: $not-so-black;
+    text-align: center;
+
+    a {
+        color: $base-gray;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            background-color: $very-light-gray;
+        }
+    }
 
     @media only screen and (max-width: $tablet-unit) { /* important only for no js */
         min-width: 1px !important;
         display: flex !important;
         white-space: nowrap !important;
 
+        /*
+         * keep it centred
+         * it is not because of "display: flex"
+         */
+        align-items: center;
+        justify-content: center;
+
         a {
             display: block !important;
             overflow-x: hidden !important;
             text-overflow: ellipsis;
         }
+    }
+
+    @media only screen and (max-width: $mobile-unit) {
+
+        /*
+         * and now let it align left
+         */
+        align-items: normal;
+        justify-content: start;
     }
 }
 

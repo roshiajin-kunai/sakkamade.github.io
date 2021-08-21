@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "JunicodeNew", "Yu Mincho Demibold", 'Noto Serif JP', "Noto Serif CJK JP", "Times New Roman", Times, 'Source Han Serif', serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: "JunicodeNew", "JuniusX", "Yu Mincho Demibold", 'Source Han Serif', 'Noto Serif JP', "Noto Serif CJK JP", "Times New Roman", Times, serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   20.4px !default;       /*should not be even because of "junicode" *italic* and "junicode new" *normal* size difference*/
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;

@@ -20,6 +20,9 @@
         {%- endif -%}
     </div>
     <h3 class="post-title centered" {% if page.main-title %}{% else %} itemprop="name headline"{% endif %}>{{ page.title | smartify }}</h3>
+    {% if page.chapter-link %}
+        <p class="original-chapter-link"><strong>Source:</strong>&#8239;<a href="{{ page.chapter-link }}" target="_blank" title="Visit page of original work">{{ page.chapter-link }}</a></p>
+    {% endif %}
     <p style="text-align: right" class="post-meta post-bottom-meta"><!--do not remove the style-->
     <span title="Estimated reading time">
             {% capture words %}
@@ -36,14 +39,10 @@
 <!-- end top information -->
 
 
-{% if page.note or page.chapter-link %}
+{% if page.note %}
 <blockquote id="note">
-      {% if page.note %}
-        <p class="translator-note"><strong>Note:</strong> <span data-truncateat="120" data-onword="1" id="full-note">{{ page.note | replace: '["','' | replace: '"]','' | smartify }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a></p>
-      {% endif %}
-
-      {% if page.chapter-link %}
-        <p class="original-chapter-link"><strong>Source:</strong>&#8239;<a href="{{ page.chapter-link }}" target="_blank" title="Visit page of original work">{{ page.chapter-link }}</a></p>
-      {% endif %}
+    {% if page.note %}
+    <p class="translator-note"><strong>Note:</strong> <span data-truncateat="110" data-onword="1" id="full-note">{{ page.note | replace: '["','' | replace: '"]','' | smartify }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a></p>
+    {% endif %}
 </blockquote>
 {% endif %}
