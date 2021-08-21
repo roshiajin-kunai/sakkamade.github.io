@@ -692,8 +692,10 @@ ul.navbar {
     margin-bottom: 0;
 
     /* temporary */
+    /*
     margin-bottom: 8px;
     margin-top: 2px;
+    */
 
     > a {
         color: $almost-black;
@@ -709,7 +711,7 @@ ul.navbar {
 li.post-entry {
     margin-bottom: $base-unit;
 
-    header > div.post-meta {
+    header > .post-meta {
         --padding-meta: 2px 6px;
 
         > a {
@@ -751,47 +753,52 @@ li.pinned-entry {
 /*
  * post page
  */
-.original-chapter-link {
-    color: $not-so-black;
-    text-align: center;
 
-    a {
+
+div.post-header {
+
+    .original-chapter-link {
         color: $base-gray;
-        text-decoration: underline;
-
-        &:hover,
-        &:focus {
-            text-decoration: none;
-            background-color: $very-light-gray;
-        }
-    }
-
-    @media only screen and (max-width: $tablet-unit) { /* important only for no js */
-        min-width: 1px !important;
-        display: flex !important;
-        white-space: nowrap !important;
-
-        /*
-         * keep it centred
-         * it is not because of "display: flex"
-         */
-        align-items: center;
-        justify-content: center;
+        text-align: center;
 
         a {
-            display: block !important;
-            overflow-x: hidden !important;
-            text-overflow: ellipsis;
+            color: $base-gray;
+            text-decoration: underline;
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                background-color: $very-light-gray;
+            }
         }
-    }
 
-    @media only screen and (max-width: $mobile-unit) {
+        @media only screen and (max-width: $tablet-unit) { /* important only for no js */
+            min-width: 1px !important;
+            display: flex !important;
+            white-space: nowrap !important;
 
-        /*
-         * and now let it align left
-         */
-        align-items: normal;
-        justify-content: start;
+            /*
+            * keep it centred
+            * it is not because of "display: flex"
+            */
+            align-items: center;
+            justify-content: center;
+
+            a {
+                display: block !important;
+                overflow-x: hidden !important;
+                text-overflow: ellipsis;
+            }
+        }
+
+        @media only screen and (max-width: $mobile-unit) {
+
+            /*
+            * and now let it align left
+            */
+            align-items: normal;
+            justify-content: start;
+        }
     }
 }
 

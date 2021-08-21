@@ -11,14 +11,14 @@
     {% endfor %}
 {% endif %}
 
-    <div class="post-meta centered">
+    <p class="post-meta centered">
         {%- if page.main-title -%}<!--no top category-->{%- else -%}
             {% for category in categories %}
             <a class="in-post-category" href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit page of "{{ category }}"'>{{ category }}</a>
                 {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
             {% endfor %}
         {%- endif -%}
-    </div>
+    </p>
     <h3 class="post-title centered" {% if page.main-title %}{% else %} itemprop="name headline"{% endif %}>{{ page.title | smartify }}</h3>
     {% if page.chapter-link %}
         <p class="original-chapter-link"><strong>Source:</strong>&#8239;<a href="{{ page.chapter-link }}" target="_blank" title="Visit page of original work">{{ page.chapter-link }}</a></p>
