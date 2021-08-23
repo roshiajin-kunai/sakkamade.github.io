@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-06 02:09:40 +0000
-last_modified_at: 2021-04-07 20:51:20 +0000
+last_modified_at: 2021-08-23 03:55:48 +0000
 title: "EX03. Bouquet of Weiss Lilies ／ Name of C-chan."
 author: sakkani
 categories:
@@ -184,11 +184,11 @@ Both of which, by the way, are off-line, and now they run on regular tires.
 "I'm looking forward to museum."
 "Aha, me too. I hope there will be a bike like me."
 "Um—. I rather  want to see the first quantum brain equipped on robot, the Phantom—."
-"Oh--, called semi-Autodoll, right?"
+"Oh—, called semi-Autodoll, right?"
 "Right, right."
 
 
-The Phantom is not a perfectly autonomous, its quantum brain for mere assisting the human who piloting it.
+The Phantom is not perfectly autonomous, as its quantum brain is for mere assisting the human who pilots it.
 
 
 "Lucca・Bernhardt was using it, if I remember rightly​?"
@@ -226,7 +226,7 @@ I didn't need to think of anything, my heart wasn't affected by anything, I was 
 "Is it a kind of thought peculiar to  intelligent life-forms?"
 "Right, right. I'm kind of depressed, because I can't understand my reason for existence."
 "He—. Intelligent life is difficult."
-"Both Mama-Lydi and Mama-Yuu are live as Creators, and, although they usually seem to be just flirting, they engage a things that look like that, but I don't have anything of the sort..."
+"Both mama-Lydi and mama-Yuu are live as Creators, and, although they usually seem to be just flirting, they engage a things that look like that, but I don't have anything of the sort..."
 
 
 Lydia and Yuuyami are gradually gather remaining human beings to create a city which centred upon the library. A beautiful city where everyone can live happily.
@@ -245,9 +245,9 @@ Said just existing Noah, quite indifferently.
 It was kind of funny and Shii tittered.
 
 
-"I don't know that either---. It's may be okay. But, I am rather anxious."
-"So it's hard after all. But, shouldn't you talk it over with Lydiyami-san--?"
-"It's somehow difficult to ask---."
+"I don't know that either—. It's may be okay. But, I am anxious, _desu_."
+"So it's hard after all. But, shouldn't you talk it over with Lydiyami-san—?"
+"It's, somehow, difficult to ask—."
 
 
 They will surely listen to me, and will surely give me a right answer.
@@ -363,8 +363,8 @@ Well, there being dark is not an issue for Shii's visual sensor, however it's ni
 I don't mind the ruinous ambience, but I prefer visit such places in a bright and enjoyable fashion still.
 
 
-"No intelligent life, no Autodoll, huh---."
-"Right. Rather, I can't  detect it  even with my sensor—."
+"No intelligent life, no Autodoll, huh—."
+"Right. I can't  detect it  even with my sensor, _desu—_."
 
 
 Noah is also entered the museum with Shii.
@@ -556,7 +556,7 @@ A black Masquerade​ and a white Masquerade​ were rising upon the ground, wav
 It was a Weiss Lily and Phantom that Shii cognised in the log earlier.
 
 
-"Mama-Lydi... and, Mama-Yuu?"
+"Mama-Lydi... and, mama-Yuu?"
 
 
 Shii snapped her eyes open in surprise.

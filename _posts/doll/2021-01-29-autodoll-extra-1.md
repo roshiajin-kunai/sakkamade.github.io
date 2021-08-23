@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-01-29 23:31:20 +0000
-last_modified_at: 2021-04-09 20:22:22 +0000
+last_modified_at: 2021-08-23 03:54:03 +0000
 title: "EX01. Lydia's Introduction to Martial Arts."
 main-title: "Autodoll Dreams in a Decaying World.<br> Extra Episodes.<br> By Hazuki Sou."
 author: sakkani
@@ -340,9 +340,9 @@ Mari lifts her right fist up to the shoulder.
 
 
 <p markdown="1">Kizuna clenched his left fist, and lightly tapped Mari's.</p>
-[^19]: Shii using the polite manner of speech quite wrong at times, from the last (44th) chapter I decided her  use a word _rather_, sometimes wrongly, although I understand it is not much of politeness; I should also mention that that doesn't signify it's a sole grammar error;
+[^19]: look [44th chapter's footnote](/2021/01/26/autodoll-44#fn:2);
 
-"Is it a friendship? Or rather affection? Rather, are you married?"[^19]
+"Is it a friendship? Or affection, _desu?_ Are you married, _desu?_ ”[^19]
 
 
 Questioned Shii, upon tottering up to the pair.
@@ -359,7 +359,7 @@ Incidentally, Shii as yet unconscious at this period.
 Shrugged his shoulders Kizuna. Mari replied.
 
 
-"I do not, rather, understand."
+"I don't understand... _desu_."
 "It's okay, I don't understand it too."
 "Yeah. We aren't understand it well."
 
@@ -367,7 +367,7 @@ Shrugged his shoulders Kizuna. Mari replied.
 Albeit they say to be ignorant, they appear enjoying themselves. As though sharing a momentous secret, such an ambience.
 
 
-"Hmm. Intelligent life rather complicated."
+"Hmm. Intelligent life complicated, _desu_."
 
 
 Shii slightly shook a head.
@@ -375,10 +375,10 @@ Shii slightly shook a head.
 
 "Let us get back to the point," says Kizuna; "how long are they intend to keep it up?"
 "Really," agrees Mari. "Although I think we are pretty mentally strong."
-"You have got rather steel nerves."
+"You have got steel nerves, _desu_."
 "Even _we_ now about to get a slight heartburn, right?"
 "Uh-huh. Too sweet. This place is too sweet."
-"This is what happens when two sugary couples get together. Rather, what if I say that here is another pair of such a love birds?"
+"This is what happens when two sugary couples get together. Or rather, what if I say that here is another pair of such a love birds, _desu?_ ”
 "...Give me a break."
 "...I miss the world of violence."
 
@@ -394,7 +394,7 @@ Having a whip in a right hand, Ohan snapped it once in the air.
 Lydia assumed a stance reflecting on her right.
 
 
-"Ohan holds a weapon," says Shii. "It is rather disadvantageous of Mama-Lydi, isn't it?"
+"Ohan holds a weapon," says Shii. "It is disadvantageous of mama-Lydi, isn't it?"
 "It is vice versa," Kizuna assured: "this restrains Ohan's attack technique."
 "Yeah," Mari nods. "In a natural flow of conversation, Lydia suggested her own advantageous rule. Natural little devil."
 
@@ -404,13 +404,13 @@ Lydia requested for consent to shut down her ethics subroutine, however didn't g
 Thereupon, Lydia offered the method to determine a winner which should admit even her ethics subroutine.
 
 
-"In other words, Mama-Lydi rather followed the teachings of _Kuga Ha Shinryu_ and lured her opponent at a disadvantage?"
+"In other words, mama-Lydi has followed the teachings of _Kuga Ha Shinryu_ and lured her opponent at a disadvantage, _desu?_ ”
 "That's how it is. But, as Mari-chan said, there's no calculations, it's probably natural. Well, I guess this fellow Lydia thought, 'I am cute and loved by everyone, I can obtain a consent for anything I say.'"
 "Ah---. Yeah. It's hard to refuse when Lydia asks, peering up at you with those eyes of hers," stated Mari. "Hello and welcome, I am Mari with a latest commentary. According to the rule Lydia has suggested: If Ohan hit Lydia's butt with a whip—Ohan wins. And now to our play-by-play man, Kizuna-san?"
 "Ah--. Er, this is Kizuna-san from the scene. Err, Ohan is not just limited  to attack technique, but also to the spot of attack. Furthermore, having a high defence power,  the butt is not prone to easily bear a critical damage. She, too, prepared to be hit upon that place; Mary?"
 "Yes," Mari nodded. "A great natural little devil, aren't she--. But this is not a point, Ohan in a really disadvantageous situation."
 "And yet, only Mari-chan and myself realise​d that Ohan at disadvantage, huh--."
-"Because," says Shii, "usually it is better to have a weapon. Rather, Ohan-onee-san pretty good combatant."
+"Because," says Shii, "usually it is better to have a weapon. Ohan-onee-san is a pretty good combatant."
 "Well, and back to Kizuna-san form the scene. As for Lydia, she can achieve a victory by inflicting  a damage upon Ohan which  would be enough to take  down an ordinary human," says Kizuna. "At first sight, such appears fairly difficult, but, taking into account present Lydia, her single blow will be sufficient."
 
 
@@ -464,7 +464,7 @@ Upon shriek ish cry, Rapha  rushed towards Ohan.
 However in prior of Rapha's arrival, Ohan arose up and proceed to stroll as if nothing have happened, and, lifting Rapha who was closing up, stepped in to the _dojo_.
 
 
-"I have rather calculated the damage. Mama-Lydi wins."
+"I have calculated the damage, _desu_. Mama-Lydi wins."
 
 
 Indifferently said Shii.
@@ -479,13 +479,13 @@ Ohan halted before Lydia, and said so, plainly.
 "Ohan, are you okay!? Nothing is broke!?"
 "No problem. My body is the ultimate body created by Rapha. It will not break from this kind of damage."
 "Haa--," Yuuyami shoved in between Lydia and Ohan. "How may you name your body ultimate disregarding me?"
-"Rather, if you question me, I have a better performance."
+"If you question me, I have a better performance, _desu_."
 
 
 Shii remarked, in whisper.
 
 
-"My body is magnificent. And not at all inferior to Shii-chan." ---Ohan perfectly heard Shii-chan's words--- "My quantum brain is elaborate, too, and it will not take long before I become conscious."
+"My body is magnificent. And not at all inferior to Shii-chan."—Ohan perfectly heard Shii-chan's words—“My quantum brain is elaborate, too, and it will not take long before I become conscious."
 "Hum. However I was the first to obtain consciousness. Indeed, I am a consciousness _senpai_. You may address me Yuuyami-senpai, I presume?"
 
 
@@ -551,14 +551,14 @@ Yuuyami distorted into extremely sad countenance.
 "Is that so?"
 "So that is, certainly."
 "Do you hate it?"
-"No. I might rather like you being mean. You may also call me Masoyami-san?"
+"No. Rather, I might like you being mean. May you also call me a Masoyami-san?"
 
 
-Said composed Yuuyami.
+Stated composed Yuuyami.
 
 
 "Then, see you again, Masoyami-san."
-"...Kablooey! Masoyami-san passed away–. I am Yuuyami. I would not want to wait."
+"..._Kablooey!_ Masoyami-san has passed away–. I am Yuuyami. I would not want to wait."
 
 
 Yuuyami has an extraordinary greedy personality. She wasn't like this in the past, but ever since she started to deal with a lots of emotions, she grew more and more humane.

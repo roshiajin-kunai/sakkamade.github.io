@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-19 02:34:05 +0000
-last_modified_at: 2021-03-14 20:57:05 +0000
+last_modified_at: 2021-08-23 04:15:22 +0000
 title: "EX05. Looming Bell Pepper Crisis."
 author: sakkani
 categories:
@@ -195,7 +195,7 @@ A fair extent of the time has elapsed beyond our encounter, and the  time is def
 
 "All right. I shall come at once then."
 "Me also?"
-"I think it's okay for Mama-Hina  to pay a visit to her daughter's house once in a while. It's not that I particularly lonely, okay?"
+"I think it's okay for mama-Hina  to pay a visit to her daughter's house once in a while. It's not that I particularly lonely, okay?"
 "Indeed, Rapha-san, you are lonely, aren't you?"
 
 
@@ -394,8 +394,8 @@ As Yuuyami spread her arms, Yggdrasil leaped straight amidst, into her bosom.
 "Ah—, adorable! What an adorable girl! My daughter is so adorable!"
 
 
-They rubbed their cheeks together, after Yuuyami had risen Yggdrasil up.
-Incidentally, upon an equal development regarding to Haruka, she seldom resists, saying, "I~am rather full-fledged intelligent life-form yet." Well, she, however, is not actually rejects me, this is a rebellious phase I fear?
+They rubbed their cheeks together, after Yuuyami had lifted Yggdrasil up.
+Incidentally, upon such an action towards Haruka, she a little resists, saying, "I am a full-fledged intelligent life-form yet, _desu~_." Well, she is, however, not actually reject me; this is a rebellious phase, I fear?
 Until Yuuyami grew satisfied, she rubbed her cheek against Yggdrasil's,  slowly lowering, thereafter, Yggdrasil into the lea of iris flowers.
 
 
@@ -425,9 +425,9 @@ Yuuyami concluded that she need to examine Lydia, in prior of flirting. Perchanc
 
 "Yugg-chan doesn't think she is particularly weird."
 "I see..."
-"You overthinking, Mama-Yuu. Mama-Lydi is invariably like that."
+"You overthinking, mama-Yuu. Mama-Lydi is invariably like that."
 "No, well, so that is, indeed, however I am at somewhat uneasiness of she had  settled to destroy it. Lydia is not of a such type."
-"Um-huh. However Mama-Lydi's ethos is healthy in itself."
+"Um-huh. However mama-Lydi's ethos is healthy itself."
 "If this is what you say, Yugg-chan, this should be not a question of her mentality."
 
 
@@ -479,7 +479,7 @@ Remarked Yuuyami, bringing her index finger in air.
 
 "Um-huh. Apparently Yugg-chan's stage appears to be as far as here."
 "Stage?"
-"Farewell, Mama-Yuu! Let's meet again!"
+"Farewell, mama-Yuu! Let's meet again!"
 
 
 Upon Yugg-chan waved a hand, the consciousness of Yuuyami leaped once anew.
@@ -547,10 +547,10 @@ The fact of Yuuyami started off to Yggdrasil's consciousness domain may be  imme
 Well, the question of where they had  departed  remains.
 
 
-"But, they had treated me rather terrible, had they not–?"
+"But, they had treated me rather terribly, had they not–?"
 
 
-In case if the one to lost consciousness were  Lydia, everyone definitely would  have awaited until Lydia will arouse from sleep.
+In case if the one who have lost consciousness were  Lydia, everyone definitely would  have awaited until Lydia will arouse from sleep.
 Upon lightly puffing her cheeks, Yuuyami brought her motorcycle on-line.
 For now, I determined to return to Lydia at once, regardless of whether the abnormalities of circumstances were occurring or not.
 
@@ -610,15 +610,15 @@ Rapha and Ohan said, smilingly.
 It is rare to behold Ohan smile, thought Yuuyami.
 
 
-"I am rather awfully happy that Mama-Yuu was born in the world decades ago, today."
+"I am awfully happy that mama-Yuu was born in the world decades ago, today, _desu_."
 
 
 Haruka handed a small, neatly wrapped box to Yuuyami.
 
 
 "And this is?"
-"It's rather a gift, of course. I want you to open it later."
-"Th, thank you very much..."
+"It's a gift, of course, _desu_. I want you to open it later."
+"Th-thank you very much..."
 
 
 Indeed, at days of old, at this day I was born in to this world.

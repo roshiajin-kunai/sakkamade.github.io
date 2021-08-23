@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-02 03:39:04 +0000
-last_modified_at: 2021-02-12 21:53:02 +0000
+last_modified_at: 2021-08-23 04:13:01 +0000
 title: "EX02. Yggdrasil of Genesis."
 author: sakkani
 categories:
@@ -44,7 +44,7 @@ In the midst screen  was displayed stark naked Hinagiku under a state of being t
 Hinagiku exhibited her hands to Yuuyami.
 
 
-"Wah, I don't think this is what Yuuyami meant," says Rapha, visibly agitated. "What on earth was Mama-Hina doing?"
+"Wah, I don't think this is what Yuuyami meant," says Rapha, visibly agitated. "What on earth was mama-Hina doing?"
 "I was hung up?"
 
 
@@ -53,7 +53,7 @@ Stated Hinagiku with a grave countenance.
 
 "Ha?" threw Rapha.
 "I must sustain  punishment. Therefore, I requested Apricot every day to severely chastise me..."
-"That's enough!" says Rapha with her face flushed up. "Don't show up in front of your daughter in such a state in the first place! I don't want to know Mama-Hina's play content!"
+"That's enough!" says Rapha with her face flushed up. "Don't show up in front of your daughter in such a state in the first place! I don't want to know mama-Hina's play content!"
 "I'm  having a keen interest," says Yuuyami; "however for being occupied by a more important matter now, let us proceed the topic, all right?"
 "Yes, okay. So? How did you stimulate Lydia?"
 "Let's see. Licking, a great variety of naughty... No, that is not..."
@@ -174,7 +174,7 @@ Sure enough, sexual activity have befall us once since she woke up in the mornin
 
 "Can you omit this scene?"
 "But I need to learn in details..."
-"Ignore Mama-Hina, narrate  only important parts."
+"Ignore mama-Hina, tell us only important parts."
 
 
 ◇
@@ -278,10 +278,10 @@ Earnestly stated Yuuyami. Opening her eyes, Rapha dyed her cheeks.
 
 
 The room in Underground where the Dream Server is installed.
-Last time Yuuyami visited this chamber was when she together with Lydia met the iris flower---the Anunnaki.
+Last time Yuuyami visited this chamber was when she together with Lydia met the iris flower—the Anunnaki.
 
 
-"I want to get started without a delay..."---Rapha distorts her expression---"Mama-Hina, don't flirt at someone else's house!"
+"I want to get started without a delay..."—Rapha distorts her expression—"mama-Hina, don't flirt at someone else's house!"
 "Mm? We aren't particularly flirting?"
 
 
@@ -325,7 +325,7 @@ The display in front of Rapha shows a screen full of noise. Normally, she could 
 
 
 "As a conceivable availability," says Hinagiku; "Lydia is not seeing her dream, but a distinct someone hosting it, and  Lydia participating there as a guest."
-"Wah, whatever it is, I can't detect abnormality by the video. If Mama-Hina would detect a physical deviation in onee-sama or Yuuyami, according to the plan, you will forcibly be  returned, is it correct?"
+"Wah, whatever it is, I can't detect abnormality by the video. If mama-Hina would detect a physical deviation in onee-sama or Yuuyami, according to the plan, you will forcibly be  returned, is it correct?"
 "Yes. Thank you."
 
 

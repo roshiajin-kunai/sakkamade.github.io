@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-14 20:00:57 +0000
-last_modified_at: 2021-02-25 17:15:04 +0000
+last_modified_at: 2021-08-23 03:59:01 +0000
 title: "EX04. Love, Forgiveness, and Apricot."
 author: sakkani
 categories:
@@ -189,7 +189,7 @@ Albeit she loved her so much, due to dissimilar views, Hinagiku drove Nagisa awa
 "I see. As expected of next Creator. Or rather, you was born to be a symbol of this planet, I guess."
 "Hoh-hoh," Yggdrasil puffed her insignificant chest, "Yugg-chan has yet had the highest specs ever since Yugg-chan was born. Well, Yugg-chan still cannot control all the specs freely."
 "Amazing," Hinagiku thought so from the depths of her heart; "both Lydia and Yuuyami deserves admiration for producing an intelligent life of this level."
-"Mamas having a high specs also!" once again Yggdrasil puffed a chest. "...That's not the point now. Why impossible? You don't have an idea of how to apologise?"
+"Mamas are the bearers of high specs also!" once again Yggdrasil puffed a chest. "...That's not the point now. Why impossible? You don't have an idea of how to apologise?"
 "This is not. When the world changed a shape, Nagisa... the one I wanted apologise to had passed away. Physically, I mean."
 
 
@@ -537,7 +537,7 @@ _Ah, Ah_, Prico heaved with sobs. Of course, this motion is also a part of count
 
 "What happened to Hinagiku? Seized by aliens?"
 "Had she been sent to a parallel universe perchance?"
-"Rather, was she absorbed into a small-scaled black hole?"
+"Was she absorbed into a small-scaled black hole, _desu?_ ”
 
 
 Each: Lydia, Yuuyami, and Haruka had spoke up their speculations in turn.
@@ -563,7 +563,7 @@ What surprised me was the pattern of Prico's thought, that, as she believed, she
 Yuuyami loves the library. What is to no surprise, for she was created the LM series.
 
 
-"I, rather, don't really understand—."
+"I don't really understand, _desu—_."
 
 
 Shrugged Haruka.
@@ -585,7 +585,7 @@ Prico imitated crying in a particularly loud voice.
 Even upon Yuuyami's observation, Prico displays a puzzled presence.
 
 
-"Prico-chan, you don't rather understand that humans are getting older—. I'll rather explain you while  showing a pictures practically."
+"Prico-chan, you don't understand that humans are getting older, _desu—_. I'll explain you while  showing a pictures practically, _desu_."
 
 
 Haruka takes Prico by a hand, helping her to stand up. Whereupon, led Prico towards the library computers.
@@ -824,10 +824,10 @@ As Hinagiku sprang up, Lydia and Yuuyami—together—slightly waved their hands
 ◇
 
 
-"Prico-chan rather going to become an Apricot of the Woodland."
+"Prico-chan is going to become an Apricot of the Woodland, _desu_."
 
 
-Nigh the Woodland, Haruka declared some ambiguous words.
+About the Woodland, Haruka declared something ambiguous.
 
 
 "Ahh, um. What was that?"
