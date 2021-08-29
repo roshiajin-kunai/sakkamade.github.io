@@ -32,7 +32,7 @@ Within the _dojo_ there are four-and-twenty _tatami_ mats[^1] and a board-covere
 
 
 <p markdown="1">"Ah-! Lydia, your precious​ room!"</p>
-[^2]: [Hokama] - skirt or loose trousers over _kimono_, [Hokama - Wikipedia](https://en.wikipedia.org/wiki/hokama?oldid=491378378);
+[^2]: [Hokama] - skirt or loose trousers over _kimono_, [Hokama - Wikipedia](https://en.wikipedia.org/wiki/Hakama);
 
 Yuuyami rushed across to Lydia.
 Whereafter she undertook striping a scarlet _hokama_[^2] off Lydia.
@@ -58,7 +58,7 @@ He has a cool villainous features, the hair is black and doesn't cover his eyes.
 
 
 <p markdown="1">"Oh-, dragging me with one hand, a man, in sooth."</p>
-[^11]: [Dōjō] - hall for martial arts training, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo);
+[^11]: [Dōjō] - hall for martial arts training, [Dojo - Wikipedia](https://en.wikipedia.org/wiki/Dojo#In_martial_arts);
 
 Said Yuuyami, admiringly.
 
@@ -535,7 +535,7 @@ In order for Lydia to drink a lot, Yuuyami adjusted a taste to be  refreshingly 
 
 
 <p markdown="1">Yuuyami darted her spine straight; her _seiza_ is very beautiful. If there were a _seiza_ championship, she  would definitely have been a champion.</p>
-[^13]: [Seiza] - formal traditional sitting manner, [Seiza - Wikipedia](https://en.wikipedia.org/wiki/Seiza);
+[^13]: [Seiza] - formal traditional sitting manner, [Seiza - Wikipedia](https://en.wikipedia.org/wiki/Seiza#History);
 
 "Then, let's chat for awhile, until a suitable mood."
 "Yes. All right. It's a nice weather today, is it not?"
