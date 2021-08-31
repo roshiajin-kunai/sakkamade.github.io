@@ -964,14 +964,14 @@ section#toc {
 
         a {
             display: block;
-            color: $not-so-black;
+            color: $almost-black;
             white-space: nowrap;
             overflow-x: hidden;
             text-overflow: ellipsis;
 
             &:hover,
             &:focus {
-                color: $almost-black;
+                color: $not-so-black;
             }
         }
     }
