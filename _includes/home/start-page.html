@@ -1,0 +1,57 @@
+<div class="home">
+<section class="start-header-wrapper align-center none-mobile">
+    <div class="start-site-name">{{ site.title }}</div>
+</section>
+<section class="start-header-wrapper align-center none-mobile">
+    <div class="start-site-description">{{ site.description }}</div>
+</section>
+
+
+
+<div class="header-image-wrapper align-center">
+    <div class="start-h1">Projects</div>
+</div>
+<ul class="stripped">
+{% assign categories = site.categories | sort %}{% for category in categories %}{% unless category contains "Information" %}
+    <li class=""><a href="{{ site.baseurl }}/categories/{{ category | first | slugify }}" title='Visit table of content of "{{ category | first }}"'>{{ category[0] }}</a></li>
+{% endunless %}{% endfor %}
+</ul>
+
+<div class="base-page-content">
+
+<div class="smaller-header-image-wrapper align-center">
+    <div class="start-h2">Latest Updates</div>
+</div>
+<section id="toc">
+    {% for post in site.posts limit: 9 %}
+    <div title="{{ post.title | strip_html | smartify }}" class="toc bottom-border flex" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+        <a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">
+        <span>{{ post.title | strip_html }}</span>
+        </a>&nbsp;
+        <time class="toc-post-date" title="{%- assign date_full_format1 = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}" class="nowrap">{%- assign date_format1 = "%B" -%}{{ post.date | date: date_format1 }}
+        {% assign d1 = post.date | date: "%-d" %}{% case d1 %}{% when '1' or '21' or '31' %}{{ d1 }}st{% when '2' or '22' %}{{ d1 }}nd{% when '3' or '23' %}{{ d1 }}rd{% else %}{{ d1 }}th{% endcase %}
+        </time>
+    </div>
+    {% endfor %}
+</section>
+
+<div class="smaller-header-image-wrapper align-center">
+    <div class="start-h2">Latest Amends</div>
+</div>
+<section id="toc">
+    {% assign sorted_posts = site.posts | sort: "last_modified_at" | reverse %}
+    {% for post in sorted_posts limit: 9 %}
+    <div title="{{ post.title | strip_html | smartify }}" class="toc bottom-border flex" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+        <a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">
+        <span>{{ post.title | strip_html }}</span>
+        </a>&nbsp;
+        <time class="toc-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M:%S UTC" -%}{{ post.last_modified_at | date: date_full_format }}" datetime="{{ post.last_modified_at | date_to_xmlschema }}" class="nowrap">{%- assign date_format = "%B" -%}{{ post.last_modified_at | date: date_format }}
+        {% assign d = post.last_modified_at | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+        </time>
+    </div>
+    {% endfor %}
+</section>
+
+</div>
+
+</div>

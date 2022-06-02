@@ -1,0 +1,26 @@
+---
+layout: base-page-title
+permalink: /archives
+title: Archives
+---
+<div class="archive-page">
+<ul id="" class="no-js-block stripped">
+{% for post in site.posts %}
+        {% assign current_date = post.date | date: "%Y %B" %}
+    {% if current_date != date %}
+        <div id="{{current_date}}" class="centered filter-date {{current_date}} no-js-block">{{ current_date }}</div>
+            {% assign date = current_date %}
+    {% endif %}
+	<li class="filter-date {{current_date}} no-js-block"  onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+        <span class="base-gray">{{ post.categories | replace: '["','' | replace: '"]','' }}
+        </span><br>
+        <a title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}" href="{{ site.baseurl }}{{ post.url }}">
+        <span >{{ post.title | strip_html }}</span>
+        </a>
+        <time class="category-post-date" title="{%- assign date_full_format = "%d/%m/%Y %H:%M UTC" -%}{{ post.date | date: date_full_format }}">{%- assign date_format = "%B %d %a." -%}{{ post.date | date: date_format }}
+        </time>
+	</li>
+{% endfor %}
+</ul> 
+</div>
+

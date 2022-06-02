@@ -1,0 +1,171 @@
+<!-- pagination -->
+{% if paginator.total_pages != 1 %}
+{% if paginator.total_pages < 9 %}
+
+<div class="pagination desktop-pagination">
+  {% if paginator.total_pages >= 10 %}
+  {% if paginator.previous_page %}
+    <a href="/updates/">&laquo;&laquo;</a>
+  {% else %}
+    <span class="page-active none">&laquo;&laquo;</span>
+  {% endif %}
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/updates/">&laquo;</a>
+    {% else %}
+    <a href="/updates/page={{paginator.previous_page}}">&laquo;</a>
+    {% endif %}
+  {% else %}
+    <span class="invisible">&laquo;<!--to centre pagination--></span>
+  {% endif %}
+
+  {% if paginator.page == 1 %}
+    <span class="page-active">1</span>
+  {% else %}
+    <a href="/updates/">1</a>
+  {% endif %}
+
+  {% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+	{% unless paginator.page == paginator.total_pages %}
+    <span class="page-active">{{count}}</span>
+	{% endunless %}
+    {% else %}
+    <a href="/updates/page={{count}}">{{count}}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="/updates/page={{paginator.next_page}}">&raquo;</a>
+  {% else %}
+    <span class="page-active">{{paginator.total_pages}}</span>
+    <span class="invisible">&raquo;<!--to centre pagination--></span>
+  {% endif %}
+
+  {% if paginator.total_pages >= 10 %}
+  {% if paginator.next_page %}
+    <a href="/updates/page={{paginator.total_pages}}">&raquo;&raquo;</a>
+  {% else %}
+    <span class="page-active">&raquo;&raquo;</span>
+  {% endif %}
+  {% endif %}
+</div>
+
+{% else %}
+<!-- code is quite confusing and I have no will to explain, 0.8.5, (body min-width >480px, better >500px) good luck; although I fear I'll never utilise it; __well I am now__ -->
+{% assign page_start = paginator.page | minus: 2 %}
+{% assign page_end = paginator.page | plus: 2 %}
+{% if page_end > paginator.total_pages %}
+{% assign page_end = paginator.total_pages %}
+{% assign page_start = paginator.page | minus: 3 %}
+{% endif %}
+{% if page_start < 2 %}
+{% assign page_end = paginator.page | plus: 3 %}
+{% assign page_start = paginator.page | minus: 1 %}
+{% endif %}
+{% if page_start == 0 %}
+{% assign page_end = paginator.page | plus: 3 %}
+{% assign page_start = paginator.page %}
+{% endif %}
+
+<div class="pagination desktop-pagination">
+  {% if paginator.total_pages > 5 %}
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+		<a href="">&laquo;</a>
+    {% else %}
+		<a href="/updates/page={{paginator.previous_page}}">&laquo;</a>
+		<a href="/updates/">1</a>
+	{% unless paginator.page == 3 or paginator.page == 4 %}
+		{% if paginator.page == 5 %}
+			<a href="/updates/page=2">2</a>
+		{% else %}
+            <span class="page-active">...</span>
+		{% endif %}
+	{% endunless %}
+    {% endif %}
+  {% else %}
+     <span class="page-active none">&laquo;&laquo;</span>
+  {% endif %}
+  {% endif %}
+
+  {% if page_start == 1 %}
+    {% assign page_end = paginator.page | plus: 3 %}
+    {% assign page_start = 2 %}
+  {% if paginator.page == 1 %}
+     <span class="page-active">1</span>
+  {% else %}
+     <a href="/updates/">1</a>
+  {% endif %}
+  {% endif %}
+
+  {% for count in (page_start..page_end) %}
+  {% if count == paginator.page %}
+    {% if paginator.page == paginator.total_pages %}
+    <span class="page-active none">{{count}}</span>
+    {% else %}
+    <span class="page-active">{{count}}</span>
+    {% endif %}
+  {% else %}
+    <a href="/updates/page={{count}}">{{count}}</a>
+  {% endif %}
+  {% endfor %}
+
+<!-- especially this part -->
+	{% assign very_near_end = paginator.total_pages | minus: 1 %}
+	{% assign near_end = paginator.total_pages | minus: 2 %}
+	{% assign quite_near_end = paginator.total_pages | minus: 3 %}
+	{% assign somewhat_near_end = paginator.total_pages | minus: 4 %}
+  {% if paginator.total_pages > 5 %}
+  {% if paginator.next_page %}
+	{% unless paginator.page == near_end or paginator.page == very_near_end %}
+	{% unless paginator.page == quite_near_end %}
+		{% if paginator.page == somewhat_near_end %}
+			<a href="/updates/page={{ very_near_end }}">{{ very_near_end }}</a>
+		{% else %}
+    <span class="page-active">...</span>
+		{% endif %}
+	{% endunless %}
+    <a href="/updates/page={{paginator.total_pages}}">{{paginator.total_pages}}</a>
+	{% endunless %}
+    <a href="/updates/page={{paginator.next_page}}">&raquo;</a>
+  {% else %}
+    <span class="page-active">{{paginator.total_pages}}</span>
+  {% endif %}
+  {% endif %}
+</div>
+
+{% endif %}
+{% endif %}
+<!-- end pagination -->
+
+<!-- mobile pagination -->
+<div class="pagination mobile-pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+        <a href="javascript:void(0)" class="invisible">&laquo;&laquo;<!--to centre pagination--></a>
+	{% else %}
+        <a href="/updates/">&laquo;&laquo;</a>
+    {% endif %}
+    <a href="{{ paginator.previous_page_path }}">&laquo;</a>
+  {% else %}
+    <span class="invisible">&laquo;&laquo;<!--to centre pagination--></span>
+    <span class="invisible">&laquo;<!--to centre pagination--></span>
+  {% endif %}
+	{% unless paginator.page == paginator.total_pages %}
+  <span class="page-active ">
+    {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+    {% endunless %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">&raquo;</a>
+    <a href="/updates/page={{paginator.total_pages}}">&raquo;&raquo;</a>
+  {% else %}
+    <span class="page-active">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="invisible">&raquo;<!--to centre pagination--></span>
+    <span class="invisible">&raquo;&raquo;<!--to centre pagination--></span>
+  {% endif %}
+</div>
+<!-- end mobile pagination -->

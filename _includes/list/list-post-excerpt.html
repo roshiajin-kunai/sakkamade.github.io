@@ -1,0 +1,7 @@
+<div class="post-content">
+{% if post.note %}
+    <blockquote><strong>Note:</strong> {{ post.note | replace: '["','' | replace: '"]','' | smartify |  truncatewords: 47 }}</blockquote>
+{% else %}
+    <p>{% assign newlines_post = post.content | strip_html | newline_to_br |  truncatewords: 37 %}{{ newlines_post | replace: "<br /> <br />","<br />" | replace_first: "<br...","" }}</p>
+{% endif %}
+</div>

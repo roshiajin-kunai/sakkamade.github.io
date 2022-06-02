@@ -1,0 +1,90 @@
+# Welcome to Jekyll!
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: sakkamade
+description: >- # this means to ignore newlines until "baseurl:"
+  through life with yuri in heart
+baseurl: "" # the subpath of your site, e.g. /blog
+# tagline: 百合に心の中とで人生を通して
+url: "https://sakkamade.github.io" # e.g. http://example.com
+twi-item: sakka_made
+disc-item: GKmr8Z3mTm
+
+paginate: 11
+paginate_path: "/updates/page=:num/"
+
+kramdown:
+  input: GFM
+  hard_wrap: true
+  footnote_nr: 1
+  footnote_backlink: "back"
+  parse_block_html: false
+  html_to_native: true
+  auto_ids: true
+
+# no 'footnote backlink' customization, 
+# no proper "SMART" render within html
+#
+# markdown: CommonMark
+# commonmark:
+#  options: ["SMART", "FOOTNOTES", "HARDBREAKS", "UNSAFE", "LIBERAL_HTML_TAG", "VALIDATE_UTF8"]
+#  extensions: ["strikethrough", "autolink", "table", "tagfilter"]  
+
+# excerpt_separator: <!-- more -->
+
+timezone: UTC
+
+# feed:
+#   tags: true
+#   categories:
+#     - Autodoll Dreams in a Decaying World
+#     - Information
+    
+feed:
+  posts_limit: 10 # default: 10
+  excerpt_only: true
+
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+
+locale: en_GB
+
+host: 0.0.0.0
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag  
+  - jekyll-sitemap
+
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+exclude:
+  - drafts/
+  - obsolete-feed.xml
+  - src/

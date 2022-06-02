@@ -1,0 +1,17 @@
+<h3 class="post-link centered">
+    <a href="{{ post.url | relative_url }}" title="{% if post.main-title %}{{ post.main-title | strip_html }}{% else %}{{ post.categories }}{% endif %} ・ {{ post.title | strip_html }}">{{ post.title | smartify }}</a>
+</h3>
+<p class="post-meta centered">
+    <time title="{%- assign date_full_format = "%d/%m/%Y %H:%M UTC" -%}{{ post.date | date: date_full_format }}" datetime="{{ post.date | date_to_xmlschema }}">
+    {%- assign date_format = "%Y %B" -%}{{ post.date | date: date_format }}
+    <span>{% assign d = post.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</span>
+    </time>
+    <!-- read time -->
+    ・<span title="Estimated reading time">{% capture words %}{{ post.content | strip_html | number_of_words | minus: 250 }}{% endcapture %}
+    {% if words contains "-" %}
+        Less than a minute
+    {% else %}
+        Circa {% assign number_words = words | plus: 250 | divided_by: 180 | lstrip %}{% case number_words %}{% when '1' %}{{ number_words }} minute{% else %}{{ number_words }} minutes{% endcase %}
+    {% endif %}
+    </span>
+</p>

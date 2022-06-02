@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* tentative decision for IE */
+/*@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/src/fnt/junicode/junicode-regular-webfont.woff) format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/src/fnt/junicode/junicode-bold-webfont.woff) format('woff');
+  font-weight: bold;
+}*/
+/* end */
+
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/assets/fnt/junicode-new/JuniusX-Regular.woff) format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JunicodeNew';
+  src: url(/assets/fnt/junicode-new/JuniusX-Bold.woff2) format('woff2');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'JunicodeNew';
+  //src: url(/src/fnt/junicode/junicode-italic-webfont.woff) format('woff');
+  src: url(/assets/fnt/junicode-new/legacy/Junicode-Italic.woff) format('woff');
+  font-style: italic;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');*/

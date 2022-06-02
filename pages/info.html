@@ -1,0 +1,27 @@
+---
+layout: base-page-title
+title: Information
+cat-description: Publications that are not translations.
+permalink: /categories/information
+---
+
+<p>{{ page.cat-description }}</p>
+
+
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">Publications List</div>
+</div>
+
+
+   {% assign sorted-posts = site.posts | where: "categories", "Information" %}
+  <section id="toc"> 
+  {% for post in sorted-posts %}
+
+
+  {%- include cat.html -%}
+
+  
+  {% endfor %}
+  </section>
+
+{%- include footnote.html -%}

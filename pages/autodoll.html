@@ -1,0 +1,50 @@
+---
+layout: base-page-title
+title: Autodoll Dreams in a Decaying World
+cat-description: | 
+ This story of the world after its perishing.<br>
+ The girl have lost her memory upon awakening from suspended animation, and lady, a  female type of Autodoll, helped her. Autodoll, who has been performing a "world exploration", while underground library served her a base camp, questioned the girl: "Would you like to become friends with me?"<br>
+ Two young ladies who have nowhere to go, what truth of this world should be discovered by them..?
+description-name: Foreword
+permalink: /categories/autodoll-dreams-in-a-decaying-world
+---
+
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">{{ page.description-name }}</div>
+</div>
+
+<p class="cat-description">{{ page.cat-description | smartify }}</p>
+
+<hr>
+
+<p>Original: 
+<a class="bigger" href="https://kakuyomu.jp/works/4852201425154961396"  target="_blank">オートドールは朽ちた世界で夢を見る</a> 
+<span class="small"> (Ōtodōru wa Kuchita Sekai de Yume-o Miru)</span><br>
+Author:
+<a class="bigger" href="/authors/hazuki-sou">葉月双</a> <span class="small"> (Hazuki Sou) </span></p>
+
+<hr>
+
+<p>Genre: Sci-Fi<br>
+Tags: Adventure, Android, Future, Girls Love, Post-Apocalypse, Yuri <span class="small"> (With sexual depiction)</span>
+</p>
+
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">Table of Contents</div>
+</div>
+
+<section id="toc">
+{% assign sorted-posts = site.posts | where: "categories", "Autodoll Dreams in a Decaying World" | reverse %}
+{% for post in sorted-posts %}
+{% unless post.chapter-type contains 'extra' %}
+	
+	{%- include cat.html -%}
+	
+{% endunless %}
+{% endfor %}
+
+{% include chapter.html category='Autodoll Dreams in a Decaying World' chapter='Extra Episodes' chapter-type='extra' id='sorted-extra-chapter' %}
+
+</section>
+
+{%- include footnote.html -%}

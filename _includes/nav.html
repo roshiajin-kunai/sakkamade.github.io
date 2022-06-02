@@ -1,0 +1,32 @@
+<!-- top nav -->
+<nav class="nav">
+<ul class="stripped navbar">
+    <li class="nav-left-home-item"><a class="{% if "/" == page.url %}nav-active{% endif %} nav-title" href="/"><img src="/assets/img/sitename.png" alt="{{ site.title }}" style=""></a></li>
+    <li class="nav-right-item nav-menu-item">
+    <button class="nav-dropbtn nav-menubtn" onclick="navMenuFunction(); collapseAll();">
+    <section class="menu-icon">
+    <div></div>
+    <div></div>
+    <div></div>
+    </section>
+    Menu</button>
+    </li>
+    <div id="nav-item" class="nav-menu">
+    <li class="nav-right-item"><a class="{% if page.url contains 'updates' %}nav-active{% endif %}" href="/updates">Updates</a></li>
+    {% for item in site.data.top-menu.docs %}
+    <li class="nav-right-item"><a class="{% if item.url == page.url %}nav-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+    {% if page.path contains '_posts' %}
+        {%- include toc-publication.html -%}
+    {% endif %}
+    <li class="nav-right-item nav-drop right-align">
+    <button onclick="dropFunction()" class="nav-dropbtn"><i class="arrow-down"></i>Atom Feeds</button>
+        <div id="drop" class="drop-content">
+            <a class="drop-content-item" href="{{ "/feed.xml" | relative_url }}" title="Subscribe to receive notifications of updates via Atom Feed">Updates</a>
+            <a class="drop-content-item" href="{{ "/feed-amends.xml" | relative_url }}">Latest Amends</a>
+        </div>
+    </li>
+    </div>
+</ul>
+</nav>
+<!-- end top nav -->

@@ -1,0 +1,19 @@
+<section class="footer">
+<section class="copying-footer">
+    <span class="small">Translated web-novels present in this web-site are property of their authors.<br /><strong>Any usage of translated work allowed only with permission from the author.</strong>
+        <br /><br />
+        <a href="/" title="">{{ site.title }}</a>, Bringing you love <span class="nowrap">by <a href="https://jekyllrb.com/" target="_blank"><em>jekyll</em></a> 💕</span>
+    </span>
+    <br />
+    <div class="nowrap social-footer small">
+        {% for item in site.data.bottom-menu.docs %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        {% endfor %}
+        <a target="_blank" href="https://www.twitter.com/{{ site.twi-item | cgi_escape | escape }}">Twitter</a>
+        <a target="_blank" href="https://discord.gg/{{ site.disc-item | cgi_escape | escape }}">Discord</a>
+    </div>
+    <span class="small" style="float: right;" title='Most recent update in web-site'>
+        <time class="nowrap" datetime="{{ "now" | date_to_xmlschema }}">{{ "now" | date: "%d %B %Y %H:%M" }} UTC</time>
+    </span>
+</section>
+</section>

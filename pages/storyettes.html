@@ -1,0 +1,26 @@
+---
+layout: base-page-title
+title: Storyettes
+cat-description: | 
+ Short and simultaneously amazing stories.
+permalink: /categories/storyette
+---
+
+<p>{{ page.cat-description | smartify }}</p>
+
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">The List</div>
+</div>
+
+   {% assign sorted-posts = site.posts | where: "categories", "Storyette" | reverse %}
+  <section id="toc"> 
+  {% for post in sorted-posts %}
+
+
+  {%- include cat.html -%}
+
+  
+  {% endfor %}
+  </section>
+
+{%- include footnote.html -%}

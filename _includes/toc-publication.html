@@ -1,0 +1,18 @@
+{% if post %}
+{% assign categories = post.categories | sort %}
+{% else %}
+{% assign categories = page.categories | sort %}
+{% endif %}
+<li id="toc-page" class="nav-right-item nav-drop right-align">
+    {% for category in categories %}
+    <button onclick="dropToc('{{ page.title | smartify | replace: ' ','-' | replace: '.','' | prepend: 'toc-' | downcase }}');" class="nav-dropbtn nav-tocbtn nav-active" title='Expand the TOC of "{{ category }}"'><i class="arrow-down"></i>Table of Contents: {{ category }}</button>
+    {% endfor %}
+    <div id="z-drop-toc" class="drop-content">
+    {% for category in page.categories %}
+    {% assign sotred_posts = site.categories[category] | reverse %}
+    {% for post in sotred_posts %}
+    <a class="{% if post.url == page.url %}nav-active{% endif %} drop-content-item" id="{{ post.title | smartify | replace: ' ','-' | replace: '.','' | prepend: 'toc-' | downcase }}" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | smartify }}</a>
+    {% endfor %}
+    {% endfor %}
+    </div>
+</li>

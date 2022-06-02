@@ -1,0 +1,2 @@
+
+            <summary type="html">{% assign newlines_post = post.content | strip_html | newline_to_br | truncatewords: 67 | xml_escape %}{{ newlines_post | replace: "&lt;br /&gt; &lt;br /&gt;", "&lt;br /&gt;" | replace_first: "&lt;br...", "" }}</summary>

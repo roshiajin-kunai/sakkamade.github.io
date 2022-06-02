@@ -1,0 +1,1059 @@
+/*
+ * versatile
+ */
+.align-center {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+}
+
+ul.stripped {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.none {
+    display: none !important;
+}
+
+.no-cap {
+    text-transform: none;
+}
+
+.small {
+    font-size: $base-font-size * 0.8;
+    opacity: .6;
+}
+
+.centered {
+    text-align: center !important;
+}
+
+.bottom-border {
+    border-bottom: 1px solid $background-gray;
+}
+
+.top-border {
+    border-top: 1px solid $background-gray;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: $tablet-unit) {
+
+    .none-tablet {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: $mobile-unit) {
+
+    .none-mobile {
+        display: none !important;
+    }
+}
+
+
+/*
+ * base page
+ */
+.home {
+}
+
+.header-image-wrapper {
+    background-image: url('/assets/img/pattern-23-102.jpeg');
+    background-repeat: repeat-x;
+    height: 102px;
+    margin: ($base-unit * 2) 0;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: -180px;
+    margin-left: -180px;
+
+    .start-h1 {
+        font-size: $base-font-size * 2.5;
+        color: $white;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.smaller-header-image-wrapper {
+    background-image: url('/assets/img/pattern-23-102.jpeg');
+    background-repeat: repeat-x;
+    height: 67px;
+    background-size: 15px; /*width*/
+    margin: ($base-unit * 2) 0;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: -180px;
+    margin-left: -180px;
+
+    .start-h2 {
+        font-size: $base-font-size * 1.9;
+        color: $white;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 1em;
+    }
+}
+
+main.main {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+div.main-wrapper {
+    color: $almost-black;
+    box-shadow: 0 9px 7px hsla(0, 0%, 30%, .2);
+    border-radius: 7px;
+    background-color: $white;
+    max-width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: $base-unit;
+    margin-bottom: $base-unit;
+
+    /*
+     * bg
+     */
+    background-image: url('/assets/img/kiss1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 500px;
+    background-position: left bottom;
+
+    @media only screen and (max-width: $mobile-unit) {
+        margin-top: 1% !important;
+        margin-bottom: 1% !important;
+    }
+}
+
+div.base-wrapper {
+    padding: ($base-unit * 2) $base-per ($base-unit * 2) $base-per;
+    overflow-x: hidden;     /* to hide headers strips */
+
+    @media only screen and (max-width: $tablet-unit) {
+        padding-top: $base-unit !important;
+        padding-bottom: $base-unit !important;
+    }
+}
+
+div.base-page-content {
+    text-align: justify;
+    max-width: 600px;
+
+    /*
+     * !important to override .stripped
+     */
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+
+/*
+ * start page
+ */
+div.start-wrapper {
+    padding: $base-unit $base-per $base-unit $base-per;
+    overflow-x: hidden;     /* to hide headers strips */
+}
+
+div.home {
+    text-align: center;
+}
+
+div.start-site-name {
+    font-size: $base-font-size * 4;
+    color: $not-black;
+    line-height: $base-line-height;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.start-site-description {
+    font-size: $base-font-size * 2;
+    line-height: $base-line-height;
+    font-style: italic;
+    color: $link-blue;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media only screen and (max-width: $mobile-unit) {
+        font-size: $base-font-size * 1.5 !important;
+    }
+}
+
+div.start-site-description::before,
+div.start-site-description::after {
+    content: " ~ ";
+}
+
+.home-wrapper {/*
+    background-image: url('/assets/img/flowers2-resume.png');*/
+}
+
+
+/*
+ * pagination
+ */
+div.pagination {
+    text-align: center;
+    font-size: 0;       /* to remove margin */
+
+    a,
+    span {
+        font-size: $base-font-size;     /* to return font */
+        padding: 1px 10px;
+        border-radius: 4px;
+        display: inline-block;
+        min-width: 15px;
+        margin-right: 5px;
+
+        &.invisible {
+            visibility: hidden;
+        }
+    }
+
+    span {
+        border: 2px solid transparent;
+
+        &.page-active {
+            background-color: $very-light-gray;
+        }
+    }
+
+    a {
+        border: 2px solid $very-light-gray;
+        transition: background-color ease-in .15s;
+
+        /*
+         * to remove weird flickering in firefox; the cause is transition;
+         * ("transparent" doesn't help)
+         */
+        background-color: $white-semitrans;
+
+        &:hover,
+        &:focus {
+            color: $link-blue;
+            background-color: $very-light-gray-trans;
+            text-shadow:
+                0 -2px $white,
+                0 -1px $white;
+        }
+    }
+}
+
+.mobile-pagination {
+    display: none;
+}
+
+@media only screen and (max-width: $mobile-unit) {
+
+    .desktop-pagination {
+        display: none;
+    }
+
+    .mobile-pagination {
+        display: block !important;
+    }
+}
+
+
+/*
+ * navigation
+ */
+header.header {
+    //height: 101px;
+}
+
+@media only screen and (min-width: $tablet-unit) { /* less than */
+
+    ul.navbar {
+
+        .nav-tocbtn {
+            max-width: 206px;
+        }
+
+        li.nav-menu-item {
+            display: none !important;
+        }
+
+        .nav-menu {
+            display: block !important;
+        }
+    }
+}
+
+nav.nav {
+
+    a {
+
+        &:hover,
+        &:focus {
+            color: $not-black;
+        }
+    }
+
+    .right-align {
+        /*
+         * to align the dropdown by right side; now the
+         * dropdown conten is hidden if parent has overflow: hidden
+         */
+        position: relative;
+
+        .drop-content {
+            right: 0px;
+        }
+    }
+
+    ul.navbar .nav-tocbtn {
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .nav-menubtn {
+        border: solid $background-gray !important;
+        border-width: 2px !important;
+        border-radius: 5px;
+
+        &:hover {
+            background: unset !important;
+            border-color: $tag-gray !important;
+            border-width: 2px !important;
+
+            section.menu-icon div {
+                background-color: $not-black !important;
+            }
+        }
+
+        &:focus {
+            background: unset !important;
+            border-color: $dark-pink !important;
+            border-width: 2px !important;
+            box-shadow: 0 0 2px $base-pink !important;
+
+            section.menu-icon div {
+                background-color: $not-black !important;
+            }
+        }
+
+        /*
+         * I hope there is a more neat way...
+         */
+        section.menu-icon {
+            float: left;
+            margin-top: 7px;
+            margin-left: -12px;
+            margin-right: 12px;
+
+            div {
+                transition: background-color ease-in .15s;
+                width: 16px;
+                height: 2px;
+                background-color: $base-gray;
+                margin: 3px 0;
+            }
+        }
+    }
+
+    @media only screen and (max-width: $tablet-unit) {
+
+        .nav-menu {
+            display: none;
+
+            li.nav-right-item {
+                clear: both;
+                float: none !important;
+
+                a {
+                    text-align: left !important;
+                    padding: 3px 8px;
+                }
+
+                button,
+                a {
+                    /*
+                     * look a.drop-content-item padding
+                     */
+                    padding-top: 5px !important;
+                    padding-bottom: 5px !important;
+                }
+
+                button i.arrow-down {
+                    /*
+                     * because of changed padding
+                     */
+                    bottom: 33% !important;
+                }
+            }
+
+            li.nav-right-item.nav-drop {
+
+                .nav-dropbtn {
+                    width: 100%;
+                    text-align: left !important;
+
+                    ~ .drop-content {
+                        position: relative !important;
+                        box-shadow: unset !important;
+
+                        > a.drop-content-item {
+                            margin-left: 13px !important;
+                            border-left: 2px solid $tag-gray;
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav-menu-item {
+            display: block !important;
+        }
+    }
+
+    @media only screen and (max-width: $mobile-unit) {
+
+        ul {
+
+            li.nav-left-home-item,
+            li.nav-right-item {
+                clear: both !important;
+                float: none !important;
+            }
+
+            li.nav-left-home-item,
+            li.nav-menu-item {
+                text-align: center !important;
+            }
+
+            .nav-menubtn {
+                margin-top: $base-unit !important;
+                margin-bottom: $base-unit !important;
+            }
+
+            .nav-menu {
+                border: solid !important;
+                border-color: $tag-gray !important;
+                border-width: 2px !important;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+nav.nav,
+.footer {
+    padding: $base-unit ($base-unit * 2);
+
+    @media only screen and (max-width: $mobile-unit) {
+        padding-right: $base-per !important;
+        padding-left: $base-per !important;
+    }
+}
+
+nav.nav {
+    /*
+     * remove bottom padding
+     * because I no longed have bottom border
+     * so I need not keep it centre
+     */
+    padding-bottom: 0;
+
+    a.nav-title {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+
+        /*
+         * = max-height of img; to remove flicker when image is
+         * not yet loaded
+         */
+        height: 40px;
+
+        img {
+            position: relative;
+            top: -5px;
+            max-width: auto;
+            max-height: 40px;
+        }
+    }
+}
+
+
+ul.navbar {
+    white-space: nowrap !important;
+    padding: ($base-unit / 2) 0;
+    margin-bottom: 0;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    li a {
+        color: $base-gray;
+        display: block;
+        text-align: center;
+        padding: 0 ($base-unit);
+
+        &:hover:not(.nav-active),
+        &:active:not(.nav-active) {
+            color: $not-black;
+        }
+    }
+
+    .nav-active {
+        color: $almost-black !important;
+    }
+
+    .nav-dropbtn {
+        font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+        color: $base-gray;
+        background-color: transparent;
+
+        /*
+         * for padding look "ul.navbar li a"
+         */
+        padding: 0 ($base-unit) 0 ($base-unit * 1.3);
+
+        border: none;
+        cursor: pointer;
+        transition: all ease-in .15s;
+        position: relative; /* to keep the icon for tablet/mobile */
+
+        &:hover,
+        &:focus {
+            color: $not-black;
+            background-color: $very-light-gray;
+        }
+
+            i.arrow-down {
+                display: block;
+                position: absolute;
+                z-index: 1;
+                left: 9px;
+                bottom: 29%;
+                width: 0;
+                height: 0;
+                border-bottom: 5px solid transparent;
+                border-top:    5px solid $base-gray;
+                border-left:   5px solid transparent;
+                border-right:  5px solid transparent;
+            }
+
+        /*
+         * remove rings; chromium and firefox; mobile only
+         */
+        @media only screen and (max-width: $tablet-unit) {
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+            &::-moz-focus-inner {
+                border: 0;
+            }
+        }
+    }
+
+    /*
+     * remove rings for links too; firefox; mobile only
+     */
+    @media only screen and (max-width: $tablet-unit)  {
+
+        li a:focus {
+           outline: none;
+        }
+        .drop-content {
+            max-width: $tablet-unit !important;
+            border-radius: 0 !important;
+        }
+    }
+
+    .drop-content {
+        display: none;
+        position: absolute;
+        background-color: $white;
+        min-width: 160px;
+        max-height: 400px;
+        max-width: 520px;
+        white-space: nowrap;
+        overflow-y: auto;
+        box-shadow: 0px 9px 10px 0px hsla(0, 0%, 30%, .2);
+        z-index: 1;
+        border-radius: 4px 0 4px 4px;
+
+        a.drop-content-item {
+            display: block;
+            margin: 0;
+            text-align: left;
+            text-decoration: none;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+            padding: 5px $base-unit;
+        }
+    }
+
+    .drop-content-v {
+        display: block;
+    }
+
+    li.nav-right-item {
+        display: block;
+        float: right;
+    }
+
+    li.nav-left-item,
+    li.nav-left-home-item /* to not let it disappear */ {
+        display: block;
+        float: left;
+    }
+
+    .nav-menu li {
+        transition: ease-in .15s;
+    }
+}
+
+
+/*
+ * footer
+ */
+.footer {
+    background-color: $white-semitrans;
+    backdrop-filter: blur(1px);
+    text-shadow:
+        0 -2px $white;
+
+    .copying-footer {
+        /*
+         * x2 padding of header ul
+         */
+        padding-top: $base-unit;
+
+        /*
+         * x2 pading of header ul, and
+         * to make up for floating date at the bottom
+         */
+        padding-bottom: $base-unit * 2;
+
+        line-height: 1em;
+        text-align: center;
+
+        .small {
+            opacity: .8 !important;
+        }
+
+        .social-footer {
+            padding-top: 8px;
+            padding-bottom: 8px;
+
+            > a:not(:first-child)::before {
+                content: " ・ ";
+                color: $almost-black;
+            }
+        }
+    }
+}
+
+
+/*
+ * post list
+ */
+.post-link {
+    margin-bottom: 0;
+
+    > a {
+        color: $almost-black;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+            color: $link-blue;
+        }
+    }
+}
+
+li.post-entry {
+    margin-bottom: $base-unit;
+
+    header > div.post-meta {
+        --padding-meta: 8px 6px;
+
+        > a {
+            transition: ease-out .15s;
+            padding: var(--padding-meta);
+            border-radius: 5px;
+
+            background-color: $white;
+
+            &:hover,
+            &:focus {
+                background-color: $very-light-gray;
+                color: $link-blue;
+            }
+        }
+
+        > span.pinned {
+            padding: var(--padding-meta);
+        }
+    }
+}
+
+li.post-entry,
+div.post-header {
+
+    @media only screen and (max-width: $mobile-unit) {
+
+        .centered {
+            text-align: left !important;
+        }
+    }
+}
+
+li.pinned-entry {
+    border-bottom-width: 4px;
+    border-bottom-color: $light-gray;
+}
+
+/*
+ * post page
+ */
+.original-chapter-link {
+
+    @media only screen and (max-width: $tablet-unit) { /* important only for no js */
+        min-width: 1px !important;
+        display: flex !important;
+        white-space: nowrap !important;
+
+        a {
+            display: block !important;
+            overflow-x: hidden !important;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.switch-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        overflow: hidden visible;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        padding: 3px 17px;
+        border: solid $background-gray !important;
+        border-width: 2px !important;
+        border-radius: 5px;
+        transition: all ease-in .15s;
+
+        background-color: $white-semitrans;
+
+        &:hover {
+            color: $not-black;
+            border-color: $tag-gray !important;
+        }
+
+        &:focus {
+            color: $not-black;
+            border-color: $dark-pink !important;
+            box-shadow: 0 0 2px $base-pink !important;
+        }
+    }
+}
+
+.previous-post {
+    margin-bottom: $base-unit * 2;
+
+    > a {
+        color: $base-gray;
+    }
+}
+
+.next-post {
+    margin-top: $base-unit * 2;
+
+    > a {
+        color: $not-black;
+        box-shadow:
+            inset 0 0 5px $white,
+            inset 0 6px 2px $white,
+            inset 0 3px 5px $white,
+            inset 5px 0 5px $white;
+        text-shadow:
+            0 -2px $white,
+            1px -1px $white;
+
+        &:hover,
+        &:focus {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    }
+}
+
+.switch-off {
+    display: none !important;
+
+    /*
+     * obsolete
+     */
+    /*background: transparent !important;
+    border-color: transparent !important;
+    pointer-events: none !important;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;*/
+}
+
+.recommend {
+    background-color: $white-semitrans;
+    border-radius: 5px;
+}
+
+.post-meta {
+    font-style: italic;
+    color: $base-gray;
+
+    > a.in-post-category {
+        color: $base-gray;
+
+        &:hover,
+        &:focus {
+            color: $not-black;
+        }
+    }
+}
+
+.post-bottom-meta {
+    text-align: right !important;
+}
+
+h1.main-title {
+    text-align: center;
+    margin-top: $base-unit;
+    margin-bottom: $base-unit * 2;
+
+    > a {
+        color: $almost-black;
+        display: inline-block;
+
+        &:hover,
+        &:focus {
+            color: $link-blue;
+        }
+    }
+}
+
+.translator-note {
+
+    .none {
+        display: none;
+    }
+
+    a#toggle-note {
+        white-space: nowrap;
+    }
+}
+
+.spoiler {
+    background: $almost-black;
+    color: transparent;
+    transition: .1s;
+    //transition-delay: .5s;
+
+    &:hover,
+    &:focus {
+        //transition-delay: 0s;
+        background: $light-gray;
+        color: $almost-black;
+    }
+}
+
+
+/*
+ * table of contents
+ */
+section#toc {
+    background-color: $white-semitrans;
+
+    .toc {
+        cursor: pointer;
+        display: flex;
+        text-align: left;
+
+        /*
+         * no "focus" because it is not actually being focused
+         */
+        &:hover:not(.date) {
+            background-color: $very-light-gray-trans;
+        }
+
+        a {
+            display: block;
+            white-space: nowrap;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .date {
+        margin-top: $base-unit;
+        margin-bottom: $base-unit;
+        cursor: default !important;
+        display: block !important;      /* for text-align: center */
+    }
+
+    time.toc-post-date {
+        color: $base-gray;
+        white-space: nowrap;
+        margin-left: auto;
+
+        @media only screen and (max-width: $mobile-unit) {
+            display: none !important
+        }
+
+        &::after {
+            clear: both;
+            display: table;
+        }
+    }
+}
+
+
+/*
+ * scroll
+ */
+@media only screen and (max-width: $tablet-unit) {
+
+    #scroll-btn,
+    #scroll-down-btn {
+        visibility: visible !important;
+    }
+}
+
+
+/*
+ * inserted from old
+ */
+i.button-arrow-up,
+i.button-arrow-down {
+    border: solid $not-black;
+    border-radius: 3px;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 6px;
+}
+
+i.button-arrow-up {
+    margin-bottom: -3px;
+            transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+       -moz-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+         -o-transform: rotate(-135deg);
+}
+
+i.button-arrow-down {
+    margin-bottom: 1px;
+            transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+}
+
+.scroll-btn-up,
+.scroll-down-btn {
+    visibility: hidden;
+    position: fixed;
+    bottom: $base-unit;
+    right: 3%;
+    z-index: 9;
+    font-size: 18px;
+    outline: none;
+    background-color: $white;
+    cursor: pointer;
+    width: ($base-unit * 4);
+    height: ($base-unit * 4);
+    border-radius: 50%;
+    border: none;
+    opacity: .6 !important;
+    transition: .4s;
+
+    /*
+     * remove rings; chromium and firefox; mobile only
+     */
+    @media only screen and (max-width: $tablet-unit) {
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        &::-moz-focus-inner {
+            border: 0;
+        }
+    }
+}
+
+.scroll-btn-up {
+    display: none;
+    will-change: transform;
+    transition: transform 0.25s ease-in-out;
+}
+
+.btn-unpin {
+            transform: translateX(120px);
+        -ms-transform: translateX(120px);
+       -moz-transform: translateX(120px);
+    -webkit-transform: translateX(120px);
+}
+
+.btn-pin {
+            transform: translateX(0px);
+        -ms-transform: translateX(0px);
+       -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
+
+
+/*
+ * markdown table of contents
+ */
+
+ul#markdown-toc {
+    list-style: bullets;
+    depth: 1;
+}
+#markdown-toc {
+    border: 2px solid $tag-gray;
+    border-radius: 5px;
+    padding: 1em 2em;
+    list-style: decimal;
+    display: inline-block;
+    color: $not-black;
+}
+#markdown-toc::before {
+    content: 'Table of contents';
+}
+#markdown-toc li a {
+    text-decoration: none;
+}
+#markdown-toc li:hover a {
+}
+#markdown-toc li:first-child {
+    margin-top: .5em;
+}

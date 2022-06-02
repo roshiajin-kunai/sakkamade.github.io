@@ -1,0 +1,5 @@
+<div title="{{ post.title | strip_html | smartify }}" class="toc bottom-border flex" onclick='document.location.href="{{ site.baseurl }}{{ post.url }}"'>
+<a href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.title | strip_html | smartify }}</span>
+</a>&nbsp;
+<time class="toc-post-date" title="{%- assign date_format = "%d/%m/%Y" -%}{% if post.last_modified_at %}Last amend on {{ post.last_modified_at | date: date_format }}{% else %}{{ post.date | date: date_format }}{% endif %}" datetime="{{ post.date | date_to_xmlschema }}">{%- assign date_format_2 = "%Y %B %d" -%}{{ post.date | date: date_format_2 }}{% if post.last_modified_at %}*{% endif %}</time>
+</div>

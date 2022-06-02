@@ -1,0 +1,23 @@
+<ul class="stripped">
+    {%- for post in paginator.posts -%}
+    {% unless post.tags contains 'pinned' %}
+    <li class="post-entry bottom-border">
+    <header class="">
+    <div class="centered post-meta">
+        {% if post %}
+        {% assign categories = post.categories | sort %}
+        {% else %}
+        {% assign categories = page.categories | sort %}
+        {% endif %}
+        {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/{{category | slugify}}" title='Visit page of "{{categories}}"'>{{category}}</a>
+        {% unless forloop.last %}<!-- &nbsp; -->{% endunless %}
+        {% endfor %}
+    </div>
+    {%- include /list/list-post-meta.html -%}
+    </header>
+    {%- include /list/list-post-excerpt.html -%}
+    </li>
+    {% endunless %}
+    {%- endfor -%}
+</ul>

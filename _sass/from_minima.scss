@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: "JunicodeNew", "Yu Mincho Demibold", 'Noto Serif JP', "Noto Serif CJK JP", "Times New Roman", Times, 'Source Han Serif', serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-size:   20.4px !default;       /*should not be even because of "junicode" *italic* and "junicode new" *normal* size difference*/
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+
+$base-line-height:      1.6em    !default;
+$small-line-height:     1.4em    !default;
+$smaller-line-height:   1.1em    !default;
+
+$base-unit:        20px    !default;
+$base-per:         6%      !default;
+
+/*
+$lighter-blue:     #dce3ef !default;
+$light-blue:       #afbbcf !default;
+$link-blue:        #556a8c !default;
+$dark-blue:        #233250 !default;
+$very-light-gray:  #fafafa !default;
+$light-gray:       #f3f3f3 !default;
+$background-gray:  #e3e3e3 !default;
+$tag-gray:         #bfbfbf !default;
+$base-gray:        #999999 !default;
+$not-so-black:     #6e6e6e !default;
+$not-black:        #555555 !default;
+$almost-black:     #323232 !default;
+$brand-color:      #808faa !default;
+$base-pink:        #ffe1e7 !default;
+$dark-pink:        #eeafb8 !default;
+$white:            #ffffff !default;
+*/
+
+$lighter-blue:     #dce3ef !default;
+$light-blue:       #afbbcf !default;
+$link-blue:        #5d708c !default;
+$dark-blue:        #233250 !default;
+$very-light-gray-trans:  rgba(242, 244, 247, 0.5) !default; // #f7f8fa
+$very-light-gray:  #f7f8fa !default;
+$light-gray:       #f0f1f3 !default;
+$background-gray:  #e0e4e9 !default;
+$tag-gray:         #a9b1bf !default;
+$base-gray:        #91969d !default;
+$not-so-black:     #61676e !default;
+$not-black:        #54585d !default;
+$almost-black:     #333437 !default;
+$brand-color:      #808faa !default;
+$base-pink:        #ffdce3 !default;
+$dark-pink:        #fdc1cb !default;
+$white:            #ffffff !default;
+$white-semitrans:  rgba(255,255,255, 0.5) !default;
+$white-trans:      rgba(255,255,255, 0) !default;
+
+$table-text-align:  left !default;
+
+//$tablet-unit:       670px !default;
+$tablet-unit:       770px !default;
+$mobile-unit:       570px !default;
+
+// Import partials.
+@import
+  "from_minima/base",
+  "from_minima/layout"
+;

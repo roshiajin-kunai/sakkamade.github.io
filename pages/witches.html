@@ -1,0 +1,93 @@
+---
+layout: base-page-title
+title: Para・Witches (discontinued)
+cat-description: | 
+ A modern witch-story woven by a pair of witches with paradoxical personalities.
+ <br><br>
+ Being named a genius before, she have lost her magic and remembrance, and could no longer fly high up in the sky.<br>
+ A girl, a student of "Tokyo University of Arts and Music" of an absurd personality—“Space Magician: Tsugumi,"
+ <br><br>
+ The one who have pursued her and arrived here, to Tokyo,
+ a bothersome girl, a slight stalker—“Witch of Justice: Rino."
+ <br><br>
+ Whereas solving diverse a troubles that had its occur amid Tokyo,
+ two rugged individuals playing an active part in recovering a girl's lost force.
+ <br><br>
+ As for the answer that the pair will choose, and the whereabouts of their love——
+ <br><br>
+ ＜Characters＞<br>
+ Tsugumi Kominato&#8239; (19) "Space Magician"<br>
+ Rino Honda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8239;&#8239;(18) "Witch of Justice"<br>
+ <br>
+ Himeka Kitazawa&#8239;&#8239;&#8239;&#8239;&#8239;&#8239;(15) "Witch of Illusion <span class="small">(Bewitching)</span>"<br>
+ Yayoi Fujimoto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(27) "Witch of Disaster"
+description-name: Elucidation
+permalink: /categories/para-witches
+---
+
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">{{ page.description-name }}</div>
+</div>
+
+<details><summary><em>(Beware! exposes quite a part of the story.)</em></summary>
+  <p class="cat-description">{{ page.cat-description | smartify }}</p> <!--~~karamdown do not process the .html files~~ you should just have used "smartify"-->
+</details>
+
+<hr>
+
+<p>Original: 
+<a class="bigger" href="https://kakuyomu.jp/works/1177354054889003864"  target="_blank">ウィッチ・フイッチ</a> 
+<span class="small"> (U~icchi・Fuicchi)</span><br>
+Author: <a class="bigger" href="https://kakuyomu.jp/users/yukiToy"  target="_blank">結城十維</a>  <span class="small"> (Yuki Toy) </span></p>
+
+<hr>
+
+<p>Genre: Contemporary Fantasy<br>
+Tags:  Contemporary Light Novel, Girls Love, University Student, Witchcraft, Witches, Yuri
+</p>
+
+<div class="smaller-header-image-wrapper align-center">
+<div class="start-h2">Table of Contents</div>
+</div>
+
+<section id="toc">
+{% assign Intro = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Intro.'" | reverse %}
+<section class="toc date centered">Intro.</section>
+{% for post in Intro %}  
+	
+	{%- include cat.html -%}
+	
+{% endfor %}
+</section>
+
+<section id="toc">
+{% assign Part1 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 1.'" | reverse %}
+<section class="toc date centered">Part 1. Flightless Witch.</section>
+{% for post in Part1 %}
+	
+	{%- include cat.html -%}
+	
+{% endfor %}
+</section>
+
+<section id="toc">
+{% assign Part2 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 2.'" | reverse %}
+<section class="toc date centered">Part 2. Forgotten Witch.</section>
+{% for post in Part2 %}
+	
+	{%- include cat.html -%}
+	
+{% endfor %}
+</section>
+
+<section id="toc">
+{% assign Part3 = site.posts | where: "categories", "Para Witches" | where_exp: "item", "item.title contains 'Part 3.'" | reverse %}
+<section class="toc date centered">Part 3. Witch of Darkness.</section>
+{% for post in Part3 %}
+
+	{%- include cat.html -%}
+
+{% endfor %}
+</section>
+
+{%- include footnote.html -%}

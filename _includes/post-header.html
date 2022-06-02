@@ -1,0 +1,49 @@
+<!-- top information -->
+<div class="post-header">
+
+{%- if page.main-title -%}
+    {% for category in categories %}
+        <h1 class="post-title main-title">
+            <a href="{{ site.baseurl }}/categories/{{ category | slugify }}" itemprop="name headline" title='Visit page of "{{ category }}"'>
+                {{ page.main-title | smartify }}
+            </a>
+        </h1>
+    {% endfor %}
+{% endif %}
+
+    <div class="post-meta centered">
+        {%- if page.main-title -%}<!--no top category-->{%- else -%}
+            {% for category in categories %}
+            <a class="in-post-category" href="{{ site.baseurl }}/categories/{{ category | slugify }}" title='Visit page of "{{ category }}"'>{{ category }}</a>
+                {% unless forloop.last %}<!--&nbsp;-->{% endunless %}
+            {% endfor %}
+        {%- endif -%}
+    </div>
+    <h3 class="post-title centered" {% if page.main-title %}{% else %} itemprop="name headline"{% endif %}>{{ page.title | smartify }}</h3>
+    <p style="text-align: right" class="post-meta post-bottom-meta"><!--do not remove the style-->
+    <span title="Estimated reading time">
+            {% capture words %}
+        {{ page.content | strip_html | number_of_words | minus: 250 }}
+            {% endcapture %}
+        {% if words contains "-" %}
+        Less than a minute
+        {% else %}
+        Circa {% assign number_words = words | plus: 250 | divided_by: 180 | lstrip %}{% case number_words %}{% when '1' %}{{ number_words }} minute{% else %}{{ number_words }} minutes{% endcase %}
+        {% endif %}
+    </span>
+    </p>
+</div>
+<!-- end top information -->
+
+
+{% if page.note or page.chapter-link %}
+<blockquote id="note">
+      {% if page.note %}
+        <p class="translator-note"><strong>Note:</strong> <span data-truncateat="120" data-onword="1" id="full-note">{{ page.note | replace: '["','' | replace: '"]','' | smartify }}</span> <a id="toggle-note" class="no-js-none" href="javascript:void(0)" onclick="fullNoteFunction()" title="Proceed reading translator's note"><em>Continue reading</em></a></p>
+      {% endif %}
+
+      {% if page.chapter-link %}
+        <p class="original-chapter-link"><strong>Source:</strong>&#8239;<a href="{{ page.chapter-link }}" target="_blank" title="Visit page of original work">{{ page.chapter-link }}</a></p>
+      {% endif %}
+</blockquote>
+{% endif %}

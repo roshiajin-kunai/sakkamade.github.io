@@ -1,0 +1,76 @@
+---
+layout: base-page
+---
+{% if page.categories %}
+    {% assign category = page.categories[0] %}
+    {% assign posts = site.categories[category] %}
+{% for post in posts %}
+    {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+    {% endif %}
+{% endfor %}
+{% for post in posts %}
+    {% if post_index0 == forloop.index %}
+        {% assign next_post = post %}
+        {% assign next_post_url = post.url %}
+        {% assign next_post_title = post.title %}
+        {% assign next_post_cat = post.categories %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+        {% assign prev_post = post %}
+        {% assign prev_post_url = post.url %}
+        {% assign prev_post_title = post.title %}
+        {% assign prev_post_cat = post.categories %}
+    {% endif %}
+{% endfor %}
+{% endif %}
+
+{% if prev_post %}
+<section class="switch-post previous-post">
+    <a href="{{ prev_post_url }}" title="{{ prev_post_cat }} ・ {{ prev_post_title | strip_html }}">Previous: “{{ prev_post_title | strip_html | smartify | truncatewords: 10 }}”</a>
+</section>
+{% else %}
+<section class="switch-post previous-post switch-off">
+	<a href="javascript:void(0)" title=""></a>
+</section>
+{% endif %}
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+{% if post %}
+    {% assign categories = post.categories | sort %}
+{% else %}
+    {% assign categories = page.categories | sort %}
+{% endif %}
+
+{%- include post-header.html -%}
+<div class="content" itemprop="articleBody">
+    {{ content }}
+</div>
+
+{%- assign date_format = "%Y %B %d" -%}{%- assign date_format_type_2 = "%Y %B" -%}{%- assign date_mend_to_day = "%H:%M" -%}{%- assign last_mend = page.last_modified_at | date: date_format -%}{%- assign last_mend_type_2 = page.last_modified_at | date: date_format_type_2 -%}{%- assign published_date = page.date | date: date_format -%}{%- assign published_date_type_2 = page.date | date: date_format_type_2 -%}
+<p style="text-align: right" class="post-meta post-bottom-meta"><!--do not remove the style-->
+    <time class="{%- if page.last_modified_at -%}time{%- endif -%}" title="{%- assign date_full_format = "%d/%m/%Y %H:%M UTC" -%}{{ page.date | date: date_full_format }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span>Written on&nbsp;</span>{{ published_date_type_2 }}&nbsp;<span class="no-cap">{% assign d = page.date | date: "%-d" %}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</span></time>
+{%- if page.last_modified_at -%}<br />
+    <time title="{{ page.last_modified_at | date: date_full_format }}" class="time-up none-mobile" datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified"><span>Last amend on&nbsp;</span>{%- if last_mend == published_date -%}{{ page.last_modified_at | date: date_mend_to_day | append: ' UTC' }}{%- else -%}{{ last_mend_type_2 }}&nbsp;<span class="no-cap">{% assign d_m = page.last_modified_at | date: "%-d" %}{% case d_m %}{% when '1' or '21' or '31' %}{{ d_m }}st{% when '2' or '22' %}{{ d_m }}nd{% when '3' or '23' %}{{ d_m }}rd{% else %}{{ d_m }}th{% endcase %}{%- endif -%}</span></time>
+{%- endif -%}
+</p>
+</article>
+
+{% if next_post %}
+<section class="switch-post next-post">
+	<a href="{{ next_post_url }}" title="{{ next_post_cat }} ・ {{ next_post_title | strip_html }}">Following: “{{ next_post_title | strip_html | smartify | truncatewords: 10 }}”</a>
+</section>
+{% else %}
+<section class="" style="">
+    <h5 title=''><span>Other novels:</span></h5>
+    {% assign site_categories = site.categories | sort %}
+    {% for site_category in site_categories %}
+    {% unless site_category contains "Information" %}
+    <section class="recommend">
+    <a href="{{ site.baseurl }}/categories/{{ site_category | first | slugify }}" title='Visit table of content of "{{ site_category | first }}"'>{{ site_category[0] }}</a>
+    </section>
+    {% endunless %}
+    {% endfor %}
+</section>
+{% endif %}

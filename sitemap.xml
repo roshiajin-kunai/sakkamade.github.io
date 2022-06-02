@@ -1,0 +1,16 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign sorted-posts = site.posts | reverse %}{% for post in sorted-posts %}<url>
+<loc>{{ site.url }}{{ post.url }}</loc>
+{% if post.last_modified_at or post.date %}<lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{% if post.date %}{{ post.date | date_to_xmlschema }}{% endif %}{% endif %}</lastmod>{% endif %}
+</url>
+{% endfor %}
+{% for page in site.pages %}{% if page.layout != nil %}{% if page.layout != 'null' %}{% unless page.path contains '404.html' %}<url>
+<loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>{% if page.last_modified_at or page.date %}
+<lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{% if page.date %}{{ page.date | date_to_xmlschema }}{% endif %}{% endif %}</lastmod>{% endif %}
+</url>
+{% endunless %}{% endif %}{% endif %}{% endfor %}
+</urlset>

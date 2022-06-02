@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    {%- include head.html -%}
+<body>
+<main id="main" class="main" aria-label="Content" role="main">
+<div class="main-wrapper">
+    {%- include header.html -%}
+    {{ content }}
+    {%- include footer.html -%}
+</div>
+    {%- include top-bottom-btn.html -%}
+</main>
+<script src="/assets/js/script.js" type="text/javascript"></script>
+<script src="/assets/js/script1.js" type="text/javascript"></script>
+<script src="/assets/js/scriptit.js" type="text/javascript"></script>
+<script src="/assets/js/scriptscroll.js" type="text/javascript"></script>
+</body>
+</html>

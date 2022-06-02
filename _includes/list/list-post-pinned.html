@@ -1,0 +1,26 @@
+{% unless page.url contains "updates/page=" %}
+{% if site.tags contains 'pinned' %}
+<ul class="stripped">
+    {% for post in site.tags.pinned %}
+    <li class="post-entry bottom-border pinned-entry">
+    <header class="">
+    <div class="centered post-meta">
+        <span class="pinned">Pinned Article</span><span> ・ </span>
+        {% if post %}
+        {% assign categories = post.categories | sort %}
+        {% else %}
+        {% assign categories = page.categories | sort %}
+        {% endif %}
+        {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/{{category | slugify}}" title='Visit page of "{{categories}}"'>{{category}}</a>
+        {% unless forloop.last %}<!-- &nbsp; -->{% endunless %}
+        {% endfor %}
+    </div>
+        {%- include /list/list-post-meta.html -%}
+    </header>
+    {%- include /list/list-post-excerpt.html -%}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endunless %}

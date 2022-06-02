@@ -1,0 +1,6 @@
+{% assign id = include.id %}{% assign this-category = include.category %}{% assign this-chapter-type = include.chapter-type %}
+{% assign id = site.posts | where: "categories", this-category | where_exp: "item", "item.chapter-type contains this-chapter-type" | reverse %}
+<section class="toc date centered">{{ include.chapter | smartify }}</section>
+{% for post in id %}
+	{%- include cat.html -%}
+{% endfor %}

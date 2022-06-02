@@ -1,0 +1,347 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    background-color: $base-pink;
+    -webkit-text-size-adjust: 100%;
+     -webkit-font-feature-settings: "kern" 1, "ss18";
+        -moz-font-feature-settings: "kern" 1, "ss18";
+          -o-font-feature-settings: "kern" 1, "ss18";
+             font-feature-settings: "kern" 1, "ss18";
+    font-kerning: normal;
+    cursor: default;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $base-unit;
+}
+
+/*
+ * footnotes
+ */
+sup {
+    padding: 0 0 0 1px;
+    margin-top: 60px !important;
+    vertical-align: top;
+    position: relative;
+    top: -0.4em;
+    font-size: $base-font-size - 5px;
+}
+
+.footnote::before { content: '['; }
+.footnote::after {  content: ']'; }
+.footnote {
+    text-decoration: none;
+}
+
+.footnotes {
+    color: $not-black;
+    border-top: 1px solid $background-gray;
+    margin-top: $base-unit;
+    padding-top: $base-unit;
+    background-color: $white-semitrans;
+}
+
+.reversefootnote {
+    margin-left: 4px;
+    text-decoration: underline;
+}
+#fn,
+#fnref {
+
+    &\:1,
+    &\:2,
+    &\:3,
+    &\:4,
+    &\:5,
+    &\:6,
+    &\:7,
+    &\:8,
+    &\:9,
+    &\:10,
+    &\:11,
+    &\:12,
+    &\:13,
+    &\:14,
+    &\:15,
+    &\:16,
+    &\:17,
+    &\:18,
+    &\:19,
+    &\:20 {
+
+        &:target {
+            // background: #fff2f7;
+            background-color: rgba(255,220,227, 0.3); // #ffdce3
+            border-radius: 5px;
+        }
+
+        &:target a {
+            color: #bb495c;
+
+            &:hover,
+            &:focus {
+                color: $not-black;
+            }
+        }
+    }
+}
+
+::selection {
+    background: hsla(218, 37%, 90%, 0.8); /* $lighter-blue; */
+    color: #222222;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    margin: $base-unit 0;
+    border: none;
+    height: 1px;
+    background: $background-gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: $base-line-height;
+    font-weight: $base-font-weight;
+    text-align: center;
+}
+
+h1 { font-size: 38px; }
+h2 { font-size: 36px; }
+h3 { font-size: 30px; }
+h4 { font-size: 28px; }
+h5 { font-size: 26px; }
+h6 { font-size: 24px; }
+
+
+@media screen and (max-width: $tablet-unit) {
+
+    h1 { font-size: 34px !important; }
+    h2 { font-size: 30px !important; }
+    h3 { font-size: 26px !important; }
+    h4 { font-size: 24px !important; }
+    h5 { font-size: 22px !important; }
+    h6 { font-size: 20px !important; }
+}
+
+mark {
+    background-color: #fffbac;
+}
+
+
+/**
+ * `main` element
+ */
+main {
+    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $link-blue;
+    text-decoration: none;
+    transition: color ease-in .15s;
+
+  &:hover,
+  &:focus {
+      color: $base-gray;
+  }
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    border-left: 6px solid $background-gray;
+    padding-left: $base-per;
+    color: $not-so-black;
+    background-color: $white-semitrans;
+
+    a {
+        color: $base-gray;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus {
+            background-color: $very-light-gray;
+            text-decoration: none;
+        }
+    }
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: $mobile-unit) {
+
+    blockquote {
+        word-break: break-all !important;
+    }
+}
+
+
+/*
+ * lists
+ */
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul,
+ol {
+    margin-left: $base-unit;
+}
+
+li {
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
+}
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+}
+
+code {
+    font-family: Consolas, Monaco, Monospace, Courier;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    padding: 0.1em 0.3em;
+    border-radius: 5px;
+    word-break: break-word;
+    font-size: $base-font-size - 4px;
+    border: none;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        font-size: $base-font-size - 4px;
+        display: block;
+        padding: 0.5em;
+        color: $almost-black;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        line-height: $base-line-height;
+        font-family: Consolas, Monaco, Monospace, Courier;
+        white-space: pre;
+        -moz-tab-size: 4;
+            -o-tab-size: 4;
+            tab-size: 4;
+    }
+}
+
+
+/**
+ * Clearfix
+ */
+%clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/**
+ * Icons
+ */
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #{$base-gray};
+    padding-right: 0;
+    vertical-align: text-top;
+}
+
+
+/**
+ * Tables
+ */
+table {
+    margin-bottom: $base-unit;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid $background-gray;
+
+    tr {
+
+        &:nth-child(even) {
+            background-color: $light-gray;
+        }
+    }
+
+    th,
+    td {
+        padding: ($base-unit / 3) ($base-unit / 2);
+    }
+
+    th {
+        background-color: $light-gray;
+        border: 1px solid $background-gray;
+        border-bottom-color: $background-gray;
+    }
+
+    td {
+        border: 1px solid $background-gray;
+    }
+}
